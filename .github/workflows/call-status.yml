@@ -1,0 +1,43 @@
+name: call-status
+on:
+  issues:
+    types: [opened, edited]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: call-status
+  cancel-in-progress: false
+jobs:
+  update:
+    if: >-
+      (startsWith(github.event.issue.title, 'CALLED:') || startsWith(github.event.issue.title, 'UNCALLED:')) &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update called.json
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ISSUE_CREATED: ${{ github.event.issue.created_at }}
+        run: python3 scripts/update_called.py
+      - name: Commit
+        env:
+          T: ${{ github.event.issue.title }}
+          N: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "storm-maps-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add called.json
+          git diff --cached --quiet || git commit -m "call status: $T (#$N)"
+          git pull --rebase && git push
+      - name: Comment and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} -R ${{ github.repository }} --body "Recorded in called.json. The map updates in about 1-2 minutes."
+          gh issue close ${{ github.event.issue.number }} -R ${{ github.repository }}
