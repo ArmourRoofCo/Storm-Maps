@@ -2,8 +2,8 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="1">
         <Placemark id="3">
-            <name>Quiet day 2026-10-16: no new qualifying storm leads</name>
-            <description>No new SPC 2"+ hail; no new ≥68 mph wind since Oct 15 report; no CoCoRaHS &gt;2" within 120 mi of Omaha (max 1.51").</description>
+            <name>Quiet day 2026-10-17: no new qualifying storm leads</name>
+            <description>No SPC 2"+ hail on 10/16; no wind gusts ≥68 mph (all 26 SPC wind reports on 10/16 were unknown speed, PA/MA/CT/NJ/OH); no CoCoRaHS &gt;2" within 180 mi of Omaha (max 1.79").</description>
             <Point id="2">
                 <coordinates>-95.9345,41.2565,0.0</coordinates>
             </Point>
