@@ -2,11 +2,139 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="1">
         <Placemark id="3">
-            <name>Quiet day 2026-10-17: no new qualifying storm leads</name>
-            <description>No SPC 2"+ hail on 10/16; no wind gusts ≥68 mph (all 26 SPC wind reports on 10/16 were unknown speed, PA/MA/CT/NJ/OH); no CoCoRaHS &gt;2" within 180 mi of Omaha (max 1.79").</description>
+            <name>Quiet day 2026-10-18: no new qualifying storm leads</name>
+            <description>No SPC reports of any type on SPC day 10/17 (no 2"+ hail, no gusts ≥68 mph); MRMS MESH 261017 CONUS max 1.42" (no 2"+ swaths); no CoCoRaHS &gt;2" within 180 miles of Omaha (max 0.15").</description>
             <Point id="2">
                 <coordinates>-95.9345,41.2565,0.0</coordinates>
             </Point>
         </Placemark>
+        <Folder id="4">
+            <Style id="7">
+                <IconStyle id="8">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="9">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="12">
+                <IconStyle id="13">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="14">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="17">
+                <IconStyle id="18">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="19">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="22">
+                <IconStyle id="23">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="24">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="27">
+                <IconStyle id="28">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="29">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Commercial roof search</name>
+            <Placemark id="6">
+                <name>Cuming County Courthouse (Cuming County, NE) (West Point, NE)</name>
+                <description>seeking roofer | 2026-10-16 (published; re-runs 10/23)
+Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.
+Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents) · (402) 372-6002 (County Clerk) · clerk@cumingcounty.ne.gov
+Website: https://cumingcountyne.gov
+Confidence: confirmed
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623
+~57 mi from Omaha</description>
+                <styleUrl>#7</styleUrl>
+                <Point id="5">
+                    <coordinates>-96.7086,41.8417,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="11">
+                <name>Town of Pickstown (town-owned buildings) (Pickstown, SD)</name>
+                <description>storm damage | 2026-09-30 / 10-07 (published); bids opened 10/14
+Town requested sealed bids for structural, mechanical and aesthetic repairs to six storm-damaged, town-owned buildings (218, 308, 310 &amp; 124 White Swan Dr; 108 Lewis Ave; 308 James Ave). Bids were due Oct 14, 2026 5 PM and opened at that evening's Town Board meeting. Roof scope not itemized on the notice; bid window has passed (award status unknown).
+Contact: Town Board, Town Office (218 White Swan Dr, Box 107) · (phone redacted on notice)
+Website: 
+Confidence: unconfirmed (roof scope not stated; bids already closed)
+Source: https://www.noticeregistry.com/south-dakota/notice/bid-notice-pickstown-246676
+~183 mi from Omaha</description>
+                <styleUrl>#12</styleUrl>
+                <Point id="10">
+                    <coordinates>-98.5337,43.0656,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="16">
+                <name>State of South Dakota - Mickelson Building (Pierre, SD)</name>
+                <description>seeking roofer | 2026-10-02 / 10-09 (published); due 10/22
+OSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.
+Contact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact) · (phones redacted on notice)
+Website: 
+Confidence: confirmed
+Source: https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363
+~310 mi from Omaha</description>
+                <styleUrl>#17</styleUrl>
+                <Point id="15">
+                    <coordinates>-100.336,44.3668,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="21">
+                <name>USDA Forest Service - Pine Ridge (PRD) Building 290 (Chadron, NE)</name>
+                <description>seeking roofer | 2026-10 (open; due 10/20 4:00 PM CT)
+Solicitation 12441926Q0048 "PRD B290 Roof Replacement" (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q&amp;A posted. Due Oct 20, 2026 4:00 PM CT.
+Contact: No contact found
+Website: 
+Confidence: confirmed (listing); contact not found free
+Source: https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88
+~377 mi from Omaha</description>
+                <styleUrl>#22</styleUrl>
+                <Point id="20">
+                    <coordinates>-103.004,42.748,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="26">
+                <name>(not named) multi-tenant commercial building (Tempe, AZ)</name>
+                <description>storm damage | 2026-10-16
+"A leaky roof has left multiple Tempe businesses with serious water damage. Now, the impacted business owners are asking the building's owner to fix the problem." Multi-tenant commercial building; building, owner and businesses not named in the FOX 10 page description or the GMNA summary (video itself not viewed).
+Contact: No contact found
+Website: 
+Confidence: unconfirmed (storm cause and building not stated)
+Source: https://www.fox10phoenix.com/video/fmc-kpkny4870alnz2e6 ; https://gmna.ca/phoenix/story/leaky-roof-damages-multiple-tempe-businesses
+~1030 mi from Omaha</description>
+                <styleUrl>#27</styleUrl>
+                <Point id="25">
+                    <coordinates>-111.94,33.4255,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
     </Document>
 </kml>
