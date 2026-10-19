@@ -98,6 +98,25 @@
     "kml_points": 255
    },
    "archived_at": "2026-10-19T07:48:15-05:00"
+  },
+  {
+   "key": "2026-03-10-to-12-TEST",
+   "date": "2026-03-10",
+   "label": "TEST: Mar 10–12, 2026",
+   "summary": "17736 storm bldgs (47 w/ contact), 5 roof-search",
+   "file": "archive/2026-03-10-to-12-TEST.html",
+   "kml": "archive/2026-03-10-to-12-TEST.kml",
+   "geojson": "archive/2026-03-10-to-12-TEST.geojson",
+   "counts": {
+    "storm_building_with_contact": 47,
+    "storm_building_no_contact": 17689,
+    "storm_report": 500,
+    "swath_or_outline": 79,
+    "roof_search": 5,
+    "callable_lead_pins": 0,
+    "kml_points": 18241
+   },
+   "archived_at": "2026-10-19T08:14:35-05:00"
   }
  ],
  "latest": "2026-10-19",
