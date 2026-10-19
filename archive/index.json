@@ -1,0 +1,105 @@
+{
+ "dates": [
+  {
+   "key": "2026-10-19",
+   "date": "2026-10-19",
+   "label": "Mon 10/19/2026",
+   "summary": "quiet day, 23 roof-search",
+   "file": "archive/2026-10-19.html",
+   "kml": "archive/2026-10-19.kml",
+   "geojson": "archive/2026-10-19.geojson",
+   "counts": {
+    "note": 1,
+    "source_check_non_lead": 5,
+    "roof_search": 23,
+    "callable_lead_pins": 0,
+    "kml_points": 29
+   },
+   "archived_at": "2026-10-19T07:48:15-05:00"
+  },
+  {
+   "key": "2026-10-18",
+   "date": "2026-10-18",
+   "label": "Sun 10/18/2026",
+   "summary": "quiet day, 5 roof-search",
+   "file": "archive/2026-10-18.html",
+   "kml": "archive/2026-10-18.kml",
+   "geojson": "archive/2026-10-18.geojson",
+   "counts": {
+    "note": 1,
+    "roof_search": 5,
+    "callable_lead_pins": 0,
+    "kml_points": 6
+   },
+   "archived_at": "2026-10-19T07:48:15-05:00"
+  },
+  {
+   "key": "2026-10-17-v2",
+   "date": "2026-10-17",
+   "label": "Sat 10/17/2026 (v2 re-pull)",
+   "summary": "quiet day, 24 roof-search",
+   "file": "archive/2026-10-17-v2.html",
+   "kml": "archive/2026-10-17-v2.kml",
+   "geojson": "archive/2026-10-17-v2.geojson",
+   "counts": {
+    "note": 1,
+    "source_check_non_lead": 30,
+    "roof_search": 24,
+    "callable_lead_pins": 0,
+    "kml_points": 55
+   },
+   "archived_at": "2026-10-19T07:48:15-05:00"
+  },
+  {
+   "key": "2026-10-17",
+   "date": "2026-10-17",
+   "label": "Sat 10/17/2026",
+   "summary": "quiet day",
+   "file": "archive/2026-10-17.html",
+   "kml": "archive/2026-10-17.kml",
+   "geojson": "archive/2026-10-17.geojson",
+   "counts": {
+    "note": 1,
+    "callable_lead_pins": 0,
+    "kml_points": 1
+   },
+   "archived_at": "2026-10-19T07:48:15-05:00"
+  },
+  {
+   "key": "2026-10-16",
+   "date": "2026-10-16",
+   "label": "Fri 10/16/2026",
+   "summary": "quiet day",
+   "file": "archive/2026-10-16.html",
+   "kml": "archive/2026-10-16.kml",
+   "geojson": "archive/2026-10-16.geojson",
+   "counts": {
+    "note": 1,
+    "callable_lead_pins": 0,
+    "kml_points": 1
+   },
+   "archived_at": "2026-10-19T07:48:15-05:00"
+  },
+  {
+   "key": "2026-10-15",
+   "date": "2026-10-15",
+   "label": "Thu 10/15/2026",
+   "summary": "250 storm bldgs (43 w/ contact)",
+   "file": "archive/2026-10-15.html",
+   "kml": "archive/2026-10-15.kml",
+   "geojson": "archive/2026-10-15.geojson",
+   "counts": {
+    "storm_report": 4,
+    "swath_or_outline": 95,
+    "storm_building_with_contact": 43,
+    "storm_building_no_contact": 207,
+    "note": 1,
+    "callable_lead_pins": 250,
+    "kml_points": 255
+   },
+   "archived_at": "2026-10-19T07:48:15-05:00"
+  }
+ ],
+ "latest": "2026-10-19",
+ "note": "Storm-Maps daily report archive. Root index.html is the latest report; each archive page has its own pins."
+}

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads 2026-10-19</name>
+        <Placemark id="3">
+            <name>Quiet day 2026-10-19: no new qualifying storm leads</name>
+            <description>SPC day 10/18: 0 storm reports of any type (no 2"+ hail, no gusts ≥68 mph); MRMS MESH 261018 CONUS max 1.74" (no 2"+ swaths); no CoCoRaHS &gt;2" within 180 miles of Omaha (max 0.01").</description>
+            <Point id="2">
+                <coordinates>-95.9345,41.2565,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Folder id="4">
+            <name>Source check: held non-thunderstorm gusts (not leads)</name>
+            <Placemark id="6">
+                <name>77 mph gust 8 SE East Glacier Park MT (held)</name>
+                <description>NON-TSTM WND GST (M, Mesonet); Mesonet station DCRM8 Deep Creek RAWS. | In 10/18 pull but not listed in the 10/18 report; 0 C/I bldgs &gt;=10k SF within 5 mi; IEM LSR only (not in SPC)</description>
+                <Point id="5">
+                    <coordinates>-113.11,48.36,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="8">
+                <name>70 mph gust 1 ENE East Glacier Park MT (held)</name>
+                <description>NON-TSTM WND GST (M, Mesonet); Mesonet station MTBRN Two Medicine Bridge (MT DOT). | In 10/18 pull but not listed in the 10/18 report; 4 C/I bldgs &gt;=10k SF within 5 mi; IEM LSR only (not in SPC)</description>
+                <Point id="7">
+                    <coordinates>-113.2,48.45,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="10">
+                <name>68 mph gust 9 ESE East Glacier Park MT (held)</name>
+                <description>NON-TSTM WND GST (M, Mesonet); Mesonet station DOGM8 Dog Gun Lake E. | In 10/18 pull but not listed in the 10/18 report; 0 C/I bldgs &gt;=10k SF within 5 mi; IEM LSR only (not in SPC)</description>
+                <Point id="9">
+                    <coordinates>-113.06,48.38,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="12">
+                <name>68 mph gust 2 SE Browning MT (held)</name>
+                <description>NON-TSTM WND GST (M, Mesonet); Mesonet station MTBWG Browning (MT DOT). | In 10/18 pull but not listed in the 10/18 report; 7 C/I bldgs &gt;=10k SF within 5 mi; IEM LSR only (not in SPC)</description>
+                <Point id="11">
+                    <coordinates>-112.98,48.54,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="14">
+                <name>68 mph gust 14 W Bynum MT (held)</name>
+                <description>NON-TSTM WND GST (M, Mesonet); Mesonet station DELMT Dellwo (MCSCN) Delayed report. | NEW (delayed LSR entry, not in the 10/18 pull); 0 C/I bldgs &gt;=10k SF within 5 mi; IEM LSR only (not in SPC)</description>
+                <Point id="13">
+                    <coordinates>-112.61,47.98,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="15">
+            <Style id="18">
+                <IconStyle id="19">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="20">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="23">
+                <IconStyle id="24">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="25">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="28">
+                <IconStyle id="29">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="30">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Commercial roof search (blue) — new/updated today</name>
+            <Placemark id="17">
+                <name>Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates) (Johnston, IA)</name>
+                <description>seeking roofer (public bid) - MATERIAL UPDATE | 2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23
+UPDATE to a lead first listed 10/17 (that listing only said "due Nov 12"). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2" polyiso + 1/2" HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline &amp; Blue, Des Moines ($50 refundable deposit).
+Contact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings &amp; Grounds (phone redacted on notice) · 515-250-6950 (architect, from 10/17 plan-room brief)
+Website: 
+Confidence: confirmed (official notice text)
+Source: https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159
+~119 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#18</styleUrl>
+                <Point id="16">
+                    <coordinates>-93.6977,41.673,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="22">
+                <name>Kansas State University - Waters Hall (Manhattan, KS)</name>
+                <description>seeking roofer (state capital project - design stage) | 2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting
+New capital improvement ad: "KSU Waters Hall ReRoof - #54623 - October 15, 2026" for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.
+Contact: KS DoA OFPM professional qualifications inbox (A/E submittals) · professional.qualifications@ks.gov
+Website: https://admin.ks.gov
+Confidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)
+Source: https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections
+~147 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#23</styleUrl>
+                <Point id="21">
+                    <coordinates>-96.5806,39.191,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="27">
+                <name>Hume R-VIII School District - bus barn (Hume, MO)</name>
+                <description>seeking roofer (public bid) | 2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01
+RFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.
+Contact: Scott Morrison, Superintendent (named on notice for the site visit) · 660-643-7411 (district main line)
+Website: https://www.humer8.k12.mo.us
+Confidence: confirmed (official notice); small scope
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008
+~230 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#28</styleUrl>
+                <Point id="26">
+                    <coordinates>-94.5808,38.0898,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="31">
+            <Style id="34">
+                <IconStyle id="35">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="36">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="39">
+                <IconStyle id="40">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="41">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="44">
+                <IconStyle id="45">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="46">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="49">
+                <IconStyle id="50">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="51">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="54">
+                <IconStyle id="55">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="56">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="59">
+                <IconStyle id="60">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="61">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="64">
+                <IconStyle id="65">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="66">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="69">
+                <IconStyle id="70">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="71">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="74">
+                <IconStyle id="75">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="76">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="79">
+                <IconStyle id="80">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="81">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="84">
+                <IconStyle id="85">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="86">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="89">
+                <IconStyle id="90">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="91">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="94">
+                <IconStyle id="95">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="96">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="99">
+                <IconStyle id="100">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="101">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="104">
+                <IconStyle id="105">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="106">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="109">
+                <IconStyle id="110">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="111">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="114">
+                <IconStyle id="115">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="116">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="119">
+                <IconStyle id="120">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="121">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="124">
+                <IconStyle id="125">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="126">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="129">
+                <IconStyle id="130">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="131">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Commercial roof search — still-open bids from prior runs (light blue)</name>
+            <Placemark id="33">
+                <name>Council Bluffs CSD – Bloomer Elementary (Council Bluffs, IA)</name>
+                <description>capital plan (pre-bid) | Detected 2026-09-22 (district facility assessment)
+District facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator's sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.
+Contact: Aaron Rang, Director of Facilities Maintenance &amp; Custodial Services (FMCS) · 712-328-6406 · arang@cb-schools.org
+Website: https://www.cb-schools.org
+Confidence: unconfirmed (aggregator summary of assessment; no bid date yet)
+Source: https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb ; https://www.cb-schools.org/departments/facilities
+~4 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#34</styleUrl>
+                <Point id="32">
+                    <coordinates>-95.8608,41.2619,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="38">
+                <name>Cuming County Courthouse (Cuming County, NE) (West Point, NE)</name>
+                <description>seeking roofer | 2026-10-16 (published; re-runs 10/23)
+Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.
+Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents) · (402) 372-6002 (County Clerk) · clerk@cumingcounty.ne.gov
+Website: https://cumingcountyne.gov
+Confidence: confirmed
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623
+~57 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#39</styleUrl>
+                <Point id="37">
+                    <coordinates>-96.7086,41.8417,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="43">
+                <name>SENCA – Tecumseh Senior Center building (Tecumseh, NE)</name>
+                <description>seeking roofer | Published 2026-10-16; due Fri 2026-10-30 12:00 PM
+Requests bids to repair or replace the roof at 172 S. 4th Street, Tecumseh; bids must closely match existing roofing material; due 12:00 p.m. Friday Oct 30. (Listing page opened; individual notice page link not retrievable — site blocks automated link capture.) Address is SENCA's Tecumseh Senior Center (per Nebraska Resource &amp; Referral System). Roof size/type not stated — likely small.
+Contact: SENCA Tecumseh Senior Center (building phone) · (402) 335-2134
+Website: 
+Confidence: confirmed (listing text); scope size unknown
+Source: https://www.noticeregistry.com/nebraska/category/bid-notice ; https://nrrs.ne.gov/resource/25559/
+~63 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#44</styleUrl>
+                <Point id="42">
+                    <coordinates>-96.1956,40.3664,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="48">
+                <name>State of Iowa – Woodward Resource Center Dispatch Garage (Woodward, IA)</name>
+                <description>seeking roofer (design RFP) | Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM
+RFP956800-01 "WRC Dispatch Garage Roof Replacement &amp; Birches Tuckpointing" – professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).
+Contact: Katelyn Howells, Construction Procurement · (515) 721-7856 · construction.procurement@das.iowa.gov
+Website: https://das.iowa.gov
+Confidence: confirmed
+Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c
+~112 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#49</styleUrl>
+                <Point id="47">
+                    <coordinates>-93.9222,41.8564,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="53">
+                <name>Missouri Western State University - Kit Bond Incubator (St. Joseph, MO)</name>
+                <description>seeking roofer | 2026-10 (listed; due Oct 23)
+MO Western State University Kit Bond Incubator Roof Replacement. Bids due Oct 23, 2026 2:00 PM CT. Architect: Ellison-Auxier Architects (816-233-8003).
+Contact: Missouri Western Purchasing · 816-271-4464
+Website: 
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~118 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#54</styleUrl>
+                <Point id="52">
+                    <coordinates>-94.8467,39.7675,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="58">
+                <name>Des Moines Public Schools - Roosevelt High School (Des Moines, IA)</name>
+                <description>seeking roofer | 2026-10-08 (issued)
+CIP26073 Roosevelt High School - Re-Roofing Phase I. Issued 10/08/2026, due 11/05/2026 (plan room: 3:00 PM). Architect Angelo Architectural Assoc. (515-250-6950).
+Contact: DMPS Purchasing (901 Walnut St) · 515-242-7911 (district); 515-554-4718 (per plan room)
+Website: dmschools.org
+Confidence: confirmed
+Source: https://www.dmschools.org/departments/business-finance/purchasing/open-proposals/
+~122 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#59</styleUrl>
+                <Point id="57">
+                    <coordinates>-93.625,41.5868,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="63">
+                <name>Leavenworth County (county shop) (Leavenworth County, KS)</name>
+                <description>seeking roofer | 2026-10 (listed; due Oct 28)
+Leavenworth County Shop Roof Replacement. Bids due Oct 28, 2026 10:30 AM CT.
+Contact: Aaron Youkam · 913-684-0790
+Website: 
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~150 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#64</styleUrl>
+                <Point id="62">
+                    <coordinates>-95.0389,39.199,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="68">
+                <name>Kansas Neurological Institute - Sunflower Cottage (Topeka, KS)</name>
+                <description>seeking roofer | 2026-10 (listed; due Oct 22)
+Sunflower Cottage Reroof, Kansas Neurological Institute. Bids due Oct 22, 2026 2:00 PM CT. Min. bid listed $815,000.
+Contact: Cameron Tross (BG Consultants) · 785-480-6185
+Website: 
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~153 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#69</styleUrl>
+                <Point id="67">
+                    <coordinates>-95.6752,39.0473,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="73">
+                <name>MDC - Parma Woods Range &amp; Training Center (Platte County (Parkville area), MO)</name>
+                <description>seeking roofer | 2026-10 (listed; due Nov 5)
+MDC Parma Woods Range and Training Center Roof Replacement (Platte County). Bids due Nov 5, 2026 11:00 AM CT.
+Contact: Veronica Mecko (contract specialist); Mike Stornello (design PM) · 573-522-4115 x3744 / x3766
+Website: 
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~157 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#74</styleUrl>
+                <Point id="72">
+                    <coordinates>-94.6819,39.1911,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="78">
+                <name>City of Paola (Paola, KS)</name>
+                <description>seeking roofer | 2026-10 (listed; due Oct 30)
+City of Paola "Roofing Project 2026". Bids due Oct 30, 2026 10:00 AM CT. Scope/buildings not listed on brief.
+Contact: Brett Marler · 913-259-3600
+Website: 
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~194 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#79</styleUrl>
+                <Point id="77">
+                    <coordinates>-94.8791,38.5723,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="83">
+                <name>City of North Platte - Fire Station 1 (North Platte, NE)</name>
+                <description>seeking roofer | 2026-10-09 (opened)
+Fire Station 1 Apparatus Bay Roof Replacement: tear off ballasted EPDM, new .060 reinforced EPDM, tapered insulation, edge metal, 15-yr NDL warranty. Window 10/9-10/28/2026. (Dollar range on Bid Banana is the site's own estimate, not the city's.)
+Contact: Dave Hahn, City Hall · 308-535-6724 x3243
+Website: 
+Confidence: confirmed
+Source: https://bidbanana.thebidlab.com/bid/eK9H4V1F6GYsO1mgrhpi
+~251 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#84</styleUrl>
+                <Point id="82">
+                    <coordinates>-100.7654,41.1239,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="88">
+                <name>Wichita USD 259 - Northwest High School (Wichita, KS)</name>
+                <description>seeking roofer | 2026-10 (listed; due Nov 2)
+RTU &amp; Roof Replacement - Wichita Northwest High School. Bids due Nov 2, 2026 3:00 PM CT.
+Contact: Rachelle Scharnhorst · 316-973-4547
+Website: 
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~258 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#89</styleUrl>
+                <Point id="87">
+                    <coordinates>-97.3301,37.6872,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="93">
+                <name>State of Missouri – Missouri Interoperability Center Bldg 5 (Jefferson City, MO)</name>
+                <description>seeking roofer | Listed Oct 2026; due 2026-10-29 1:30 PM (pre-bid was 10/13)
+Project R2607-01 Renovate Building No. 5, Missouri Interoperability Center, 2413 E. McCarty St: replace roof and siding on an existing metal storage building + lean-to. Electronic bids to FMDCBids@oa.mo.gov.
+Contact: Fred L. Decker Jr., Project Manager · 573-446-7768 (ADS plan room) · Fred.Decker@oa.mo.gov
+Website: 
+Confidence: confirmed
+Source: https://oa.mo.gov/sites/default/files/bid-opportunities/R2607-01%20IFB.pdf ; https://oa.mo.gov/facilities/bid-opportunities/bid-listing-electronic-plans
+~272 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#94</styleUrl>
+                <Point id="92">
+                    <coordinates>-92.1735,38.5767,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="98">
+                <name>State of Missouri – Scruggs Station / Fairgrounds Warehouse (Jefferson City, MO)</name>
+                <description>seeking coating | Listed Oct 2026; due 2026-11-05 1:30 PM; pre-bid 10/22 1:30 PM
+Project O2534-01 Scruggs Station Warehouse Complex (Fairgrounds Warehouse, 1525 Fairgrounds Rd): new FLUID-APPLIED ROOFING MEMBRANE on existing metal roof (coating job), gutters/downspouts, plus HVAC/electrical. Roofing would likely be a sub to the GC/mechanical prime.
+Contact: Andy Carroll, Project Manager · 573-446-7768 (ADS plan room) · Andy.Carroll@oa.mo.gov
+Website: 
+Confidence: confirmed
+Source: https://oa.mo.gov/sites/default/files/bid-opportunities/O2534-01%20IFB.pdf ; https://www.oafmdcplanroom.com/projects/3442/details/o2534-01-scruggs-station-warehouse-complex-porite-roof-elect-hvac-rep-fairgrounds-warehouse
+~272 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#99</styleUrl>
+                <Point id="97">
+                    <coordinates>-92.212,38.556,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="103">
+                <name>Fremont Public Schools - Fremont Middle School (Fremont, NE)</name>
+                <description>seeking roofer | 2026-10-03 (published)
+ITB GP# 2613: Fremont Middle School 2027 Roof Replacement, 540 Johnson Rd. Sealed bids due Oct 20, 2026 2:00 PM to Facilities Office, 957 N. Pierce St; opened publicly same time.
+Contact: Facilities Office (957 N. Pierce St.); plans via GP Architecture LLC
+Website: fremontpublicschools.org (not opened)
+Confidence: confirmed
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-fremont-764816
+~32 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#104</styleUrl>
+                <Point id="102">
+                    <coordinates>-96.4981,41.4333,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="108">
+                <name>Sioux City CSD - West Middle School (Sioux City, IA)</name>
+                <description>seeking roofer | 2026-10 (hearing Oct 12; pre-bid Oct 15)
+West Middle School roof renovation, 3301 W 19th St. Single-prime sealed bids due Oct 29, 2026 (listing shows 7:00 PM, likely UTC = 2 PM CT); 5% bid bond, 100% P&amp;P bonds; CMBA Architects; work May 27-Aug 6, 2027. A Citizen Portal summary put West + North MS roofs at ~$1.74M combined (not opened).
+Contact: Secretary of the Board of Education, 627 4th St, Sioux City
+Website: siouxcityschools.org (not opened)
+Confidence: confirmed
+Source: https://bidscopeai.com/opportunities/550cd283-151a-4cc7-b446-ab34356e5aba
+~89 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#109</styleUrl>
+                <Point id="107">
+                    <coordinates>-96.4049,42.4963,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="113">
+                <name>Sioux City CSD - North Middle School (Sioux City, IA)</name>
+                <description>seeking roofer | 2026-10 (approx)
+North Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.
+Contact: No contact found
+Website: siouxcityschools.org (not opened)
+Confidence: unconfirmed
+Source: https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65
+~89 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#114</styleUrl>
+                <Point id="112">
+                    <coordinates>-96.4049,42.4963,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="118">
+                <name>Sioux Falls VA Health Care System – Building 5 (Sioux Falls, SD)</name>
+                <description>seeking roofer (subcontract) | Posted 2026-09-04; due 2026-10-20 1:00 PM CT
+Roofing &amp; thermal-protection scope carved from VA solicitation 36C26326B0020 (PN 438-21-403, Renovate First Floor Kitchen, Building 5, Sioux Falls VA): re-roof prep, TPO roofing, standing-seam metal roof panels, insulated metal wall panels. Prime is an SDVOSB set-aside — Armour would bid as a roofing sub to SDVOSB primes.
+Contact: No contact found
+Website: 
+Confidence: unconfirmed (third-party listing; SDVOSB prime required)
+Source: https://www.cleat.ai/government/contracts/roofing-and-thermal-protection-8wcf
+~163 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#119</styleUrl>
+                <Point id="117">
+                    <coordinates>-96.7311,43.5446,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="123">
+                <name>State of South Dakota - Mickelson Building (Pierre, SD)</name>
+                <description>seeking roofer | 2026-10-02 / 10-09 (published); due 10/22
+OSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.
+Contact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact) · (phones redacted on notice)
+Website: 
+Confidence: confirmed
+Source: https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363
+~310 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#124</styleUrl>
+                <Point id="122">
+                    <coordinates>-100.336,44.3668,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="128">
+                <name>USDA Forest Service - Pine Ridge (PRD) Building 290 (Chadron, NE)</name>
+                <description>seeking roofer | 2026-10 (open; due 10/20 4:00 PM CT)
+Solicitation 12441926Q0048 "PRD B290 Roof Replacement" (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q&amp;A posted. Due Oct 20, 2026 4:00 PM CT.
+Contact: No contact found
+Website: 
+Confidence: confirmed (listing); contact not found free
+Source: https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88
+~377 mi from Omaha | preferred state: Yes</description>
+                <styleUrl>#129</styleUrl>
+                <Point id="127">
+                    <coordinates>-103.004,42.748,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

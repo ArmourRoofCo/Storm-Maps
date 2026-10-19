@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="../"><!-- SM-ARCHIVE-BASE: lets callstatus.js and called.json resolve from the site root -->
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5914b8cadd7a2609492734e93029406c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid #888;font-size:13px"><b>Storm leads 2026-10-18 (68 mph)</b><br><span style="color:#00b300">&#9679;</span> Has contact<br><span style="color:#ff8c00">&#9679;</span> No contact yet<br><span style="color:red">&#9679;</span> Hail report<br><span style="color:purple">&#9632;</span> 2in+ radar hail swath (MRMS MESH)<br><span style="color:#1f5fff">&#9633;</span> Wind outline (SPC reports, not radar)<br><span style="color:#2a81cb">&#9679;</span> Commercial roof search lead (news / bid notice)<br><b>Quiet day:</b> 0 new hail/wind/rain qualifying buildings<br>Rain check: within 180 miles of Omaha<br><i>Contacts only: untick 'no contact' layers</i></div>
+    <script src="callstatus.js"></script>
+    
+            <div class="folium-map" id="map_5914b8cadd7a2609492734e93029406c" ></div>
+        
+<!-- SM-DATEPICKER:BEGIN -->
+<div id="sm-datepick" style="position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:10000;background:#fff;border:1px solid #888;border-radius:4px;padding:4px 8px;font:13px sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.3);max-width:92vw">
+ <label for="sm-date-sel"><b>Report date:</b></label>
+ <select id="sm-date-sel" style="font:13px sans-serif;max-width:60vw"></select>
+ <span id="sm-date-note" style="color:#b3261e;margin-left:4px"></span>
+</div>
+<script>
+(function(){
+  var C={"date": "2026-10-18", "key": "2026-10-18", "label": "Sun 10/18/2026", "live": "https://armourroofco.github.io/Storm-Maps/"};
+  var sel=document.getElementById('sm-date-sel'), note=document.getElementById('sm-date-note');
+  function opt(v,t,s){var o=document.createElement('option');o.value=v;o.textContent=t;if(s)o.selected=true;sel.appendChild(o);}
+  function only(){sel.innerHTML='';opt('',C.label,true);sel.disabled=true;note.innerHTML=' <a href="'+C.live+'" target="_blank">open live map for other dates</a>';}
+  function build(j,base){
+    var L=j.dates||[];if(!L.length){only();return;}
+    sel.innerHTML='';sel.disabled=false;note.innerHTML='';var have=false;
+    L.forEach(function(e){var t=e.label+(e.key===j.latest?' \u2014 latest':'')+(e.summary?' \u00b7 '+e.summary:'');
+      var s=e.key===C.key;have=have||s;opt(e.key,t,s);});
+    if(!have)opt(C.key,C.label+' (this file)',true);
+    sel.onchange=function(){var k=sel.value;var e=L.filter(function(x){return x.key===k;})[0];if(!e)return;
+      window.location.href=(k===j.latest)?(base||'./'):(base+e.file);};
+    if(C.key!==j.latest){note.innerHTML=' archived report \u00b7 <a href="'+(base||'./')+'">back to latest</a>';}
+    // ?date=YYYY-MM-DD on the live root jumps to that archived day
+    var q=(location.search.match(/[?&]date=([0-9A-Za-z-]+)/)||[])[1];
+    if(q&&q!==C.key){var e=L.filter(function(x){return x.key===q;})[0];if(e&&q!==j.latest)location.replace(base+e.file);}
+  }
+  function get(u){return fetch(u+(u.indexOf('?')<0?'?':'&')+'t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw r.status;return r.json();});}
+  var onLive=/^https?:$/.test(location.protocol);
+  only();
+  (onLive?get('archive/index.json').then(function(j){build(j,'');}):Promise.reject())
+   .catch(function(){return get(C.live+'archive/index.json').then(function(j){build(j,C.live);});})
+   .catch(function(){only();});
+})();
+</script>
+<!-- SM-DATEPICKER:END -->
+</body>
+<script>
+    
+    
+            var map_5914b8cadd7a2609492734e93029406c = L.map(
+                "map_5914b8cadd7a2609492734e93029406c",
+                {
+                    center: [41.2565, -95.9345],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_455465d327b21838a1f00df012d58026 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_455465d327b21838a1f00df012d58026.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var tile_layer_0e8b20a346204dd4f679250ced294508 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri World Imagery",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0e8b20a346204dd4f679250ced294508.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var marker_cluster_f6fdcd7d6d61671d7543405e63d559f1 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 12,
+}
+            );
+        
+    
+            marker_cluster_f6fdcd7d6d61671d7543405e63d559f1.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var marker_cluster_14e7939aaa55b677bc6f07b88a5fc428 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 12,
+}
+            );
+        
+    
+            marker_cluster_14e7939aaa55b677bc6f07b88a5fc428.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var marker_cluster_1b88d43a275bc42ada6ac59bbdfd7562 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 12,
+}
+            );
+        
+    
+            marker_cluster_1b88d43a275bc42ada6ac59bbdfd7562.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var marker_cluster_28b6443830201d1ef3a246b9a87654d4 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 12,
+}
+            );
+        
+    
+            marker_cluster_28b6443830201d1ef3a246b9a87654d4.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var marker_cluster_6fd8d0182cff530961c313f63ae9c84d = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 12,
+}
+            );
+        
+    
+            marker_cluster_6fd8d0182cff530961c313f63ae9c84d.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var marker_cluster_a215ac30a079925d74dd8c76faf00633 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 12,
+}
+            );
+        
+    
+            marker_cluster_a215ac30a079925d74dd8c76faf00633.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var feature_group_6fe5c7cff8adeef1f315170c99eed3a3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_6fe5c7cff8adeef1f315170c99eed3a3.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var feature_group_b800cfa5006fa219965aee71d3628e23 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_b800cfa5006fa219965aee71d3628e23.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var feature_group_5889848d7ae4c1e32e03584ba0f343a6 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_5eeb6aee8b8597d25db93601dbf82ea6 = L.marker(
+                [41.8417, -96.7086],
+                {
+}
+            ).addTo(feature_group_5889848d7ae4c1e32e03584ba0f343a6);
+        
+    
+            var icon_bfcfb44351170e678f7caeb862423929 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b24de98a7446f203d41615e75c89c94 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_4fe231153deee05b162e80ecefb33c1a = $(`<div id="html_4fe231153deee05b162e80ecefb33c1a" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b><br><b>Cuming County Courthouse (Cuming County, NE)</b><br>West Point, NE · ~57 mi from Omaha<br>2026-10-16 (published; re-runs 10/23)<br><div style='max-height:140px;overflow:auto'>Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.</div>Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents) · (402) 372-6002 (County Clerk) · clerk@cumingcounty.ne.gov<br>Website: https://cumingcountyne.gov<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623' target='_blank'>source</a></div>`)[0];
+                popup_4b24de98a7446f203d41615e75c89c94.setContent(html_4fe231153deee05b162e80ecefb33c1a);
+            
+        
+
+        marker_5eeb6aee8b8597d25db93601dbf82ea6.bindPopup(popup_4b24de98a7446f203d41615e75c89c94)
+        ;
+
+        
+    
+    
+            marker_5eeb6aee8b8597d25db93601dbf82ea6.bindTooltip(
+                `<div>
+                     Cuming County Courthouse (Cuming County, NE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5eeb6aee8b8597d25db93601dbf82ea6.setIcon(icon_bfcfb44351170e678f7caeb862423929);
+            
+    
+            var marker_92736e50b615c11a7e13ede29556eb41 = L.marker(
+                [43.0656, -98.5337],
+                {
+}
+            ).addTo(feature_group_5889848d7ae4c1e32e03584ba0f343a6);
+        
+    
+            var icon_9ab7fb581434c4b64a8922d112553018 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14691c7745f439211af680be3e102167 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_5927723d21e288632814d8e8c6382fdf = $(`<div id="html_5927723d21e288632814d8e8c6382fdf" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — storm damage</b><br><b>Town of Pickstown (town-owned buildings)</b><br>Pickstown, SD · ~183 mi from Omaha<br>2026-09-30 / 10-07 (published); bids opened 10/14<br><div style='max-height:140px;overflow:auto'>Town requested sealed bids for structural, mechanical and aesthetic repairs to six storm-damaged, town-owned buildings (218, 308, 310 &amp; 124 White Swan Dr; 108 Lewis Ave; 308 James Ave). Bids were due Oct 14, 2026 5 PM and opened at that evening&#x27;s Town Board meeting. Roof scope not itemized on the notice; bid window has passed (award status unknown).</div>Contact: Town Board, Town Office (218 White Swan Dr, Box 107) · (phone redacted on notice)<br>Confidence: unconfirmed (roof scope not stated; bids already closed)<br><a href='https://www.noticeregistry.com/south-dakota/notice/bid-notice-pickstown-246676' target='_blank'>source</a></div>`)[0];
+                popup_14691c7745f439211af680be3e102167.setContent(html_5927723d21e288632814d8e8c6382fdf);
+            
+        
+
+        marker_92736e50b615c11a7e13ede29556eb41.bindPopup(popup_14691c7745f439211af680be3e102167)
+        ;
+
+        
+    
+    
+            marker_92736e50b615c11a7e13ede29556eb41.bindTooltip(
+                `<div>
+                     Town of Pickstown (town-owned buildings)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92736e50b615c11a7e13ede29556eb41.setIcon(icon_9ab7fb581434c4b64a8922d112553018);
+            
+    
+            var marker_af39416c01e9cd83e6928c7b649fe559 = L.marker(
+                [44.3668, -100.336],
+                {
+}
+            ).addTo(feature_group_5889848d7ae4c1e32e03584ba0f343a6);
+        
+    
+            var icon_107a00275ec083051e79a698d95de948 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44519012e9069632c2b423618b788081 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_fb4619ccc909ebcd24ee7831a0e9b93d = $(`<div id="html_fb4619ccc909ebcd24ee7831a0e9b93d" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b><br><b>State of South Dakota - Mickelson Building</b><br>Pierre, SD · ~310 mi from Omaha<br>2026-10-02 / 10-09 (published); due 10/22<br><div style='max-height:140px;overflow:auto'>OSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.</div>Contact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact) · (phones redacted on notice)<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363' target='_blank'>source</a></div>`)[0];
+                popup_44519012e9069632c2b423618b788081.setContent(html_fb4619ccc909ebcd24ee7831a0e9b93d);
+            
+        
+
+        marker_af39416c01e9cd83e6928c7b649fe559.bindPopup(popup_44519012e9069632c2b423618b788081)
+        ;
+
+        
+    
+    
+            marker_af39416c01e9cd83e6928c7b649fe559.bindTooltip(
+                `<div>
+                     State of South Dakota - Mickelson Building
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_af39416c01e9cd83e6928c7b649fe559.setIcon(icon_107a00275ec083051e79a698d95de948);
+            
+    
+            var marker_51abb17ace25903a40204d58e1215e9f = L.marker(
+                [42.748, -103.004],
+                {
+}
+            ).addTo(feature_group_5889848d7ae4c1e32e03584ba0f343a6);
+        
+    
+            var icon_188dd1d032d4ff380733c06678eb4b1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c4f9237541bc7fbb00ac9ed69a4c8ec = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_86565095eb84a1c5953cd80768871b52 = $(`<div id="html_86565095eb84a1c5953cd80768871b52" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b><br><b>USDA Forest Service - Pine Ridge (PRD) Building 290</b><br>Chadron, NE · ~377 mi from Omaha<br>2026-10 (open; due 10/20 4:00 PM CT)<br><div style='max-height:140px;overflow:auto'>Solicitation 12441926Q0048 &quot;PRD B290 Roof Replacement&quot; (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q&amp;A posted. Due Oct 20, 2026 4:00 PM CT.</div>Contact: No contact found<br>Confidence: confirmed (listing); contact not found free<br><a href='https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88' target='_blank'>source</a></div>`)[0];
+                popup_4c4f9237541bc7fbb00ac9ed69a4c8ec.setContent(html_86565095eb84a1c5953cd80768871b52);
+            
+        
+
+        marker_51abb17ace25903a40204d58e1215e9f.bindPopup(popup_4c4f9237541bc7fbb00ac9ed69a4c8ec)
+        ;
+
+        
+    
+    
+            marker_51abb17ace25903a40204d58e1215e9f.bindTooltip(
+                `<div>
+                     USDA Forest Service - Pine Ridge (PRD) Building 290
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_51abb17ace25903a40204d58e1215e9f.setIcon(icon_188dd1d032d4ff380733c06678eb4b1f);
+            
+    
+            var marker_64bf13d1e21bc7e3e9571c068a7c1ca0 = L.marker(
+                [33.4255, -111.94],
+                {
+}
+            ).addTo(feature_group_5889848d7ae4c1e32e03584ba0f343a6);
+        
+    
+            var icon_862913db7231e193a3d81062bb85a956 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9fcd03f19c05aba05a95f15b83099f9 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_ffe25e6f6645232436aa77f1029b728e = $(`<div id="html_ffe25e6f6645232436aa77f1029b728e" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — storm damage</b><br><b>(not named) multi-tenant commercial building</b><br>Tempe, AZ · ~1030 mi from Omaha<br>2026-10-16<br><div style='max-height:140px;overflow:auto'>&quot;A leaky roof has left multiple Tempe businesses with serious water damage. Now, the impacted business owners are asking the building&#x27;s owner to fix the problem.&quot; Multi-tenant commercial building; building, owner and businesses not named in the FOX 10 page description or the GMNA summary (video itself not viewed).</div>Contact: No contact found<br>Confidence: unconfirmed (storm cause and building not stated)<br><a href='https://www.fox10phoenix.com/video/fmc-kpkny4870alnz2e6' target='_blank'>source</a> | <a href='https://gmna.ca/phoenix/story/leaky-roof-damages-multiple-tempe-businesses' target='_blank'>source</a></div>`)[0];
+                popup_c9fcd03f19c05aba05a95f15b83099f9.setContent(html_ffe25e6f6645232436aa77f1029b728e);
+            
+        
+
+        marker_64bf13d1e21bc7e3e9571c068a7c1ca0.bindPopup(popup_c9fcd03f19c05aba05a95f15b83099f9)
+        ;
+
+        
+    
+    
+            marker_64bf13d1e21bc7e3e9571c068a7c1ca0.bindTooltip(
+                `<div>
+                     (not named) multi-tenant commercial building
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_64bf13d1e21bc7e3e9571c068a7c1ca0.setIcon(icon_862913db7231e193a3d81062bb85a956);
+            
+    
+            feature_group_5889848d7ae4c1e32e03584ba0f343a6.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+        function geo_json_d1f664ffaf15e581ebf860b38e8111c0_pointToLayer(feature, latlng) {
+            var opts = {
+  "stroke": true,
+  "color": "#3388ff",
+  "weight": 3,
+  "opacity": 0,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "radius": 1,
+};
+            
+            return new L.CircleMarker(latlng, opts)
+        }
+
+        function geo_json_d1f664ffaf15e581ebf860b38e8111c0_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_d1f664ffaf15e581ebf860b38e8111c0 = L.geoJson(null, {
+                onEachFeature: geo_json_d1f664ffaf15e581ebf860b38e8111c0_onEachFeature,
+            
+                pointToLayer: geo_json_d1f664ffaf15e581ebf860b38e8111c0_pointToLayer,
+            ...{
+}
+        });
+
+        function geo_json_d1f664ffaf15e581ebf860b38e8111c0_add (data) {
+            geo_json_d1f664ffaf15e581ebf860b38e8111c0
+                .addData(data);
+        }
+            geo_json_d1f664ffaf15e581ebf860b38e8111c0_add({"features": [{"geometry": {"coordinates": [-95.9345, 41.2565], "type": "Point"}, "properties": {"info": "No new qualifying storm leads for 2026-10-18", "name": "Omaha HQ (quiet day \u2014 no storm leads)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.7086, 41.8417], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e\u003cbr\u003e\u003cb\u003eCuming County Courthouse (Cuming County, NE)\u003c/b\u003e\u003cbr\u003eWest Point, NE \u00b7 ~57 mi from Omaha\u003cbr\u003e2026-10-16 (published; re-runs 10/23)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eInvitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.\u003c/div\u003eContact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents) \u00b7 (402) 372-6002 (County Clerk) \u00b7 clerk@cumingcounty.ne.gov\u003cbr\u003eWebsite: https://cumingcountyne.gov\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Cuming County Courthouse (Cuming County, NE) (West Point, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-98.5337, 43.0656], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 storm damage\u003c/b\u003e\u003cbr\u003e\u003cb\u003eTown of Pickstown (town-owned buildings)\u003c/b\u003e\u003cbr\u003ePickstown, SD \u00b7 ~183 mi from Omaha\u003cbr\u003e2026-09-30 / 10-07 (published); bids opened 10/14\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eTown requested sealed bids for structural, mechanical and aesthetic repairs to six storm-damaged, town-owned buildings (218, 308, 310 \u0026amp; 124 White Swan Dr; 108 Lewis Ave; 308 James Ave). Bids were due Oct 14, 2026 5 PM and opened at that evening\u0026#x27;s Town Board meeting. Roof scope not itemized on the notice; bid window has passed (award status unknown).\u003c/div\u003eContact: Town Board, Town Office (218 White Swan Dr, Box 107) \u00b7 (phone redacted on notice)\u003cbr\u003eConfidence: unconfirmed (roof scope not stated; bids already closed)\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/south-dakota/notice/bid-notice-pickstown-246676\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Town of Pickstown (town-owned buildings) (Pickstown, SD)"}, "type": "Feature"}, {"geometry": {"coordinates": [-100.336, 44.3668], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e\u003cbr\u003e\u003cb\u003eState of South Dakota - Mickelson Building\u003c/b\u003e\u003cbr\u003ePierre, SD \u00b7 ~310 mi from Omaha\u003cbr\u003e2026-10-02 / 10-09 (published); due 10/22\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eOSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.\u003c/div\u003eContact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact) \u00b7 (phones redacted on notice)\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: State of South Dakota - Mickelson Building (Pierre, SD)"}, "type": "Feature"}, {"geometry": {"coordinates": [-103.004, 42.748], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e\u003cbr\u003e\u003cb\u003eUSDA Forest Service - Pine Ridge (PRD) Building 290\u003c/b\u003e\u003cbr\u003eChadron, NE \u00b7 ~377 mi from Omaha\u003cbr\u003e2026-10 (open; due 10/20 4:00 PM CT)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eSolicitation 12441926Q0048 \u0026quot;PRD B290 Roof Replacement\u0026quot; (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q\u0026amp;A posted. Due Oct 20, 2026 4:00 PM CT.\u003c/div\u003eContact: No contact found\u003cbr\u003eConfidence: confirmed (listing); contact not found free\u003cbr\u003e\u003ca href=\u0027https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: USDA Forest Service - Pine Ridge (PRD) Building 290 (Chadron, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-111.94, 33.4255], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 storm damage\u003c/b\u003e\u003cbr\u003e\u003cb\u003e(not named) multi-tenant commercial building\u003c/b\u003e\u003cbr\u003eTempe, AZ \u00b7 ~1030 mi from Omaha\u003cbr\u003e2026-10-16\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003e\u0026quot;A leaky roof has left multiple Tempe businesses with serious water damage. Now, the impacted business owners are asking the building\u0026#x27;s owner to fix the problem.\u0026quot; Multi-tenant commercial building; building, owner and businesses not named in the FOX 10 page description or the GMNA summary (video itself not viewed).\u003c/div\u003eContact: No contact found\u003cbr\u003eConfidence: unconfirmed (storm cause and building not stated)\u003cbr\u003e\u003ca href=\u0027https://www.fox10phoenix.com/video/fmc-kpkny4870alnz2e6\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://gmna.ca/phoenix/story/leaky-roof-damages-multiple-tempe-businesses\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: (not named) multi-tenant commercial building (Tempe, AZ)"}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_d1f664ffaf15e581ebf860b38e8111c0.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+    geo_json_d1f664ffaf15e581ebf860b38e8111c0.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["info"];
+    let aliases = ["info"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "className": "foliumpopup",
+});
+                     
+    
+            geo_json_d1f664ffaf15e581ebf860b38e8111c0.addTo(map_5914b8cadd7a2609492734e93029406c);
+        
+    
+            var geo_json_d1f664ffaf15e581ebf860b38e8111c0searchControl = new L.Control.Search({
+                layer: geo_json_d1f664ffaf15e581ebf860b38e8111c0,
+                
+                propertyName: 'name',
+                
+                collapsed: false,
+                textPlaceholder: 'Search owner, address or roof-search lead',
+                position:'topleft',
+            
+                initial: false,
+                
+                zoom: 12,
+                
+                hideMarkerOnCollapse: true
+            
+                });
+                geo_json_d1f664ffaf15e581ebf860b38e8111c0searchControl.on('search:locationfound', function(e) {
+                    geo_json_d1f664ffaf15e581ebf860b38e8111c0.setStyle(function(feature){
+                        return feature.properties.style
+                    })
+                    
+                    if(e.layer._popup)
+                        e.layer.openPopup();
+                })
+                geo_json_d1f664ffaf15e581ebf860b38e8111c0searchControl.on('search:collapsed', function(e) {
+                        geo_json_d1f664ffaf15e581ebf860b38e8111c0.setStyle(function(feature){
+                            return feature.properties.style
+                    });
+                });
+            map_5914b8cadd7a2609492734e93029406c.addControl( geo_json_d1f664ffaf15e581ebf860b38e8111c0searchControl );
+
+        
+    
+            var layer_control_7e384c771e2126e4b036f1365a197c2f_layers = {
+                base_layers : {
+                    "Street map" : tile_layer_455465d327b21838a1f00df012d58026,
+                    "Satellite" : tile_layer_0e8b20a346204dd4f679250ced294508,
+                },
+                overlays :  {
+                    "Hail \u2013 with contact (green)" : marker_cluster_f6fdcd7d6d61671d7543405e63d559f1,
+                    "Hail \u2013 no contact (orange)" : marker_cluster_14e7939aaa55b677bc6f07b88a5fc428,
+                    "Wind \u2013 with contact (green)" : marker_cluster_1b88d43a275bc42ada6ac59bbdfd7562,
+                    "Wind \u2013 no contact (orange)" : marker_cluster_28b6443830201d1ef3a246b9a87654d4,
+                    "Rain \u2013 with contact (green)" : marker_cluster_6fd8d0182cff530961c313f63ae9c84d,
+                    "Rain \u2013 no contact (orange)" : marker_cluster_a215ac30a079925d74dd8c76faf00633,
+                    "Hail reports \u0026 2in radar swaths (red/purple) \u2014 none today" : feature_group_6fe5c7cff8adeef1f315170c99eed3a3,
+                    "Wind outline \u2013 SPC report-based (none \u226568 mph new today)" : feature_group_b800cfa5006fa219965aee71d3628e23,
+                    "Commercial roof search (blue)" : feature_group_5889848d7ae4c1e32e03584ba0f343a6,
+                },
+            };
+            let layer_control_7e384c771e2126e4b036f1365a197c2f = L.control.layers(
+                layer_control_7e384c771e2126e4b036f1365a197c2f_layers.base_layers,
+                layer_control_7e384c771e2126e4b036f1365a197c2f_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_5914b8cadd7a2609492734e93029406c);
+
+        
+</script>
+</html>

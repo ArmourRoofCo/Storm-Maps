@@ -79,6 +79,40 @@
     
             <div class="folium-map" id="map_744226a2eb72f8be083c9db9432ba580" ></div>
         
+<!-- SM-DATEPICKER:BEGIN -->
+<div id="sm-datepick" style="position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:10000;background:#fff;border:1px solid #888;border-radius:4px;padding:4px 8px;font:13px sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.3);max-width:92vw">
+ <label for="sm-date-sel"><b>Report date:</b></label>
+ <select id="sm-date-sel" style="font:13px sans-serif;max-width:60vw"></select>
+ <span id="sm-date-note" style="color:#b3261e;margin-left:4px"></span>
+</div>
+<script>
+(function(){
+  var C={"date": "2026-10-19", "key": "2026-10-19", "label": "Mon 10/19/2026", "live": "https://armourroofco.github.io/Storm-Maps/"};
+  var sel=document.getElementById('sm-date-sel'), note=document.getElementById('sm-date-note');
+  function opt(v,t,s){var o=document.createElement('option');o.value=v;o.textContent=t;if(s)o.selected=true;sel.appendChild(o);}
+  function only(){sel.innerHTML='';opt('',C.label,true);sel.disabled=true;note.innerHTML=' <a href="'+C.live+'" target="_blank">open live map for other dates</a>';}
+  function build(j,base){
+    var L=j.dates||[];if(!L.length){only();return;}
+    sel.innerHTML='';sel.disabled=false;note.innerHTML='';var have=false;
+    L.forEach(function(e){var t=e.label+(e.key===j.latest?' \u2014 latest':'')+(e.summary?' \u00b7 '+e.summary:'');
+      var s=e.key===C.key;have=have||s;opt(e.key,t,s);});
+    if(!have)opt(C.key,C.label+' (this file)',true);
+    sel.onchange=function(){var k=sel.value;var e=L.filter(function(x){return x.key===k;})[0];if(!e)return;
+      window.location.href=(k===j.latest)?(base||'./'):(base+e.file);};
+    if(C.key!==j.latest){note.innerHTML=' archived report \u00b7 <a href="'+(base||'./')+'">back to latest</a>';}
+    // ?date=YYYY-MM-DD on the live root jumps to that archived day
+    var q=(location.search.match(/[?&]date=([0-9A-Za-z-]+)/)||[])[1];
+    if(q&&q!==C.key){var e=L.filter(function(x){return x.key===q;})[0];if(e&&q!==j.latest)location.replace(base+e.file);}
+  }
+  function get(u){return fetch(u+(u.indexOf('?')<0?'?':'&')+'t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw r.status;return r.json();});}
+  var onLive=/^https?:$/.test(location.protocol);
+  only();
+  (onLive?get('archive/index.json').then(function(j){build(j,'');}):Promise.reject())
+   .catch(function(){return get(C.live+'archive/index.json').then(function(j){build(j,C.live);});})
+   .catch(function(){only();});
+})();
+</script>
+<!-- SM-DATEPICKER:END -->
 </body>
 <script>
     
