@@ -18,7 +18,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_744226a2eb72f8be083c9db9432ba580 {
+                #map_a551fbdf61ad5fc6a684a687a52b0b5c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -75,10 +75,10 @@
 </head>
 <body>
     
-    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid #888;font-size:13px"><b>Storm leads 2026-10-19 (68 mph)</b><br><span style="color:#00b300">&#9679;</span> Has contact<br><span style="color:#ff8c00">&#9679;</span> No contact yet<br><span style="color:red">&#9679;</span> Hail report<br><span style="color:purple">&#9632;</span> 2in+ radar hail swath (MRMS MESH)<br><span style="color:#1f5fff">&#9633;</span> Wind outline (based on SPC reports, not radar)<br><span style="color:#2a81cb">&#9679;</span> Commercial roof search lead (new today) · <span style="color:#8adaff">&#9679;</span> still-open prior bid<br><span style="color:#999">&#9675;</span> Held non-thunderstorm gust (source check, off by default)<br><b>Quiet day:</b> 0 new hail/wind/rain qualifying buildings<br>Rain check: within 180 miles of Omaha<br><i>Contacts only: untick 'no contact' layers</i></div>
+    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid #888;font-size:13px"><b>Storm leads 2026-10-19 (68 mph)</b><br><span style="color:#00b300">&#9679;</span> Building – has contact (phone and/or email)<br><span style="color:#ff8c00">&#9679;</span> Building – no phone or email found<br><span style="color:red">&#9679;</span> Hail report<br><span style="color:purple">&#9632;</span> 2in+ radar hail swath (MRMS MESH)<br><span style="color:#1f5fff">&#9633;</span> Wind outline (based on SPC reports, not radar)<br><span style="display:inline-block;width:11px;height:11px;background:#1a3d8f;border:2px solid #00b300;border-radius:2px"></span> <span style="display:inline-block;width:11px;height:11px;background:#1a3d8f;border:2px solid #ff8c00;border-radius:2px"></span> Bid Requests (square “B”)<br><span style="display:inline-block;width:11px;height:11px;background:#7b2cbf;border:2px solid #00b300;border-radius:50%"></span> <span style="display:inline-block;width:11px;height:11px;background:#7b2cbf;border:2px solid #ff8c00;border-radius:50%"></span> Social Media (round “S”)<br><small>Ring/pin color: <span style="color:#00b300">green</span> = has phone and/or email · <span style="color:#ff8c00">orange</span> = no phone or email</small><br><small>Popup says NEW/UPDATED today or still-open prior bid</small><br><span style="color:#999">&#9675;</span> Held non-thunderstorm gust (source check, off by default)<br><b>Quiet day:</b> 0 new hail/wind/rain qualifying buildings<br>Rain check: within 180 miles of Omaha<br><i>Contacts only: untick 'no contact' layers</i></div>
     <script src="callstatus.js"></script>
     
-            <div class="folium-map" id="map_744226a2eb72f8be083c9db9432ba580" ></div>
+            <div class="folium-map" id="map_a551fbdf61ad5fc6a684a687a52b0b5c" ></div>
         
 <!-- SM-DATEPICKER:BEGIN -->
 <div id="sm-datepick" style="position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:10000;background:#fff;border:1px solid #888;border-radius:4px;padding:4px 8px;font:13px sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.3);max-width:92vw">
@@ -118,8 +118,8 @@
 <script>
     
     
-            var map_744226a2eb72f8be083c9db9432ba580 = L.map(
-                "map_744226a2eb72f8be083c9db9432ba580",
+            var map_a551fbdf61ad5fc6a684a687a52b0b5c = L.map(
+                "map_a551fbdf61ad5fc6a684a687a52b0b5c",
                 {
                     center: [41.2565, -95.9345],
                     crs: L.CRS.EPSG3857,
@@ -136,7 +136,7 @@
 
         
     
-            var tile_layer_3d7be3184a0942dccad4b1098ea54541 = L.tileLayer(
+            var tile_layer_42d797df7dcbc5dccd0d0b6cbe8e2bf6 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -153,10 +153,10 @@
             );
         
     
-            tile_layer_3d7be3184a0942dccad4b1098ea54541.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            tile_layer_42d797df7dcbc5dccd0d0b6cbe8e2bf6.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var tile_layer_67b774cf50b02b973759eb4f59c690a7 = L.tileLayer(
+            var tile_layer_960add59fbd35b787b6f7c29c7b93850 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -173,117 +173,117 @@
             );
         
     
-            tile_layer_67b774cf50b02b973759eb4f59c690a7.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            tile_layer_960add59fbd35b787b6f7c29c7b93850.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var marker_cluster_285e215f296df8e6792a2ea33f73f096 = L.markerClusterGroup(
+            var marker_cluster_58547111dd23979f977022debf3fcfa1 = L.markerClusterGroup(
                 {
   "disableClusteringAtZoom": 12,
 }
             );
         
     
-            marker_cluster_285e215f296df8e6792a2ea33f73f096.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            marker_cluster_58547111dd23979f977022debf3fcfa1.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var marker_cluster_691a5aa1ba385da5b78a566eafac7f69 = L.markerClusterGroup(
+            var marker_cluster_0a9d8718f6992ec3a5c1fbae493bb3b7 = L.markerClusterGroup(
                 {
   "disableClusteringAtZoom": 12,
 }
             );
         
     
-            marker_cluster_691a5aa1ba385da5b78a566eafac7f69.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            marker_cluster_0a9d8718f6992ec3a5c1fbae493bb3b7.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var marker_cluster_6674069ce79fd03e1be73c72a75dab7f = L.markerClusterGroup(
+            var marker_cluster_066c5db6b2ceea1c96f35699c31e858f = L.markerClusterGroup(
                 {
   "disableClusteringAtZoom": 12,
 }
             );
         
     
-            marker_cluster_6674069ce79fd03e1be73c72a75dab7f.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            marker_cluster_066c5db6b2ceea1c96f35699c31e858f.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var marker_cluster_81fec8578c3c8abc7a04ae70f01bb034 = L.markerClusterGroup(
+            var marker_cluster_065a8a5ae6970e5b489df94f90a285c1 = L.markerClusterGroup(
                 {
   "disableClusteringAtZoom": 12,
 }
             );
         
     
-            marker_cluster_81fec8578c3c8abc7a04ae70f01bb034.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            marker_cluster_065a8a5ae6970e5b489df94f90a285c1.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var marker_cluster_6c72f1568d35def8f95001b1441eeb9b = L.markerClusterGroup(
+            var marker_cluster_7f077504a1fcacada2128bd87fa63aef = L.markerClusterGroup(
                 {
   "disableClusteringAtZoom": 12,
 }
             );
         
     
-            marker_cluster_6c72f1568d35def8f95001b1441eeb9b.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            marker_cluster_7f077504a1fcacada2128bd87fa63aef.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var marker_cluster_ee206a05e32f754286da91e12d416715 = L.markerClusterGroup(
+            var marker_cluster_c7fec34246bfc4db156d59c0fe5a9422 = L.markerClusterGroup(
                 {
   "disableClusteringAtZoom": 12,
 }
             );
         
     
-            marker_cluster_ee206a05e32f754286da91e12d416715.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            marker_cluster_c7fec34246bfc4db156d59c0fe5a9422.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var feature_group_f070ac73e10002ae9f9473f7d08d61c7 = L.featureGroup(
+            var feature_group_101b3025d8a49b01681b8989a1c8284f = L.featureGroup(
                 {
 }
             );
         
     
-            feature_group_f070ac73e10002ae9f9473f7d08d61c7.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            feature_group_101b3025d8a49b01681b8989a1c8284f.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var feature_group_5b17f72a8da837a172dc4c9c3255c436 = L.featureGroup(
+            var feature_group_1bfaa830358ab22bb341a43b14070d88 = L.featureGroup(
                 {
 }
             );
         
     
-            feature_group_5b17f72a8da837a172dc4c9c3255c436.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            feature_group_1bfaa830358ab22bb341a43b14070d88.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var feature_group_22ddbba022ba0fe70b17024e4adc27ce = L.featureGroup(
+            var feature_group_ce26228d45ce567e5c99095693164d88 = L.featureGroup(
                 {
 }
             );
         
     
-            var circle_marker_817b8eb20d971555c80309bcb40d89e2 = L.circleMarker(
+            var circle_marker_bfed8c438d9d1754a83066980401e0ab = L.circleMarker(
                 [48.36, -113.11],
                 {"bubblingMouseEvents": true, "color": "#555", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_22ddbba022ba0fe70b17024e4adc27ce);
+            ).addTo(feature_group_ce26228d45ce567e5c99095693164d88);
         
     
-        var popup_f0c142950b390f87f3eba32c240c3061 = L.popup({
+        var popup_5975454e7274c5953fccb565105a31fb = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_93ccb00e5d8ff11ba1730ccc14e7314a = $(`<div id="html_93ccb00e5d8ff11ba1730ccc14e7314a" style="width: 100.0%; height: 100.0%;"><b>77 mph non-thunderstorm gust — HELD (not a lead)</b><br>8 SE East Glacier Park, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station DCRM8 Deep Creek RAWS. | In 10/18 pull but not listed in the 10/18 report<br>0 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~971 mi from Omaha</div>`)[0];
-                popup_f0c142950b390f87f3eba32c240c3061.setContent(html_93ccb00e5d8ff11ba1730ccc14e7314a);
+                var html_e4a5731cd2f51fcf3086ba1f166b0778 = $(`<div id="html_e4a5731cd2f51fcf3086ba1f166b0778" style="width: 100.0%; height: 100.0%;"><b>77 mph non-thunderstorm gust — HELD (not a lead)</b><br>8 SE East Glacier Park, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station DCRM8 Deep Creek RAWS. | In 10/18 pull but not listed in the 10/18 report<br>0 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~971 mi from Omaha</div>`)[0];
+                popup_5975454e7274c5953fccb565105a31fb.setContent(html_e4a5731cd2f51fcf3086ba1f166b0778);
             
         
 
-        circle_marker_817b8eb20d971555c80309bcb40d89e2.bindPopup(popup_f0c142950b390f87f3eba32c240c3061)
+        circle_marker_bfed8c438d9d1754a83066980401e0ab.bindPopup(popup_5975454e7274c5953fccb565105a31fb)
         ;
 
         
     
     
-            circle_marker_817b8eb20d971555c80309bcb40d89e2.bindTooltip(
+            circle_marker_bfed8c438d9d1754a83066980401e0ab.bindTooltip(
                 `<div>
                      77 mph (held)
                  </div>`,
@@ -293,30 +293,30 @@
             );
         
     
-            var circle_marker_ff4fba960115dccc9e60c5bf24651db6 = L.circleMarker(
+            var circle_marker_9ff65c34b9358e352729e3031c52cf8e = L.circleMarker(
                 [48.45, -113.2],
                 {"bubblingMouseEvents": true, "color": "#555", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_22ddbba022ba0fe70b17024e4adc27ce);
+            ).addTo(feature_group_ce26228d45ce567e5c99095693164d88);
         
     
-        var popup_09a721a2221f7c605964f7432931db28 = L.popup({
+        var popup_cc1ad7f962d9dfd4abf55e037fb9525c = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_1a68ae2cefb66ef90c9a21e3b60e1be0 = $(`<div id="html_1a68ae2cefb66ef90c9a21e3b60e1be0" style="width: 100.0%; height: 100.0%;"><b>70 mph non-thunderstorm gust — HELD (not a lead)</b><br>1 ENE East Glacier Park, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station MTBRN Two Medicine Bridge (MT DOT). | In 10/18 pull but not listed in the 10/18 report<br>4 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~978 mi from Omaha</div>`)[0];
-                popup_09a721a2221f7c605964f7432931db28.setContent(html_1a68ae2cefb66ef90c9a21e3b60e1be0);
+                var html_e54d1ebaf0480e5b67d0edeccf67be4e = $(`<div id="html_e54d1ebaf0480e5b67d0edeccf67be4e" style="width: 100.0%; height: 100.0%;"><b>70 mph non-thunderstorm gust — HELD (not a lead)</b><br>1 ENE East Glacier Park, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station MTBRN Two Medicine Bridge (MT DOT). | In 10/18 pull but not listed in the 10/18 report<br>4 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~978 mi from Omaha</div>`)[0];
+                popup_cc1ad7f962d9dfd4abf55e037fb9525c.setContent(html_e54d1ebaf0480e5b67d0edeccf67be4e);
             
         
 
-        circle_marker_ff4fba960115dccc9e60c5bf24651db6.bindPopup(popup_09a721a2221f7c605964f7432931db28)
+        circle_marker_9ff65c34b9358e352729e3031c52cf8e.bindPopup(popup_cc1ad7f962d9dfd4abf55e037fb9525c)
         ;
 
         
     
     
-            circle_marker_ff4fba960115dccc9e60c5bf24651db6.bindTooltip(
+            circle_marker_9ff65c34b9358e352729e3031c52cf8e.bindTooltip(
                 `<div>
                      70 mph (held)
                  </div>`,
@@ -326,30 +326,30 @@
             );
         
     
-            var circle_marker_15b4dc69637dbee08c891c93e396893b = L.circleMarker(
+            var circle_marker_d102bad24941539785f4bf9dbed9a6cf = L.circleMarker(
                 [48.38, -113.06],
                 {"bubblingMouseEvents": true, "color": "#555", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_22ddbba022ba0fe70b17024e4adc27ce);
+            ).addTo(feature_group_ce26228d45ce567e5c99095693164d88);
         
     
-        var popup_b84a94b165e6c6d6011019d9d4fa6c3d = L.popup({
+        var popup_398cd0a263dba41d1d1157b785143345 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_a96ed268448f63194ec4cbb5ff649f8b = $(`<div id="html_a96ed268448f63194ec4cbb5ff649f8b" style="width: 100.0%; height: 100.0%;"><b>68 mph non-thunderstorm gust — HELD (not a lead)</b><br>9 ESE East Glacier Park, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station DOGM8 Dog Gun Lake E. | In 10/18 pull but not listed in the 10/18 report<br>0 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~970 mi from Omaha</div>`)[0];
-                popup_b84a94b165e6c6d6011019d9d4fa6c3d.setContent(html_a96ed268448f63194ec4cbb5ff649f8b);
+                var html_30d7e08511cace0001e0fd731aaaf440 = $(`<div id="html_30d7e08511cace0001e0fd731aaaf440" style="width: 100.0%; height: 100.0%;"><b>68 mph non-thunderstorm gust — HELD (not a lead)</b><br>9 ESE East Glacier Park, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station DOGM8 Dog Gun Lake E. | In 10/18 pull but not listed in the 10/18 report<br>0 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~970 mi from Omaha</div>`)[0];
+                popup_398cd0a263dba41d1d1157b785143345.setContent(html_30d7e08511cace0001e0fd731aaaf440);
             
         
 
-        circle_marker_15b4dc69637dbee08c891c93e396893b.bindPopup(popup_b84a94b165e6c6d6011019d9d4fa6c3d)
+        circle_marker_d102bad24941539785f4bf9dbed9a6cf.bindPopup(popup_398cd0a263dba41d1d1157b785143345)
         ;
 
         
     
     
-            circle_marker_15b4dc69637dbee08c891c93e396893b.bindTooltip(
+            circle_marker_d102bad24941539785f4bf9dbed9a6cf.bindTooltip(
                 `<div>
                      68 mph (held)
                  </div>`,
@@ -359,30 +359,30 @@
             );
         
     
-            var circle_marker_23e2fc96e0dae8c32df12702ec54a52c = L.circleMarker(
+            var circle_marker_56bac07d36dc5a28b3f6205e7e6d57cc = L.circleMarker(
                 [48.54, -112.98],
                 {"bubblingMouseEvents": true, "color": "#555", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_22ddbba022ba0fe70b17024e4adc27ce);
+            ).addTo(feature_group_ce26228d45ce567e5c99095693164d88);
         
     
-        var popup_050f0f3d3254f9fc34607f3b6031c03e = L.popup({
+        var popup_102340bec8b81b6f842b473840c0882f = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_f87d51027aee1794c580637248c28eab = $(`<div id="html_f87d51027aee1794c580637248c28eab" style="width: 100.0%; height: 100.0%;"><b>68 mph non-thunderstorm gust — HELD (not a lead)</b><br>2 SE Browning, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station MTBWG Browning (MT DOT). | In 10/18 pull but not listed in the 10/18 report<br>7 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~971 mi from Omaha</div>`)[0];
-                popup_050f0f3d3254f9fc34607f3b6031c03e.setContent(html_f87d51027aee1794c580637248c28eab);
+                var html_e7afffffc9b676ebdaae67dc9e98f382 = $(`<div id="html_e7afffffc9b676ebdaae67dc9e98f382" style="width: 100.0%; height: 100.0%;"><b>68 mph non-thunderstorm gust — HELD (not a lead)</b><br>2 SE Browning, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station MTBWG Browning (MT DOT). | In 10/18 pull but not listed in the 10/18 report<br>7 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~971 mi from Omaha</div>`)[0];
+                popup_102340bec8b81b6f842b473840c0882f.setContent(html_e7afffffc9b676ebdaae67dc9e98f382);
             
         
 
-        circle_marker_23e2fc96e0dae8c32df12702ec54a52c.bindPopup(popup_050f0f3d3254f9fc34607f3b6031c03e)
+        circle_marker_56bac07d36dc5a28b3f6205e7e6d57cc.bindPopup(popup_102340bec8b81b6f842b473840c0882f)
         ;
 
         
     
     
-            circle_marker_23e2fc96e0dae8c32df12702ec54a52c.bindTooltip(
+            circle_marker_56bac07d36dc5a28b3f6205e7e6d57cc.bindTooltip(
                 `<div>
                      68 mph (held)
                  </div>`,
@@ -392,30 +392,30 @@
             );
         
     
-            var circle_marker_7743507c59d53b0e2c0763e5d4581c6b = L.circleMarker(
+            var circle_marker_f4767d1f58cbdcf77994c1aaf2ba1d6e = L.circleMarker(
                 [47.98, -112.61],
                 {"bubblingMouseEvents": true, "color": "#555", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbb", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(feature_group_22ddbba022ba0fe70b17024e4adc27ce);
+            ).addTo(feature_group_ce26228d45ce567e5c99095693164d88);
         
     
-        var popup_76ae32b6aa804ee04d0d8a03af9c5eff = L.popup({
+        var popup_1c8b3bb37af651f9bcc8d49378161e4f = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_79c25a011e9507dac2e155662659d6e6 = $(`<div id="html_79c25a011e9507dac2e155662659d6e6" style="width: 100.0%; height: 100.0%;"><b>68 mph non-thunderstorm gust — HELD (not a lead)</b><br>14 W Bynum, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station DELMT Dellwo (MCSCN) Delayed report. | NEW (delayed LSR entry, not in the 10/18 pull)<br>0 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~940 mi from Omaha</div>`)[0];
-                popup_76ae32b6aa804ee04d0d8a03af9c5eff.setContent(html_79c25a011e9507dac2e155662659d6e6);
+                var html_7c61df6f126e37d49aac09f000ccec25 = $(`<div id="html_7c61df6f126e37d49aac09f000ccec25" style="width: 100.0%; height: 100.0%;"><b>68 mph non-thunderstorm gust — HELD (not a lead)</b><br>14 W Bynum, MT · NON-TSTM WND GST (M, Mesonet)<br>Mesonet station DELMT Dellwo (MCSCN) Delayed report. | NEW (delayed LSR entry, not in the 10/18 pull)<br>0 C/I bldgs ≥10k SF within 5 mi<br>IEM LSR only (not in SPC) · ~940 mi from Omaha</div>`)[0];
+                popup_1c8b3bb37af651f9bcc8d49378161e4f.setContent(html_7c61df6f126e37d49aac09f000ccec25);
             
         
 
-        circle_marker_7743507c59d53b0e2c0763e5d4581c6b.bindPopup(popup_76ae32b6aa804ee04d0d8a03af9c5eff)
+        circle_marker_f4767d1f58cbdcf77994c1aaf2ba1d6e.bindPopup(popup_1c8b3bb37af651f9bcc8d49378161e4f)
         ;
 
         
     
     
-            circle_marker_7743507c59d53b0e2c0763e5d4581c6b.bindTooltip(
+            circle_marker_f4767d1f58cbdcf77994c1aaf2ba1d6e.bindTooltip(
                 `<div>
                      68 mph (held)
                  </div>`,
@@ -425,19 +425,19 @@
             );
         
     
-            var feature_group_0319ddc39c6bebfa5f869c0cd193d06b = L.featureGroup(
+            var feature_group_6fb21b401a608329549816b490150747 = L.featureGroup(
                 {
 }
             );
         
     
-            var circle_5a4d8c7ad8eaeb227990f274aa7ad21e = L.circle(
+            var circle_3cdfd710593f616c4aaea7001dd074b7 = L.circle(
                 [41.2565, -95.9345],
                 {"bubblingMouseEvents": true, "color": "#2e7d32", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#2e7d32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 289681.2, "stroke": true, "weight": 1}
-            ).addTo(feature_group_0319ddc39c6bebfa5f869c0cd193d06b);
+            ).addTo(feature_group_6fb21b401a608329549816b490150747);
         
     
-            circle_5a4d8c7ad8eaeb227990f274aa7ad21e.bindTooltip(
+            circle_3cdfd710593f616c4aaea7001dd074b7.bindTooltip(
                 `<div>
                      Rain search radius: 180 miles from Omaha
                  </div>`,
@@ -447,53 +447,50 @@
             );
         
     
-            feature_group_0319ddc39c6bebfa5f869c0cd193d06b.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            feature_group_6fb21b401a608329549816b490150747.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var feature_group_c3841458ec9e717c179450b6076176f5 = L.featureGroup(
+            var feature_group_cbd7c199e246adb566e185865fb3f120 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_ec6e6c900ef8e936de8a51e3d7e25f2a = L.marker(
+            var marker_ad9f09f197c184fbbda47772af54e4d2 = L.marker(
                 [41.673, -93.6977],
                 {
 }
-            ).addTo(feature_group_c3841458ec9e717c179450b6076176f5);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_d62049a85a86c37df9510d1eba6ee1e1 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_03dd307ef3e6d037e928033181e8dee5 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_1469bd39c231ead96a95ce7facf7714d = L.popup({
+        var popup_c5ac36b712ea879807d1674e053e0849 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_fabdc6123cb2ca87c080c073fd19197b = $(`<div id="html_fabdc6123cb2ca87c080c073fd19197b" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer (public bid) - MATERIAL UPDATE</b> <span style="color:#b3261e">(NEW/UPDATED today)</span><br><b>Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates)</b><br>Johnston, IA · ~119 mi from Omaha · preferred state: Yes<br>2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23<br><div style='max-height:140px;overflow:auto'>UPDATE to a lead first listed 10/17 (that listing only said &quot;due Nov 12&quot;). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2&quot; polyiso + 1/2&quot; HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline &amp; Blue, Des Moines ($50 refundable deposit).</div>Contact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings &amp; Grounds (phone redacted on notice) · 515-250-6950 (architect, from 10/17 plan-room brief)<br>Confidence: confirmed (official notice text)<br><a href='https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159' target='_blank'>source</a></div>`)[0];
-                popup_1469bd39c231ead96a95ce7facf7714d.setContent(html_fabdc6123cb2ca87c080c073fd19197b);
+                var html_b097bc90427e387757acb97c71976ad3 = $(`<div id="html_b097bc90427e387757acb97c71976ad3" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer (public bid) - MATERIAL UPDATE</b> <span style="color:#b3261e">(NEW/UPDATED today)</span><br><b>Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates)</b><br>Johnston, IA · ~119 mi from Omaha · preferred state: Yes<br>2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23<br><div style='max-height:140px;overflow:auto'>UPDATE to a lead first listed 10/17 (that listing only said &quot;due Nov 12&quot;). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2&quot; polyiso + 1/2&quot; HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline &amp; Blue, Des Moines ($50 refundable deposit).</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings &amp; Grounds (phone redacted on notice)<br>Phone: <a href='tel:51525069501'>515-250-6950 (architect, from 10/17 plan-room brief)</a><br>Email: -<br>Confidence: confirmed (official notice text)<br><a href='https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159' target='_blank'>source</a></div>`)[0];
+                popup_c5ac36b712ea879807d1674e053e0849.setContent(html_b097bc90427e387757acb97c71976ad3);
             
         
 
-        marker_ec6e6c900ef8e936de8a51e3d7e25f2a.bindPopup(popup_1469bd39c231ead96a95ce7facf7714d)
+        marker_ad9f09f197c184fbbda47772af54e4d2.bindPopup(popup_c5ac36b712ea879807d1674e053e0849)
         ;
 
         
     
     
-            marker_ec6e6c900ef8e936de8a51e3d7e25f2a.bindTooltip(
+            marker_ad9f09f197c184fbbda47772af54e4d2.bindTooltip(
                 `<div>
-                     Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates)
+                     Bid Requests: Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates)
                  </div>`,
                 {
   "sticky": true,
@@ -501,47 +498,44 @@
             );
         
     
-                marker_ec6e6c900ef8e936de8a51e3d7e25f2a.setIcon(icon_d62049a85a86c37df9510d1eba6ee1e1);
+                marker_ad9f09f197c184fbbda47772af54e4d2.setIcon(div_icon_03dd307ef3e6d037e928033181e8dee5);
             
     
-            var marker_28c2f83075874ab1baaa112e9d9d0ab3 = L.marker(
+            var marker_663548cf964c3d9024710724344161b0 = L.marker(
                 [39.191, -96.5806],
                 {
 }
-            ).addTo(feature_group_c3841458ec9e717c179450b6076176f5);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_719184cea35211ef70d14033a31f5dfd = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_d946babeb7fc048115ce6be0dba52225 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_552b15e2acd693bba03a0156a03c7e23 = L.popup({
+        var popup_a6ae069330f7585753bf39a245b59b5b = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_436439364916cad27608f5506115f0d7 = $(`<div id="html_436439364916cad27608f5506115f0d7" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer (state capital project - design stage)</b> <span style="color:#b3261e">(NEW/UPDATED today)</span><br><b>Kansas State University - Waters Hall</b><br>Manhattan, KS · ~147 mi from Omaha · preferred state: Yes<br>2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting<br><div style='max-height:140px;overflow:auto'>New capital improvement ad: &quot;KSU Waters Hall ReRoof - #54623 - October 15, 2026&quot; for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.</div>Contact: KS DoA OFPM professional qualifications inbox (A/E submittals) · professional.qualifications@ks.gov<br>Website: https://admin.ks.gov<br>Confidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)<br><a href='https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections' target='_blank'>source</a></div>`)[0];
-                popup_552b15e2acd693bba03a0156a03c7e23.setContent(html_436439364916cad27608f5506115f0d7);
+                var html_341d21602d25a3acb7ff1622851d2a2c = $(`<div id="html_341d21602d25a3acb7ff1622851d2a2c" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer (state capital project - design stage)</b> <span style="color:#b3261e">(NEW/UPDATED today)</span><br><b>Kansas State University - Waters Hall</b><br>Manhattan, KS · ~147 mi from Omaha · preferred state: Yes<br>2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting<br><div style='max-height:140px;overflow:auto'>New capital improvement ad: &quot;KSU Waters Hall ReRoof - #54623 - October 15, 2026&quot; for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: KS DoA OFPM professional qualifications inbox (A/E submittals)<br>Phone: -<br>Email: <a href='mailto:professional.qualifications@ks.gov'>professional.qualifications@ks.gov</a><br>Website: https://admin.ks.gov<br>Confidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)<br><a href='https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections' target='_blank'>source</a></div>`)[0];
+                popup_a6ae069330f7585753bf39a245b59b5b.setContent(html_341d21602d25a3acb7ff1622851d2a2c);
             
         
 
-        marker_28c2f83075874ab1baaa112e9d9d0ab3.bindPopup(popup_552b15e2acd693bba03a0156a03c7e23)
+        marker_663548cf964c3d9024710724344161b0.bindPopup(popup_a6ae069330f7585753bf39a245b59b5b)
         ;
 
         
     
     
-            marker_28c2f83075874ab1baaa112e9d9d0ab3.bindTooltip(
+            marker_663548cf964c3d9024710724344161b0.bindTooltip(
                 `<div>
-                     Kansas State University - Waters Hall
+                     Bid Requests: Kansas State University - Waters Hall
                  </div>`,
                 {
   "sticky": true,
@@ -549,47 +543,44 @@
             );
         
     
-                marker_28c2f83075874ab1baaa112e9d9d0ab3.setIcon(icon_719184cea35211ef70d14033a31f5dfd);
+                marker_663548cf964c3d9024710724344161b0.setIcon(div_icon_d946babeb7fc048115ce6be0dba52225);
             
     
-            var marker_2d7e3c1ae52a8d11641c647c9483937a = L.marker(
+            var marker_4b3281ff68d2d3e8625e800cbd233b94 = L.marker(
                 [38.0898, -94.5808],
                 {
 }
-            ).addTo(feature_group_c3841458ec9e717c179450b6076176f5);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_cba5b400a329c2bcdc861897be672d82 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_4c6ce77f03fa7f72239d9042106d03ad = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_7451fca8e8ffc9b38a827b78e997368c = L.popup({
+        var popup_5de472df2d2c7e9049d486f86f7990d4 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_090324d2cb66262fab46736d95b2c315 = $(`<div id="html_090324d2cb66262fab46736d95b2c315" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer (public bid)</b> <span style="color:#b3261e">(NEW/UPDATED today)</span><br><b>Hume R-VIII School District - bus barn</b><br>Hume, MO · ~230 mi from Omaha · preferred state: Yes<br>2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01<br><div style='max-height:140px;overflow:auto'>RFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.</div>Contact: Scott Morrison, Superintendent (named on notice for the site visit) · 660-643-7411 (district main line)<br>Website: https://www.humer8.k12.mo.us<br>Confidence: confirmed (official notice); small scope<br><a href='https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008' target='_blank'>source</a></div>`)[0];
-                popup_7451fca8e8ffc9b38a827b78e997368c.setContent(html_090324d2cb66262fab46736d95b2c315);
+                var html_56d0abe0b2e93c014d7d11fedf3c3fbc = $(`<div id="html_56d0abe0b2e93c014d7d11fedf3c3fbc" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer (public bid)</b> <span style="color:#b3261e">(NEW/UPDATED today)</span><br><b>Hume R-VIII School District - bus barn</b><br>Hume, MO · ~230 mi from Omaha · preferred state: Yes<br>2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01<br><div style='max-height:140px;overflow:auto'>RFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Scott Morrison, Superintendent (named on notice for the site visit)<br>Phone: <a href='tel:6606437411'>660-643-7411 (district main line)</a><br>Email: -<br>Website: https://www.humer8.k12.mo.us<br>Confidence: confirmed (official notice); small scope<br><a href='https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008' target='_blank'>source</a></div>`)[0];
+                popup_5de472df2d2c7e9049d486f86f7990d4.setContent(html_56d0abe0b2e93c014d7d11fedf3c3fbc);
             
         
 
-        marker_2d7e3c1ae52a8d11641c647c9483937a.bindPopup(popup_7451fca8e8ffc9b38a827b78e997368c)
+        marker_4b3281ff68d2d3e8625e800cbd233b94.bindPopup(popup_5de472df2d2c7e9049d486f86f7990d4)
         ;
 
         
     
     
-            marker_2d7e3c1ae52a8d11641c647c9483937a.bindTooltip(
+            marker_4b3281ff68d2d3e8625e800cbd233b94.bindTooltip(
                 `<div>
-                     Hume R-VIII School District - bus barn
+                     Bid Requests: Hume R-VIII School District - bus barn
                  </div>`,
                 {
   "sticky": true,
@@ -597,56 +588,44 @@
             );
         
     
-                marker_2d7e3c1ae52a8d11641c647c9483937a.setIcon(icon_cba5b400a329c2bcdc861897be672d82);
+                marker_4b3281ff68d2d3e8625e800cbd233b94.setIcon(div_icon_4c6ce77f03fa7f72239d9042106d03ad);
             
     
-            feature_group_c3841458ec9e717c179450b6076176f5.addTo(map_744226a2eb72f8be083c9db9432ba580);
-        
-    
-            var feature_group_37c297345823932d53189cb937808eea = L.featureGroup(
-                {
-}
-            );
-        
-    
-            var marker_41438f8eb85a0b69a1d638514ba00f5b = L.marker(
+            var marker_f76ed5c168a93f166b20e32fb9bfc867 = L.marker(
                 [41.2619, -95.8608],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_44d931dff6bafe9bbb0e1a8dbc22afde = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_f6e68ea64122feea4a238efeed3b999d = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_8921d32b3cea954fa08a05349c70c5c8 = L.popup({
+        var popup_aeca5fcae79f2701a19040f63cf4bc80 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_399a0fcaf4e11647c3ebde78a3203285 = $(`<div id="html_399a0fcaf4e11647c3ebde78a3203285" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — capital plan (pre-bid)</b> (listed in a prior run, still open)<br><b>Council Bluffs CSD – Bloomer Elementary</b><br>Council Bluffs, IA · ~4 mi from Omaha · preferred state: Yes<br>Detected 2026-09-22 (district facility assessment)<br><div style='max-height:140px;overflow:auto'>District facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator&#x27;s sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.</div>Contact: Aaron Rang, Director of Facilities Maintenance &amp; Custodial Services (FMCS) · 712-328-6406 · arang@cb-schools.org<br>Website: https://www.cb-schools.org<br>Confidence: unconfirmed (aggregator summary of assessment; no bid date yet)<br><a href='https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb' target='_blank'>source</a> | <a href='https://www.cb-schools.org/departments/facilities' target='_blank'>source</a></div>`)[0];
-                popup_8921d32b3cea954fa08a05349c70c5c8.setContent(html_399a0fcaf4e11647c3ebde78a3203285);
+                var html_694303754649a092afcb68f6df701117 = $(`<div id="html_694303754649a092afcb68f6df701117" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — capital plan (pre-bid)</b> (listed in a prior run, still open)<br><b>#1 Council Bluffs CSD – Bloomer Elementary</b><br>Capital-plan signal (not yet bid)<br>Council Bluffs, IA · ~4 mi from Omaha · preferred state: Yes<br>Detected 2026-09-22 (district facility assessment)<br><div style='max-height:140px;overflow:auto'>District facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator&#x27;s sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Aaron Rang, Director of Facilities Maintenance &amp; Custodial Services (FMCS)<br>Phone: <a href='tel:7123286406'>712-328-6406</a><br>Email: <a href='mailto:arang@cb-schools.org'>arang@cb-schools.org</a><br>Website: https://www.cb-schools.org<br>Confidence: unconfirmed (aggregator summary of assessment; no bid date yet)<br><a href='https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb' target='_blank'>source</a> | <a href='https://www.cb-schools.org/departments/facilities' target='_blank'>source</a></div>`)[0];
+                popup_aeca5fcae79f2701a19040f63cf4bc80.setContent(html_694303754649a092afcb68f6df701117);
             
         
 
-        marker_41438f8eb85a0b69a1d638514ba00f5b.bindPopup(popup_8921d32b3cea954fa08a05349c70c5c8)
+        marker_f76ed5c168a93f166b20e32fb9bfc867.bindPopup(popup_aeca5fcae79f2701a19040f63cf4bc80)
         ;
 
         
     
     
-            marker_41438f8eb85a0b69a1d638514ba00f5b.bindTooltip(
+            marker_f76ed5c168a93f166b20e32fb9bfc867.bindTooltip(
                 `<div>
-                     Council Bluffs CSD – Bloomer Elementary
+                     Bid Requests: Council Bluffs CSD – Bloomer Elementary
                  </div>`,
                 {
   "sticky": true,
@@ -654,47 +633,44 @@
             );
         
     
-                marker_41438f8eb85a0b69a1d638514ba00f5b.setIcon(icon_44d931dff6bafe9bbb0e1a8dbc22afde);
+                marker_f76ed5c168a93f166b20e32fb9bfc867.setIcon(div_icon_f6e68ea64122feea4a238efeed3b999d);
             
     
-            var marker_8c0b1fa3f2cc22ae4676742622c484a0 = L.marker(
+            var marker_2c09980af0eb9efcd8abe34105f649d8 = L.marker(
                 [41.8417, -96.7086],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_7f09acab457e1b96bc4b5bbc7cf96c50 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_d8e6cc1b756d68b2214b67a23eff089a = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_ba9a5cef9733651dcd7dd183e15be12f = L.popup({
+        var popup_874bbf4bca6a49448c5a339b4c15b8b8 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_a162a781ac9c39110a2588b92b1da40d = $(`<div id="html_a162a781ac9c39110a2588b92b1da40d" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Cuming County Courthouse (Cuming County, NE)</b><br>West Point, NE · ~57 mi from Omaha · preferred state: Yes<br>2026-10-16 (published; re-runs 10/23)<br><div style='max-height:140px;overflow:auto'>Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.</div>Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents) · (402) 372-6002 (County Clerk) · clerk@cumingcounty.ne.gov<br>Website: https://cumingcountyne.gov<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623' target='_blank'>source</a></div>`)[0];
-                popup_ba9a5cef9733651dcd7dd183e15be12f.setContent(html_a162a781ac9c39110a2588b92b1da40d);
+                var html_05351a8c687dc58c78fe0aa866ba1abb = $(`<div id="html_05351a8c687dc58c78fe0aa866ba1abb" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#2 Cuming County Courthouse (Cuming County, NE)</b><br>Open public bid<br>West Point, NE · ~57 mi from Omaha · preferred state: Yes<br>2026-10-16 (published; re-runs 10/23)<br><div style='max-height:140px;overflow:auto'>Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents)<br>Phone: <a href='tel:4023726002'>(402) 372-6002 (County Clerk)</a><br>Email: <a href='mailto:clerk@cumingcounty.ne.gov'>clerk@cumingcounty.ne.gov</a><br>Website: https://cumingcountyne.gov<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623' target='_blank'>source</a></div>`)[0];
+                popup_874bbf4bca6a49448c5a339b4c15b8b8.setContent(html_05351a8c687dc58c78fe0aa866ba1abb);
             
         
 
-        marker_8c0b1fa3f2cc22ae4676742622c484a0.bindPopup(popup_ba9a5cef9733651dcd7dd183e15be12f)
+        marker_2c09980af0eb9efcd8abe34105f649d8.bindPopup(popup_874bbf4bca6a49448c5a339b4c15b8b8)
         ;
 
         
     
     
-            marker_8c0b1fa3f2cc22ae4676742622c484a0.bindTooltip(
+            marker_2c09980af0eb9efcd8abe34105f649d8.bindTooltip(
                 `<div>
-                     Cuming County Courthouse (Cuming County, NE)
+                     Bid Requests: Cuming County Courthouse (Cuming County, NE)
                  </div>`,
                 {
   "sticky": true,
@@ -702,47 +678,44 @@
             );
         
     
-                marker_8c0b1fa3f2cc22ae4676742622c484a0.setIcon(icon_7f09acab457e1b96bc4b5bbc7cf96c50);
+                marker_2c09980af0eb9efcd8abe34105f649d8.setIcon(div_icon_d8e6cc1b756d68b2214b67a23eff089a);
             
     
-            var marker_bcf266d81a6ec2e3881107ed24476f87 = L.marker(
+            var marker_436e8bee81a4ab05373d1cb942968cf4 = L.marker(
                 [40.3664, -96.1956],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_21ee63d8c5d8284da76bd5975a614e01 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_e592c534d61a7373431c7b2510cac772 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_ea76aa297f2c09529a1f3e60130974c7 = L.popup({
+        var popup_50cc8d607f622b690edb72af674758a1 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_3d498462b020623d92fa9a192cecc796 = $(`<div id="html_3d498462b020623d92fa9a192cecc796" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>SENCA – Tecumseh Senior Center building</b><br>Tecumseh, NE · ~63 mi from Omaha · preferred state: Yes<br>Published 2026-10-16; due Fri 2026-10-30 12:00 PM<br><div style='max-height:140px;overflow:auto'>Requests bids to repair or replace the roof at 172 S. 4th Street, Tecumseh; bids must closely match existing roofing material; due 12:00 p.m. Friday Oct 30. (Listing page opened; individual notice page link not retrievable — site blocks automated link capture.) Address is SENCA&#x27;s Tecumseh Senior Center (per Nebraska Resource &amp; Referral System). Roof size/type not stated — likely small.</div>Contact: SENCA Tecumseh Senior Center (building phone) · (402) 335-2134<br>Confidence: confirmed (listing text); scope size unknown<br><a href='https://www.noticeregistry.com/nebraska/category/bid-notice' target='_blank'>source</a> | <a href='https://nrrs.ne.gov/resource/25559/' target='_blank'>source</a></div>`)[0];
-                popup_ea76aa297f2c09529a1f3e60130974c7.setContent(html_3d498462b020623d92fa9a192cecc796);
+                var html_8592740c8f068e2a5eecfa2da8ba70e6 = $(`<div id="html_8592740c8f068e2a5eecfa2da8ba70e6" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#3 SENCA – Tecumseh Senior Center building</b><br>Open public bid<br>Tecumseh, NE · ~63 mi from Omaha · preferred state: Yes<br>Published 2026-10-16; due Fri 2026-10-30 12:00 PM<br><div style='max-height:140px;overflow:auto'>Requests bids to repair or replace the roof at 172 S. 4th Street, Tecumseh; bids must closely match existing roofing material; due 12:00 p.m. Friday Oct 30. (Listing page opened; individual notice page link not retrievable — site blocks automated link capture.) Address is SENCA&#x27;s Tecumseh Senior Center (per Nebraska Resource &amp; Referral System). Roof size/type not stated — likely small.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: SENCA Tecumseh Senior Center (building phone)<br>Phone: <a href='tel:4023352134'>(402) 335-2134</a><br>Email: -<br>Confidence: confirmed (listing text); scope size unknown<br><a href='https://www.noticeregistry.com/nebraska/category/bid-notice' target='_blank'>source</a> | <a href='https://nrrs.ne.gov/resource/25559/' target='_blank'>source</a></div>`)[0];
+                popup_50cc8d607f622b690edb72af674758a1.setContent(html_8592740c8f068e2a5eecfa2da8ba70e6);
             
         
 
-        marker_bcf266d81a6ec2e3881107ed24476f87.bindPopup(popup_ea76aa297f2c09529a1f3e60130974c7)
+        marker_436e8bee81a4ab05373d1cb942968cf4.bindPopup(popup_50cc8d607f622b690edb72af674758a1)
         ;
 
         
     
     
-            marker_bcf266d81a6ec2e3881107ed24476f87.bindTooltip(
+            marker_436e8bee81a4ab05373d1cb942968cf4.bindTooltip(
                 `<div>
-                     SENCA – Tecumseh Senior Center building
+                     Bid Requests: SENCA – Tecumseh Senior Center building
                  </div>`,
                 {
   "sticky": true,
@@ -750,47 +723,44 @@
             );
         
     
-                marker_bcf266d81a6ec2e3881107ed24476f87.setIcon(icon_21ee63d8c5d8284da76bd5975a614e01);
+                marker_436e8bee81a4ab05373d1cb942968cf4.setIcon(div_icon_e592c534d61a7373431c7b2510cac772);
             
     
-            var marker_a6a26776bade543f9e9f1106610627f0 = L.marker(
+            var marker_89b995930417586ca8d170dd6fdd2d58 = L.marker(
                 [41.8564, -93.9222],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_877f960ce2536ba572d9268fdec2661f = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_25601dae9c0f65e8be71e4d3f8c74d0a = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_f2e113a74c9af1e11a7ed9ffe5322af4 = L.popup({
+        var popup_98d026907d2ffd28d886653e3b2b546b = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_3db561313aa4fbe9b329d55086e87a9a = $(`<div id="html_3db561313aa4fbe9b329d55086e87a9a" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer (design RFP)</b> (listed in a prior run, still open)<br><b>State of Iowa – Woodward Resource Center Dispatch Garage</b><br>Woodward, IA · ~112 mi from Omaha · preferred state: Yes<br>Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM<br><div style='max-height:140px;overflow:auto'>RFP956800-01 &quot;WRC Dispatch Garage Roof Replacement &amp; Birches Tuckpointing&quot; – professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).</div>Contact: Katelyn Howells, Construction Procurement · (515) 721-7856 · construction.procurement@das.iowa.gov<br>Website: https://das.iowa.gov<br>Confidence: confirmed<br><a href='https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c' target='_blank'>source</a></div>`)[0];
-                popup_f2e113a74c9af1e11a7ed9ffe5322af4.setContent(html_3db561313aa4fbe9b329d55086e87a9a);
+                var html_49cc8cd693031c096d28a4900ce348ff = $(`<div id="html_49cc8cd693031c096d28a4900ce348ff" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer (design RFP)</b> (listed in a prior run, still open)<br><b>#4 State of Iowa – Woodward Resource Center Dispatch Garage</b><br>Open RFP (design services; construction bid to follow)<br>Woodward, IA · ~112 mi from Omaha · preferred state: Yes<br>Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM<br><div style='max-height:140px;overflow:auto'>RFP956800-01 &quot;WRC Dispatch Garage Roof Replacement &amp; Birches Tuckpointing&quot; – professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Katelyn Howells, Construction Procurement<br>Phone: <a href='tel:5157217856'>(515) 721-7856</a><br>Email: <a href='mailto:construction.procurement@das.iowa.gov'>construction.procurement@das.iowa.gov</a><br>Website: https://das.iowa.gov<br>Confidence: confirmed<br><a href='https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c' target='_blank'>source</a></div>`)[0];
+                popup_98d026907d2ffd28d886653e3b2b546b.setContent(html_49cc8cd693031c096d28a4900ce348ff);
             
         
 
-        marker_a6a26776bade543f9e9f1106610627f0.bindPopup(popup_f2e113a74c9af1e11a7ed9ffe5322af4)
+        marker_89b995930417586ca8d170dd6fdd2d58.bindPopup(popup_98d026907d2ffd28d886653e3b2b546b)
         ;
 
         
     
     
-            marker_a6a26776bade543f9e9f1106610627f0.bindTooltip(
+            marker_89b995930417586ca8d170dd6fdd2d58.bindTooltip(
                 `<div>
-                     State of Iowa – Woodward Resource Center Dispatch Garage
+                     Bid Requests: State of Iowa – Woodward Resource Center Dispatch Garage
                  </div>`,
                 {
   "sticky": true,
@@ -798,47 +768,44 @@
             );
         
     
-                marker_a6a26776bade543f9e9f1106610627f0.setIcon(icon_877f960ce2536ba572d9268fdec2661f);
+                marker_89b995930417586ca8d170dd6fdd2d58.setIcon(div_icon_25601dae9c0f65e8be71e4d3f8c74d0a);
             
     
-            var marker_c2b18be5aff6b5e03cca1156c4d2c577 = L.marker(
+            var marker_0e32f52db4a78b4fa1957c33423d6744 = L.marker(
                 [39.7675, -94.8467],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_6d15c33c9309641e4a3c3421cf7cb3cd = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_c6525eedb96d1c525167a5b2d998cc05 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_9288535789a7a3ebe60cc961af8d8da5 = L.popup({
+        var popup_ca3c97f1348453bd704baa43118a6cd6 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_f88ccb39af61471827eb512f90b7c346 = $(`<div id="html_f88ccb39af61471827eb512f90b7c346" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Missouri Western State University - Kit Bond Incubator</b><br>St. Joseph, MO · ~118 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 23)<br><div style='max-height:140px;overflow:auto'>MO Western State University Kit Bond Incubator Roof Replacement. Bids due Oct 23, 2026 2:00 PM CT. Architect: Ellison-Auxier Architects (816-233-8003).</div>Contact: Missouri Western Purchasing · 816-271-4464<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
-                popup_9288535789a7a3ebe60cc961af8d8da5.setContent(html_f88ccb39af61471827eb512f90b7c346);
+                var html_0fbbfd754afe821787bb70c201c5634a = $(`<div id="html_0fbbfd754afe821787bb70c201c5634a" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#5 Missouri Western State University - Kit Bond Incubator</b><br>Open public bid (carried forward)<br>St. Joseph, MO · ~118 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 23)<br><div style='max-height:140px;overflow:auto'>MO Western State University Kit Bond Incubator Roof Replacement. Bids due Oct 23, 2026 2:00 PM CT. Architect: Ellison-Auxier Architects (816-233-8003).</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Missouri Western Purchasing<br>Phone: <a href='tel:8162714464'>816-271-4464</a><br>Email: -<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
+                popup_ca3c97f1348453bd704baa43118a6cd6.setContent(html_0fbbfd754afe821787bb70c201c5634a);
             
         
 
-        marker_c2b18be5aff6b5e03cca1156c4d2c577.bindPopup(popup_9288535789a7a3ebe60cc961af8d8da5)
+        marker_0e32f52db4a78b4fa1957c33423d6744.bindPopup(popup_ca3c97f1348453bd704baa43118a6cd6)
         ;
 
         
     
     
-            marker_c2b18be5aff6b5e03cca1156c4d2c577.bindTooltip(
+            marker_0e32f52db4a78b4fa1957c33423d6744.bindTooltip(
                 `<div>
-                     Missouri Western State University - Kit Bond Incubator
+                     Bid Requests: Missouri Western State University - Kit Bond Incubator
                  </div>`,
                 {
   "sticky": true,
@@ -846,47 +813,44 @@
             );
         
     
-                marker_c2b18be5aff6b5e03cca1156c4d2c577.setIcon(icon_6d15c33c9309641e4a3c3421cf7cb3cd);
+                marker_0e32f52db4a78b4fa1957c33423d6744.setIcon(div_icon_c6525eedb96d1c525167a5b2d998cc05);
             
     
-            var marker_503291ceb0275aa85d6787cf6c8f1245 = L.marker(
+            var marker_1dd6c54978bac55752675cea51df8472 = L.marker(
                 [41.5868, -93.625],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_27df77f8c40e8610d44908224f12d259 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_ee6bdd67cc0cec8e0604ac8826c32abf = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_882e7833a59aaf5f77baa5cfdf161338 = L.popup({
+        var popup_458832da5bd606a41ecc7a4af6b91f9d = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_92dd9ac31fe4def434107874df9cb0df = $(`<div id="html_92dd9ac31fe4def434107874df9cb0df" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Des Moines Public Schools - Roosevelt High School</b><br>Des Moines, IA · ~122 mi from Omaha · preferred state: Yes<br>2026-10-08 (issued)<br><div style='max-height:140px;overflow:auto'>CIP26073 Roosevelt High School - Re-Roofing Phase I. Issued 10/08/2026, due 11/05/2026 (plan room: 3:00 PM). Architect Angelo Architectural Assoc. (515-250-6950).</div>Contact: DMPS Purchasing (901 Walnut St) · 515-242-7911 (district); 515-554-4718 (per plan room)<br>Website: dmschools.org<br>Confidence: confirmed<br><a href='https://www.dmschools.org/departments/business-finance/purchasing/open-proposals/' target='_blank'>source</a></div>`)[0];
-                popup_882e7833a59aaf5f77baa5cfdf161338.setContent(html_92dd9ac31fe4def434107874df9cb0df);
+                var html_1611f4809fcc20ba5b056d7459427e80 = $(`<div id="html_1611f4809fcc20ba5b056d7459427e80" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#7 Des Moines Public Schools - Roosevelt High School</b><br>Open public bid (carried forward)<br>Des Moines, IA · ~122 mi from Omaha · preferred state: Yes<br>2026-10-08 (issued)<br><div style='max-height:140px;overflow:auto'>CIP26073 Roosevelt High School - Re-Roofing Phase I. Issued 10/08/2026, due 11/05/2026 (plan room: 3:00 PM). Architect Angelo Architectural Assoc. (515-250-6950).</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: DMPS Purchasing (901 Walnut St)<br>Phone: <a href='tel:5152427911'>515-242-7911 (district); 515-554-4718 (per plan room)</a><br>Email: -<br>Website: dmschools.org<br>Confidence: confirmed<br><a href='https://www.dmschools.org/departments/business-finance/purchasing/open-proposals/' target='_blank'>source</a></div>`)[0];
+                popup_458832da5bd606a41ecc7a4af6b91f9d.setContent(html_1611f4809fcc20ba5b056d7459427e80);
             
         
 
-        marker_503291ceb0275aa85d6787cf6c8f1245.bindPopup(popup_882e7833a59aaf5f77baa5cfdf161338)
+        marker_1dd6c54978bac55752675cea51df8472.bindPopup(popup_458832da5bd606a41ecc7a4af6b91f9d)
         ;
 
         
     
     
-            marker_503291ceb0275aa85d6787cf6c8f1245.bindTooltip(
+            marker_1dd6c54978bac55752675cea51df8472.bindTooltip(
                 `<div>
-                     Des Moines Public Schools - Roosevelt High School
+                     Bid Requests: Des Moines Public Schools - Roosevelt High School
                  </div>`,
                 {
   "sticky": true,
@@ -894,47 +858,44 @@
             );
         
     
-                marker_503291ceb0275aa85d6787cf6c8f1245.setIcon(icon_27df77f8c40e8610d44908224f12d259);
+                marker_1dd6c54978bac55752675cea51df8472.setIcon(div_icon_ee6bdd67cc0cec8e0604ac8826c32abf);
             
     
-            var marker_7f88ddf7fd2bb39cb1a25aefd1f1bfa1 = L.marker(
+            var marker_32c0ef7c1d91208d18e6fefead443bec = L.marker(
                 [39.199, -95.0389],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_1c4fec734b0626aadc83082122ca77d5 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_eac150d859e1c7a50bd537b43b2338ea = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_875364ca4a9047b9f612b470cb102400 = L.popup({
+        var popup_19d682e506b4060ea09040ef417e002a = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_45f85862d3dfc92d24a9cf43e374fe64 = $(`<div id="html_45f85862d3dfc92d24a9cf43e374fe64" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Leavenworth County (county shop)</b><br>Leavenworth County, KS · ~150 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 28)<br><div style='max-height:140px;overflow:auto'>Leavenworth County Shop Roof Replacement. Bids due Oct 28, 2026 10:30 AM CT.</div>Contact: Aaron Youkam · 913-684-0790<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
-                popup_875364ca4a9047b9f612b470cb102400.setContent(html_45f85862d3dfc92d24a9cf43e374fe64);
+                var html_2916de4bcef6085f2d176c2136c212c7 = $(`<div id="html_2916de4bcef6085f2d176c2136c212c7" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#8 Leavenworth County (county shop)</b><br>Open public bid (carried forward)<br>Leavenworth County, KS · ~150 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 28)<br><div style='max-height:140px;overflow:auto'>Leavenworth County Shop Roof Replacement. Bids due Oct 28, 2026 10:30 AM CT.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Aaron Youkam<br>Phone: <a href='tel:9136840790'>913-684-0790</a><br>Email: -<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
+                popup_19d682e506b4060ea09040ef417e002a.setContent(html_2916de4bcef6085f2d176c2136c212c7);
             
         
 
-        marker_7f88ddf7fd2bb39cb1a25aefd1f1bfa1.bindPopup(popup_875364ca4a9047b9f612b470cb102400)
+        marker_32c0ef7c1d91208d18e6fefead443bec.bindPopup(popup_19d682e506b4060ea09040ef417e002a)
         ;
 
         
     
     
-            marker_7f88ddf7fd2bb39cb1a25aefd1f1bfa1.bindTooltip(
+            marker_32c0ef7c1d91208d18e6fefead443bec.bindTooltip(
                 `<div>
-                     Leavenworth County (county shop)
+                     Bid Requests: Leavenworth County (county shop)
                  </div>`,
                 {
   "sticky": true,
@@ -942,47 +903,44 @@
             );
         
     
-                marker_7f88ddf7fd2bb39cb1a25aefd1f1bfa1.setIcon(icon_1c4fec734b0626aadc83082122ca77d5);
+                marker_32c0ef7c1d91208d18e6fefead443bec.setIcon(div_icon_eac150d859e1c7a50bd537b43b2338ea);
             
     
-            var marker_05c227e08951b80ba817197e366d1420 = L.marker(
+            var marker_05f4b8efc5450a4c449031e1fec8ac1f = L.marker(
                 [39.0473, -95.6752],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_611e92736be7096a224ade99c6143e27 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_d1aec19196999e6f3b3d1363c3173a3b = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_41be64780444dcb991a3312c18b25a32 = L.popup({
+        var popup_942a61a8cf478ad7a792196b88a922bf = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_cc1e6b92c738d630303e0271cd782cbf = $(`<div id="html_cc1e6b92c738d630303e0271cd782cbf" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Kansas Neurological Institute - Sunflower Cottage</b><br>Topeka, KS · ~153 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 22)<br><div style='max-height:140px;overflow:auto'>Sunflower Cottage Reroof, Kansas Neurological Institute. Bids due Oct 22, 2026 2:00 PM CT. Min. bid listed $815,000.</div>Contact: Cameron Tross (BG Consultants) · 785-480-6185<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
-                popup_41be64780444dcb991a3312c18b25a32.setContent(html_cc1e6b92c738d630303e0271cd782cbf);
+                var html_a4362d4fd8780c0feabc613cf3c2ada9 = $(`<div id="html_a4362d4fd8780c0feabc613cf3c2ada9" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#9 Kansas Neurological Institute - Sunflower Cottage</b><br>Open public bid (carried forward)<br>Topeka, KS · ~153 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 22)<br><div style='max-height:140px;overflow:auto'>Sunflower Cottage Reroof, Kansas Neurological Institute. Bids due Oct 22, 2026 2:00 PM CT. Min. bid listed $815,000.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Cameron Tross (BG Consultants)<br>Phone: <a href='tel:7854806185'>785-480-6185</a><br>Email: -<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
+                popup_942a61a8cf478ad7a792196b88a922bf.setContent(html_a4362d4fd8780c0feabc613cf3c2ada9);
             
         
 
-        marker_05c227e08951b80ba817197e366d1420.bindPopup(popup_41be64780444dcb991a3312c18b25a32)
+        marker_05f4b8efc5450a4c449031e1fec8ac1f.bindPopup(popup_942a61a8cf478ad7a792196b88a922bf)
         ;
 
         
     
     
-            marker_05c227e08951b80ba817197e366d1420.bindTooltip(
+            marker_05f4b8efc5450a4c449031e1fec8ac1f.bindTooltip(
                 `<div>
-                     Kansas Neurological Institute - Sunflower Cottage
+                     Bid Requests: Kansas Neurological Institute - Sunflower Cottage
                  </div>`,
                 {
   "sticky": true,
@@ -990,47 +948,44 @@
             );
         
     
-                marker_05c227e08951b80ba817197e366d1420.setIcon(icon_611e92736be7096a224ade99c6143e27);
+                marker_05f4b8efc5450a4c449031e1fec8ac1f.setIcon(div_icon_d1aec19196999e6f3b3d1363c3173a3b);
             
     
-            var marker_b3983560bb63b7d3e0d4178e9d354a31 = L.marker(
+            var marker_c789aeaaac8d70b4a494479ab0d7a787 = L.marker(
                 [39.1911, -94.6819],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_739c2bfe84596ef286f00fe09b1f8671 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_ca166f3f14eebe28437a702ff8d5658c = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_a49d48880bc4ebc4a8bccd5da225d241 = L.popup({
+        var popup_05858372b98fc0a038a390a1eb04e3e0 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_e59387429d92de21bc14530ac4e4e428 = $(`<div id="html_e59387429d92de21bc14530ac4e4e428" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>MDC - Parma Woods Range &amp; Training Center</b><br>Platte County (Parkville area), MO · ~157 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Nov 5)<br><div style='max-height:140px;overflow:auto'>MDC Parma Woods Range and Training Center Roof Replacement (Platte County). Bids due Nov 5, 2026 11:00 AM CT.</div>Contact: Veronica Mecko (contract specialist); Mike Stornello (design PM) · 573-522-4115 x3744 / x3766<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
-                popup_a49d48880bc4ebc4a8bccd5da225d241.setContent(html_e59387429d92de21bc14530ac4e4e428);
+                var html_28dc80fa59c5360e4f6b17b7ef535eac = $(`<div id="html_28dc80fa59c5360e4f6b17b7ef535eac" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#10 MDC - Parma Woods Range &amp; Training Center</b><br>Open public bid (carried forward)<br>Platte County (Parkville area), MO · ~157 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Nov 5)<br><div style='max-height:140px;overflow:auto'>MDC Parma Woods Range and Training Center Roof Replacement (Platte County). Bids due Nov 5, 2026 11:00 AM CT.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Veronica Mecko (contract specialist); Mike Stornello (design PM)<br>Phone: <a href='tel:57352241153'>573-522-4115 x3744 / x3766</a><br>Email: -<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
+                popup_05858372b98fc0a038a390a1eb04e3e0.setContent(html_28dc80fa59c5360e4f6b17b7ef535eac);
             
         
 
-        marker_b3983560bb63b7d3e0d4178e9d354a31.bindPopup(popup_a49d48880bc4ebc4a8bccd5da225d241)
+        marker_c789aeaaac8d70b4a494479ab0d7a787.bindPopup(popup_05858372b98fc0a038a390a1eb04e3e0)
         ;
 
         
     
     
-            marker_b3983560bb63b7d3e0d4178e9d354a31.bindTooltip(
+            marker_c789aeaaac8d70b4a494479ab0d7a787.bindTooltip(
                 `<div>
-                     MDC - Parma Woods Range & Training Center
+                     Bid Requests: MDC - Parma Woods Range & Training Center
                  </div>`,
                 {
   "sticky": true,
@@ -1038,47 +993,44 @@
             );
         
     
-                marker_b3983560bb63b7d3e0d4178e9d354a31.setIcon(icon_739c2bfe84596ef286f00fe09b1f8671);
+                marker_c789aeaaac8d70b4a494479ab0d7a787.setIcon(div_icon_ca166f3f14eebe28437a702ff8d5658c);
             
     
-            var marker_e30cfb7d2b6f17004e10a84ef842a7dc = L.marker(
+            var marker_cc9b77dd2e3a58540a69bea74c864018 = L.marker(
                 [38.5723, -94.8791],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_fcbd2bb86e0c596c8c69e7d9b680821d = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_6747263e9ac6498e242a07cfd4b61502 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_ddd1f2834fad7c79720e1bab3f603a5b = L.popup({
+        var popup_c75ceda102bf96ab04399332d9e90a89 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_32639ac83c0aa879c757c60664f1ac25 = $(`<div id="html_32639ac83c0aa879c757c60664f1ac25" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>City of Paola</b><br>Paola, KS · ~194 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 30)<br><div style='max-height:140px;overflow:auto'>City of Paola &quot;Roofing Project 2026&quot;. Bids due Oct 30, 2026 10:00 AM CT. Scope/buildings not listed on brief.</div>Contact: Brett Marler · 913-259-3600<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
-                popup_ddd1f2834fad7c79720e1bab3f603a5b.setContent(html_32639ac83c0aa879c757c60664f1ac25);
+                var html_7262f1fa8a80c30fdaf32a8da6cc8725 = $(`<div id="html_7262f1fa8a80c30fdaf32a8da6cc8725" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#11 City of Paola</b><br>Open public bid (carried forward)<br>Paola, KS · ~194 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Oct 30)<br><div style='max-height:140px;overflow:auto'>City of Paola &quot;Roofing Project 2026&quot;. Bids due Oct 30, 2026 10:00 AM CT. Scope/buildings not listed on brief.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Brett Marler<br>Phone: <a href='tel:9132593600'>913-259-3600</a><br>Email: -<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
+                popup_c75ceda102bf96ab04399332d9e90a89.setContent(html_7262f1fa8a80c30fdaf32a8da6cc8725);
             
         
 
-        marker_e30cfb7d2b6f17004e10a84ef842a7dc.bindPopup(popup_ddd1f2834fad7c79720e1bab3f603a5b)
+        marker_cc9b77dd2e3a58540a69bea74c864018.bindPopup(popup_c75ceda102bf96ab04399332d9e90a89)
         ;
 
         
     
     
-            marker_e30cfb7d2b6f17004e10a84ef842a7dc.bindTooltip(
+            marker_cc9b77dd2e3a58540a69bea74c864018.bindTooltip(
                 `<div>
-                     City of Paola
+                     Bid Requests: City of Paola
                  </div>`,
                 {
   "sticky": true,
@@ -1086,47 +1038,44 @@
             );
         
     
-                marker_e30cfb7d2b6f17004e10a84ef842a7dc.setIcon(icon_fcbd2bb86e0c596c8c69e7d9b680821d);
+                marker_cc9b77dd2e3a58540a69bea74c864018.setIcon(div_icon_6747263e9ac6498e242a07cfd4b61502);
             
     
-            var marker_e6a0a8ee66302d002d7a1e26bcf4800b = L.marker(
+            var marker_9698e4089eebdecd559581478bc015f5 = L.marker(
                 [41.1239, -100.7654],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_3860c96a7d01ddb9e3de6a18bf4b58c4 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_a830aa19f14545ecb098a8756ad16b44 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_769dfe55851d5054e9ace2b8ceec5437 = L.popup({
+        var popup_bfeb8f7579d8ad093bcab742b1725b28 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_557a3c8f83c3d33a6bdd6e857c1021ff = $(`<div id="html_557a3c8f83c3d33a6bdd6e857c1021ff" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>City of North Platte - Fire Station 1</b><br>North Platte, NE · ~251 mi from Omaha · preferred state: Yes<br>2026-10-09 (opened)<br><div style='max-height:140px;overflow:auto'>Fire Station 1 Apparatus Bay Roof Replacement: tear off ballasted EPDM, new .060 reinforced EPDM, tapered insulation, edge metal, 15-yr NDL warranty. Window 10/9-10/28/2026. (Dollar range on Bid Banana is the site&#x27;s own estimate, not the city&#x27;s.)</div>Contact: Dave Hahn, City Hall · 308-535-6724 x3243<br>Confidence: confirmed<br><a href='https://bidbanana.thebidlab.com/bid/eK9H4V1F6GYsO1mgrhpi' target='_blank'>source</a></div>`)[0];
-                popup_769dfe55851d5054e9ace2b8ceec5437.setContent(html_557a3c8f83c3d33a6bdd6e857c1021ff);
+                var html_55ef0d1622fa2cd8aaf288056042549e = $(`<div id="html_55ef0d1622fa2cd8aaf288056042549e" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#13 City of North Platte - Fire Station 1</b><br>Open public bid (carried forward)<br>North Platte, NE · ~251 mi from Omaha · preferred state: Yes<br>2026-10-09 (opened)<br><div style='max-height:140px;overflow:auto'>Fire Station 1 Apparatus Bay Roof Replacement: tear off ballasted EPDM, new .060 reinforced EPDM, tapered insulation, edge metal, 15-yr NDL warranty. Window 10/9-10/28/2026. (Dollar range on Bid Banana is the site&#x27;s own estimate, not the city&#x27;s.)</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Dave Hahn, City Hall<br>Phone: <a href='tel:30853567243'>308-535-6724 x3243</a><br>Email: -<br>Confidence: confirmed<br><a href='https://bidbanana.thebidlab.com/bid/eK9H4V1F6GYsO1mgrhpi' target='_blank'>source</a></div>`)[0];
+                popup_bfeb8f7579d8ad093bcab742b1725b28.setContent(html_55ef0d1622fa2cd8aaf288056042549e);
             
         
 
-        marker_e6a0a8ee66302d002d7a1e26bcf4800b.bindPopup(popup_769dfe55851d5054e9ace2b8ceec5437)
+        marker_9698e4089eebdecd559581478bc015f5.bindPopup(popup_bfeb8f7579d8ad093bcab742b1725b28)
         ;
 
         
     
     
-            marker_e6a0a8ee66302d002d7a1e26bcf4800b.bindTooltip(
+            marker_9698e4089eebdecd559581478bc015f5.bindTooltip(
                 `<div>
-                     City of North Platte - Fire Station 1
+                     Bid Requests: City of North Platte - Fire Station 1
                  </div>`,
                 {
   "sticky": true,
@@ -1134,47 +1083,44 @@
             );
         
     
-                marker_e6a0a8ee66302d002d7a1e26bcf4800b.setIcon(icon_3860c96a7d01ddb9e3de6a18bf4b58c4);
+                marker_9698e4089eebdecd559581478bc015f5.setIcon(div_icon_a830aa19f14545ecb098a8756ad16b44);
             
     
-            var marker_90aa4a9fdd10426b527198b51c96574c = L.marker(
+            var marker_abcf5ece5a9a295b12e4f4db3d8f2d6e = L.marker(
                 [37.6872, -97.3301],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_f0fb05eb4182d9d4efce6dd5c3815db5 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_89a61735c3ece2b105097b9c31b3a48c = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_ebb583f5894552468960e123990f7202 = L.popup({
+        var popup_32a72ed14793b0a20857bc9c669526fe = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_b1a5bac98cbc144695579d07edec083f = $(`<div id="html_b1a5bac98cbc144695579d07edec083f" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Wichita USD 259 - Northwest High School</b><br>Wichita, KS · ~258 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Nov 2)<br><div style='max-height:140px;overflow:auto'>RTU &amp; Roof Replacement - Wichita Northwest High School. Bids due Nov 2, 2026 3:00 PM CT.</div>Contact: Rachelle Scharnhorst · 316-973-4547<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
-                popup_ebb583f5894552468960e123990f7202.setContent(html_b1a5bac98cbc144695579d07edec083f);
+                var html_7ebd69c1cc7b723a459568e8081bf2a4 = $(`<div id="html_7ebd69c1cc7b723a459568e8081bf2a4" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#14 Wichita USD 259 - Northwest High School</b><br>Open public bid (carried forward)<br>Wichita, KS · ~258 mi from Omaha · preferred state: Yes<br>2026-10 (listed; due Nov 2)<br><div style='max-height:140px;overflow:auto'>RTU &amp; Roof Replacement - Wichita Northwest High School. Bids due Nov 2, 2026 3:00 PM CT.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Rachelle Scharnhorst<br>Phone: <a href='tel:3169734547'>316-973-4547</a><br>Email: -<br>Confidence: confirmed<br><a href='https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1' target='_blank'>source</a></div>`)[0];
+                popup_32a72ed14793b0a20857bc9c669526fe.setContent(html_7ebd69c1cc7b723a459568e8081bf2a4);
             
         
 
-        marker_90aa4a9fdd10426b527198b51c96574c.bindPopup(popup_ebb583f5894552468960e123990f7202)
+        marker_abcf5ece5a9a295b12e4f4db3d8f2d6e.bindPopup(popup_32a72ed14793b0a20857bc9c669526fe)
         ;
 
         
     
     
-            marker_90aa4a9fdd10426b527198b51c96574c.bindTooltip(
+            marker_abcf5ece5a9a295b12e4f4db3d8f2d6e.bindTooltip(
                 `<div>
-                     Wichita USD 259 - Northwest High School
+                     Bid Requests: Wichita USD 259 - Northwest High School
                  </div>`,
                 {
   "sticky": true,
@@ -1182,47 +1128,44 @@
             );
         
     
-                marker_90aa4a9fdd10426b527198b51c96574c.setIcon(icon_f0fb05eb4182d9d4efce6dd5c3815db5);
+                marker_abcf5ece5a9a295b12e4f4db3d8f2d6e.setIcon(div_icon_89a61735c3ece2b105097b9c31b3a48c);
             
     
-            var marker_f0242349dca8bc4406a7161c5ecf5e53 = L.marker(
+            var marker_df2b82ef6785e39e16899c76a4862f37 = L.marker(
                 [38.5767, -92.1735],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_3a838bae3317d4bccd163a13385c151d = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_06e0d7dc957e415cfb56ac978f61f12e = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_3eb6f81cf1ae10eff727b9d2bc7d8609 = L.popup({
+        var popup_c41673348d510f0828e9aaeba000f123 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_0453548e44e9152c1596a6f50fe8341d = $(`<div id="html_0453548e44e9152c1596a6f50fe8341d" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>State of Missouri – Missouri Interoperability Center Bldg 5</b><br>Jefferson City, MO · ~272 mi from Omaha · preferred state: Yes<br>Listed Oct 2026; due 2026-10-29 1:30 PM (pre-bid was 10/13)<br><div style='max-height:140px;overflow:auto'>Project R2607-01 Renovate Building No. 5, Missouri Interoperability Center, 2413 E. McCarty St: replace roof and siding on an existing metal storage building + lean-to. Electronic bids to FMDCBids@oa.mo.gov.</div>Contact: Fred L. Decker Jr., Project Manager · 573-446-7768 (ADS plan room) · Fred.Decker@oa.mo.gov<br>Confidence: confirmed<br><a href='https://oa.mo.gov/sites/default/files/bid-opportunities/R2607-01%20IFB.pdf' target='_blank'>source</a> | <a href='https://oa.mo.gov/facilities/bid-opportunities/bid-listing-electronic-plans' target='_blank'>source</a></div>`)[0];
-                popup_3eb6f81cf1ae10eff727b9d2bc7d8609.setContent(html_0453548e44e9152c1596a6f50fe8341d);
+                var html_12107810c734300b90553cc37ff27a88 = $(`<div id="html_12107810c734300b90553cc37ff27a88" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#15 State of Missouri – Missouri Interoperability Center Bldg 5</b><br>Open public bid<br>Jefferson City, MO · ~272 mi from Omaha · preferred state: Yes<br>Listed Oct 2026; due 2026-10-29 1:30 PM (pre-bid was 10/13)<br><div style='max-height:140px;overflow:auto'>Project R2607-01 Renovate Building No. 5, Missouri Interoperability Center, 2413 E. McCarty St: replace roof and siding on an existing metal storage building + lean-to. Electronic bids to FMDCBids@oa.mo.gov.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Fred L. Decker Jr., Project Manager<br>Phone: <a href='tel:5734467768'>573-446-7768 (ADS plan room)</a><br>Email: <a href='mailto:Fred.Decker@oa.mo.gov'>Fred.Decker@oa.mo.gov</a><br>Confidence: confirmed<br><a href='https://oa.mo.gov/sites/default/files/bid-opportunities/R2607-01%20IFB.pdf' target='_blank'>source</a> | <a href='https://oa.mo.gov/facilities/bid-opportunities/bid-listing-electronic-plans' target='_blank'>source</a></div>`)[0];
+                popup_c41673348d510f0828e9aaeba000f123.setContent(html_12107810c734300b90553cc37ff27a88);
             
         
 
-        marker_f0242349dca8bc4406a7161c5ecf5e53.bindPopup(popup_3eb6f81cf1ae10eff727b9d2bc7d8609)
+        marker_df2b82ef6785e39e16899c76a4862f37.bindPopup(popup_c41673348d510f0828e9aaeba000f123)
         ;
 
         
     
     
-            marker_f0242349dca8bc4406a7161c5ecf5e53.bindTooltip(
+            marker_df2b82ef6785e39e16899c76a4862f37.bindTooltip(
                 `<div>
-                     State of Missouri – Missouri Interoperability Center Bldg 5
+                     Bid Requests: State of Missouri – Missouri Interoperability Center Bldg 5
                  </div>`,
                 {
   "sticky": true,
@@ -1230,47 +1173,44 @@
             );
         
     
-                marker_f0242349dca8bc4406a7161c5ecf5e53.setIcon(icon_3a838bae3317d4bccd163a13385c151d);
+                marker_df2b82ef6785e39e16899c76a4862f37.setIcon(div_icon_06e0d7dc957e415cfb56ac978f61f12e);
             
     
-            var marker_53dd2fe3e6be951d8d4a748c0cb83085 = L.marker(
+            var marker_2748b93429824c77cb3d80da1f175cb4 = L.marker(
                 [38.556, -92.212],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_b31aa863f08fe2fc3aa25e973bb5f8ed = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_65e86fc1c4c4941123b181e9aa16ab6a = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #00b300;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_f1f31b44d989b79a33a3e29ad6131528 = L.popup({
+        var popup_9269c60d51cb1d8bc3f25f96d7d74973 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_80eb1d5858cdea4cc86a8b21a5e6194b = $(`<div id="html_80eb1d5858cdea4cc86a8b21a5e6194b" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking coating</b> (listed in a prior run, still open)<br><b>State of Missouri – Scruggs Station / Fairgrounds Warehouse</b><br>Jefferson City, MO · ~272 mi from Omaha · preferred state: Yes<br>Listed Oct 2026; due 2026-11-05 1:30 PM; pre-bid 10/22 1:30 PM<br><div style='max-height:140px;overflow:auto'>Project O2534-01 Scruggs Station Warehouse Complex (Fairgrounds Warehouse, 1525 Fairgrounds Rd): new FLUID-APPLIED ROOFING MEMBRANE on existing metal roof (coating job), gutters/downspouts, plus HVAC/electrical. Roofing would likely be a sub to the GC/mechanical prime.</div>Contact: Andy Carroll, Project Manager · 573-446-7768 (ADS plan room) · Andy.Carroll@oa.mo.gov<br>Confidence: confirmed<br><a href='https://oa.mo.gov/sites/default/files/bid-opportunities/O2534-01%20IFB.pdf' target='_blank'>source</a> | <a href='https://www.oafmdcplanroom.com/projects/3442/details/o2534-01-scruggs-station-warehouse-complex-porite-roof-elect-hvac-rep-fairgrounds-warehouse' target='_blank'>source</a></div>`)[0];
-                popup_f1f31b44d989b79a33a3e29ad6131528.setContent(html_80eb1d5858cdea4cc86a8b21a5e6194b);
+                var html_430e97d93135c59eaf1e504c94e890b1 = $(`<div id="html_430e97d93135c59eaf1e504c94e890b1" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking coating</b> (listed in a prior run, still open)<br><b>#16 State of Missouri – Scruggs Station / Fairgrounds Warehouse</b><br>Open public bid<br>Jefferson City, MO · ~272 mi from Omaha · preferred state: Yes<br>Listed Oct 2026; due 2026-11-05 1:30 PM; pre-bid 10/22 1:30 PM<br><div style='max-height:140px;overflow:auto'>Project O2534-01 Scruggs Station Warehouse Complex (Fairgrounds Warehouse, 1525 Fairgrounds Rd): new FLUID-APPLIED ROOFING MEMBRANE on existing metal roof (coating job), gutters/downspouts, plus HVAC/electrical. Roofing would likely be a sub to the GC/mechanical prime.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Andy Carroll, Project Manager<br>Phone: <a href='tel:5734467768'>573-446-7768 (ADS plan room)</a><br>Email: <a href='mailto:Andy.Carroll@oa.mo.gov'>Andy.Carroll@oa.mo.gov</a><br>Confidence: confirmed<br><a href='https://oa.mo.gov/sites/default/files/bid-opportunities/O2534-01%20IFB.pdf' target='_blank'>source</a> | <a href='https://www.oafmdcplanroom.com/projects/3442/details/o2534-01-scruggs-station-warehouse-complex-porite-roof-elect-hvac-rep-fairgrounds-warehouse' target='_blank'>source</a></div>`)[0];
+                popup_9269c60d51cb1d8bc3f25f96d7d74973.setContent(html_430e97d93135c59eaf1e504c94e890b1);
             
         
 
-        marker_53dd2fe3e6be951d8d4a748c0cb83085.bindPopup(popup_f1f31b44d989b79a33a3e29ad6131528)
+        marker_2748b93429824c77cb3d80da1f175cb4.bindPopup(popup_9269c60d51cb1d8bc3f25f96d7d74973)
         ;
 
         
     
     
-            marker_53dd2fe3e6be951d8d4a748c0cb83085.bindTooltip(
+            marker_2748b93429824c77cb3d80da1f175cb4.bindTooltip(
                 `<div>
-                     State of Missouri – Scruggs Station / Fairgrounds Warehouse
+                     Bid Requests: State of Missouri – Scruggs Station / Fairgrounds Warehouse
                  </div>`,
                 {
   "sticky": true,
@@ -1278,47 +1218,44 @@
             );
         
     
-                marker_53dd2fe3e6be951d8d4a748c0cb83085.setIcon(icon_b31aa863f08fe2fc3aa25e973bb5f8ed);
+                marker_2748b93429824c77cb3d80da1f175cb4.setIcon(div_icon_65e86fc1c4c4941123b181e9aa16ab6a);
             
     
-            var marker_cab49951b83ca3a115850643c3016a1c = L.marker(
+            var marker_b98ee3d2fbcbaf5f97a9e41a095646d6 = L.marker(
                 [41.4333, -96.4981],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_a9f37fe12ebccf83cbd742e056a1ddef = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_d2287308a7eb7b1d6c15c87620fdced6 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #ff8c00;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_d8eaa37214552b479d6bfc124c8c5019 = L.popup({
+        var popup_6fd4f95283d4f7bcc9b534fb891f8417 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_e35a05ab404e42639e56a52f863b86b2 = $(`<div id="html_e35a05ab404e42639e56a52f863b86b2" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Fremont Public Schools - Fremont Middle School</b><br>Fremont, NE · ~32 mi from Omaha · preferred state: Yes<br>2026-10-03 (published)<br><div style='max-height:140px;overflow:auto'>ITB GP# 2613: Fremont Middle School 2027 Roof Replacement, 540 Johnson Rd. Sealed bids due Oct 20, 2026 2:00 PM to Facilities Office, 957 N. Pierce St; opened publicly same time.</div>Contact: Facilities Office (957 N. Pierce St.); plans via GP Architecture LLC<br>Website: fremontpublicschools.org (not opened)<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/nebraska/notice/bid-notice-fremont-764816' target='_blank'>source</a></div>`)[0];
-                popup_d8eaa37214552b479d6bfc124c8c5019.setContent(html_e35a05ab404e42639e56a52f863b86b2);
+                var html_fd36f40b34c18678324053fda3613eb7 = $(`<div id="html_fd36f40b34c18678324053fda3613eb7" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#18 Fremont Public Schools - Fremont Middle School</b><br>Open public bid (carried forward)<br>Fremont, NE · ~32 mi from Omaha · preferred state: Yes<br>2026-10-03 (published)<br><div style='max-height:140px;overflow:auto'>ITB GP# 2613: Fremont Middle School 2027 Roof Replacement, 540 Johnson Rd. Sealed bids due Oct 20, 2026 2:00 PM to Facilities Office, 957 N. Pierce St; opened publicly same time.</div><span style='color:#c25e00'><b>No phone or email found</b></span><br>Contact: Facilities Office (957 N. Pierce St.); plans via GP Architecture LLC<br>Phone: -<br>Email: -<br>Website: fremontpublicschools.org (not opened)<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/nebraska/notice/bid-notice-fremont-764816' target='_blank'>source</a></div>`)[0];
+                popup_6fd4f95283d4f7bcc9b534fb891f8417.setContent(html_fd36f40b34c18678324053fda3613eb7);
             
         
 
-        marker_cab49951b83ca3a115850643c3016a1c.bindPopup(popup_d8eaa37214552b479d6bfc124c8c5019)
+        marker_b98ee3d2fbcbaf5f97a9e41a095646d6.bindPopup(popup_6fd4f95283d4f7bcc9b534fb891f8417)
         ;
 
         
     
     
-            marker_cab49951b83ca3a115850643c3016a1c.bindTooltip(
+            marker_b98ee3d2fbcbaf5f97a9e41a095646d6.bindTooltip(
                 `<div>
-                     Fremont Public Schools - Fremont Middle School
+                     Bid Requests: Fremont Public Schools - Fremont Middle School
                  </div>`,
                 {
   "sticky": true,
@@ -1326,47 +1263,44 @@
             );
         
     
-                marker_cab49951b83ca3a115850643c3016a1c.setIcon(icon_a9f37fe12ebccf83cbd742e056a1ddef);
+                marker_b98ee3d2fbcbaf5f97a9e41a095646d6.setIcon(div_icon_d2287308a7eb7b1d6c15c87620fdced6);
             
     
-            var marker_1a79c25ff7bf28875555e30c566180fd = L.marker(
+            var marker_8905fb713af385f6f7f6d1337e65ad44 = L.marker(
                 [42.4963, -96.4049],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_6137881b8edaf1194edf4a698fb98ba9 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_cb512871177ce2641cc8e486f24921e5 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #ff8c00;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_35b139b684e671817c4b32af2ffdc0be = L.popup({
+        var popup_eafbc17ee6cb57f531530dab3aac6637 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_f1f7df8e23045bdd51530a35a45000f7 = $(`<div id="html_f1f7df8e23045bdd51530a35a45000f7" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Sioux City CSD - West Middle School</b><br>Sioux City, IA · ~89 mi from Omaha · preferred state: Yes<br>2026-10 (hearing Oct 12; pre-bid Oct 15)<br><div style='max-height:140px;overflow:auto'>West Middle School roof renovation, 3301 W 19th St. Single-prime sealed bids due Oct 29, 2026 (listing shows 7:00 PM, likely UTC = 2 PM CT); 5% bid bond, 100% P&amp;P bonds; CMBA Architects; work May 27-Aug 6, 2027. A Citizen Portal summary put West + North MS roofs at ~$1.74M combined (not opened).</div>Contact: Secretary of the Board of Education, 627 4th St, Sioux City<br>Website: siouxcityschools.org (not opened)<br>Confidence: confirmed<br><a href='https://bidscopeai.com/opportunities/550cd283-151a-4cc7-b446-ab34356e5aba' target='_blank'>source</a></div>`)[0];
-                popup_35b139b684e671817c4b32af2ffdc0be.setContent(html_f1f7df8e23045bdd51530a35a45000f7);
+                var html_e870f6780630b380f0c0ed3633bcc52e = $(`<div id="html_e870f6780630b380f0c0ed3633bcc52e" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#19 Sioux City CSD - West Middle School</b><br>Open public bid (carried forward)<br>Sioux City, IA · ~89 mi from Omaha · preferred state: Yes<br>2026-10 (hearing Oct 12; pre-bid Oct 15)<br><div style='max-height:140px;overflow:auto'>West Middle School roof renovation, 3301 W 19th St. Single-prime sealed bids due Oct 29, 2026 (listing shows 7:00 PM, likely UTC = 2 PM CT); 5% bid bond, 100% P&amp;P bonds; CMBA Architects; work May 27-Aug 6, 2027. A Citizen Portal summary put West + North MS roofs at ~$1.74M combined (not opened).</div><span style='color:#c25e00'><b>No phone or email found</b></span><br>Contact: Secretary of the Board of Education, 627 4th St, Sioux City<br>Phone: -<br>Email: -<br>Website: siouxcityschools.org (not opened)<br>Confidence: confirmed<br><a href='https://bidscopeai.com/opportunities/550cd283-151a-4cc7-b446-ab34356e5aba' target='_blank'>source</a></div>`)[0];
+                popup_eafbc17ee6cb57f531530dab3aac6637.setContent(html_e870f6780630b380f0c0ed3633bcc52e);
             
         
 
-        marker_1a79c25ff7bf28875555e30c566180fd.bindPopup(popup_35b139b684e671817c4b32af2ffdc0be)
+        marker_8905fb713af385f6f7f6d1337e65ad44.bindPopup(popup_eafbc17ee6cb57f531530dab3aac6637)
         ;
 
         
     
     
-            marker_1a79c25ff7bf28875555e30c566180fd.bindTooltip(
+            marker_8905fb713af385f6f7f6d1337e65ad44.bindTooltip(
                 `<div>
-                     Sioux City CSD - West Middle School
+                     Bid Requests: Sioux City CSD - West Middle School
                  </div>`,
                 {
   "sticky": true,
@@ -1374,47 +1308,44 @@
             );
         
     
-                marker_1a79c25ff7bf28875555e30c566180fd.setIcon(icon_6137881b8edaf1194edf4a698fb98ba9);
+                marker_8905fb713af385f6f7f6d1337e65ad44.setIcon(div_icon_cb512871177ce2641cc8e486f24921e5);
             
     
-            var marker_5a3dd0129a27958ba415bb60ba0e834c = L.marker(
+            var marker_d5fed9ddbb80745d1fdfa6eac8db7d67 = L.marker(
                 [42.4963, -96.4049],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_5874876ceff781eef623811b81de3dbb = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_3864d6e06890b873b5d3451fa05149a9 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #ff8c00;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_8bde0ac9fa536d777799bff8f74787c3 = L.popup({
+        var popup_26bc02f4e703337c688c194ff96c51b5 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_2528732118c73404ca8855884fb0ae68 = $(`<div id="html_2528732118c73404ca8855884fb0ae68" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>Sioux City CSD - North Middle School</b><br>Sioux City, IA · ~89 mi from Omaha · preferred state: Yes<br>2026-10 (approx)<br><div style='max-height:140px;overflow:auto'>North Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.</div>Contact: No contact found<br>Website: siouxcityschools.org (not opened)<br>Confidence: unconfirmed<br><a href='https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65' target='_blank'>source</a></div>`)[0];
-                popup_8bde0ac9fa536d777799bff8f74787c3.setContent(html_2528732118c73404ca8855884fb0ae68);
+                var html_bb8e0e6475e5a9f83b31ab2cd63e43ab = $(`<div id="html_bb8e0e6475e5a9f83b31ab2cd63e43ab" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#20 Sioux City CSD - North Middle School</b><br>Open public bid (carried forward)<br>Sioux City, IA · ~89 mi from Omaha · preferred state: Yes<br>2026-10 (approx)<br><div style='max-height:140px;overflow:auto'>North Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.</div><span style='color:#c25e00'><b>No phone or email found</b></span><br>Contact: -<br>Phone: -<br>Email: -<br>Website: siouxcityschools.org (not opened)<br>Confidence: unconfirmed<br><a href='https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65' target='_blank'>source</a></div>`)[0];
+                popup_26bc02f4e703337c688c194ff96c51b5.setContent(html_bb8e0e6475e5a9f83b31ab2cd63e43ab);
             
         
 
-        marker_5a3dd0129a27958ba415bb60ba0e834c.bindPopup(popup_8bde0ac9fa536d777799bff8f74787c3)
+        marker_d5fed9ddbb80745d1fdfa6eac8db7d67.bindPopup(popup_26bc02f4e703337c688c194ff96c51b5)
         ;
 
         
     
     
-            marker_5a3dd0129a27958ba415bb60ba0e834c.bindTooltip(
+            marker_d5fed9ddbb80745d1fdfa6eac8db7d67.bindTooltip(
                 `<div>
-                     Sioux City CSD - North Middle School
+                     Bid Requests: Sioux City CSD - North Middle School
                  </div>`,
                 {
   "sticky": true,
@@ -1422,47 +1353,44 @@
             );
         
     
-                marker_5a3dd0129a27958ba415bb60ba0e834c.setIcon(icon_5874876ceff781eef623811b81de3dbb);
+                marker_d5fed9ddbb80745d1fdfa6eac8db7d67.setIcon(div_icon_3864d6e06890b873b5d3451fa05149a9);
             
     
-            var marker_d8f02bf6a984474cf1a3d04e7747779d = L.marker(
+            var marker_1745aabbea85b35cba215e11a87aab0d = L.marker(
                 [43.5446, -96.7311],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_15d9a26929377bdf36a6cec2c8844f41 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_d702504fc4e8d4e6a9fe11ff1b18a34b = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #ff8c00;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_1d5d38c893ba20f81b577784be71b1b8 = L.popup({
+        var popup_e2422e063ffbb2d37fc2e988ca3d4f88 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_406057c48b32b6b9122b4cbe61d21f59 = $(`<div id="html_406057c48b32b6b9122b4cbe61d21f59" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer (subcontract)</b> (listed in a prior run, still open)<br><b>Sioux Falls VA Health Care System – Building 5</b><br>Sioux Falls, SD · ~163 mi from Omaha · preferred state: Yes<br>Posted 2026-09-04; due 2026-10-20 1:00 PM CT<br><div style='max-height:140px;overflow:auto'>Roofing &amp; thermal-protection scope carved from VA solicitation 36C26326B0020 (PN 438-21-403, Renovate First Floor Kitchen, Building 5, Sioux Falls VA): re-roof prep, TPO roofing, standing-seam metal roof panels, insulated metal wall panels. Prime is an SDVOSB set-aside — Armour would bid as a roofing sub to SDVOSB primes.</div>Contact: No contact found<br>Confidence: unconfirmed (third-party listing; SDVOSB prime required)<br><a href='https://www.cleat.ai/government/contracts/roofing-and-thermal-protection-8wcf' target='_blank'>source</a></div>`)[0];
-                popup_1d5d38c893ba20f81b577784be71b1b8.setContent(html_406057c48b32b6b9122b4cbe61d21f59);
+                var html_9abb10656fd7de44dac048f864d98f8c = $(`<div id="html_9abb10656fd7de44dac048f864d98f8c" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer (subcontract)</b> (listed in a prior run, still open)<br><b>#21 Sioux Falls VA Health Care System – Building 5</b><br>Open public bid<br>Sioux Falls, SD · ~163 mi from Omaha · preferred state: Yes<br>Posted 2026-09-04; due 2026-10-20 1:00 PM CT<br><div style='max-height:140px;overflow:auto'>Roofing &amp; thermal-protection scope carved from VA solicitation 36C26326B0020 (PN 438-21-403, Renovate First Floor Kitchen, Building 5, Sioux Falls VA): re-roof prep, TPO roofing, standing-seam metal roof panels, insulated metal wall panels. Prime is an SDVOSB set-aside — Armour would bid as a roofing sub to SDVOSB primes.</div><span style='color:#c25e00'><b>No phone or email found</b></span><br>Contact: -<br>Phone: -<br>Email: -<br>Confidence: unconfirmed (third-party listing; SDVOSB prime required)<br><a href='https://www.cleat.ai/government/contracts/roofing-and-thermal-protection-8wcf' target='_blank'>source</a></div>`)[0];
+                popup_e2422e063ffbb2d37fc2e988ca3d4f88.setContent(html_9abb10656fd7de44dac048f864d98f8c);
             
         
 
-        marker_d8f02bf6a984474cf1a3d04e7747779d.bindPopup(popup_1d5d38c893ba20f81b577784be71b1b8)
+        marker_1745aabbea85b35cba215e11a87aab0d.bindPopup(popup_e2422e063ffbb2d37fc2e988ca3d4f88)
         ;
 
         
     
     
-            marker_d8f02bf6a984474cf1a3d04e7747779d.bindTooltip(
+            marker_1745aabbea85b35cba215e11a87aab0d.bindTooltip(
                 `<div>
-                     Sioux Falls VA Health Care System – Building 5
+                     Bid Requests: Sioux Falls VA Health Care System – Building 5
                  </div>`,
                 {
   "sticky": true,
@@ -1470,47 +1398,44 @@
             );
         
     
-                marker_d8f02bf6a984474cf1a3d04e7747779d.setIcon(icon_15d9a26929377bdf36a6cec2c8844f41);
+                marker_1745aabbea85b35cba215e11a87aab0d.setIcon(div_icon_d702504fc4e8d4e6a9fe11ff1b18a34b);
             
     
-            var marker_992c8d3727381e5900cf3257cfa89185 = L.marker(
+            var marker_98c6910374b48eb642dba85f12d1426c = L.marker(
                 [44.3668, -100.336],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_f5d6d8b51c59061021626d2240bcf64c = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_da82e4e71c1cce2e8d51b217ff1502e1 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #ff8c00;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_658345b7fbe43facde313831c9f60b0b = L.popup({
+        var popup_d7e0209093f8c52d4a0f0a247932559d = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_236fecca75ae4f75dda7ae9e12f89283 = $(`<div id="html_236fecca75ae4f75dda7ae9e12f89283" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>State of South Dakota - Mickelson Building</b><br>Pierre, SD · ~310 mi from Omaha · preferred state: Yes<br>2026-10-02 / 10-09 (published); due 10/22<br><div style='max-height:140px;overflow:auto'>OSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.</div>Contact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact) · (phones redacted on notice)<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363' target='_blank'>source</a></div>`)[0];
-                popup_658345b7fbe43facde313831c9f60b0b.setContent(html_236fecca75ae4f75dda7ae9e12f89283);
+                var html_930df559d2a65dd38eb569d61cb046fc = $(`<div id="html_930df559d2a65dd38eb569d61cb046fc" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#22 State of South Dakota - Mickelson Building</b><br>Open public bid<br>Pierre, SD · ~310 mi from Omaha · preferred state: Yes<br>2026-10-02 / 10-09 (published); due 10/22<br><div style='max-height:140px;overflow:auto'>OSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.</div><span style='color:#c25e00'><b>No phone or email found</b></span><br>Contact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact)<br>Phone: -<br>Email: -<br>Confidence: confirmed<br><a href='https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363' target='_blank'>source</a></div>`)[0];
+                popup_d7e0209093f8c52d4a0f0a247932559d.setContent(html_930df559d2a65dd38eb569d61cb046fc);
             
         
 
-        marker_992c8d3727381e5900cf3257cfa89185.bindPopup(popup_658345b7fbe43facde313831c9f60b0b)
+        marker_98c6910374b48eb642dba85f12d1426c.bindPopup(popup_d7e0209093f8c52d4a0f0a247932559d)
         ;
 
         
     
     
-            marker_992c8d3727381e5900cf3257cfa89185.bindTooltip(
+            marker_98c6910374b48eb642dba85f12d1426c.bindTooltip(
                 `<div>
-                     State of South Dakota - Mickelson Building
+                     Bid Requests: State of South Dakota - Mickelson Building
                  </div>`,
                 {
   "sticky": true,
@@ -1518,47 +1443,44 @@
             );
         
     
-                marker_992c8d3727381e5900cf3257cfa89185.setIcon(icon_f5d6d8b51c59061021626d2240bcf64c);
+                marker_98c6910374b48eb642dba85f12d1426c.setIcon(div_icon_da82e4e71c1cce2e8d51b217ff1502e1);
             
     
-            var marker_805a1917ff1eff0f20f64a8013a3a056 = L.marker(
+            var marker_582479e5bbad12c03113aa479199c022 = L.marker(
                 [42.748, -103.004],
                 {
 }
-            ).addTo(feature_group_37c297345823932d53189cb937808eea);
+            ).addTo(feature_group_cbd7c199e246adb566e185865fb3f120);
         
     
-            var icon_b950fb8c741b48654a891c726b54e735 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "lightblue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
+            var div_icon_ed3dabf954db860287a4bb76ba7a3ff7 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#1a3d8f;border:3px solid #ff8c00;border-radius:3px;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eB\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
         
     
-        var popup_9210f62e6b3a26b8afd8433835a43231 = L.popup({
+        var popup_ee47d8c358ce2ebab1d17fafe6845a53 = L.popup({
   "maxWidth": 360,
 });
 
         
             
-                var html_0138486b9207d75fa359196e5f933ca5 = $(`<div id="html_0138486b9207d75fa359196e5f933ca5" style="width: 100.0%; height: 100.0%;"><b>Commercial roof search — seeking roofer</b> (listed in a prior run, still open)<br><b>USDA Forest Service - Pine Ridge (PRD) Building 290</b><br>Chadron, NE · ~377 mi from Omaha · preferred state: Yes<br>2026-10 (open; due 10/20 4:00 PM CT)<br><div style='max-height:140px;overflow:auto'>Solicitation 12441926Q0048 &quot;PRD B290 Roof Replacement&quot; (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q&amp;A posted. Due Oct 20, 2026 4:00 PM CT.</div>Contact: No contact found<br>Confidence: confirmed (listing); contact not found free<br><a href='https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88' target='_blank'>source</a></div>`)[0];
-                popup_9210f62e6b3a26b8afd8433835a43231.setContent(html_0138486b9207d75fa359196e5f933ca5);
+                var html_89bed4dafdfaf6520854111046557476 = $(`<div id="html_89bed4dafdfaf6520854111046557476" style="width: 100.0%; height: 100.0%;"><b>Bid Requests — seeking roofer</b> (listed in a prior run, still open)<br><b>#23 USDA Forest Service - Pine Ridge (PRD) Building 290</b><br>Open public bid<br>Chadron, NE · ~377 mi from Omaha · preferred state: Yes<br>2026-10 (open; due 10/20 4:00 PM CT)<br><div style='max-height:140px;overflow:auto'>Solicitation 12441926Q0048 &quot;PRD B290 Roof Replacement&quot; (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q&amp;A posted. Due Oct 20, 2026 4:00 PM CT.</div><span style='color:#c25e00'><b>No phone or email found</b></span><br>Contact: -<br>Phone: -<br>Email: -<br>Confidence: confirmed (listing); contact not found free<br><a href='https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88' target='_blank'>source</a></div>`)[0];
+                popup_ee47d8c358ce2ebab1d17fafe6845a53.setContent(html_89bed4dafdfaf6520854111046557476);
             
         
 
-        marker_805a1917ff1eff0f20f64a8013a3a056.bindPopup(popup_9210f62e6b3a26b8afd8433835a43231)
+        marker_582479e5bbad12c03113aa479199c022.bindPopup(popup_ee47d8c358ce2ebab1d17fafe6845a53)
         ;
 
         
     
     
-            marker_805a1917ff1eff0f20f64a8013a3a056.bindTooltip(
+            marker_582479e5bbad12c03113aa479199c022.bindTooltip(
                 `<div>
-                     USDA Forest Service - Pine Ridge (PRD) Building 290
+                     Bid Requests: USDA Forest Service - Pine Ridge (PRD) Building 290
                  </div>`,
                 {
   "sticky": true,
@@ -1566,13 +1488,22 @@
             );
         
     
-                marker_805a1917ff1eff0f20f64a8013a3a056.setIcon(icon_b950fb8c741b48654a891c726b54e735);
+                marker_582479e5bbad12c03113aa479199c022.setIcon(div_icon_ed3dabf954db860287a4bb76ba7a3ff7);
             
     
-            feature_group_37c297345823932d53189cb937808eea.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            feature_group_cbd7c199e246adb566e185865fb3f120.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-        function geo_json_6f1ca3f82538fc09eb123c9f9bd1830d_pointToLayer(feature, latlng) {
+            var feature_group_59bf736bdbe9efb42e4d1dd65ccc3ab9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_59bf736bdbe9efb42e4d1dd65ccc3ab9.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
+        
+    
+        function geo_json_237e8f24929a98d25ea92e225eef5c3e_pointToLayer(feature, latlng) {
             var opts = {
   "stroke": true,
   "color": "#3388ff",
@@ -1593,29 +1524,29 @@
             return new L.CircleMarker(latlng, opts)
         }
 
-        function geo_json_6f1ca3f82538fc09eb123c9f9bd1830d_onEachFeature(feature, layer) {
+        function geo_json_237e8f24929a98d25ea92e225eef5c3e_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_6f1ca3f82538fc09eb123c9f9bd1830d = L.geoJson(null, {
-                onEachFeature: geo_json_6f1ca3f82538fc09eb123c9f9bd1830d_onEachFeature,
+        var geo_json_237e8f24929a98d25ea92e225eef5c3e = L.geoJson(null, {
+                onEachFeature: geo_json_237e8f24929a98d25ea92e225eef5c3e_onEachFeature,
             
-                pointToLayer: geo_json_6f1ca3f82538fc09eb123c9f9bd1830d_pointToLayer,
+                pointToLayer: geo_json_237e8f24929a98d25ea92e225eef5c3e_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_6f1ca3f82538fc09eb123c9f9bd1830d_add (data) {
-            geo_json_6f1ca3f82538fc09eb123c9f9bd1830d
+        function geo_json_237e8f24929a98d25ea92e225eef5c3e_add (data) {
+            geo_json_237e8f24929a98d25ea92e225eef5c3e
                 .addData(data);
         }
-            geo_json_6f1ca3f82538fc09eb123c9f9bd1830d_add({"features": [{"geometry": {"coordinates": [-95.9345, 41.2565], "type": "Point"}, "properties": {"info": "No new qualifying storm leads for 2026-10-19", "name": "Omaha HQ (quiet day \u2014 no storm leads)"}, "type": "Feature"}, {"geometry": {"coordinates": [-93.6977, 41.673], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer (public bid) - MATERIAL UPDATE\u003c/b\u003e \u003cspan style=\"color:#b3261e\"\u003e(NEW/UPDATED today)\u003c/span\u003e\u003cbr\u003e\u003cb\u003eJohnston CSD - Johnston Middle School (+ Wallace Elementary alternates)\u003c/b\u003e\u003cbr\u003eJohnston, IA \u00b7 ~119 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eUPDATE to a lead first listed 10/17 (that listing only said \u0026quot;due Nov 12\u0026quot;). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2\u0026quot; polyiso + 1/2\u0026quot; HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline \u0026amp; Blue, Des Moines ($50 refundable deposit).\u003c/div\u003eContact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings \u0026amp; Grounds (phone redacted on notice) \u00b7 515-250-6950 (architect, from 10/17 plan-room brief)\u003cbr\u003eConfidence: confirmed (official notice text)\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates) (Johnston, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.5806, 39.191], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer (state capital project - design stage)\u003c/b\u003e \u003cspan style=\"color:#b3261e\"\u003e(NEW/UPDATED today)\u003c/span\u003e\u003cbr\u003e\u003cb\u003eKansas State University - Waters Hall\u003c/b\u003e\u003cbr\u003eManhattan, KS \u00b7 ~147 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eNew capital improvement ad: \u0026quot;KSU Waters Hall ReRoof - #54623 - October 15, 2026\u0026quot; for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.\u003c/div\u003eContact: KS DoA OFPM professional qualifications inbox (A/E submittals) \u00b7 professional.qualifications@ks.gov\u003cbr\u003eWebsite: https://admin.ks.gov\u003cbr\u003eConfidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)\u003cbr\u003e\u003ca href=\u0027https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Kansas State University - Waters Hall (Manhattan, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.5808, 38.0898], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer (public bid)\u003c/b\u003e \u003cspan style=\"color:#b3261e\"\u003e(NEW/UPDATED today)\u003c/span\u003e\u003cbr\u003e\u003cb\u003eHume R-VIII School District - bus barn\u003c/b\u003e\u003cbr\u003eHume, MO \u00b7 ~230 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.\u003c/div\u003eContact: Scott Morrison, Superintendent (named on notice for the site visit) \u00b7 660-643-7411 (district main line)\u003cbr\u003eWebsite: https://www.humer8.k12.mo.us\u003cbr\u003eConfidence: confirmed (official notice); small scope\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Hume R-VIII School District - bus barn (Hume, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-95.8608, 41.2619], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 capital plan (pre-bid)\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eCouncil Bluffs CSD \u2013 Bloomer Elementary\u003c/b\u003e\u003cbr\u003eCouncil Bluffs, IA \u00b7 ~4 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003eDetected 2026-09-22 (district facility assessment)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eDistrict facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator\u0026#x27;s sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.\u003c/div\u003eContact: Aaron Rang, Director of Facilities Maintenance \u0026amp; Custodial Services (FMCS) \u00b7 712-328-6406 \u00b7 arang@cb-schools.org\u003cbr\u003eWebsite: https://www.cb-schools.org\u003cbr\u003eConfidence: unconfirmed (aggregator summary of assessment; no bid date yet)\u003cbr\u003e\u003ca href=\u0027https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://www.cb-schools.org/departments/facilities\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Council Bluffs CSD \u2013 Bloomer Elementary (Council Bluffs, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.7086, 41.8417], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eCuming County Courthouse (Cuming County, NE)\u003c/b\u003e\u003cbr\u003eWest Point, NE \u00b7 ~57 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-16 (published; re-runs 10/23)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eInvitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.\u003c/div\u003eContact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents) \u00b7 (402) 372-6002 (County Clerk) \u00b7 clerk@cumingcounty.ne.gov\u003cbr\u003eWebsite: https://cumingcountyne.gov\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Cuming County Courthouse (Cuming County, NE) (West Point, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.1956, 40.3664], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eSENCA \u2013 Tecumseh Senior Center building\u003c/b\u003e\u003cbr\u003eTecumseh, NE \u00b7 ~63 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003ePublished 2026-10-16; due Fri 2026-10-30 12:00 PM\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRequests bids to repair or replace the roof at 172 S. 4th Street, Tecumseh; bids must closely match existing roofing material; due 12:00 p.m. Friday Oct 30. (Listing page opened; individual notice page link not retrievable \u2014 site blocks automated link capture.) Address is SENCA\u0026#x27;s Tecumseh Senior Center (per Nebraska Resource \u0026amp; Referral System). Roof size/type not stated \u2014 likely small.\u003c/div\u003eContact: SENCA Tecumseh Senior Center (building phone) \u00b7 (402) 335-2134\u003cbr\u003eConfidence: confirmed (listing text); scope size unknown\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/nebraska/category/bid-notice\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://nrrs.ne.gov/resource/25559/\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: SENCA \u2013 Tecumseh Senior Center building (Tecumseh, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-93.9222, 41.8564], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer (design RFP)\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eState of Iowa \u2013 Woodward Resource Center Dispatch Garage\u003c/b\u003e\u003cbr\u003eWoodward, IA \u00b7 ~112 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003ePosted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRFP956800-01 \u0026quot;WRC Dispatch Garage Roof Replacement \u0026amp; Birches Tuckpointing\u0026quot; \u2013 professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).\u003c/div\u003eContact: Katelyn Howells, Construction Procurement \u00b7 (515) 721-7856 \u00b7 construction.procurement@das.iowa.gov\u003cbr\u003eWebsite: https://das.iowa.gov\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: State of Iowa \u2013 Woodward Resource Center Dispatch Garage (Woodward, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.8467, 39.7675], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eMissouri Western State University - Kit Bond Incubator\u003c/b\u003e\u003cbr\u003eSt. Joseph, MO \u00b7 ~118 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 23)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eMO Western State University Kit Bond Incubator Roof Replacement. Bids due Oct 23, 2026 2:00 PM CT. Architect: Ellison-Auxier Architects (816-233-8003).\u003c/div\u003eContact: Missouri Western Purchasing \u00b7 816-271-4464\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Missouri Western State University - Kit Bond Incubator (St. Joseph, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-93.625, 41.5868], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eDes Moines Public Schools - Roosevelt High School\u003c/b\u003e\u003cbr\u003eDes Moines, IA \u00b7 ~122 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-08 (issued)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eCIP26073 Roosevelt High School - Re-Roofing Phase I. Issued 10/08/2026, due 11/05/2026 (plan room: 3:00 PM). Architect Angelo Architectural Assoc. (515-250-6950).\u003c/div\u003eContact: DMPS Purchasing (901 Walnut St) \u00b7 515-242-7911 (district); 515-554-4718 (per plan room)\u003cbr\u003eWebsite: dmschools.org\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.dmschools.org/departments/business-finance/purchasing/open-proposals/\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Des Moines Public Schools - Roosevelt High School (Des Moines, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-95.0389, 39.199], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eLeavenworth County (county shop)\u003c/b\u003e\u003cbr\u003eLeavenworth County, KS \u00b7 ~150 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 28)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eLeavenworth County Shop Roof Replacement. Bids due Oct 28, 2026 10:30 AM CT.\u003c/div\u003eContact: Aaron Youkam \u00b7 913-684-0790\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Leavenworth County (county shop) (Leavenworth County, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-95.6752, 39.0473], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eKansas Neurological Institute - Sunflower Cottage\u003c/b\u003e\u003cbr\u003eTopeka, KS \u00b7 ~153 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 22)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eSunflower Cottage Reroof, Kansas Neurological Institute. Bids due Oct 22, 2026 2:00 PM CT. Min. bid listed $815,000.\u003c/div\u003eContact: Cameron Tross (BG Consultants) \u00b7 785-480-6185\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Kansas Neurological Institute - Sunflower Cottage (Topeka, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.6819, 39.1911], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eMDC - Parma Woods Range \u0026amp; Training Center\u003c/b\u003e\u003cbr\u003ePlatte County (Parkville area), MO \u00b7 ~157 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Nov 5)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eMDC Parma Woods Range and Training Center Roof Replacement (Platte County). Bids due Nov 5, 2026 11:00 AM CT.\u003c/div\u003eContact: Veronica Mecko (contract specialist); Mike Stornello (design PM) \u00b7 573-522-4115 x3744 / x3766\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: MDC - Parma Woods Range \u0026 Training Center (Platte County (Parkville area), MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.8791, 38.5723], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eCity of Paola\u003c/b\u003e\u003cbr\u003ePaola, KS \u00b7 ~194 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 30)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eCity of Paola \u0026quot;Roofing Project 2026\u0026quot;. Bids due Oct 30, 2026 10:00 AM CT. Scope/buildings not listed on brief.\u003c/div\u003eContact: Brett Marler \u00b7 913-259-3600\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: City of Paola (Paola, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-100.7654, 41.1239], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eCity of North Platte - Fire Station 1\u003c/b\u003e\u003cbr\u003eNorth Platte, NE \u00b7 ~251 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-09 (opened)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eFire Station 1 Apparatus Bay Roof Replacement: tear off ballasted EPDM, new .060 reinforced EPDM, tapered insulation, edge metal, 15-yr NDL warranty. Window 10/9-10/28/2026. (Dollar range on Bid Banana is the site\u0026#x27;s own estimate, not the city\u0026#x27;s.)\u003c/div\u003eContact: Dave Hahn, City Hall \u00b7 308-535-6724 x3243\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://bidbanana.thebidlab.com/bid/eK9H4V1F6GYsO1mgrhpi\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: City of North Platte - Fire Station 1 (North Platte, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-97.3301, 37.6872], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eWichita USD 259 - Northwest High School\u003c/b\u003e\u003cbr\u003eWichita, KS \u00b7 ~258 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Nov 2)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRTU \u0026amp; Roof Replacement - Wichita Northwest High School. Bids due Nov 2, 2026 3:00 PM CT.\u003c/div\u003eContact: Rachelle Scharnhorst \u00b7 316-973-4547\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Wichita USD 259 - Northwest High School (Wichita, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-92.1735, 38.5767], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eState of Missouri \u2013 Missouri Interoperability Center Bldg 5\u003c/b\u003e\u003cbr\u003eJefferson City, MO \u00b7 ~272 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003eListed Oct 2026; due 2026-10-29 1:30 PM (pre-bid was 10/13)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eProject R2607-01 Renovate Building No. 5, Missouri Interoperability Center, 2413 E. McCarty St: replace roof and siding on an existing metal storage building + lean-to. Electronic bids to FMDCBids@oa.mo.gov.\u003c/div\u003eContact: Fred L. Decker Jr., Project Manager \u00b7 573-446-7768 (ADS plan room) \u00b7 Fred.Decker@oa.mo.gov\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://oa.mo.gov/sites/default/files/bid-opportunities/R2607-01%20IFB.pdf\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://oa.mo.gov/facilities/bid-opportunities/bid-listing-electronic-plans\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: State of Missouri \u2013 Missouri Interoperability Center Bldg 5 (Jefferson City, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-92.212, 38.556], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking coating\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eState of Missouri \u2013 Scruggs Station / Fairgrounds Warehouse\u003c/b\u003e\u003cbr\u003eJefferson City, MO \u00b7 ~272 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003eListed Oct 2026; due 2026-11-05 1:30 PM; pre-bid 10/22 1:30 PM\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eProject O2534-01 Scruggs Station Warehouse Complex (Fairgrounds Warehouse, 1525 Fairgrounds Rd): new FLUID-APPLIED ROOFING MEMBRANE on existing metal roof (coating job), gutters/downspouts, plus HVAC/electrical. Roofing would likely be a sub to the GC/mechanical prime.\u003c/div\u003eContact: Andy Carroll, Project Manager \u00b7 573-446-7768 (ADS plan room) \u00b7 Andy.Carroll@oa.mo.gov\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://oa.mo.gov/sites/default/files/bid-opportunities/O2534-01%20IFB.pdf\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://www.oafmdcplanroom.com/projects/3442/details/o2534-01-scruggs-station-warehouse-complex-porite-roof-elect-hvac-rep-fairgrounds-warehouse\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: State of Missouri \u2013 Scruggs Station / Fairgrounds Warehouse (Jefferson City, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.4981, 41.4333], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eFremont Public Schools - Fremont Middle School\u003c/b\u003e\u003cbr\u003eFremont, NE \u00b7 ~32 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-03 (published)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eITB GP# 2613: Fremont Middle School 2027 Roof Replacement, 540 Johnson Rd. Sealed bids due Oct 20, 2026 2:00 PM to Facilities Office, 957 N. Pierce St; opened publicly same time.\u003c/div\u003eContact: Facilities Office (957 N. Pierce St.); plans via GP Architecture LLC\u003cbr\u003eWebsite: fremontpublicschools.org (not opened)\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/nebraska/notice/bid-notice-fremont-764816\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Fremont Public Schools - Fremont Middle School (Fremont, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.4049, 42.4963], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eSioux City CSD - West Middle School\u003c/b\u003e\u003cbr\u003eSioux City, IA \u00b7 ~89 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (hearing Oct 12; pre-bid Oct 15)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eWest Middle School roof renovation, 3301 W 19th St. Single-prime sealed bids due Oct 29, 2026 (listing shows 7:00 PM, likely UTC = 2 PM CT); 5% bid bond, 100% P\u0026amp;P bonds; CMBA Architects; work May 27-Aug 6, 2027. A Citizen Portal summary put West + North MS roofs at ~$1.74M combined (not opened).\u003c/div\u003eContact: Secretary of the Board of Education, 627 4th St, Sioux City\u003cbr\u003eWebsite: siouxcityschools.org (not opened)\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://bidscopeai.com/opportunities/550cd283-151a-4cc7-b446-ab34356e5aba\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Sioux City CSD - West Middle School (Sioux City, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.4049, 42.4963], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eSioux City CSD - North Middle School\u003c/b\u003e\u003cbr\u003eSioux City, IA \u00b7 ~89 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (approx)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eNorth Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.\u003c/div\u003eContact: No contact found\u003cbr\u003eWebsite: siouxcityschools.org (not opened)\u003cbr\u003eConfidence: unconfirmed\u003cbr\u003e\u003ca href=\u0027https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Sioux City CSD - North Middle School (Sioux City, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.7311, 43.5446], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer (subcontract)\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eSioux Falls VA Health Care System \u2013 Building 5\u003c/b\u003e\u003cbr\u003eSioux Falls, SD \u00b7 ~163 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003ePosted 2026-09-04; due 2026-10-20 1:00 PM CT\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRoofing \u0026amp; thermal-protection scope carved from VA solicitation 36C26326B0020 (PN 438-21-403, Renovate First Floor Kitchen, Building 5, Sioux Falls VA): re-roof prep, TPO roofing, standing-seam metal roof panels, insulated metal wall panels. Prime is an SDVOSB set-aside \u2014 Armour would bid as a roofing sub to SDVOSB primes.\u003c/div\u003eContact: No contact found\u003cbr\u003eConfidence: unconfirmed (third-party listing; SDVOSB prime required)\u003cbr\u003e\u003ca href=\u0027https://www.cleat.ai/government/contracts/roofing-and-thermal-protection-8wcf\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: Sioux Falls VA Health Care System \u2013 Building 5 (Sioux Falls, SD)"}, "type": "Feature"}, {"geometry": {"coordinates": [-100.336, 44.3668], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eState of South Dakota - Mickelson Building\u003c/b\u003e\u003cbr\u003ePierre, SD \u00b7 ~310 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-02 / 10-09 (published); due 10/22\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eOSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.\u003c/div\u003eContact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact) \u00b7 (phones redacted on notice)\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: State of South Dakota - Mickelson Building (Pierre, SD)"}, "type": "Feature"}, {"geometry": {"coordinates": [-103.004, 42.748], "type": "Point"}, "properties": {"info": "\u003cb\u003eCommercial roof search \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003eUSDA Forest Service - Pine Ridge (PRD) Building 290\u003c/b\u003e\u003cbr\u003eChadron, NE \u00b7 ~377 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (open; due 10/20 4:00 PM CT)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eSolicitation 12441926Q0048 \u0026quot;PRD B290 Roof Replacement\u0026quot; (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q\u0026amp;A posted. Due Oct 20, 2026 4:00 PM CT.\u003c/div\u003eContact: No contact found\u003cbr\u003eConfidence: confirmed (listing); contact not found free\u003cbr\u003e\u003ca href=\u0027https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Roof search: USDA Forest Service - Pine Ridge (PRD) Building 290 (Chadron, NE)"}, "type": "Feature"}], "type": "FeatureCollection"});
-        geo_json_6f1ca3f82538fc09eb123c9f9bd1830d.setStyle(function(feature) {return feature.properties.style;});
+            geo_json_237e8f24929a98d25ea92e225eef5c3e_add({"features": [{"geometry": {"coordinates": [-95.9345, 41.2565], "type": "Point"}, "properties": {"info": "No new qualifying storm leads for 2026-10-19", "name": "Omaha HQ (quiet day \u2014 no storm leads)"}, "type": "Feature"}, {"geometry": {"coordinates": [-93.6977, 41.673], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer (public bid) - MATERIAL UPDATE\u003c/b\u003e \u003cspan style=\"color:#b3261e\"\u003e(NEW/UPDATED today)\u003c/span\u003e\u003cbr\u003e\u003cb\u003eJohnston CSD - Johnston Middle School (+ Wallace Elementary alternates)\u003c/b\u003e\u003cbr\u003eJohnston, IA \u00b7 ~119 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eUPDATE to a lead first listed 10/17 (that listing only said \u0026quot;due Nov 12\u0026quot;). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2\u0026quot; polyiso + 1/2\u0026quot; HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline \u0026amp; Blue, Des Moines ($50 refundable deposit).\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings \u0026amp; Grounds (phone redacted on notice)\u003cbr\u003ePhone: \u003ca href=\u0027tel:51525069501\u0027\u003e515-250-6950 (architect, from 10/17 plan-room brief)\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed (official notice text)\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates) (Johnston, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.5806, 39.191], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer (state capital project - design stage)\u003c/b\u003e \u003cspan style=\"color:#b3261e\"\u003e(NEW/UPDATED today)\u003c/span\u003e\u003cbr\u003e\u003cb\u003eKansas State University - Waters Hall\u003c/b\u003e\u003cbr\u003eManhattan, KS \u00b7 ~147 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eNew capital improvement ad: \u0026quot;KSU Waters Hall ReRoof - #54623 - October 15, 2026\u0026quot; for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: KS DoA OFPM professional qualifications inbox (A/E submittals)\u003cbr\u003ePhone: -\u003cbr\u003eEmail: \u003ca href=\u0027mailto:professional.qualifications@ks.gov\u0027\u003eprofessional.qualifications@ks.gov\u003c/a\u003e\u003cbr\u003eWebsite: https://admin.ks.gov\u003cbr\u003eConfidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)\u003cbr\u003e\u003ca href=\u0027https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Kansas State University - Waters Hall (Manhattan, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.5808, 38.0898], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer (public bid)\u003c/b\u003e \u003cspan style=\"color:#b3261e\"\u003e(NEW/UPDATED today)\u003c/span\u003e\u003cbr\u003e\u003cb\u003eHume R-VIII School District - bus barn\u003c/b\u003e\u003cbr\u003eHume, MO \u00b7 ~230 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Scott Morrison, Superintendent (named on notice for the site visit)\u003cbr\u003ePhone: \u003ca href=\u0027tel:6606437411\u0027\u003e660-643-7411 (district main line)\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eWebsite: https://www.humer8.k12.mo.us\u003cbr\u003eConfidence: confirmed (official notice); small scope\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Hume R-VIII School District - bus barn (Hume, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-95.8608, 41.2619], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 capital plan (pre-bid)\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#1 Council Bluffs CSD \u2013 Bloomer Elementary\u003c/b\u003e\u003cbr\u003eCapital-plan signal (not yet bid)\u003cbr\u003eCouncil Bluffs, IA \u00b7 ~4 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003eDetected 2026-09-22 (district facility assessment)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eDistrict facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator\u0026#x27;s sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Aaron Rang, Director of Facilities Maintenance \u0026amp; Custodial Services (FMCS)\u003cbr\u003ePhone: \u003ca href=\u0027tel:7123286406\u0027\u003e712-328-6406\u003c/a\u003e\u003cbr\u003eEmail: \u003ca href=\u0027mailto:arang@cb-schools.org\u0027\u003earang@cb-schools.org\u003c/a\u003e\u003cbr\u003eWebsite: https://www.cb-schools.org\u003cbr\u003eConfidence: unconfirmed (aggregator summary of assessment; no bid date yet)\u003cbr\u003e\u003ca href=\u0027https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://www.cb-schools.org/departments/facilities\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Council Bluffs CSD \u2013 Bloomer Elementary (Council Bluffs, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.7086, 41.8417], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#2 Cuming County Courthouse (Cuming County, NE)\u003c/b\u003e\u003cbr\u003eOpen public bid\u003cbr\u003eWest Point, NE \u00b7 ~57 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-16 (published; re-runs 10/23)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eInvitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents)\u003cbr\u003ePhone: \u003ca href=\u0027tel:4023726002\u0027\u003e(402) 372-6002 (County Clerk)\u003c/a\u003e\u003cbr\u003eEmail: \u003ca href=\u0027mailto:clerk@cumingcounty.ne.gov\u0027\u003eclerk@cumingcounty.ne.gov\u003c/a\u003e\u003cbr\u003eWebsite: https://cumingcountyne.gov\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Cuming County Courthouse (Cuming County, NE) (West Point, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.1956, 40.3664], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#3 SENCA \u2013 Tecumseh Senior Center building\u003c/b\u003e\u003cbr\u003eOpen public bid\u003cbr\u003eTecumseh, NE \u00b7 ~63 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003ePublished 2026-10-16; due Fri 2026-10-30 12:00 PM\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRequests bids to repair or replace the roof at 172 S. 4th Street, Tecumseh; bids must closely match existing roofing material; due 12:00 p.m. Friday Oct 30. (Listing page opened; individual notice page link not retrievable \u2014 site blocks automated link capture.) Address is SENCA\u0026#x27;s Tecumseh Senior Center (per Nebraska Resource \u0026amp; Referral System). Roof size/type not stated \u2014 likely small.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: SENCA Tecumseh Senior Center (building phone)\u003cbr\u003ePhone: \u003ca href=\u0027tel:4023352134\u0027\u003e(402) 335-2134\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed (listing text); scope size unknown\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/nebraska/category/bid-notice\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://nrrs.ne.gov/resource/25559/\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: SENCA \u2013 Tecumseh Senior Center building (Tecumseh, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-93.9222, 41.8564], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer (design RFP)\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#4 State of Iowa \u2013 Woodward Resource Center Dispatch Garage\u003c/b\u003e\u003cbr\u003eOpen RFP (design services; construction bid to follow)\u003cbr\u003eWoodward, IA \u00b7 ~112 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003ePosted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRFP956800-01 \u0026quot;WRC Dispatch Garage Roof Replacement \u0026amp; Birches Tuckpointing\u0026quot; \u2013 professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Katelyn Howells, Construction Procurement\u003cbr\u003ePhone: \u003ca href=\u0027tel:5157217856\u0027\u003e(515) 721-7856\u003c/a\u003e\u003cbr\u003eEmail: \u003ca href=\u0027mailto:construction.procurement@das.iowa.gov\u0027\u003econstruction.procurement@das.iowa.gov\u003c/a\u003e\u003cbr\u003eWebsite: https://das.iowa.gov\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: State of Iowa \u2013 Woodward Resource Center Dispatch Garage (Woodward, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.8467, 39.7675], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#5 Missouri Western State University - Kit Bond Incubator\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eSt. Joseph, MO \u00b7 ~118 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 23)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eMO Western State University Kit Bond Incubator Roof Replacement. Bids due Oct 23, 2026 2:00 PM CT. Architect: Ellison-Auxier Architects (816-233-8003).\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Missouri Western Purchasing\u003cbr\u003ePhone: \u003ca href=\u0027tel:8162714464\u0027\u003e816-271-4464\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Missouri Western State University - Kit Bond Incubator (St. Joseph, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-93.625, 41.5868], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#7 Des Moines Public Schools - Roosevelt High School\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eDes Moines, IA \u00b7 ~122 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-08 (issued)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eCIP26073 Roosevelt High School - Re-Roofing Phase I. Issued 10/08/2026, due 11/05/2026 (plan room: 3:00 PM). Architect Angelo Architectural Assoc. (515-250-6950).\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: DMPS Purchasing (901 Walnut St)\u003cbr\u003ePhone: \u003ca href=\u0027tel:5152427911\u0027\u003e515-242-7911 (district); 515-554-4718 (per plan room)\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eWebsite: dmschools.org\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.dmschools.org/departments/business-finance/purchasing/open-proposals/\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Des Moines Public Schools - Roosevelt High School (Des Moines, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-95.0389, 39.199], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#8 Leavenworth County (county shop)\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eLeavenworth County, KS \u00b7 ~150 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 28)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eLeavenworth County Shop Roof Replacement. Bids due Oct 28, 2026 10:30 AM CT.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Aaron Youkam\u003cbr\u003ePhone: \u003ca href=\u0027tel:9136840790\u0027\u003e913-684-0790\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Leavenworth County (county shop) (Leavenworth County, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-95.6752, 39.0473], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#9 Kansas Neurological Institute - Sunflower Cottage\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eTopeka, KS \u00b7 ~153 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 22)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eSunflower Cottage Reroof, Kansas Neurological Institute. Bids due Oct 22, 2026 2:00 PM CT. Min. bid listed $815,000.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Cameron Tross (BG Consultants)\u003cbr\u003ePhone: \u003ca href=\u0027tel:7854806185\u0027\u003e785-480-6185\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Kansas Neurological Institute - Sunflower Cottage (Topeka, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.6819, 39.1911], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#10 MDC - Parma Woods Range \u0026amp; Training Center\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003ePlatte County (Parkville area), MO \u00b7 ~157 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Nov 5)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eMDC Parma Woods Range and Training Center Roof Replacement (Platte County). Bids due Nov 5, 2026 11:00 AM CT.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Veronica Mecko (contract specialist); Mike Stornello (design PM)\u003cbr\u003ePhone: \u003ca href=\u0027tel:57352241153\u0027\u003e573-522-4115 x3744 / x3766\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: MDC - Parma Woods Range \u0026 Training Center (Platte County (Parkville area), MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-94.8791, 38.5723], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#11 City of Paola\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003ePaola, KS \u00b7 ~194 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Oct 30)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eCity of Paola \u0026quot;Roofing Project 2026\u0026quot;. Bids due Oct 30, 2026 10:00 AM CT. Scope/buildings not listed on brief.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Brett Marler\u003cbr\u003ePhone: \u003ca href=\u0027tel:9132593600\u0027\u003e913-259-3600\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: City of Paola (Paola, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-100.7654, 41.1239], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#13 City of North Platte - Fire Station 1\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eNorth Platte, NE \u00b7 ~251 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-09 (opened)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eFire Station 1 Apparatus Bay Roof Replacement: tear off ballasted EPDM, new .060 reinforced EPDM, tapered insulation, edge metal, 15-yr NDL warranty. Window 10/9-10/28/2026. (Dollar range on Bid Banana is the site\u0026#x27;s own estimate, not the city\u0026#x27;s.)\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Dave Hahn, City Hall\u003cbr\u003ePhone: \u003ca href=\u0027tel:30853567243\u0027\u003e308-535-6724 x3243\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://bidbanana.thebidlab.com/bid/eK9H4V1F6GYsO1mgrhpi\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: City of North Platte - Fire Station 1 (North Platte, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-97.3301, 37.6872], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#14 Wichita USD 259 - Northwest High School\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eWichita, KS \u00b7 ~258 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (listed; due Nov 2)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRTU \u0026amp; Roof Replacement - Wichita Northwest High School. Bids due Nov 2, 2026 3:00 PM CT.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Rachelle Scharnhorst\u003cbr\u003ePhone: \u003ca href=\u0027tel:3169734547\u0027\u003e316-973-4547\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Wichita USD 259 - Northwest High School (Wichita, KS)"}, "type": "Feature"}, {"geometry": {"coordinates": [-92.1735, 38.5767], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#15 State of Missouri \u2013 Missouri Interoperability Center Bldg 5\u003c/b\u003e\u003cbr\u003eOpen public bid\u003cbr\u003eJefferson City, MO \u00b7 ~272 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003eListed Oct 2026; due 2026-10-29 1:30 PM (pre-bid was 10/13)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eProject R2607-01 Renovate Building No. 5, Missouri Interoperability Center, 2413 E. McCarty St: replace roof and siding on an existing metal storage building + lean-to. Electronic bids to FMDCBids@oa.mo.gov.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Fred L. Decker Jr., Project Manager\u003cbr\u003ePhone: \u003ca href=\u0027tel:5734467768\u0027\u003e573-446-7768 (ADS plan room)\u003c/a\u003e\u003cbr\u003eEmail: \u003ca href=\u0027mailto:Fred.Decker@oa.mo.gov\u0027\u003eFred.Decker@oa.mo.gov\u003c/a\u003e\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://oa.mo.gov/sites/default/files/bid-opportunities/R2607-01%20IFB.pdf\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://oa.mo.gov/facilities/bid-opportunities/bid-listing-electronic-plans\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: State of Missouri \u2013 Missouri Interoperability Center Bldg 5 (Jefferson City, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-92.212, 38.556], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking coating\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#16 State of Missouri \u2013 Scruggs Station / Fairgrounds Warehouse\u003c/b\u003e\u003cbr\u003eOpen public bid\u003cbr\u003eJefferson City, MO \u00b7 ~272 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003eListed Oct 2026; due 2026-11-05 1:30 PM; pre-bid 10/22 1:30 PM\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eProject O2534-01 Scruggs Station Warehouse Complex (Fairgrounds Warehouse, 1525 Fairgrounds Rd): new FLUID-APPLIED ROOFING MEMBRANE on existing metal roof (coating job), gutters/downspouts, plus HVAC/electrical. Roofing would likely be a sub to the GC/mechanical prime.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Andy Carroll, Project Manager\u003cbr\u003ePhone: \u003ca href=\u0027tel:5734467768\u0027\u003e573-446-7768 (ADS plan room)\u003c/a\u003e\u003cbr\u003eEmail: \u003ca href=\u0027mailto:Andy.Carroll@oa.mo.gov\u0027\u003eAndy.Carroll@oa.mo.gov\u003c/a\u003e\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://oa.mo.gov/sites/default/files/bid-opportunities/O2534-01%20IFB.pdf\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://www.oafmdcplanroom.com/projects/3442/details/o2534-01-scruggs-station-warehouse-complex-porite-roof-elect-hvac-rep-fairgrounds-warehouse\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: State of Missouri \u2013 Scruggs Station / Fairgrounds Warehouse (Jefferson City, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.4981, 41.4333], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#18 Fremont Public Schools - Fremont Middle School\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eFremont, NE \u00b7 ~32 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-03 (published)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eITB GP# 2613: Fremont Middle School 2027 Roof Replacement, 540 Johnson Rd. Sealed bids due Oct 20, 2026 2:00 PM to Facilities Office, 957 N. Pierce St; opened publicly same time.\u003c/div\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eNo phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Facilities Office (957 N. Pierce St.); plans via GP Architecture LLC\u003cbr\u003ePhone: -\u003cbr\u003eEmail: -\u003cbr\u003eWebsite: fremontpublicschools.org (not opened)\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/nebraska/notice/bid-notice-fremont-764816\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Fremont Public Schools - Fremont Middle School (Fremont, NE)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.4049, 42.4963], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#19 Sioux City CSD - West Middle School\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eSioux City, IA \u00b7 ~89 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (hearing Oct 12; pre-bid Oct 15)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eWest Middle School roof renovation, 3301 W 19th St. Single-prime sealed bids due Oct 29, 2026 (listing shows 7:00 PM, likely UTC = 2 PM CT); 5% bid bond, 100% P\u0026amp;P bonds; CMBA Architects; work May 27-Aug 6, 2027. A Citizen Portal summary put West + North MS roofs at ~$1.74M combined (not opened).\u003c/div\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eNo phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Secretary of the Board of Education, 627 4th St, Sioux City\u003cbr\u003ePhone: -\u003cbr\u003eEmail: -\u003cbr\u003eWebsite: siouxcityschools.org (not opened)\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://bidscopeai.com/opportunities/550cd283-151a-4cc7-b446-ab34356e5aba\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Sioux City CSD - West Middle School (Sioux City, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.4049, 42.4963], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#20 Sioux City CSD - North Middle School\u003c/b\u003e\u003cbr\u003eOpen public bid (carried forward)\u003cbr\u003eSioux City, IA \u00b7 ~89 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (approx)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eNorth Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.\u003c/div\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eNo phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: -\u003cbr\u003ePhone: -\u003cbr\u003eEmail: -\u003cbr\u003eWebsite: siouxcityschools.org (not opened)\u003cbr\u003eConfidence: unconfirmed\u003cbr\u003e\u003ca href=\u0027https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Sioux City CSD - North Middle School (Sioux City, IA)"}, "type": "Feature"}, {"geometry": {"coordinates": [-96.7311, 43.5446], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer (subcontract)\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#21 Sioux Falls VA Health Care System \u2013 Building 5\u003c/b\u003e\u003cbr\u003eOpen public bid\u003cbr\u003eSioux Falls, SD \u00b7 ~163 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003ePosted 2026-09-04; due 2026-10-20 1:00 PM CT\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eRoofing \u0026amp; thermal-protection scope carved from VA solicitation 36C26326B0020 (PN 438-21-403, Renovate First Floor Kitchen, Building 5, Sioux Falls VA): re-roof prep, TPO roofing, standing-seam metal roof panels, insulated metal wall panels. Prime is an SDVOSB set-aside \u2014 Armour would bid as a roofing sub to SDVOSB primes.\u003c/div\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eNo phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: -\u003cbr\u003ePhone: -\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: unconfirmed (third-party listing; SDVOSB prime required)\u003cbr\u003e\u003ca href=\u0027https://www.cleat.ai/government/contracts/roofing-and-thermal-protection-8wcf\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: Sioux Falls VA Health Care System \u2013 Building 5 (Sioux Falls, SD)"}, "type": "Feature"}, {"geometry": {"coordinates": [-100.336, 44.3668], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#22 State of South Dakota - Mickelson Building\u003c/b\u003e\u003cbr\u003eOpen public bid\u003cbr\u003ePierre, SD \u00b7 ~310 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10-02 / 10-09 (published); due 10/22\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eOSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.\u003c/div\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eNo phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact)\u003cbr\u003ePhone: -\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed\u003cbr\u003e\u003ca href=\u0027https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: State of South Dakota - Mickelson Building (Pierre, SD)"}, "type": "Feature"}, {"geometry": {"coordinates": [-103.004, 42.748], "type": "Point"}, "properties": {"info": "\u003cb\u003eBid Requests \u2014 seeking roofer\u003c/b\u003e (listed in a prior run, still open)\u003cbr\u003e\u003cb\u003e#23 USDA Forest Service - Pine Ridge (PRD) Building 290\u003c/b\u003e\u003cbr\u003eOpen public bid\u003cbr\u003eChadron, NE \u00b7 ~377 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e2026-10 (open; due 10/20 4:00 PM CT)\u003cbr\u003e\u003cdiv style=\u0027max-height:140px;overflow:auto\u0027\u003eSolicitation 12441926Q0048 \u0026quot;PRD B290 Roof Replacement\u0026quot; (Pine Ridge Job Corps area, Chadron, Dawes Co.). Drawings, specs, wage determination and Q\u0026amp;A posted. Due Oct 20, 2026 4:00 PM CT.\u003c/div\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eNo phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: -\u003cbr\u003ePhone: -\u003cbr\u003eEmail: -\u003cbr\u003eConfidence: confirmed (listing); contact not found free\u003cbr\u003e\u003ca href=\u0027https://publicbidsearch.com/bids/prd-b290-roof-chadron-ne-bf7c88\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Bid Requests: USDA Forest Service - Pine Ridge (PRD) Building 290 (Chadron, NE)"}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_237e8f24929a98d25ea92e225eef5c3e.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_6f1ca3f82538fc09eb123c9f9bd1830d.bindPopup(
+    geo_json_237e8f24929a98d25ea92e225eef5c3e.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -1647,16 +1578,16 @@
 });
                      
     
-            geo_json_6f1ca3f82538fc09eb123c9f9bd1830d.addTo(map_744226a2eb72f8be083c9db9432ba580);
+            geo_json_237e8f24929a98d25ea92e225eef5c3e.addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
         
     
-            var geo_json_6f1ca3f82538fc09eb123c9f9bd1830dsearchControl = new L.Control.Search({
-                layer: geo_json_6f1ca3f82538fc09eb123c9f9bd1830d,
+            var geo_json_237e8f24929a98d25ea92e225eef5c3esearchControl = new L.Control.Search({
+                layer: geo_json_237e8f24929a98d25ea92e225eef5c3e,
                 
                 propertyName: 'name',
                 
                 collapsed: false,
-                textPlaceholder: 'Search owner, address or roof-search lead',
+                textPlaceholder: 'Search owner, address, bid request or social media lead',
                 position:'topleft',
             
                 initial: false,
@@ -1666,52 +1597,52 @@
                 hideMarkerOnCollapse: true
             
                 });
-                geo_json_6f1ca3f82538fc09eb123c9f9bd1830dsearchControl.on('search:locationfound', function(e) {
-                    geo_json_6f1ca3f82538fc09eb123c9f9bd1830d.setStyle(function(feature){
+                geo_json_237e8f24929a98d25ea92e225eef5c3esearchControl.on('search:locationfound', function(e) {
+                    geo_json_237e8f24929a98d25ea92e225eef5c3e.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                geo_json_6f1ca3f82538fc09eb123c9f9bd1830dsearchControl.on('search:collapsed', function(e) {
-                        geo_json_6f1ca3f82538fc09eb123c9f9bd1830d.setStyle(function(feature){
+                geo_json_237e8f24929a98d25ea92e225eef5c3esearchControl.on('search:collapsed', function(e) {
+                        geo_json_237e8f24929a98d25ea92e225eef5c3e.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_744226a2eb72f8be083c9db9432ba580.addControl( geo_json_6f1ca3f82538fc09eb123c9f9bd1830dsearchControl );
+            map_a551fbdf61ad5fc6a684a687a52b0b5c.addControl( geo_json_237e8f24929a98d25ea92e225eef5c3esearchControl );
 
         
     
-            var layer_control_dbd49df12c0fee9cbdb0399d0cf603bb_layers = {
+            var layer_control_a26a5aa3f0119cb2efef2c3e672a2a0d_layers = {
                 base_layers : {
-                    "Street map" : tile_layer_3d7be3184a0942dccad4b1098ea54541,
-                    "Satellite" : tile_layer_67b774cf50b02b973759eb4f59c690a7,
+                    "Street map" : tile_layer_42d797df7dcbc5dccd0d0b6cbe8e2bf6,
+                    "Satellite" : tile_layer_960add59fbd35b787b6f7c29c7b93850,
                 },
                 overlays :  {
-                    "Hail \u2013 with contact (green) \u2014 0 today" : marker_cluster_285e215f296df8e6792a2ea33f73f096,
-                    "Hail \u2013 no contact (orange) \u2014 0 today" : marker_cluster_691a5aa1ba385da5b78a566eafac7f69,
-                    "Wind \u2013 with contact (green) \u2014 0 today" : marker_cluster_6674069ce79fd03e1be73c72a75dab7f,
-                    "Wind \u2013 no contact (orange) \u2014 0 today" : marker_cluster_81fec8578c3c8abc7a04ae70f01bb034,
-                    "Rain \u2013 with contact (green) \u2014 0 today" : marker_cluster_6c72f1568d35def8f95001b1441eeb9b,
-                    "Rain \u2013 no contact (orange) \u2014 0 today" : marker_cluster_ee206a05e32f754286da91e12d416715,
-                    "Hail reports \u0026 2in radar swaths (red/purple) \u2014 none today" : feature_group_f070ac73e10002ae9f9473f7d08d61c7,
-                    "Wind outline \u2013 based on SPC reports (none \u226568 mph today)" : feature_group_5b17f72a8da837a172dc4c9c3255c436,
-                    "Source check: held non-thunderstorm gusts (gray)" : feature_group_22ddbba022ba0fe70b17024e4adc27ce,
-                    "Rain search radius (180 miles)" : feature_group_0319ddc39c6bebfa5f869c0cd193d06b,
-                    "Commercial roof search (blue) \u2014 new/updated today" : feature_group_c3841458ec9e717c179450b6076176f5,
-                    "Commercial roof search \u2014 still-open bids from prior runs (light blue)" : feature_group_37c297345823932d53189cb937808eea,
+                    "Hail \u2013 with contact (green) \u2014 0 today" : marker_cluster_58547111dd23979f977022debf3fcfa1,
+                    "Hail \u2013 no contact (orange) \u2014 0 today" : marker_cluster_0a9d8718f6992ec3a5c1fbae493bb3b7,
+                    "Wind \u2013 with contact (green) \u2014 0 today" : marker_cluster_066c5db6b2ceea1c96f35699c31e858f,
+                    "Wind \u2013 no contact (orange) \u2014 0 today" : marker_cluster_065a8a5ae6970e5b489df94f90a285c1,
+                    "Rain \u2013 with contact (green) \u2014 0 today" : marker_cluster_7f077504a1fcacada2128bd87fa63aef,
+                    "Rain \u2013 no contact (orange) \u2014 0 today" : marker_cluster_c7fec34246bfc4db156d59c0fe5a9422,
+                    "Hail reports \u0026 2in radar swaths (red/purple) \u2014 none today" : feature_group_101b3025d8a49b01681b8989a1c8284f,
+                    "Wind outline \u2013 based on SPC reports (none \u226568 mph today)" : feature_group_1bfaa830358ab22bb341a43b14070d88,
+                    "Source check: held non-thunderstorm gusts (gray)" : feature_group_ce26228d45ce567e5c99095693164d88,
+                    "Rain search radius (180 miles)" : feature_group_6fb21b401a608329549816b490150747,
+                    "Bid Requests (square B pins) \u2014 23" : feature_group_cbd7c199e246adb566e185865fb3f120,
+                    "Social Media (round S pins) \u2014 0" : feature_group_59bf736bdbe9efb42e4d1dd65ccc3ab9,
                 },
             };
-            let layer_control_dbd49df12c0fee9cbdb0399d0cf603bb = L.control.layers(
-                layer_control_dbd49df12c0fee9cbdb0399d0cf603bb_layers.base_layers,
-                layer_control_dbd49df12c0fee9cbdb0399d0cf603bb_layers.overlays,
+            let layer_control_a26a5aa3f0119cb2efef2c3e672a2a0d = L.control.layers(
+                layer_control_a26a5aa3f0119cb2efef2c3e672a2a0d_layers.base_layers,
+                layer_control_a26a5aa3f0119cb2efef2c3e672a2a0d_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_744226a2eb72f8be083c9db9432ba580);
+            ).addTo(map_a551fbdf61ad5fc6a684a687a52b0b5c);
 
         
 </script>
