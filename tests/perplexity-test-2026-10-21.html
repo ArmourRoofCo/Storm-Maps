@@ -1,595 +1,79 @@
-<!DOCTYPE html>
-<html>
-<head>
-    
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_19682cb8cf9480d80d06255a550438fe {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-                .leaflet-container { font-size: 1rem; }
-            </style>
-
-            <style>html, body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            </style>
-
-            <style>#map {
-                position:absolute;
-                top:0;
-                bottom:0;
-                right:0;
-                left:0;
-                }
-            </style>
-
-            <script>
-                L_NO_TOUCH = false;
-                L_DISABLE_3D = false;
-            </script>
-
-        
-</head>
-<body>
-    
-    <div style="position:fixed;top:10px;left:60px;z-index:9999;background:#fff;padding:8px 12px;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.3);font:14px Arial"><b>Armour Storm Leads - TEST 10/21/2026</b><br>Event window 10/20 7 AM - 10/21 7 AM CT &middot; 11 bldgs (10 w/ contact) &middot; 0 asset hits<br><span style="color:#d62728">&#9679;</span> measured <span style="color:#ff7f0e">&#9679;</span> spotter/public <span style="color:#9467bd">&#9679;</span> radar (MESH)</div>
-    
-            <div class="folium-map" id="map_19682cb8cf9480d80d06255a550438fe" ></div>
-        
-</body>
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Armour Storm Leads - TEST 10/21/2026</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+ html,body,#map{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif}
+ .panel{position:absolute;z-index:1000;background:#fff;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,.3);font-size:13px}
+ #top{top:10px;left:54px;padding:8px 12px;max-width:min(560px,calc(100% - 120px))}
+ #top h1{font-size:15px;margin:0 0 4px}
+ #top .sub{color:#444;margin-bottom:6px}
+ #top select{font-size:13px;padding:3px;max-width:100%}
+ #ctl{top:10px;right:10px;width:250px;max-height:calc(100% - 40px);overflow:auto}
+ .hdr{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;cursor:pointer;font-weight:bold;border-bottom:1px solid #eee;user-select:none}
+ .body{padding:6px 10px 10px}
+ .collapsed .body{display:none}
+ .grp{margin:6px 0 8px}
+ .grp>label{font-weight:bold}
+ .sub label{display:block;margin-left:20px;color:#333}
+ .cnt{color:#777}
+ .base label{display:block}
+ .legend span{display:inline-block;width:11px;height:11px;border-radius:50%;margin:0 4px 0 0;border:1px solid #333;vertical-align:-1px}
+ .leaflet-popup-content{font-size:13px;line-height:1.35}
+ @media (max-width:640px){#ctl{width:200px}#top{max-width:calc(100% - 270px)}}
+</style></head><body><div id="map"></div>
+<div id="top" class="panel"><h1>Armour Storm Leads - TEST 10/21/2026</h1><div class="sub">Event window 10/20 7 AM - 10/21 7 AM CT &middot; 11 buildings (11 with contact) &middot; 0 asset hits</div>
+ <label for="datesel"><b>Map date:</b></label> <select id="datesel"><option value="">This map (TEST 10/21/2026)</option></select>
+</div>
+<div id="ctl" class="panel"><div class="hdr" data-t="b1">Base map <span>&#9662;</span></div>
+ <div class="body base" id="b1"><label><input type="radio" name="base" value="street" checked> Street</label>
+ <label><input type="radio" name="base" value="sat"> Satellite</label>
+ <label><input type="radio" name="base" value="hyb"> Satellite + labels</label></div>
+ <div class="hdr" data-t="b2">Layers &amp; filters <span>&#9662;</span></div><div class="body" id="b2"></div>
+ <div class="hdr" data-t="b3">Legend <span>&#9662;</span></div>
+ <div class="body legend" id="b3"><div><span style="background:#d62728"></span>Measured</div>
+ <div><span style="background:#ff7f0e"></span>Spotter / public report</div>
+ <div><span style="background:#9467bd"></span>Radar estimate (MESH)</div>
+ <div><span style="background:#1f77b4"></span>Our asset</div>
+ <div style="margin-top:4px">Solid pin = has contact (phone and/or email)<br>Hollow pin = no contact</div></div>
+</div>
 <script>
-    
-    
-            var map_19682cb8cf9480d80d06255a550438fe = L.map(
-                "map_19682cb8cf9480d80d06255a550438fe",
-                {
-                    center: [39.5, -98.5],
-                    crs: L.CRS.EPSG3857,
-                    ...{
-  "zoom": 4,
-  "zoomControl": true,
-  "preferCanvas": false,
-}
-
-                }
-            );
-
-            
-
-        
-    
-            var tile_layer_34d50c1e4b493be06f34fe8534261c83 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {
-  "minZoom": 0,
-  "maxZoom": 19,
-  "maxNativeZoom": 19,
-  "noWrap": false,
-  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
-  "subdomains": "abc",
-  "detectRetina": false,
-  "tms": false,
-  "opacity": 1,
-}
-
-            );
-        
-    
-            tile_layer_34d50c1e4b493be06f34fe8534261c83.addTo(map_19682cb8cf9480d80d06255a550438fe);
-        
-    
-            var feature_group_534924a5cb0ecbe946c5b94420867ca9 = L.featureGroup(
-                {
-}
-            );
-        
-    
-            var circle_20e8cc05a45f5873f8c48b2c59a90270 = L.circle(
-                [33.44, -111.79],
-                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1609, "stroke": true, "weight": 3}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_53aee63db47afec852d16f16ad0ccf93 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_4e204c5f6de0538459e7951322b3c8fc = $(`<div id="html_4e204c5f6de0538459e7951322b3c8fc" style="width: 100.0%; height: 100.0%;">1-mile search radius (Mesa rule)</div>`)[0];
-                popup_53aee63db47afec852d16f16ad0ccf93.setContent(html_4e204c5f6de0538459e7951322b3c8fc);
-            
-        
-
-        circle_20e8cc05a45f5873f8c48b2c59a90270.bindPopup(popup_53aee63db47afec852d16f16ad0ccf93)
-        ;
-
-        
-    
-    
-            var marker_abb8c0e5df8c595a73d9d6d87c90b9a2 = L.marker(
-                [33.44, -111.79],
-                {
-}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-            var icon_356d0fde7ef1ea924f9c0b7757ad553c = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "orange",
-  "iconColor": "white",
-  "icon": "cloud",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_4002b7d042f18f039455b2071b6142e7 = L.popup({
-  "maxWidth": 300,
-});
-
-        
-            
-                var html_b8d551a58740a336c16a95c62702a742 = $(`<div id="html_b8d551a58740a336c16a95c62702a742" style="width: 100.0%; height: 100.0%;"><b>2.00in hail - 3 ENE Mesa AZ</b><br>Trained spotter, 05:25Z 10/21<br>FLAG: 1.00in measured at same spot 05:22Z</div>`)[0];
-                popup_4002b7d042f18f039455b2071b6142e7.setContent(html_b8d551a58740a336c16a95c62702a742);
-            
-        
-
-        marker_abb8c0e5df8c595a73d9d6d87c90b9a2.bindPopup(popup_4002b7d042f18f039455b2071b6142e7)
-        ;
-
-        
-    
-    
-                marker_abb8c0e5df8c595a73d9d6d87c90b9a2.setIcon(icon_356d0fde7ef1ea924f9c0b7757ad553c);
-            
-    
-            var circle_marker_22e3e834cf39eb0971303e016954537b = L.circleMarker(
-                [33.4505228192, -111.8030004981],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_3b6921db983a67b30c63d99cc8bf194b = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_9a041b7376d46e700aba902d64608eb8 = $(`<div id="html_9a041b7376d46e700aba902d64608eb8" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#1 SMITHS FOOD &amp; DRUG CENTERS INC (c/o FRY&#x27;S FOOD &amp; DRUG STORES)</b><br>1935 N STAPLEY DR, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 90,505 (footprint)<br> <b>Contact:</b> Fry&#x27;s Food Stores (Kroger) - store <br><b>Phone:</b> 480-610-4140<br><b>Email:</b> -<br> <b>Operator:</b> Fry&#x27;s Food Store (Stapley &amp; McKellips), owner-occupied (Smith&#x27;s Food &amp; Drug Centers = Kroger subsidiary)<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: NEW in test: frysfood.com store page, Mesa Chamber listing</small></div></div>`)[0];
-                popup_3b6921db983a67b30c63d99cc8bf194b.setContent(html_9a041b7376d46e700aba902d64608eb8);
-            
-        
-
-        circle_marker_22e3e834cf39eb0971303e016954537b.bindPopup(popup_3b6921db983a67b30c63d99cc8bf194b)
-        ;
-
-        
-    
-    
-            circle_marker_22e3e834cf39eb0971303e016954537b.bindTooltip(
-                `<div>
-                     #1 SMITHS FOOD & DRUG CENTERS INC (c/o FRY'
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_c1b9f52d9188a95783721cf189ac04bc = L.circleMarker(
-                [33.4503609659, -111.7867441691],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_7264590769c67c033f4b5abdb8295b0a = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_be211305ff1a5c2fa1d840ff137f6c2b = $(`<div id="html_be211305ff1a5c2fa1d840ff137f6c2b" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#2 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIANG CHEN)</b><br>1927 N GILBERT RD, Mesa, AZ 85213<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 58,459 (footprint)<br> <b>Contact:</b> Jiang Chen Manager (assessor in-care-of)<br><b>Phone:</b> 480-844-9600<br><b>Email:</b> -<br> <b>Operator:</b> Village Grove Plaza (KTR North Mesa / Dollar Tree; Angry Crab Shack / Kwan&#x27;s Sampan)<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: 10/21 report (AZCC mirror opengovus.com)</small></div></div>`)[0];
-                popup_7264590769c67c033f4b5abdb8295b0a.setContent(html_be211305ff1a5c2fa1d840ff137f6c2b);
-            
-        
-
-        circle_marker_c1b9f52d9188a95783721cf189ac04bc.bindPopup(popup_7264590769c67c033f4b5abdb8295b0a)
-        ;
-
-        
-    
-    
-            circle_marker_c1b9f52d9188a95783721cf189ac04bc.bindTooltip(
-                `<div>
-                     #2 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIA
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_2c0f83117a1713017dfe93c2f2d9c634 = L.circleMarker(
-                [33.4532464412, -111.7889132541],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_bb8e16a9b3b9ba92ea95df015417cfb3 = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_20627aa592ce18ac349053ac32fb14f1 = $(`<div id="html_20627aa592ce18ac349053ac32fb14f1" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#3 STORE MASTER FUNDING III LLC (c/o FITNESS ALLIANCE LLC)</b><br>1954 E MCKELLIPS RD, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 53,958 (footprint)<br> <b>Contact:</b> STORE Capital - Master Funding <br><b>Phone:</b> 480-256-1100<br><b>Email:</b> -<br> <b>Operator:</b> EoS Fitness (Fitness Alliance LLC)<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: 10/21 report; owner entity unconfirmed at AZCC</small></div></div>`)[0];
-                popup_bb8e16a9b3b9ba92ea95df015417cfb3.setContent(html_20627aa592ce18ac349053ac32fb14f1);
-            
-        
-
-        circle_marker_2c0f83117a1713017dfe93c2f2d9c634.bindPopup(popup_bb8e16a9b3b9ba92ea95df015417cfb3)
-        ;
-
-        
-    
-    
-            circle_marker_2c0f83117a1713017dfe93c2f2d9c634.bindTooltip(
-                `<div>
-                     #3 STORE MASTER FUNDING III LLC (c/o FITNES
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_e389d6509e949d8b0ce77ffe2c8a5fec = L.circleMarker(
-                [33.451229746, -111.7859441911],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_884b841cfbbe5127ce00c973880d85d5 = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_35fc7f002c17b65b4d1741d9c76b4567 = $(`<div id="html_35fc7f002c17b65b4d1741d9c76b4567" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#4 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIANG CHEN)</b><br>1927 N GILBERT RD, Mesa, AZ 85213<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 39,087 (footprint)<br> <b>Contact:</b> Jiang Chen Manager (assessor in-care-of)<br><b>Phone:</b> 480-844-9600<br><b>Email:</b> -<br> <b>Operator:</b> Village Grove Plaza (KTR North Mesa / Dollar Tree; Angry Crab Shack / Kwan&#x27;s Sampan)<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: 10/21 report (AZCC mirror opengovus.com)</small></div></div>`)[0];
-                popup_884b841cfbbe5127ce00c973880d85d5.setContent(html_35fc7f002c17b65b4d1741d9c76b4567);
-            
-        
-
-        circle_marker_e389d6509e949d8b0ce77ffe2c8a5fec.bindPopup(popup_884b841cfbbe5127ce00c973880d85d5)
-        ;
-
-        
-    
-    
-            circle_marker_e389d6509e949d8b0ce77ffe2c8a5fec.bindTooltip(
-                `<div>
-                     #4 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIA
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_aa93467e473c518468632668002c8ea0 = L.circleMarker(
-                [33.4522031623, -111.7969763097],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_8ed33717a3410767fa160f0a6d310974 = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_f8f576b33ad977d4ce2d11f88c11c2f0 = $(`<div id="html_f8f576b33ad977d4ce2d11f88c11c2f0" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#5 1550 EAST MCKELLIPS LLC</b><br>1550 E MCKELLIPS RD, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 34,021 (footprint)<br> <b>Contact:</b> Jamie Swirtz CBRE Phoenix, owner&#x27;s leasing broker (not owner)<br><b>Phone:</b> 602-735-5630<br><b>Email:</b> jamie.swirtz@cbre.com<br> <b>Operator:</b> Pivotal Tax Solutions; Action Behavior Centers<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: 10/21 report (opensosdata.com)</small></div></div>`)[0];
-                popup_8ed33717a3410767fa160f0a6d310974.setContent(html_f8f576b33ad977d4ce2d11f88c11c2f0);
-            
-        
-
-        circle_marker_aa93467e473c518468632668002c8ea0.bindPopup(popup_8ed33717a3410767fa160f0a6d310974)
-        ;
-
-        
-    
-    
-            circle_marker_aa93467e473c518468632668002c8ea0.bindTooltip(
-                `<div>
-                     #5 1550 EAST MCKELLIPS LLC
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_9d3a9982f531774ba53ac806a491e10d = L.circleMarker(
-                [33.4375224288, -111.806143091],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_635db70766f537917a32a49de472f1d7 = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_e262fc26b22716b05d4caaff0614c5a3 = $(`<div id="html_e262fc26b22716b05d4caaff0614c5a3" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#6 DESERT SCHOOLS FEDERAL CREDIT UNION</b><br>1262 N STAPLEY DR, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 20,526 (footprint)<br> <b>Contact:</b> Desert Schools FCU - Stapley branch <br><b>Phone:</b> 602-335-8003<br><b>Email:</b> -<br> <b>Operator:</b> Owner-occupied credit union branch<br><b>Miles from Omaha:</b> 1,023<br><small>Contact source: 10/21 report; NCUA charter</small></div></div>`)[0];
-                popup_635db70766f537917a32a49de472f1d7.setContent(html_e262fc26b22716b05d4caaff0614c5a3);
-            
-        
-
-        circle_marker_9d3a9982f531774ba53ac806a491e10d.bindPopup(popup_635db70766f537917a32a49de472f1d7)
-        ;
-
-        
-    
-    
-            circle_marker_9d3a9982f531774ba53ac806a491e10d.bindTooltip(
-                `<div>
-                     #6 DESERT SCHOOLS FEDERAL CREDIT UNION
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_27d38c6fe8a3ffe9ed659aa726ef3c4e = L.circleMarker(
-                [33.4526993923, -111.7896077984],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_882f45491437fcba182bebf3e300730a = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_cd72e50c9aeb1118732ccd69b2ce13dd = $(`<div id="html_cd72e50c9aeb1118732ccd69b2ce13dd" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#7 GERHOLZ INVESTMENTS LLC</b><br>2036 N GILBERT RD, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 15,048 (footprint)<br> <b>Contact:</b> Gerholz Realty (Flint, MI) <br><b>Phone:</b> 810-235-2562<br><b>Email:</b> store5740@theupsstore.com<br> <b>Operator:</b> Basha&#x27;s Plaza retail (UPS Store #5740 et al.)<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: 10/21 report (MI LARA mirror)</small></div></div>`)[0];
-                popup_882f45491437fcba182bebf3e300730a.setContent(html_cd72e50c9aeb1118732ccd69b2ce13dd);
-            
-        
-
-        circle_marker_27d38c6fe8a3ffe9ed659aa726ef3c4e.bindPopup(popup_882f45491437fcba182bebf3e300730a)
-        ;
-
-        
-    
-    
-            circle_marker_27d38c6fe8a3ffe9ed659aa726ef3c4e.bindTooltip(
-                `<div>
-                     #7 GERHOLZ INVESTMENTS LLC
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_d6e219c9f6b6fb92e602df2c663db43a = L.circleMarker(
-                [33.4479397993, -111.8021726542],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_c2382d891a2015d067319ac17aa6aa59 = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_f634f1879cddc99fade3092e75e54e7e = $(`<div id="html_f634f1879cddc99fade3092e75e54e7e" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#8 MESA ROYALE 152 LLC</b><br>1825 N STAPLEY DR 2093, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 14,410 (footprint)<br> <b>Contact:</b> - <br><b>Phone:</b> 480-827-0407<br><b>Email:</b> -<br> <b>Operator:</b> Mesa Royale Active Adult Community (clubhouse)<br><b>Miles from Omaha:</b> 1,023<br><small>Contact source: 10/21 report; owner LLC unconfirmed</small></div></div>`)[0];
-                popup_c2382d891a2015d067319ac17aa6aa59.setContent(html_f634f1879cddc99fade3092e75e54e7e);
-            
-        
-
-        circle_marker_d6e219c9f6b6fb92e602df2c663db43a.bindPopup(popup_c2382d891a2015d067319ac17aa6aa59)
-        ;
-
-        
-    
-    
-            circle_marker_d6e219c9f6b6fb92e602df2c663db43a.bindTooltip(
-                `<div>
-                     #8 MESA ROYALE 152 LLC
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_1c811d3bbfabadea5829e89e3c6b1fdf = L.circleMarker(
-                [33.4511366136, -111.7895291291],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_e79e4536eacc7f0ddf7185c9da2744cc = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_3328b5fa53c8653a3d6be6945c51ecef = $(`<div id="html_3328b5fa53c8653a3d6be6945c51ecef" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#9 BOKHARI INVESTMENTS LLC</b><br>1919 E MCKELLIPS RD, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 11,554 (footprint)<br> <b>Contact:</b> Ismail Bokhari Manager<br><b>Phone:</b> 480-834-9575<br><b>Email:</b> -<br> <b>Operator:</b> Foothills Neurology et al. (medical office)<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: 10/21 report (uscorpdirectory.com)</small></div></div>`)[0];
-                popup_e79e4536eacc7f0ddf7185c9da2744cc.setContent(html_3328b5fa53c8653a3d6be6945c51ecef);
-            
-        
-
-        circle_marker_1c811d3bbfabadea5829e89e3c6b1fdf.bindPopup(popup_e79e4536eacc7f0ddf7185c9da2744cc)
-        ;
-
-        
-    
-    
-            circle_marker_1c811d3bbfabadea5829e89e3c6b1fdf.bindTooltip(
-                `<div>
-                     #9 BOKHARI INVESTMENTS LLC
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_f790aaad59bf6e59c77b48a17d01f5af = L.circleMarker(
-                [33.4375854273, -111.7847537567],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_0fb825e747dd520e07db13ca8547c796 = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_f1b33fd45bc5b9fc203b0a4d99c7daed = $(`<div id="html_f1b33fd45bc5b9fc203b0a4d99c7daed" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#10 CLAYMON BUILDINGS LLC</b><br>2150 E BROWN RD, Mesa, AZ 85213<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 10,454 (footprint)<br> <b>Contact:</b> Clayton &amp; Monica Crompton Members (unconfirmed at AZCC)<br><b>Phone:</b> 480-258-3851<br><b>Email:</b> -<br> <b>Operator:</b> Multi-tenant office (Skyward Therapies et al.)<br><b>Miles from Omaha:</b> 1,022<br><small>Contact source: 10/21 report (bizprofile.net mirror)</small></div></div>`)[0];
-                popup_0fb825e747dd520e07db13ca8547c796.setContent(html_f1b33fd45bc5b9fc203b0a4d99c7daed);
-            
-        
-
-        circle_marker_f790aaad59bf6e59c77b48a17d01f5af.bindPopup(popup_0fb825e747dd520e07db13ca8547c796)
-        ;
-
-        
-    
-    
-            circle_marker_f790aaad59bf6e59c77b48a17d01f5af.bindTooltip(
-                `<div>
-                     #10 CLAYMON BUILDINGS LLC
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_44449bfb1efe46b3d600bbec43bd7354 = L.circleMarker(
-                [33.4493174715, -111.8035534297],
-                {"bubblingMouseEvents": true, "color": "#333", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
-            ).addTo(feature_group_534924a5cb0ecbe946c5b94420867ca9);
-        
-    
-        var popup_b34b3677be561e10f3a14a673548c712 = L.popup({
-  "maxWidth": 340,
-});
-
-        
-            
-                var html_1a88ac5351d139f3571b717e4c441189 = $(`<div id="html_1a88ac5351d139f3571b717e4c441189" style="width: 100.0%; height: 100.0%;"><div style='font:13px Arial;min-width:260px'><b>#11 DMT PROPERTY HOLDINGS INC</b><br>1241 E MCKELLIPS RD, Mesa, AZ 85203<br> <b>Event:</b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:</b> 32,489 (footprint)<br> <b>Contact:</b> - <br><b>Phone:</b> (480) 969-1109<br><b>Email:</b> -<br> <b>Operator:</b> Education Express Preschool (tenant) - unconfirmed<br><b>Miles from Omaha:</b> 1,023<br><small>Contact source: NEW in test: Maricopa County child-care permit listing; owner DMT Property Holdings Inc not matched in free sources (unconfirmed)</small></div></div>`)[0];
-                popup_b34b3677be561e10f3a14a673548c712.setContent(html_1a88ac5351d139f3571b717e4c441189);
-            
-        
-
-        circle_marker_44449bfb1efe46b3d600bbec43bd7354.bindPopup(popup_b34b3677be561e10f3a14a673548c712)
-        ;
-
-        
-    
-    
-            circle_marker_44449bfb1efe46b3d600bbec43bd7354.bindTooltip(
-                `<div>
-                     #11 DMT PROPERTY HOLDINGS INC
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            feature_group_534924a5cb0ecbe946c5b94420867ca9.addTo(map_19682cb8cf9480d80d06255a550438fe);
-        
-    
-            var feature_group_d2f169a607f9215664db049ce309bdc7 = L.featureGroup(
-                {
-}
-            );
-        
-    
-            feature_group_d2f169a607f9215664db049ce309bdc7.addTo(map_19682cb8cf9480d80d06255a550438fe);
-        
-    
-            var feature_group_5785eb9573bb6ad61d0707376775e1f5 = L.featureGroup(
-                {
-}
-            );
-        
-    
-            feature_group_5785eb9573bb6ad61d0707376775e1f5.addTo(map_19682cb8cf9480d80d06255a550438fe);
-        
-    
-            var feature_group_53e1dc92307e6ec62ca9ff8b618fb0bc = L.featureGroup(
-                {
-}
-            );
-        
-    
-            feature_group_53e1dc92307e6ec62ca9ff8b618fb0bc.addTo(map_19682cb8cf9480d80d06255a550438fe);
-        
-    
-            var feature_group_fd31e9e417551cee23079ce6c16f9ece = L.featureGroup(
-                {
-}
-            );
-        
-    
-            feature_group_fd31e9e417551cee23079ce6c16f9ece.addTo(map_19682cb8cf9480d80d06255a550438fe);
-        
-    
-            var layer_control_34693e77b04f502b7516e593d2c0134f_layers = {
-                base_layers : {
-                    "openstreetmap" : tile_layer_34d50c1e4b493be06f34fe8534261c83,
-                },
-                overlays :  {
-                    "Hail" : feature_group_534924a5cb0ecbe946c5b94420867ca9,
-                    "Wind" : feature_group_d2f169a607f9215664db049ce309bdc7,
-                    "Rain" : feature_group_5785eb9573bb6ad61d0707376775e1f5,
-                    "Bid Requests" : feature_group_53e1dc92307e6ec62ca9ff8b618fb0bc,
-                    "Social Media" : feature_group_fd31e9e417551cee23079ce6c16f9ece,
-                },
-            };
-            let layer_control_34693e77b04f502b7516e593d2c0134f = L.control.layers(
-                layer_control_34693e77b04f502b7516e593d2c0134f_layers.base_layers,
-                layer_control_34693e77b04f502b7516e593d2c0134f_layers.overlays,
-                {
-  "position": "topright",
-  "collapsed": true,
-  "autoZIndex": true,
-}
-            ).addTo(map_19682cb8cf9480d80d06255a550438fe);
-
-        
-</script>
-</html>
+const D={"subtitle": "Event window 10/20 7 AM - 10/21 7 AM CT &middot; 11 buildings (11 with contact) &middot; 0 asset hits", "center": [33.445, -111.795], "zoom": 14, "features": [{"layer": "Hail", "kind": "radius", "lat": 33.44, "lon": -111.79, "radius_m": 1609, "basis": "spotter", "popup_html": "1-mile search radius (Mesa rule)"}, {"layer": "Hail", "kind": "report", "lat": 33.44, "lon": -111.79, "basis": "spotter", "has_contact": true, "tooltip": "2.00in hail - 3 ENE Mesa AZ", "popup_html": "<b>2.00in hail - 3 ENE Mesa, AZ<\/b><br>Trained spotter, 10/21 05:25Z (SPC / NWS Phoenix)<br><b>Flag:<\/b> 1.00in measured at same spot 05:22Z - verify"}, {"layer": "Hail", "kind": "building", "lat": 33.4505228192, "lon": -111.8030004981, "basis": "spotter", "has_contact": true, "tooltip": "#1 SMITHS FOOD & DRUG CENTERS INC (c/o FRY'", "popup_html": "<b>#1 SMITHS FOOD &amp; DRUG CENTERS INC (c/o FRY&#x27;S FOOD &amp; DRUG STORES)<\/b><br>1935 N STAPLEY DR, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 90,505 (footprint)<br><b>Contact:<\/b> Fry&#x27;s Food Stores (Kroger) - store<br><b>Phone:<\/b> 480-610-4140<br><b>Email:<\/b> -<br><b>Operator:<\/b> Fry&#x27;s Food Store (Stapley &amp; McKellips), owner-occupied (Smith&#x27;s Food &amp; Drug Centers = Kroger subsidiary)<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: NEW in test: frysfood.com store page, Mesa Chamber listing<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4503609659, "lon": -111.7867441691, "basis": "spotter", "has_contact": true, "tooltip": "#2 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIA", "popup_html": "<b>#2 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIANG CHEN)<\/b><br>1927 N GILBERT RD, Mesa, AZ 85213<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 58,459 (footprint)<br><b>Contact:<\/b> Jiang Chen - Manager (assessor in-care-of)<br><b>Phone:<\/b> 480-844-9600<br><b>Email:<\/b> -<br><b>Operator:<\/b> Village Grove Plaza (KTR North Mesa / Dollar Tree; Angry Crab Shack / Kwan&#x27;s Sampan)<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: 10/21 report (AZCC mirror opengovus.com)<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4532464412, "lon": -111.7889132541, "basis": "spotter", "has_contact": true, "tooltip": "#3 STORE MASTER FUNDING III LLC (c/o FITNES", "popup_html": "<b>#3 STORE MASTER FUNDING III LLC (c/o FITNESS ALLIANCE LLC)<\/b><br>1954 E MCKELLIPS RD, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 53,958 (footprint)<br><b>Contact:<\/b> STORE Capital - Master Funding<br><b>Phone:<\/b> 480-256-1100<br><b>Email:<\/b> -<br><b>Operator:<\/b> EoS Fitness (Fitness Alliance LLC)<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: 10/21 report; owner entity unconfirmed at AZCC<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.451229746, "lon": -111.7859441911, "basis": "spotter", "has_contact": true, "tooltip": "#4 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIA", "popup_html": "<b>#4 JCL COMMERCIAL ON MCKELLIPS LLC (c/o JIANG CHEN)<\/b><br>1927 N GILBERT RD, Mesa, AZ 85213<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 39,087 (footprint)<br><b>Contact:<\/b> Jiang Chen - Manager (assessor in-care-of)<br><b>Phone:<\/b> 480-844-9600<br><b>Email:<\/b> -<br><b>Operator:<\/b> Village Grove Plaza (KTR North Mesa / Dollar Tree; Angry Crab Shack / Kwan&#x27;s Sampan)<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: 10/21 report (AZCC mirror opengovus.com)<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4522031623, "lon": -111.7969763097, "basis": "spotter", "has_contact": true, "tooltip": "#5 1550 EAST MCKELLIPS LLC", "popup_html": "<b>#5 1550 EAST MCKELLIPS LLC<\/b><br>1550 E MCKELLIPS RD, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 34,021 (footprint)<br><b>Contact:<\/b> Jamie Swirtz - CBRE Phoenix, owner&#x27;s leasing broker (not owner)<br><b>Phone:<\/b> 602-735-5630<br><b>Email:<\/b> jamie.swirtz@cbre.com<br><b>Operator:<\/b> Pivotal Tax Solutions; Action Behavior Centers<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: 10/21 report (opensosdata.com)<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4493174715, "lon": -111.8035534297, "basis": "spotter", "has_contact": true, "tooltip": "#6 DMT PROPERTY HOLDINGS INC", "popup_html": "<b>#6 DMT PROPERTY HOLDINGS INC<\/b><br>1241 E MCKELLIPS RD, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 32,489 (footprint)<br><b>Contact:<\/b> -<br><b>Phone:<\/b> (480) 969-1109<br><b>Email:<\/b> -<br><b>Operator:<\/b> Education Express Preschool (tenant) - unconfirmed<br><b>Miles from Omaha:<\/b> 1,023<br><small>Contact source: NEW in test: Maricopa County child-care permit listing; owner DMT Property Holdings Inc not matched in free sources (unconfirmed)<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4375224288, "lon": -111.806143091, "basis": "spotter", "has_contact": true, "tooltip": "#7 DESERT SCHOOLS FEDERAL CREDIT UNION", "popup_html": "<b>#7 DESERT SCHOOLS FEDERAL CREDIT UNION<\/b><br>1262 N STAPLEY DR, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 20,526 (footprint)<br><b>Contact:<\/b> Desert Schools FCU - Stapley branch<br><b>Phone:<\/b> 602-335-8003<br><b>Email:<\/b> -<br><b>Operator:<\/b> Owner-occupied credit union branch<br><b>Miles from Omaha:<\/b> 1,023<br><small>Contact source: 10/21 report; NCUA charter<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4526993923, "lon": -111.7896077984, "basis": "spotter", "has_contact": true, "tooltip": "#8 GERHOLZ INVESTMENTS LLC", "popup_html": "<b>#8 GERHOLZ INVESTMENTS LLC<\/b><br>2036 N GILBERT RD, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 15,048 (footprint)<br><b>Contact:<\/b> Gerholz Realty (Flint, MI)<br><b>Phone:<\/b> 810-235-2562<br><b>Email:<\/b> store5740@theupsstore.com<br><b>Operator:<\/b> Basha&#x27;s Plaza retail (UPS Store #5740 et al.)<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: 10/21 report (MI LARA mirror)<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4479397993, "lon": -111.8021726542, "basis": "spotter", "has_contact": true, "tooltip": "#9 MESA ROYALE 152 LLC", "popup_html": "<b>#9 MESA ROYALE 152 LLC<\/b><br>1825 N STAPLEY DR 2093, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 14,410 (footprint)<br><b>Contact:<\/b> -<br><b>Phone:<\/b> 480-827-0407<br><b>Email:<\/b> -<br><b>Operator:<\/b> Mesa Royale Active Adult Community (clubhouse)<br><b>Miles from Omaha:<\/b> 1,023<br><small>Contact source: 10/21 report; owner LLC unconfirmed<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4511366136, "lon": -111.7895291291, "basis": "spotter", "has_contact": true, "tooltip": "#10 BOKHARI INVESTMENTS LLC", "popup_html": "<b>#10 BOKHARI INVESTMENTS LLC<\/b><br>1919 E MCKELLIPS RD, Mesa, AZ 85203<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 11,554 (footprint)<br><b>Contact:<\/b> Ismail Bokhari - Manager<br><b>Phone:<\/b> 480-834-9575<br><b>Email:<\/b> -<br><b>Operator:<\/b> Foothills Neurology et al. (medical office)<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: 10/21 report (uscorpdirectory.com)<\/small>"}, {"layer": "Hail", "kind": "building", "lat": 33.4375854273, "lon": -111.7847537567, "basis": "spotter", "has_contact": true, "tooltip": "#11 CLAYMON BUILDINGS LLC", "popup_html": "<b>#11 CLAYMON BUILDINGS LLC<\/b><br>2150 E BROWN RD, Mesa, AZ 85213<br><b>Event:<\/b> Hail 2.00in (Spotter (trained) - 2.00in; conflicting 1.00in measured same spot)<br><b>Building SF:<\/b> 10,454 (footprint)<br><b>Contact:<\/b> Clayton &amp; Monica Crompton - Members (unconfirmed at AZCC)<br><b>Phone:<\/b> 480-258-3851<br><b>Email:<\/b> -<br><b>Operator:<\/b> Multi-tenant office (Skyward Therapies et al.)<br><b>Miles from Omaha:<\/b> 1,022<br><small>Contact source: 10/21 report (bizprofile.net mirror)<\/small>"}]}, INDEX_URL="../archive/index.json", ROOT="../";
+const map=L.map('map',{zoomControl:true}).setView(D.center,D.zoom);
+const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri, Maxar, Earthstar Geographics'});
+const labels=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:19});
+document.querySelectorAll('input[name=base]').forEach(r=>r.onchange=()=>{[street,sat,labels].forEach(l=>map.removeLayer(l));
+ if(r.value==='street')street.addTo(map);else{sat.addTo(map);if(r.value==='hyb')labels.addTo(map);}});
+const COL={measured:'#d62728',spotter:'#ff7f0e',radar:'#9467bd',none:'#1f77b4'};
+const LAYERS=['Hail','Wind','Rain','Our Assets','Bid Requests','Social Media'];
+const groups={};LAYERS.forEach(n=>groups[n]={yes:L.layerGroup(),no:L.layerGroup(),cy:0,cn:0});
+D.features.forEach(f=>{const g=groups[f.layer];if(!g)return;let m;
+ if(f.kind==='radius'){m=L.circle([f.lat,f.lon],{radius:f.radius_m,color:COL[f.basis]||'#ff7f0e',weight:2,fillOpacity:.07});(g.yes).addLayer(m);if(f.popup_html)m.bindPopup(f.popup_html);return;}
+ const c=f.layer==='Our Assets'?COL.none:(COL[f.basis]||'#555');
+ const r=f.kind==='report'?6:(f.layer==='Our Assets'?4:8);
+ m=L.circleMarker([f.lat,f.lon],{radius:r,color:f.kind==='report'?'#000':c,weight:f.kind==='report'?2:(f.has_contact?1:2.5),fillColor:c,fillOpacity:f.has_contact||f.kind==='report'?.9:.1});
+ if(f.popup_html)m.bindPopup(f.popup_html,{maxWidth:340});if(f.tooltip)m.bindTooltip(f.tooltip);
+ if(f.kind==='report'||f.has_contact){g.yes.addLayer(m);if(f.kind!=='report')g.cy++;}else{g.no.addLayer(m);g.cn++;}});
+const box=document.getElementById('b2');
+LAYERS.forEach((n,i)=>{const g=groups[n];const on=n!=='Our Assets';
+ const d=document.createElement('div');d.className='grp';
+ d.innerHTML=`<label><input type="checkbox" id="L${i}" ${on?'checked':''}> ${n} <span class="cnt">(${g.cy+g.cn})</span></label>
+ <div class="sub"><label><input type="checkbox" id="L${i}y" checked> With contact <span class="cnt">(${g.cy})</span></label>
+ <label><input type="checkbox" id="L${i}n" checked> No contact <span class="cnt">(${g.cn})</span></label></div>`;box.appendChild(d);
+ const main=d.querySelector('#L'+i),y=d.querySelector('#L'+i+'y'),no=d.querySelector('#L'+i+'n');
+ const sync=()=>{[['yes',y],['no',no]].forEach(([k,cb])=>{const show=main.checked&&cb.checked;show?g[k].addTo(map):map.removeLayer(g[k]);});};
+ [main,y,no].forEach(cb=>cb.onchange=sync);sync();});
+const all=document.createElement('div');all.className='grp';
+all.innerHTML='<b>All layers:</b> <a href="#" id="ay">contact only</a> &middot; <a href="#" id="an">no contact only</a> &middot; <a href="#" id="ab">both</a>';box.appendChild(all);
+function setAll(y,n){LAYERS.forEach((_,i)=>{const a=document.getElementById('L'+i+'y'),b=document.getElementById('L'+i+'n');a.checked=y;b.checked=n;a.onchange();});}
+document.getElementById('ay').onclick=e=>{e.preventDefault();setAll(true,false)};
+document.getElementById('an').onclick=e=>{e.preventDefault();setAll(false,true)};
+document.getElementById('ab').onclick=e=>{e.preventDefault();setAll(true,true)};
+document.querySelectorAll('.hdr').forEach(h=>h.onclick=()=>{const b=document.getElementById(h.dataset.t);b.style.display=b.style.display==='none'?'':'none';});
+if(window.innerWidth<640){['b1','b3'].forEach(id=>document.getElementById(id).style.display='none');}
+const sel=document.getElementById('datesel');
+if(INDEX_URL){fetch(INDEX_URL+'?t='+Date.now()).then(r=>r.json()).then(j=>{(j.dates||[]).forEach(d=>{const o=document.createElement('option');o.value=ROOT+d.file;o.textContent=d.label+(d.summary?' - '+d.summary:'');sel.appendChild(o);});}).catch(()=>{const o=document.createElement('option');o.disabled=true;o.textContent='(previous days unavailable offline)';sel.appendChild(o);});}
+sel.onchange=()=>{if(sel.value)location.href=sel.value;};
+</script></body></html>
