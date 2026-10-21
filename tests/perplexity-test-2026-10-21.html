@@ -35,7 +35,6 @@
  <div class="body legend" id="b3"><div><span style="background:#d62728"></span>Measured</div>
  <div><span style="background:#ff7f0e"></span>Spotter / public report</div>
  <div><span style="background:#9467bd"></span>Radar estimate (MESH)</div>
- <div><span style="background:#1f77b4"></span>Our asset</div>
  <div style="margin-top:4px">Solid pin = has contact (phone and/or email)<br>Hollow pin = no contact</div></div>
 </div>
 <script>
@@ -47,7 +46,7 @@ const labels=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/R
 document.querySelectorAll('input[name=base]').forEach(r=>r.onchange=()=>{[street,sat,labels].forEach(l=>map.removeLayer(l));
  if(r.value==='street')street.addTo(map);else{sat.addTo(map);if(r.value==='hyb')labels.addTo(map);}});
 const COL={measured:'#d62728',spotter:'#ff7f0e',radar:'#9467bd',none:'#1f77b4'};
-const LAYERS=['Hail','Wind','Rain','Our Assets','Bid Requests','Social Media'];
+const LAYERS=['Hail','Wind','Rain','Our Assets','Bid Requests','Social Media'].filter(n=>n!=='Our Assets'||false);
 const groups={};LAYERS.forEach(n=>groups[n]={yes:L.layerGroup(),no:L.layerGroup(),cy:0,cn:0});
 D.features.forEach(f=>{const g=groups[f.layer];if(!g)return;let m;
  if(f.kind==='radius'){m=L.circle([f.lat,f.lon],{radius:f.radius_m,color:COL[f.basis]||'#ff7f0e',weight:2,fillOpacity:.07});(g.yes).addLayer(m);if(f.popup_html)m.bindPopup(f.popup_html);return;}
