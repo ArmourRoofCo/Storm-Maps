@@ -113,6 +113,98 @@
 })();
 </script>
 <!-- SM-DATEPICKER:END -->
+<!-- SM-COLLAPSE:BEGIN -->
+<style id="sm-collapse-css">
+.sm-fold-btn{display:block;width:100%;box-sizing:border-box;margin:0;font:bold 13px/1.2 sans-serif;color:#fff;background:#1a3d8f;border:0;border-radius:3px;padding:7px 10px;min-height:32px;cursor:pointer;text-align:left;white-space:nowrap;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.sm-fold-btn:focus-visible{outline:2px solid #ff8c00;outline-offset:1px}
+.leaflet-control-layers.sm-fold-host{padding:4px}
+.leaflet-control-layers.sm-fold-host .sm-fold-btn{margin-bottom:4px}
+.leaflet-control-layers.sm-folded>:not(.sm-fold-btn){display:none!important}
+.leaflet-control-layers.sm-folded .sm-fold-btn{margin-bottom:0}
+.sm-legend-host .sm-fold-btn{margin:-4px -4px 6px -4px;width:calc(100% + 8px)}
+.sm-legend-host.sm-folded{padding:4px!important;max-width:none!important;width:auto!important}
+.sm-legend-host.sm-folded .sm-fold-btn{margin:0;width:auto}
+.sm-legend-host.sm-folded>.sm-fold-body{display:none!important}
+@media (max-width:767px){
+ .leaflet-control-layers.sm-fold-host .leaflet-control-layers-list{max-height:55vh;overflow-y:auto}
+ .sm-legend-host{left:10px!important;bottom:20px!important;max-width:calc(100vw - 20px)!important;box-sizing:border-box}
+ .sm-legend-host>.sm-fold-body{max-height:45vh;overflow-y:auto}
+}
+</style>
+<script>
+(function(){
+  var NARROW=768, K_F='sm.filters.open', K_L='sm.legend.open';
+  function get(k){try{var v=localStorage.getItem(k);return v===null?null:v==='1';}catch(e){return null;}}
+  function put(k,v){try{localStorage.setItem(k,v?'1':'0');}catch(e){}}
+  function dflt(k){var v=get(k);return v===null?window.innerWidth>=NARROW:v;}
+  function makeBtn(name,key,hosts){
+    var b=document.createElement('button');b.type='button';b.className='sm-fold-btn';
+    function set(open,save){
+      hosts.forEach(function(h){h.classList.toggle('sm-folded',!open);});
+      b.textContent=name+(open?' \u25BE':' \u25B8');b.setAttribute('aria-expanded',open?'true':'false');
+      b.title=(open?'Hide ':'Show ')+name.toLowerCase();
+      if(save)put(key,open);
+      clearPicker();
+    }
+    b.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
+      set(hosts[0].classList.contains('sm-folded'),true);});
+    b._smSet=set;return b;
+  }
+  function stopMap(el){if(window.L&&L.DomEvent){L.DomEvent.disableClickPropagation(el);L.DomEvent.disableScrollPropagation(el);}}
+  function setupFilters(){
+    var cs=[].slice.call(document.querySelectorAll('.leaflet-control-layers')).filter(function(c){return !c.classList.contains('sm-fold-host');});
+    if(!cs.length)return false;
+    cs.forEach(function(c,i){
+      c.classList.add('sm-fold-host');
+      var b=makeBtn(cs.length>1?'Filters '+(i+1):'Filters',K_F,[c]);
+      b.id=i?'sm-filters-btn-'+(i+1):'sm-filters-btn';
+      c.insertBefore(b,c.firstChild);b._smSet(dflt(K_F),false);
+    });
+    return true;
+  }
+  function setupLegends(){
+    var ds=[].slice.call(document.querySelectorAll('div[style]')).filter(function(d){
+      var s=(d.getAttribute('style')||'').replace(/\s+/g,'').toLowerCase();
+      return s.indexOf('position:fixed')>=0 && !d.closest('#sm-datepick') && d.id!=='sm-datepick' &&
+             !d.classList.contains('sm-legend-host') && !d.closest('.leaflet-container') && d.title!=='Gray markers have been called';
+    });
+    ds.forEach(function(d,i){
+      d.classList.add('sm-legend-host');
+      var body=document.createElement('div');body.className='sm-fold-body';
+      while(d.firstChild)body.appendChild(d.firstChild);
+      var b=makeBtn(ds.length>1?'Legend '+(i+1):'Legend',K_L,[d]);
+      b.id=i?'sm-legend-btn-'+(i+1):'sm-legend-btn';
+      d.appendChild(b);d.appendChild(body);stopMap(d);b._smSet(dflt(K_L),false);
+    });
+    return ds.length>0;
+  }
+  // keep the top map controls (Filters, zoom, search) clear of the centred date picker when they would overlap
+  function clearPicker(){
+    var p=document.getElementById('sm-datepick'),tops=document.querySelectorAll('.leaflet-top');
+    for(var i=0;i<tops.length;i++)tops[i].style.top='';
+    if(!p)return;var r=p.getBoundingClientRect();if(!r.height)return;
+    var narrow=window.innerWidth<NARROW,hits=[];
+    for(i=0;i<tops.length;i++){var hit=false;
+      [].slice.call(tops[i].children).forEach(function(c){var q=c.getBoundingClientRect();
+        if(q.width&&q.left<r.right&&q.right>r.left&&q.top<r.bottom)hit=true;});
+      hits.push(hit);}
+    var any=hits.some(function(h){return h;});
+    // on phones shift both top corners together so the right column never lands on the left search box
+    for(i=0;i<tops.length;i++)if(hits[i]||(narrow&&any))tops[i].style.top=Math.ceil(r.bottom+4-tops[i].getBoundingClientRect().top)+'px';
+  }
+  var tries=0,fOK=false,lDone=false;
+  function run(){
+    if(!lDone){lDone=true;setupLegends();}  // static legend HTML only (one pass; never the called-counter)
+    if(!fOK)fOK=setupFilters();
+    clearPicker();
+    if(!fOK&&++tries<40)setTimeout(run,250);
+  }
+  window.addEventListener('resize',clearPicker);
+  if(window.MutationObserver){var p=document.getElementById('sm-datepick');if(p)new MutationObserver(clearPicker).observe(p,{childList:true,subtree:true,characterData:true});}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();
+})();
+</script>
+<!-- SM-COLLAPSE:END -->
 </body>
 <script>
     
