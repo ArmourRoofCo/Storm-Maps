@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads 2026-10-21</name>
+        <Folder id="8">
+            <Style id="50">
+                <PolyStyle id="51">
+                    <color>1e0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="54">
+                <IconStyle id="55">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="56">
+                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="59">
+                <IconStyle id="60">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="61">
+                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="64">
+                <IconStyle id="65">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="66">
+                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="69">
+                <IconStyle id="70">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="71">
+                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Hail</name>
+            <Folder id="11">
+                <Style id="5">
+                    <IconStyle id="6">
+                        <color>ff00ff00</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="7">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>With contact</name>
+                <Placemark id="14">
+                    <name>JCL COMMERCIAL ON MCKELLIPS LLC (in care of JIANG CHEN) (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: JCL COMMERCIAL ON MCKELLIPS LLC (in care of JIANG CHEN)
+1927 N Gilbert Rd, Mesa, AZ 85213
+58,459 SF footprint
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Village Grove Plaza anchors: KTR North Mesa (kids gym) / Dollar Tree Ste 1
+Op contact: -
+Op phone: 480-844-9600
+Op email: -
+SOS: Match (free mirror of AZCC records, opengovus.com #23374171): JCL Commercial on McKellips LLC, active AZ domestic LLC formed 2022-05-13; registered agent Zongfu Li; managers Jiang Chen and Zongfu Li - Jiang Chen = assessor in-care-of. AZCC eCorp itself blocked automated access (HTTP 403).
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.45036,-111.78674</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="13">
+                        <coordinates>-111.78674,33.45036,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="16">
+                    <name>STORE MASTER FUNDING III LLC (in care of FITNESS ALLIANCE LLC) (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: STORE MASTER FUNDING III LLC (in care of FITNESS ALLIANCE LLC)
+1954 E McKellips Rd, Mesa, AZ 85203
+53,958 SF footprint
+Has contact (phone/email): Yes
+Owner contact: STORE Capital - Master Funding Solutions
+Owner phone: 480-256-1100
+Owner email: -
+Operator / Tenant: EoS Fitness - Mesa Gilbert/McKellips (Fitness Alliance LLC)
+Op contact: -
+Op phone: 480-651-8272
+Op email: -
+SOS: Not confirmed at AZCC (eCorp blocked automated access, HTTP 403). Name matches STORE Capital's "Master Funding" securitization entities (storecapital.com; SEC 8-K filings of STORE Capital LLC); assessor in-care-of Fitness Alliance LLC = EoS Fitness operating entity (triple-net tenant likely handles roof).
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.45325,-111.78891</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="15">
+                        <coordinates>-111.78891,33.45325,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="18">
+                    <name>JCL COMMERCIAL ON MCKELLIPS LLC (in care of JIANG CHEN) (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: JCL COMMERCIAL ON MCKELLIPS LLC (in care of JIANG CHEN)
+1927 N Gilbert Rd, Mesa, AZ 85213
+39,087 SF footprint
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Village Grove Plaza tenants: Angry Crab Shack / Kwan's Sampan
+Op contact: -
+Op phone: 480-306-7598
+Op email: -
+SOS: Match (free mirror of AZCC records, opengovus.com #23374171): JCL Commercial on McKellips LLC, active AZ domestic LLC formed 2022-05-13; registered agent Zongfu Li; managers Jiang Chen and Zongfu Li - Jiang Chen = assessor in-care-of. AZCC eCorp itself blocked automated access (HTTP 403).
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.45123,-111.78594</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="17">
+                        <coordinates>-111.78594,33.45123,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="20">
+                    <name>1550 EAST MCKELLIPS LLC (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: 1550 EAST MCKELLIPS LLC
+1550 E McKellips Rd, Mesa, AZ 85203
+34,021 SF footprint
+Has contact (phone/email): Yes
+Owner contact: Jamie Swirtz, CBRE Phoenix (owner's leasing broker - not the owner)
+Owner phone: 602-735-5630
+Owner email: jamie.swirtz@cbre.com
+Operator / Tenant: Multi-tenant office/medical: Pivotal Tax Solutions (Ste 123); Action Behavior Centers North Mesa (Ste 101, 602-898-7717)
+Op contact: Shaunna Smith
+Op phone: 480-634-6169
+Op email: shaunnas@pivotaltax.com
+SOS: Match (free mirror of AZCC records, opensosdata.com #741375): 1550 East McKellips LLC, active AZ LLC formed 2024-10-17, Mesa registered agent/principal; member Warrior10 Holdings LLC. AZCC eCorp blocked automated access (HTTP 403).
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.4522,-111.79698</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="19">
+                        <coordinates>-111.79698,33.4522,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="22">
+                    <name>DESERT SCHOOLS FEDERAL CREDIT UNION (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: DESERT SCHOOLS FEDERAL CREDIT UNION
+1262 N Stapley Dr, Mesa, AZ 85203
+20,526 SF footprint
+Has contact (phone/email): Yes
+Owner contact: Desert Schools FCU - Stapley branch
+Owner phone: 602-335-8003
+Owner email: -
+Operator / Tenant: Desert Schools Federal Credit Union - Stapley branch (owner-occupied)
+Op contact: -
+Op phone: 602-335-8003
+Op email: -
+SOS: n/a - federally chartered credit union (NCUA charter), not an Arizona Corporation Commission entity
+1023 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.43752,-111.80614</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="21">
+                        <coordinates>-111.80614,33.43752,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="24">
+                    <name>GERHOLZ INVESTMENTS LLC (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: GERHOLZ INVESTMENTS LLC
+2036 N Gilbert Rd, Mesa, AZ 85203
+15,048 SF footprint
+Has contact (phone/email): Yes
+Owner contact: Gerholz Realty RA/LTD (Flint, MI)
+Owner phone: 810-235-2562
+Owner email: -
+Operator / Tenant: Basha's Plaza NWC retail: The UPS Store #5740 (Ste 2); also Jersey Mike's (Ste 6), ROC Physical Therapy (Ste 7), Drop Dead Salons (Ste 1)
+Op contact: -
+Op phone: 480-892-4445
+Op email: store5740@theupsstore.com
+SOS: Partial: Michigan LARA record mirrored on michigan-company.com - Gerholz Investments, L.L.C., active MI LLC #801217760 formed 2002-11-20, registered address 4020 Hammerberg Rd, Flint (Gerholz Realty listing address). Assessor mailing is Grand Blanc MI. Affiliation inferred, UNCONFIRMED. Not registered-agent verified.
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.4527,-111.78961</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="23">
+                        <coordinates>-111.78961,33.4527,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="26">
+                    <name>MESA ROYALE 152 LLC (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: MESA ROYALE 152 LLC
+1825 N Stapley Dr, Mesa, AZ 85203
+14,410 SF footprint
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Mesa Royale Active Adult Community (55+ apartments; clubhouse/amenity building)
+Op contact: -
+Op phone: 480-827-0407
+Op email: -
+SOS: Not confirmed: AZCC eCorp blocked automated access (HTTP 403); no free mirror record found for "Mesa Royale 152 LLC" (CA SOS not checked - search requires interactive session).
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.44794,-111.80217</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="25">
+                        <coordinates>-111.80217,33.44794,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="28">
+                    <name>BOKHARI INVESTMENTS LLC (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: BOKHARI INVESTMENTS LLC
+1919 E McKellips Rd, Mesa, AZ 85203
+11,554 SF footprint
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Medical office: Foothills Neurology - Mesa (Ste 102); also Atlas Spine Center (Ste 106), Abbott Eye Care (Ste 103), Vibe Barre (Ste 110)
+Op contact: -
+Op phone: 480-834-9575
+Op email: -
+SOS: Match (free mirror of AZCC records, uscorpdirectory.com): Bokhari Investments LLC, active AZ LLC L21734578 filed 2017-03-29, principal 890 Airway Ave Kingman = assessor mailing address; manager Ismail Bokhari. AZCC eCorp blocked automated access (HTTP 403).
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.45114,-111.78953</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="27">
+                        <coordinates>-111.78953,33.45114,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="30">
+                    <name>CLAYMON BUILDINGS LLC (2.0in hail)</name>
+                    <description>Hail 2.0in (SPC 10/20, 3 ENE Mesa) - FLAGGED: SPC 2.00in (spotter, 1-2in stones) vs measured 1.00in at same spot and MESH ~1.6in - verify
+Owner: CLAYMON BUILDINGS LLC
+2150 E Brown Rd, Mesa, AZ 85213
+10,454 SF footprint
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Multi-tenant office: Skyward Therapies Medical Massage (Ste 4); also Statewide Foreclosure Services (Ste 2), Metanoia Toolbox (Ste 1), Icon Roofing (Ste 4 - a roofing contractor)
+Op contact: -
+Op phone: 480-258-3851
+Op email: -
+SOS: Partial: bizprofile.net mirror of AZCC filing - active AZ LLC formed 2019-09-21, members Clayton and Monica Crompton (Mesa). AZCC eCorp blocked automated access (HTTP 403) - not verified at the source.
+1022 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=33.43759,-111.78475</description>
+                    <styleUrl>#5</styleUrl>
+                    <Point id="29">
+                        <coordinates>-111.78475,33.43759,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Folder id="12">
+                <name>No contact</name>
+            </Folder>
+            <Folder id="31">
+                <Style id="36">
+                    <PolyStyle id="37">
+                        <color>50800080</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="42">
+                    <PolyStyle id="43">
+                        <color>50800080</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>MESH 2in+ swaths 10/20 (radar-only, held - no buildings)</name>
+                <Placemark id="33">
+                    <name>MESH 2.06in (radar-only, held)</name>
+                    <description>HELD - single radar pixel (Yavapai County near Skull Valley); no ground report; nearest report 1.50" 5 W Prescott Airport</description>
+                    <styleUrl>#36</styleUrl>
+                    <Polygon id="32">
+                        <outerBoundaryIs>
+                            <LinearRing id="34">
+                                <coordinates>-112.5700004977956,34.17990000000413,0.0 -112.5800004977956,34.17990000000413,0.0 -112.58001029950962,34.17990048153147,0.0 -112.5800200068278,34.179901921476095,0.0 -112.58002952626332,34.17990430597056,0.0 -112.58003876613883,34.17990761205088,0.0 -112.58004763746928,34.1799118078777,0.0 -112.5800560548189,34.179916853042904,0.0 -112.58006393712401,34.1799226989588,0.0 -112.58007120847371,34.17992928932602,0.0 -112.58007779884093,34.17993656067572,0.0 -112.58008364475683,34.17994444298083,0.0 -112.58008868992204,34.17995286033045,0.0 -112.58009288574884,34.179961731660896,0.0 -112.58009619182917,34.17997097153641,0.0 -112.58009857632364,34.179980490971936,0.0 -112.58010001626826,34.1799901982901,0.0 -112.5801004977956,34.180000000004135,0.0 -112.5801004977956,34.19000000000414,0.0 -112.58010001626826,34.190009801718176,0.0 -112.58009857632364,34.19001950903634,0.0 -112.58009619182917,34.19002902847186,0.0 -112.58009288574884,34.19003826834738,0.0 -112.58008868992204,34.19004713967782,0.0 -112.58008364475683,34.19005555702744,0.0 -112.58007779884093,34.190063439332555,0.0 -112.58007120847371,34.19007071068226,0.0 -112.58006393712401,34.19007730104948,0.0 -112.5800560548189,34.19008314696537,0.0 -112.58004763746928,34.190088192130574,0.0 -112.58003876613883,34.19009238795739,0.0 -112.58002952626332,34.190095694037716,0.0 -112.5800200068278,34.19009807853218,0.0 -112.58001029950962,34.190099518476806,0.0 -112.5800004977956,34.19010000000414,0.0 -112.5700004977956,34.19010000000414,0.0 -112.56999069608158,34.190099518476806,0.0 -112.5699809887634,34.19009807853218,0.0 -112.56997146932788,34.190095694037716,0.0 -112.56996222945237,34.19009238795739,0.0 -112.56995335812192,34.190088192130574,0.0 -112.5699449407723,34.19008314696537,0.0 -112.56993705846719,34.19007730104948,0.0 -112.56992978711749,34.19007071068226,0.0 -112.56992319675027,34.190063439332555,0.0 -112.56991735083437,34.19005555702744,0.0 -112.56991230566916,34.19004713967782,0.0 -112.56990810984236,34.19003826834738,0.0 -112.56990480376203,34.19002902847186,0.0 -112.56990241926756,34.19001950903634,0.0 -112.56990097932294,34.190009801718176,0.0 -112.5699004977956,34.19000000000414,0.0 -112.5699004977956,34.180000000004135,0.0 -112.56990097932294,34.1799901982901,0.0 -112.56990241926756,34.179980490971936,0.0 -112.56990480376203,34.17997097153641,0.0 -112.56990810984236,34.179961731660896,0.0 -112.56991230566916,34.17995286033045,0.0 -112.56991735083437,34.17994444298083,0.0 -112.56992319675027,34.17993656067572,0.0 -112.56992978711749,34.17992928932602,0.0 -112.56993705846719,34.1799226989588,0.0 -112.5699449407723,34.179916853042904,0.0 -112.56995335812192,34.1799118078777,0.0 -112.56996222945237,34.17990761205088,0.0 -112.56997146932788,34.17990430597056,0.0 -112.5699809887634,34.179901921476095,0.0 -112.56999069608158,34.17990048153147,0.0 -112.5700004977956,34.17990000000413,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="39">
+                    <name>MESH 2.53in (radar-only, held)</name>
+                    <description>HELD - radar-only (Tonto National Forest / Saguaro Lake area, ~12 mi NE of the Mesa report); no buildings inside; LSR power lines down 6 WNW Saguaro Lake (no size)</description>
+                    <styleUrl>#42</styleUrl>
+                    <Polygon id="38">
+                        <outerBoundaryIs>
+                            <LinearRing id="40">
+                                <coordinates>-111.65010052437137,33.59000000000426,0.0 -111.65010004284403,33.590009801718296,0.0 -111.6500986028994,33.59001950903646,0.0 -111.65009621840494,33.59002902847198,0.0 -111.65009291232461,33.5900382683475,0.0 -111.6500887164978,33.59004713967794,0.0 -111.6500836713326,33.59005555702756,0.0 -111.6500778254167,33.590063439332674,0.0 -111.65007123504948,33.590070710682376,0.0 -111.65006396369978,33.5900773010496,0.0 -111.65005608139467,33.59008314696549,0.0 -111.65004766404505,33.59008819213069,0.0 -111.6500387927146,33.59009238795751,0.0 -111.65002955283909,33.590095694037835,0.0 -111.65002003340356,33.5900980785323,0.0 -111.6500103260854,33.590099518476926,0.0 -111.65000052437136,33.59010000000426,0.0 -111.61000052522866,33.59010000000426,0.0 -111.60999072351463,33.590099518476926,0.0 -111.60998101619646,33.5900980785323,0.0 -111.60997149676093,33.590095694037835,0.0 -111.60996225688542,33.59009238795751,0.0 -111.60995338555497,33.59008819213069,0.0 -111.60994496820535,33.59008314696549,0.0 -111.60993708590024,33.5900773010496,0.0 -111.60992981455054,33.590070710682376,0.0 -111.60992322418332,33.590063439332674,0.0 -111.60991737826743,33.59005555702756,0.0 -111.60991233310222,33.59004713967794,0.0 -111.60990813727541,33.5900382683475,0.0 -111.60990483119508,33.59002902847198,0.0 -111.60990244670062,33.59001950903646,0.0 -111.60990100675599,33.590009801718296,0.0 -111.60990052522865,33.59000000000426,0.0 -111.60990052522865,33.580000000004254,0.0 -111.60990100675599,33.57999019829022,0.0 -111.60990244670062,33.579980490972055,0.0 -111.60990483119508,33.57997097153653,0.0 -111.60990813727541,33.579961731661015,0.0 -111.60991233310222,33.57995286033057,0.0 -111.60991737826743,33.57994444298095,0.0 -111.60992322418332,33.57993656067584,0.0 -111.60992981455054,33.57992928932614,0.0 -111.60993708590024,33.57992269895892,0.0 -111.60994496820535,33.579916853043024,0.0 -111.60995338555497,33.57991180787782,0.0 -111.60996225688542,33.579907612051,0.0 -111.60997149676093,33.57990430597068,0.0 -111.60998101619646,33.579901921476214,0.0 -111.60999072351463,33.57990048153159,0.0 -111.61000052522866,33.57990000000425,0.0 -111.62990052465713,33.57990000000425,0.0 -111.62990052465713,33.570000000004256,0.0 -111.62990100618447,33.56999019829022,0.0 -111.6299024461291,33.56998049097206,0.0 -111.62990483062356,33.569970971536534,0.0 -111.62990813670389,33.56996173166102,0.0 -111.6299123325307,33.569952860330574,0.0 -111.6299173776959,33.569944442980955,0.0 -111.6299232236118,33.56993656067584,0.0 -111.62992981397902,33.56992928932614,0.0 -111.62993708532872,33.56992269895892,0.0 -111.62994496763383,33.569916853043026,0.0 -111.62995338498345,33.56991180787782,0.0 -111.6299622563139,33.569907612051004,0.0 -111.62997149618941,33.56990430597068,0.0 -111.62998101562494,33.569901921476216,0.0 -111.6299907229431,33.56990048153159,0.0 -111.63000052465713,33.56990000000425,0.0 -111.65000052437136,33.56990000000425,0.0 -111.6500103260854,33.56990048153159,0.0 -111.65002003340356,33.569901921476216,0.0 -111.65002955283909,33.56990430597068,0.0 -111.6500387927146,33.569907612051004,0.0 -111.65004766404505,33.56991180787782,0.0 -111.65005608139467,33.569916853043026,0.0 -111.65006396369978,33.56992269895892,0.0 -111.65007123504948,33.56992928932614,0.0 -111.6500778254167,33.56993656067584,0.0 -111.6500836713326,33.569944442980955,0.0 -111.6500887164978,33.569952860330574,0.0 -111.65009291232461,33.56996173166102,0.0 -111.65009621840494,33.569970971536534,0.0 -111.6500986028994,33.56998049097206,0.0 -111.65010004284403,33.56999019829022,0.0 -111.65010052437137,33.570000000004256,0.0 -111.65010052437137,33.59000000000426,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+            <Placemark id="45">
+                <name>2.00in hail 3 ENE Mesa AZ (SPC 10/20, flagged)</name>
+                <description>CONFLICT: IEM/NWS LSR (NWS Phoenix) lists the same 2.00" spotter report ("photo of a pile of hail stones with diameters around 1-2 inches") AND a 1.00" measured stone at the same point 3 min earlier (05:22Z, public). MRMS MESH at the point ~1.64" (2"+ MESH only in Tonto NF ~12 mi NE, max 2.53"). HailTrace public 10/20 page: 171 properties at 1.75"+, 0 at 2.50"+.</description>
+                <Point id="44">
+                    <coordinates>-111.79,33.44,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="47">
+                <name>Lead radius 1 mi around 2.00in report (limited - conflicting sizes)</name>
+                <styleUrl>#50</styleUrl>
+                <Polygon id="46">
+                    <outerBoundaryIs>
+                        <LinearRing id="48">
+                            <coordinates>-111.77263224671034,33.44,0.0 -111.77271587718953,33.441420538265646,0.0 -111.77296596321983,33.44282739597124,0.0 -111.77338009633608,33.444207024308035,0.0 -111.77395428820998,33.44554613670094,0.0 -111.7746830090599,33.44683183676559,0.0 -111.77555924090568,33.44805174250753,0.0 -111.77657454515567,33.449194105567585,0.0 -111.7777191438749,33.45024792436502,0.0 -111.77898201395203,33.45120305004873,0.0 -111.78035099325784,33.452050284236265,0.0 -111.78181289777326,33.45278146759925,0.0 -111.78335364855864,33.45338955844219,0.0 -111.78495840734168,33.45386870051786,0.0 -111.78661171941803,33.45421427942613,0.0 -111.7882976624886,33.45442296705322,0.0 -111.79,33.454492753623185,0.0 -111.79170233751141,33.45442296705322,0.0 -111.79338828058198,33.45421427942613,0.0 -111.79504159265834,33.45386870051786,0.0 -111.79664635144137,33.45338955844219,0.0 -111.79818710222675,33.45278146759925,0.0 -111.79964900674217,33.452050284236265,0.0 -111.80101798604798,33.45120305004873,0.0 -111.80228085612511,33.45024792436502,0.0 -111.80342545484434,33.449194105567585,0.0 -111.80444075909433,33.44805174250753,0.0 -111.80531699094011,33.44683183676559,0.0 -111.80604571179003,33.44554613670094,0.0 -111.80661990366393,33.444207024308035,0.0 -111.80703403678018,33.44282739597124,0.0 -111.80728412281049,33.441420538265646,0.0 -111.80736775328967,33.44,0.0 -111.80728412281049,33.43857946173435,0.0 -111.80703403678018,33.43717260402875,0.0 -111.80661990366393,33.43579297569196,0.0 -111.80604571179003,33.434453863299055,0.0 -111.80531699094011,33.433168163234406,0.0 -111.80444075909433,33.431948257492465,0.0 -111.80342545484434,33.43080589443241,0.0 -111.80228085612511,33.42975207563497,0.0 -111.80101798604798,33.42879694995126,0.0 -111.79964900674217,33.42794971576373,0.0 -111.79818710222675,33.427218532400744,0.0 -111.79664635144137,33.426610441557806,0.0 -111.79504159265834,33.42613129948214,0.0 -111.79338828058198,33.42578572057386,0.0 -111.79170233751141,33.42557703294678,0.0 -111.79,33.42550724637681,0.0 -111.7882976624886,33.42557703294678,0.0 -111.78661171941803,33.42578572057386,0.0 -111.78495840734168,33.42613129948214,0.0 -111.78335364855864,33.426610441557806,0.0 -111.78181289777326,33.427218532400744,0.0 -111.78035099325784,33.42794971576373,0.0 -111.77898201395203,33.42879694995126,0.0 -111.7777191438749,33.42975207563497,0.0 -111.77657454515567,33.43080589443241,0.0 -111.77555924090568,33.431948257492465,0.0 -111.7746830090599,33.433168163234406,0.0 -111.77395428820998,33.434453863299055,0.0 -111.77338009633608,33.43579297569196,0.0 -111.77296596321983,33.43717260402875,0.0 -111.77271587718953,33.43857946173435,0.0 -111.77263224671034,33.44,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="53">
+                <name>1.50in hail 5 W Prescott Airport AZ (SPC 10/20, below 2in)</name>
+                <styleUrl>#54</styleUrl>
+                <Point id="52">
+                    <coordinates>-112.51,34.65,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="58">
+                <name>1.00in hail 3 SW Mesa AZ (SPC/mPING 10/20)</name>
+                <styleUrl>#59</styleUrl>
+                <Point id="57">
+                    <coordinates>-111.87,33.38,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="63">
+                <name>1.00in measured hail 3 ENE Mesa AZ (LSR 05:22Z, same spot as the 2.00in)</name>
+                <styleUrl>#64</styleUrl>
+                <Point id="62">
+                    <coordinates>-111.791,33.441,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="68">
+                <name>1.00in hail 3 W Gilbert AZ (LSR)</name>
+                <styleUrl>#69</styleUrl>
+                <Point id="67">
+                    <coordinates>-111.84,33.35,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="9">
+            <name>Wind</name>
+            <Folder id="72">
+                <name>Wind outline based on SPC/NWS reports - no 68+ mph reports in the continental US this period</name>
+            </Folder>
+        </Folder>
+        <Folder id="10">
+            <name>Rain</name>
+            <Placemark id="74">
+                <name>No CoCoRaHS 24h total over 2in within 180 miles of Omaha (max 0.20in obs 10/21)</name>
+                <Point id="73">
+                    <coordinates>-95.9345,41.2565,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="75">
+            <Style id="78">
+                <IconStyle id="79">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="80">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="83">
+                <IconStyle id="84">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="85">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="88">
+                <IconStyle id="89">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="90">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="93">
+                <IconStyle id="94">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="95">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="98">
+                <IconStyle id="99">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="100">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="103">
+                <IconStyle id="104">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="105">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="108">
+                <IconStyle id="109">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="110">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="113">
+                <IconStyle id="114">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="115">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="118">
+                <IconStyle id="119">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="120">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="123">
+                <IconStyle id="124">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="125">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="128">
+                <IconStyle id="129">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="130">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="133">
+                <IconStyle id="134">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="135">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="138">
+                <IconStyle id="139">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="140">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="143">
+                <IconStyle id="144">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="145">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="148">
+                <IconStyle id="149">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="150">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="153">
+                <IconStyle id="154">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="155">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="158">
+                <IconStyle id="159">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="160">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="163">
+                <IconStyle id="164">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="165">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="168">
+                <IconStyle id="169">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="170">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="173">
+                <IconStyle id="174">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="175">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="178">
+                <IconStyle id="179">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="180">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Bid Requests — 21 (18 with phone/email)</name>
+            <Placemark id="77">
+                <name>Davenport CSD – Madison Elementary School (116 E Locust St) (Davenport, IA)</name>
+                <description>Bid Requests | has contact: Yes
+NEW today
+seeking roofer (public bid) | Open public bid | 2026-10-19 (posted 1:00 PM) | bids due Mon 11/16 7:00 PM (CT per portal); optional pre-bid Thu 10/22 2:30 PM at the school
+Invitation to Bid FY27-091: single-prime partial roof replacement at Madison Elementary School, incl. unit prices for roof drain replacement (sump, flashing, piping) and pressure-treated wood nailer replacement. 5% bid bond, 100% P&amp;P bonds; submit via davenportschools.ionwave.net. Roof area not stated.
+Contact: Dawn Evans (Purchasing)
+Phone: -
+Email: evansd@davenportschools.org
+Website: https://davenportschools.ionwave.net
+Confidence: high (official solicitation contact)
+Source: https://bidscopeai.com/opportunities/49ac0474-3910-45ad-859a-63b4bc63d15c
+~278 mi from Omaha</description>
+                <styleUrl>#78</styleUrl>
+                <Point id="76">
+                    <coordinates>-90.57373,41.53832,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="82">
+                <name>Council Bluffs CSD – Bloomer Elementary (Council Bluffs, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+capital plan (pre-bid) | Capital-plan signal (not yet bid) | Detected 2026-09-22 (district facility assessment) | STATUS 2026-10-21: capital-plan signal (no bid yet)
+District facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator's sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.
+Contact: Aaron Rang, Director of Facilities Maintenance &amp; Custodial Services (FMCS)
+Phone: 712-328-6406
+Email: arang@cb-schools.org
+Website: https://www.cb-schools.org
+Confidence: unconfirmed (aggregator summary of assessment; no bid date yet)
+Source: https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb ; https://www.cb-schools.org/departments/facilities
+~4 mi from Omaha</description>
+                <styleUrl>#83</styleUrl>
+                <Point id="81">
+                    <coordinates>-95.8608,41.2619,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="87">
+                <name>Cuming County Courthouse (Cuming County, NE) (West Point, NE)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid | 2026-10-16 (published; re-runs 10/23) | STATUS 2026-10-21: bids due Tue 11/10 10:30 AM
+Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.
+Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents)
+Phone: (402) 372-6002 (County Clerk)
+Email: clerk@cumingcounty.ne.gov
+Website: https://cumingcountyne.gov
+Confidence: confirmed
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623
+~57 mi from Omaha</description>
+                <styleUrl>#88</styleUrl>
+                <Point id="86">
+                    <coordinates>-96.7086,41.8417,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="92">
+                <name>SENCA – Tecumseh Senior Center building (Tecumseh, NE)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid | Published 2026-10-16; due Fri 2026-10-30 12:00 PM | STATUS 2026-10-21: bids due Fri 10/30 12:00 PM
+Requests bids to repair or replace the roof at 172 S. 4th Street, Tecumseh; bids must closely match existing roofing material; due 12:00 p.m. Friday Oct 30. (Listing page opened; individual notice page link not retrievable — site blocks automated link capture.) Address is SENCA's Tecumseh Senior Center (per Nebraska Resource &amp; Referral System). Roof size/type not stated — likely small.
+Contact: SENCA Tecumseh Senior Center (building phone)
+Phone: (402) 335-2134
+Email: -
+Website: -
+Confidence: confirmed (listing text); scope size unknown
+Source: https://www.noticeregistry.com/nebraska/category/bid-notice ; https://nrrs.ne.gov/resource/25559/
+~63 mi from Omaha</description>
+                <styleUrl>#93</styleUrl>
+                <Point id="91">
+                    <coordinates>-96.1956,40.3664,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="97">
+                <name>Sioux City CSD - West Middle School (Sioux City, IA)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (hearing Oct 12; pre-bid Oct 15) | STATUS 2026-10-21: due 10/29 7:00 PM
+West Middle School roof renovation, 3301 W 19th St. Single-prime sealed bids due Oct 29, 2026 (listing shows 7:00 PM, likely UTC = 2 PM CT); 5% bid bond, 100% P&amp;P bonds; CMBA Architects; work May 27-Aug 6, 2027. A Citizen Portal summary put West + North MS roofs at ~$1.74M combined (not opened).
+Contact: Secretary of the Board of Education, 627 4th St, Sioux City
+Phone: -
+Email: -
+Website: siouxcityschools.org (not opened)
+Confidence: confirmed
+Source: https://bidscopeai.com/opportunities/550cd283-151a-4cc7-b446-ab34356e5aba
+~89 mi from Omaha</description>
+                <styleUrl>#98</styleUrl>
+                <Point id="96">
+                    <coordinates>-96.4049,42.4963,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="102">
+                <name>Sioux City CSD - North Middle School (Sioux City, IA)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (approx) | STATUS 2026-10-21: due 10/29 7:00 PM
+North Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.
+Contact: -
+Phone: -
+Email: -
+Website: siouxcityschools.org (not opened)
+Confidence: unconfirmed
+Source: https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65
+~89 mi from Omaha</description>
+                <styleUrl>#103</styleUrl>
+                <Point id="101">
+                    <coordinates>-96.4049,42.4963,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="107">
+                <name>State of Iowa – Woodward Resource Center Dispatch Garage (Woodward, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (design RFP) | Open RFP (design services; construction bid to follow) | Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM | STATUS 2026-10-21: design RFP due 11/10 2:00 PM (pre-proposal TOMORROW 10/22 1 PM)
+RFP956800-01 "WRC Dispatch Garage Roof Replacement &amp; Birches Tuckpointing" – professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).
+Contact: Katelyn Howells, Construction Procurement
+Phone: (515) 721-7856
+Email: construction.procurement@das.iowa.gov
+Website: https://das.iowa.gov
+Confidence: confirmed
+Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c
+~112 mi from Omaha</description>
+                <styleUrl>#108</styleUrl>
+                <Point id="106">
+                    <coordinates>-93.9222,41.8564,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="112">
+                <name>Missouri Western State University - Kit Bond Incubator (St. Joseph, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (listed; due Oct 23) | STATUS 2026-10-21: due 10/23 (in 2 days)
+MO Western State University Kit Bond Incubator Roof Replacement. Bids due Oct 23, 2026 2:00 PM CT. Architect: Ellison-Auxier Architects (816-233-8003).
+Contact: Missouri Western Purchasing
+Phone: 816-271-4464
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~118 mi from Omaha</description>
+                <styleUrl>#113</styleUrl>
+                <Point id="111">
+                    <coordinates>-94.8467,39.7675,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="117">
+                <name>Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates) (Johnston, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) - MATERIAL UPDATE |  | 2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23 | STATUS 2026-10-21: open
+UPDATE to a lead first listed 10/17 (that listing only said "due Nov 12"). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2" polyiso + 1/2" HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline &amp; Blue, Des Moines ($50 refundable deposit).
+Contact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings &amp; Grounds (phone redacted on notice)
+Phone: 515-250-6950 (architect, from 10/17 plan-room brief)
+Email: -
+Website: -
+Confidence: confirmed (official notice text)
+Source: https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159
+~119 mi from Omaha</description>
+                <styleUrl>#118</styleUrl>
+                <Point id="116">
+                    <coordinates>-93.6977,41.673,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="122">
+                <name>Des Moines Public Schools - Roosevelt High School (Des Moines, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10-08 (issued) | STATUS 2026-10-21: due 11/5 3:00 PM
+CIP26073 Roosevelt High School - Re-Roofing Phase I. Issued 10/08/2026, due 11/05/2026 (plan room: 3:00 PM). Architect Angelo Architectural Assoc. (515-250-6950).
+Contact: DMPS Purchasing (901 Walnut St)
+Phone: 515-242-7911 (district); 515-554-4718 (per plan room)
+Email: -
+Website: dmschools.org
+Confidence: confirmed
+Source: https://www.dmschools.org/departments/business-finance/purchasing/open-proposals/
+~122 mi from Omaha</description>
+                <styleUrl>#123</styleUrl>
+                <Point id="121">
+                    <coordinates>-93.625,41.5868,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="127">
+                <name>Kansas State University - Waters Hall (Manhattan, KS)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (state capital project - design stage) |  | 2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting | STATUS 2026-10-21: open
+New capital improvement ad: "KSU Waters Hall ReRoof - #54623 - October 15, 2026" for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.
+Contact: KS DoA OFPM professional qualifications inbox (A/E submittals)
+Phone: -
+Email: professional.qualifications@ks.gov
+Website: https://admin.ks.gov
+Confidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)
+Source: https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections
+~147 mi from Omaha</description>
+                <styleUrl>#128</styleUrl>
+                <Point id="126">
+                    <coordinates>-96.5806,39.191,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="132">
+                <name>Leavenworth County (county shop) (Leavenworth County, KS)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (listed; due Oct 28) | STATUS 2026-10-21: due 10/28
+Leavenworth County Shop Roof Replacement. Bids due Oct 28, 2026 10:30 AM CT.
+Contact: Aaron Youkam
+Phone: 913-684-0790
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~150 mi from Omaha</description>
+                <styleUrl>#133</styleUrl>
+                <Point id="131">
+                    <coordinates>-95.0389,39.199,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="137">
+                <name>Kansas Neurological Institute - Sunflower Cottage (Topeka, KS)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (listed; due Oct 22) | STATUS 2026-10-21: DUE TOMORROW 10/22 1:00 PM
+Sunflower Cottage Reroof, Kansas Neurological Institute. Bids due Oct 22, 2026 2:00 PM CT. Min. bid listed $815,000.
+Contact: Cameron Tross (BG Consultants)
+Phone: 785-480-6185
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~153 mi from Omaha</description>
+                <styleUrl>#138</styleUrl>
+                <Point id="136">
+                    <coordinates>-95.6752,39.0473,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="142">
+                <name>MDC - Parma Woods Range &amp; Training Center (Platte County (Parkville area), MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (listed; due Nov 5) | STATUS 2026-10-21: due 11/5 11:00 AM
+MDC Parma Woods Range and Training Center Roof Replacement (Platte County). Bids due Nov 5, 2026 11:00 AM CT.
+Contact: Veronica Mecko (contract specialist); Mike Stornello (design PM)
+Phone: 573-522-4115 x3744 / x3766
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~157 mi from Omaha</description>
+                <styleUrl>#143</styleUrl>
+                <Point id="141">
+                    <coordinates>-94.6819,39.1911,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="147">
+                <name>City of Paola (Paola, KS)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (listed; due Oct 30) | STATUS 2026-10-21: due 10/30
+City of Paola "Roofing Project 2026". Bids due Oct 30, 2026 10:00 AM CT. Scope/buildings not listed on brief.
+Contact: Brett Marler
+Phone: 913-259-3600
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~194 mi from Omaha</description>
+                <styleUrl>#148</styleUrl>
+                <Point id="146">
+                    <coordinates>-94.8791,38.5723,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="152">
+                <name>Hume R-VIII School District - bus barn (Hume, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) |  | 2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01 | STATUS 2026-10-21: open
+RFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.
+Contact: Scott Morrison, Superintendent (named on notice for the site visit)
+Phone: 660-643-7411 (district main line)
+Email: -
+Website: https://www.humer8.k12.mo.us
+Confidence: confirmed (official notice); small scope
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008
+~230 mi from Omaha</description>
+                <styleUrl>#153</styleUrl>
+                <Point id="151">
+                    <coordinates>-94.5808,38.0898,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="157">
+                <name>City of North Platte - Fire Station 1 (North Platte, NE)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10-09 (opened) | STATUS 2026-10-21: due 10/28
+Fire Station 1 Apparatus Bay Roof Replacement: tear off ballasted EPDM, new .060 reinforced EPDM, tapered insulation, edge metal, 15-yr NDL warranty. Window 10/9-10/28/2026. (Dollar range on Bid Banana is the site's own estimate, not the city's.)
+Contact: Dave Hahn, City Hall
+Phone: 308-535-6724 x3243
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://bidbanana.thebidlab.com/bid/eK9H4V1F6GYsO1mgrhpi
+~251 mi from Omaha</description>
+                <styleUrl>#158</styleUrl>
+                <Point id="156">
+                    <coordinates>-100.7654,41.1239,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="162">
+                <name>Wichita USD 259 - Northwest High School (Wichita, KS)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (listed; due Nov 2) | STATUS 2026-10-21: due 11/2
+RTU &amp; Roof Replacement - Wichita Northwest High School. Bids due Nov 2, 2026 3:00 PM CT.
+Contact: Rachelle Scharnhorst
+Phone: 316-973-4547
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~258 mi from Omaha</description>
+                <styleUrl>#163</styleUrl>
+                <Point id="161">
+                    <coordinates>-97.3301,37.6872,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="167">
+                <name>State of Missouri – Missouri Interoperability Center Bldg 5 (Jefferson City, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid | Listed Oct 2026; due 2026-10-29 1:30 PM (pre-bid was 10/13) | STATUS 2026-10-21: due 10/29 1:30 PM
+Project R2607-01 Renovate Building No. 5, Missouri Interoperability Center, 2413 E. McCarty St: replace roof and siding on an existing metal storage building + lean-to. Electronic bids to FMDCBids@oa.mo.gov.
+Contact: Fred L. Decker Jr., Project Manager
+Phone: 573-446-7768 (ADS plan room)
+Email: Fred.Decker@oa.mo.gov
+Website: -
+Confidence: confirmed
+Source: https://oa.mo.gov/sites/default/files/bid-opportunities/R2607-01%20IFB.pdf ; https://oa.mo.gov/facilities/bid-opportunities/bid-listing-electronic-plans
+~272 mi from Omaha</description>
+                <styleUrl>#168</styleUrl>
+                <Point id="166">
+                    <coordinates>-92.1735,38.5767,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="172">
+                <name>State of Missouri – Scruggs Station / Fairgrounds Warehouse (Jefferson City, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking coating | Open public bid | Listed Oct 2026; due 2026-11-05 1:30 PM; pre-bid 10/22 1:30 PM | STATUS 2026-10-21: due 11/5 1:30 PM (pre-bid TOMORROW 10/22 1:30 PM)
+Project O2534-01 Scruggs Station Warehouse Complex (Fairgrounds Warehouse, 1525 Fairgrounds Rd): new FLUID-APPLIED ROOFING MEMBRANE on existing metal roof (coating job), gutters/downspouts, plus HVAC/electrical. Roofing would likely be a sub to the GC/mechanical prime.
+Contact: Andy Carroll, Project Manager
+Phone: 573-446-7768 (ADS plan room)
+Email: Andy.Carroll@oa.mo.gov
+Website: -
+Confidence: confirmed
+Source: https://oa.mo.gov/sites/default/files/bid-opportunities/O2534-01%20IFB.pdf ; https://www.oafmdcplanroom.com/projects/3442/details/o2534-01-scruggs-station-warehouse-complex-porite-roof-elect-hvac-rep-fairgrounds-warehouse
+~272 mi from Omaha</description>
+                <styleUrl>#173</styleUrl>
+                <Point id="171">
+                    <coordinates>-92.212,38.556,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="177">
+                <name>State of South Dakota - Mickelson Building (Pierre, SD)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer | Open public bid | 2026-10-02 / 10-09 (published); due 10/22 | STATUS 2026-10-21: DUE TOMORROW 10/22 2:00 PM CT
+OSE# ACC27--08X Mickelson Building roof replacement, Capitol Complex. Electronic bids due Oct 22, 2026 2:00 PM CT; optional pre-bid was Oct 14. Bids over $100K need 5% certified check or 10% bid bond. Plans from ISG, Inc. (Pierre). Not in prior roof-search files.
+Contact: Kyle Fisel (ISG, Inc., plans); Brent Gill (campus contact); Kristine Day (OSE contact)
+Phone: -
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.noticeregistry.com/south-dakota/notice/bid-notice-pierre-247363
+~310 mi from Omaha</description>
+                <styleUrl>#178</styleUrl>
+                <Point id="176">
+                    <coordinates>-100.336,44.3668,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="181">
+            <Style id="184">
+                <IconStyle id="185">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="186">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Social Media — 1 (1 with phone/email)</name>
+            <Placemark id="183">
+                <name>A&amp;E Fabric &amp; Crafts (923 N New Warrington Rd) (Pensacola, FL)</name>
+                <description>Social Media | has contact: Yes
+NEW today
+storm damage to commercial roof | Storm-damaged commercial roof (news) | 2026-10-20 (WEAR-TV, updated 7:03 PM CT); PNJ follow-up 2026-10-21 | store closing sale through ~10/24
+Hurricane Isaias "took 20-plus percent of our roof, but all six air conditioners got damaged"; family is closing the 72-year-old store (going-out-of-business sale). PNJ reports roof repairs estimated at ~$300,000 alone. Building (923 N New Warrington Rd) will need roof repair/replacement whether sold or re-leased.
+Contact: A&amp;E Fabric &amp; Crafts (Enfinger family)
+Phone: 850-455-0112
+Email: -
+Website: https://www.aandefabrics.com/
+Confidence: medium (store line; ownership of building not verified)
+Source: https://weartv.com/news/local/ae-fabric-and-crafts-in-pensacola-prepares-to-close-for-good-after-isaias-roof-damage ; https://x.com/weartv/status/2112587609536856303
+~891 mi from Omaha</description>
+                <styleUrl>#184</styleUrl>
+                <Point id="182">
+                    <coordinates>-87.27374,30.42373,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
