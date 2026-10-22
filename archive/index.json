@@ -4,22 +4,22 @@
    "key": "2026-10-21-pm",
    "date": "2026-10-21",
    "label": "Oct 21, 2026 (PM update)",
-   "summary": "181 storm bldgs (99 w/ contact), 23 bid requests, 2 social media",
+   "summary": "464 storm bldgs (170 w/ contact), 23 bid requests, 2 social media",
    "file": "archive/2026-10-21-pm.html",
    "kml": "archive/2026-10-21-pm.kml",
    "geojson": "archive/2026-10-21-pm.geojson",
    "counts": {
+    "storm_building_with_contact": 170,
+    "storm_building_no_contact": 294,
     "swath_or_outline": 22,
     "storm_report": 22,
-    "storm_building_with_contact": 99,
-    "storm_building_no_contact": 82,
     "roof_search": 25,
-    "callable_lead_pins": 181,
-    "kml_points": 228,
+    "callable_lead_pins": 464,
+    "kml_points": 511,
     "roof_bid_requests": 23,
     "roof_social_media": 2
    },
-   "archived_at": "2026-10-21T20:40:17-05:00"
+   "archived_at": "2026-10-21T20:59:21-05:00"
   },
   {
    "key": "2026-10-21",
