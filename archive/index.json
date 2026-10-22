@@ -4,21 +4,22 @@
    "key": "2026-10-22",
    "date": "2026-10-22",
    "label": "Thu 10/22/2026",
-   "summary": "464 storm bldgs (174 w/ contact), 0 asset hits, 2\" hail N Phoenix + 72 mph KFLG",
+   "summary": "49 storm bldgs (18 w/ contact), 25 bid requests, 2 social media",
    "file": "archive/2026-10-22.html",
    "kml": "archive/2026-10-22.kml",
    "geojson": "archive/2026-10-22.geojson",
    "counts": {
-    "storm_building_with_contact": 174,
-    "storm_building_no_contact": 290,
-    "hail_buildings": 283,
-    "wind_buildings": 181,
-    "rain_buildings": 0,
-    "asset_hits": 0,
-    "storm_report": 2,
-    "roof_search": 25
+    "storm_building_with_contact": 18,
+    "storm_building_no_contact": 31,
+    "storm_report": 14,
+    "swath_or_outline": 17,
+    "roof_search": 27,
+    "callable_lead_pins": 49,
+    "kml_points": 90,
+    "roof_bid_requests": 25,
+    "roof_social_media": 2
    },
-   "archived_at": "2026-10-22T12:07:38+00:00"
+   "archived_at": "2026-10-22T07:23:34-05:00"
   },
   {
    "key": "2026-10-21-pm",
@@ -188,7 +189,7 @@
   {
    "key": "2026-03-10-to-12-TEST",
    "date": "2026-03-10",
-   "label": "TEST: Mar 10\u201312, 2026",
+   "label": "TEST: Mar 10–12, 2026",
    "summary": "17736 storm bldgs (47 w/ contact), 1 bid requests, 4 social media",
    "file": "archive/2026-03-10-to-12-TEST.html",
    "kml": "archive/2026-03-10-to-12-TEST.kml",
