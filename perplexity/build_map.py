@@ -5,6 +5,8 @@ Features: Street/Satellite base maps, previous-days dropdown (reads archive/inde
 collapsible layer panel with With-contact / No-contact filters for every layer,
 pin colors by report basis (measured / spotter-public / radar MESH).
 
+Mark-as-called: pass --callstatus callstatus.js (root) or ../callstatus.js (archive); map is exposed as window.map_storm.
+
 Usage: python3 build_map.py --data map_data.json --out page.html --title "..." \
         --index-url ../archive/index.json --site-root ../ [--include-assets]
 
@@ -22,7 +24,7 @@ TEMPLATE = r"""<!DOCTYPE html><html><head><meta charset="utf-8">
 <title>__TITLE__</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<style>
+__CALLSTATUS__<style>
  html,body,#map{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif}
  .panel{position:absolute;z-index:1000;background:#fff;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,.3);font-size:13px}
  #top{top:10px;left:54px;padding:8px 12px;max-width:min(560px,calc(100% - 120px))}
@@ -40,6 +42,9 @@ TEMPLATE = r"""<!DOCTYPE html><html><head><meta charset="utf-8">
  .base label{display:block}
  .legend span{display:inline-block;width:11px;height:11px;border-radius:50%;margin:0 4px 0 0;border:1px solid #333;vertical-align:-1px}
  .leaflet-popup-content{font-size:13px;line-height:1.35}
+ .callbtn{margin-top:6px;font-size:13px;padding:3px 8px;cursor:pointer}
+ .callstat{display:block;color:#555;margin-top:4px}
+__TOPCSS__
  @media (max-width:640px){#ctl{width:200px}#top{max-width:calc(100% - 270px)}}
 </style></head><body><div id="map"></div>
 <div id="top" class="panel"><h1>__TITLE__</h1><div class="sub">__SUBTITLE__</div>
@@ -58,7 +63,7 @@ __ASSETLEG__ <div style="margin-top:4px">Solid pin = has contact (phone and/or e
 </div>
 <script>
 const D=__DATA__, INDEX_URL=__INDEX__, ROOT=__ROOT__;
-const map=L.map('map',{zoomControl:true}).setView(D.center,D.zoom);
+const map=L.map('map',{zoomControl:true}).setView(D.center,D.zoom);window.map_storm=map;
 const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
 const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri, Maxar, Earthstar Geographics'});
 const labels=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:19});
@@ -102,6 +107,7 @@ def main():
     ap.add_argument('--title', required=True); ap.add_argument('--title-short', default='')
     ap.add_argument('--index-url', default=''); ap.add_argument('--site-root', default='')
     ap.add_argument('--include-assets', action='store_true')
+    ap.add_argument('--callstatus', default='', help="path to callstatus.js (enables Mark-as-called; popups need <div class='lead' data-lead-id data-label> with .callstat + .callbtn)")
     a = ap.parse_args()
     d = json.load(open(a.data))
     if not a.include_assets:
@@ -110,6 +116,8 @@ def main():
            .replace('__TITLE__', html.escape(a.title)).replace('__SUBTITLE__', d.get('subtitle', ''))
            .replace('__DATA__', json.dumps(d).replace('</', '<\\/'))
            .replace('__INDEX__', json.dumps(a.index_url)).replace('__ROOT__', json.dumps(a.site_root))
+           .replace('__CALLSTATUS__', ('<script src="%s"></script>\n' % html.escape(a.callstatus)) if a.callstatus else '')
+           .replace('__TOPCSS__', ' #top{top:48px}\n' if a.callstatus else '')
            .replace('__ASSETS__', 'true' if a.include_assets else 'false')
            .replace('__ASSETLEG__', ' <div><span style="background:#1f77b4"></span>Our asset</div>\n' if a.include_assets else ''))
     open(a.out, 'w').write(out)
