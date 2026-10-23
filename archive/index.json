@@ -1,6 +1,26 @@
 {
  "dates": [
   {
+   "key": "2026-10-23",
+   "date": "2026-10-23",
+   "label": "Fri 10/23/2026",
+   "summary": "69 storm bldgs (17 w/ contact), 0 asset hits, 3\" hail Rio Rico/Page Springs + 73 mph Safford AZ",
+   "file": "archive/2026-10-23.html",
+   "kml": "archive/2026-10-23.kml",
+   "geojson": "archive/2026-10-23.geojson",
+   "counts": {
+    "storm_building_with_contact": 17,
+    "storm_building_no_contact": 52,
+    "hail_buildings": 1,
+    "wind_buildings": 68,
+    "rain_buildings": 0,
+    "asset_hits": 0,
+    "storm_report": 3,
+    "roof_search": 0
+   },
+   "archived_at": "2026-10-23T12:12:58+00:00"
+  },
+  {
    "key": "2026-10-22",
    "date": "2026-10-22",
    "label": "Thu 10/22/2026",
@@ -189,7 +209,7 @@
   {
    "key": "2026-03-10-to-12-TEST",
    "date": "2026-03-10",
-   "label": "TEST: Mar 10–12, 2026",
+   "label": "TEST: Mar 10\u201312, 2026",
    "summary": "17736 storm bldgs (47 w/ contact), 1 bid requests, 4 social media",
    "file": "archive/2026-03-10-to-12-TEST.html",
    "kml": "archive/2026-03-10-to-12-TEST.kml",
@@ -208,6 +228,6 @@
    "archived_at": "2026-10-19T18:06:09-05:00"
   }
  ],
- "latest": "2026-10-22",
+ "latest": "2026-10-23",
  "note": "Storm-Maps daily report archive. Root index.html is the latest report; each archive page has its own pins."
 }

@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="2472">
+        <name>Armour Storm Leads 2026-10-23</name>
+        <Folder id="2473">
+            <Style id="2476">
+                <IconStyle id="2477">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2478">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2823">
+                <IconStyle id="2824">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2825">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2828">
+                <IconStyle id="2829">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2830">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Hail - with contact</name>
+            <Placemark id="2475">
+                <name>STEWART TITLE &amp; TRUST OF TUCSON (13,479 SF)</name>
+                <description>&lt;b&gt;STEWART TITLE &amp;amp; TRUST OF TUCSON&lt;/b&gt;&lt;br&gt;14 Esplendor Drive, Rio Rico, AZ 85648&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (spotter report) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 13,479 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stewart Title &amp;amp; Trust - Rio Rico office (parcel owner of record) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 520-415-3400&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 1,075&lt;br&gt;&lt;a href='https://www.google.com/maps?q=31.459119,-110.999098' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2476</styleUrl>
+                <Point id="2474">
+                    <coordinates>-110.99909769238167,31.459119034963788,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2822">
+                <name>3.00" hail - CoCoRaHS spotter 5 SW Rio Rico 22:35Z</name>
+                <description>&lt;b&gt;Hail report 3.00"&lt;/b&gt; (CoCoRaHS spotter)&lt;br&gt;5 SW Rio Rico, AZ - 3:35 PM MST 10/22&lt;br&gt;Source: SPC / NWS Tucson</description>
+                <styleUrl>#2823</styleUrl>
+                <Point id="2821">
+                    <coordinates>-111.04,31.44,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2827">
+                <name>3.00" hail - public 5 N Page Springs 16:36Z (no C/I bldgs within 3 mi)</name>
+                <description>&lt;b&gt;Hail report 3.00"&lt;/b&gt; (public, via NWS Flagstaff X page)&lt;br&gt;5 N Page Springs, AZ - 9:36 AM MST 10/22&lt;br&gt;No commercial/industrial buildings &gt;=10k SF within 3 mi</description>
+                <styleUrl>#2828</styleUrl>
+                <Point id="2826">
+                    <coordinates>-111.89,34.83,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="2479">
+            <Style id="2482">
+                <IconStyle id="2483">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2484">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2487">
+                <IconStyle id="2488">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2489">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2492">
+                <IconStyle id="2493">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2494">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2497">
+                <IconStyle id="2498">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2499">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2502">
+                <IconStyle id="2503">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2504">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2507">
+                <IconStyle id="2508">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2509">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2512">
+                <IconStyle id="2513">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2514">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2517">
+                <IconStyle id="2518">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2519">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2522">
+                <IconStyle id="2523">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2524">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2527">
+                <IconStyle id="2528">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2529">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2532">
+                <IconStyle id="2533">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2534">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2537">
+                <IconStyle id="2538">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2539">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2542">
+                <IconStyle id="2543">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2544">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2547">
+                <IconStyle id="2548">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2549">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2552">
+                <IconStyle id="2553">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2554">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2557">
+                <IconStyle id="2558">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2559">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2833">
+                <IconStyle id="2834">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2835">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Wind - with contact</name>
+            <Placemark id="2481">
+                <name>WALMART STORES INC (217,215 SF)</name>
+                <description>&lt;b&gt;WALMART STORES INC&lt;/b&gt; &lt;i&gt;(PROPERTY TAX DEPT MS #0555)&lt;/i&gt;&lt;br&gt;755 South 20Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 217,215 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Walmart Supercenter #1149 &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-428-7990&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832632,-109.730221' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2482</styleUrl>
+                <Point id="2480">
+                    <coordinates>-109.73022087699096,32.83263175858665,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2486">
+                <name>GILS SHOPPING CENTER INVESTMENTS LLC (143,065 SF)</name>
+                <description>&lt;b&gt;GILS SHOPPING CENTER INVESTMENTS LLC&lt;/b&gt; &lt;i&gt;(ATTN: ALBERTSONS COMPANIES)&lt;/i&gt;&lt;br&gt;2021 West United States Highway 70, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 143,065 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Gila Valley Shopping Center - anchor Safeway #2648 (leasing: CBRE Tucson) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-428-2771&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.835481,-109.734608' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2487</styleUrl>
+                <Point id="2485">
+                    <coordinates>-109.73460843590432,32.83548066324019,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2491">
+                <name>SREI LLC (125,614 SF)</name>
+                <description>&lt;b&gt;SREI LLC&lt;/b&gt;&lt;br&gt;2281 West United States Highway 70, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 125,614 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Thatcher Plaza tenants - Ashley Store / Bealls-Home Centric &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-428-1213&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.838072,-109.739137' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2492</styleUrl>
+                <Point id="2490">
+                    <coordinates>-109.73913701713639,32.83807206975207,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2496">
+                <name>MT GRAHAM SHOPPING CENTER LLC (114,264 SF)</name>
+                <description>&lt;b&gt;MT GRAHAM SHOPPING CENTER LLC&lt;/b&gt;&lt;br&gt;1930 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 114,264 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Harbor Freight #3068 (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-235-4909&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.837603,-109.731961' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2497</styleUrl>
+                <Point id="2495">
+                    <coordinates>-109.73196123510287,32.83760296661065,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2501">
+                <name>HOME DEPOT USA INC (108,798 SF)</name>
+                <description>&lt;b&gt;HOME DEPOT USA INC&lt;/b&gt; &lt;i&gt;(C/O PROPERTY TAX DEPT)&lt;/i&gt;&lt;br&gt;750 South 20Th Avenue, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 108,798 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; The Home Depot #445 (Thatcher) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-348-3287&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832901,-109.734751' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2502</styleUrl>
+                <Point id="2500">
+                    <coordinates>-109.73475077150381,32.83290101189402,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2506">
+                <name>MOUNT GRAHAM HOSPITAL DISTRICT (101,317 SF)</name>
+                <description>&lt;b&gt;MOUNT GRAHAM HOSPITAL DISTRICT&lt;/b&gt;&lt;br&gt;1600 South 20Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 101,317 SF (Hospital)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Mt. Graham Regional Medical Center &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-348-4000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 957&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.822776,-109.735280' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2507</styleUrl>
+                <Point id="2505">
+                    <coordinates>-109.73528042372804,32.822776393164446,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2511">
+                <name>SMITH DANIEL W AND DEANNA (65,027 SF)</name>
+                <description>&lt;b&gt;SMITH DANIEL W AND DEANNA&lt;/b&gt;&lt;br&gt;402 West Main Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 65,027 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; The Potter&amp;#x27;s House (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-428-6459&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.833748,-109.711891' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2512</styleUrl>
+                <Point id="2510">
+                    <coordinates>-109.7118911808293,32.83374825964675,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2516">
+                <name>RALEY'S ARIZONA LLC (50,468 SF)</name>
+                <description>&lt;b&gt;RALEY&amp;#x27;S ARIZONA LLC&lt;/b&gt;&lt;br&gt;2323 West United States Highway 70, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 50,468 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Bashas&amp;#x27; Food City #40 &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-428-6238&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.838882,-109.739941' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2517</styleUrl>
+                <Point id="2515">
+                    <coordinates>-109.73994054459077,32.83888194878221,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2521">
+                <name>THRIFTEE SUPER MARKET, INC (49,447 SF)</name>
+                <description>&lt;b&gt;THRIFTEE SUPER MARKET, INC&lt;/b&gt; &lt;i&gt;(C/O PEGGY JO SCHRODER)&lt;/i&gt;&lt;br&gt;755 South Central Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 49,447 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Thriftee Super Market (owner-operator) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-428-1844&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; thriftee@thriftee.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.831799,-109.709863' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2522</styleUrl>
+                <Point id="2520">
+                    <coordinates>-109.70986286555538,32.831798668333704,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2526">
+                <name>MOUNT GRAHAM COMMUNITY HOSP INC (43,820 SF)</name>
+                <description>&lt;b&gt;MOUNT GRAHAM COMMUNITY HOSP INC&lt;/b&gt;&lt;br&gt;2240 W 16Th St, Safford, AZ&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 43,820 SF (Medical Office/Clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Mt. Graham Regional Medical Center (campus) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-348-4000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 957&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.822511,-109.737054' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2527</styleUrl>
+                <Point id="2525">
+                    <coordinates>-109.73705447641866,32.82251089624185,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2531">
+                <name>SIR PROPERTIES REIT LLC (42,749 SF)</name>
+                <description>&lt;b&gt;SIR PROPERTIES REIT LLC&lt;/b&gt;&lt;br&gt;711 South 14Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 42,749 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; BLM Safford Field Office (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-348-4400&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; blm_az_sfoweb@blm.gov&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.831989,-109.724139' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2532</styleUrl>
+                <Point id="2530">
+                    <coordinates>-109.72413856756151,32.83198917268423,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2536">
+                <name>OWENS RENTALS LLC (27,607 SF)</name>
+                <description>&lt;b&gt;OWENS RENTALS LLC&lt;/b&gt;&lt;br&gt;707 South 6Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 27,607 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Ace Hardware Safford (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-428-1033&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.831850,-109.713427' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2537</styleUrl>
+                <Point id="2535">
+                    <coordinates>-109.713426797438,32.831849780922646,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2541">
+                <name>MOUNT GRAHAM COMMUNITY HOSP INC (21,664 SF)</name>
+                <description>&lt;b&gt;MOUNT GRAHAM COMMUNITY HOSP INC&lt;/b&gt;&lt;br&gt;2240 W 16Th St, Safford, AZ&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 21,664 SF (Medical Office/Clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Mt. Graham Regional Medical Center (campus) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-348-4000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 957&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.823123,-109.738409' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2542</styleUrl>
+                <Point id="2540">
+                    <coordinates>-109.73840911590736,32.82312314326213,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2546">
+                <name>MT GRAHAM REGIONAL MEDICAL CENTER INC (18,385 SF)</name>
+                <description>&lt;b&gt;MT GRAHAM REGIONAL MEDICAL CENTER INC&lt;/b&gt;&lt;br&gt;2175 W 16Th-Mob #2 St, Safford, AZ&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 18,385 SF (Medical Office/Clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Mt. Graham Regional Medical Center (campus) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-348-4000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 957&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.821581,-109.735932' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2547</styleUrl>
+                <Point id="2545">
+                    <coordinates>-109.73593193743686,32.82158126724228,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2551">
+                <name>MT GRAHAM REGIONAL MEDICAL CENTER INC (12,714 SF)</name>
+                <description>&lt;b&gt;MT GRAHAM REGIONAL MEDICAL CENTER INC&lt;/b&gt;&lt;br&gt;2175 W 16Th-Mob #2 St, Safford, AZ&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,714 SF (Medical Office/Clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Mt. Graham Regional Medical Center (campus) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-348-4000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 957&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.820690,-109.735112' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2552</styleUrl>
+                <Point id="2550">
+                    <coordinates>-109.73511154747237,32.82069034104389,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2556">
+                <name>MT GRAHAM SHOPPING CENTER LLC (10,756 SF)</name>
+                <description>&lt;b&gt;MT GRAHAM SHOPPING CENTER LLC&lt;/b&gt;&lt;br&gt;1930 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,756 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Harbor Freight #3068 (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 928-235-4909&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.836294,-109.731689' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2557</styleUrl>
+                <Point id="2555">
+                    <coordinates>-109.73168910090266,32.83629363380167,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2832">
+                <name>73 mph measured gust (PWS) 3 SE Safford 21:30Z</name>
+                <description>&lt;b&gt;Wind 73 mph measured&lt;/b&gt; (personal weather station)&lt;br&gt;3 SE Safford, AZ - 2:30 PM MST 10/22&lt;br&gt;Source: SPC / NWS Tucson</description>
+                <styleUrl>#2833</styleUrl>
+                <Point id="2831">
+                    <coordinates>-109.67,32.8,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="2560">
+            <Style id="2563">
+                <IconStyle id="2564">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2565">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2568">
+                <IconStyle id="2569">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2570">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2573">
+                <IconStyle id="2574">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2575">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2578">
+                <IconStyle id="2579">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2580">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2583">
+                <IconStyle id="2584">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2585">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2588">
+                <IconStyle id="2589">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2590">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2593">
+                <IconStyle id="2594">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2595">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2598">
+                <IconStyle id="2599">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2600">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2603">
+                <IconStyle id="2604">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2605">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2608">
+                <IconStyle id="2609">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2610">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2613">
+                <IconStyle id="2614">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2615">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2618">
+                <IconStyle id="2619">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2620">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2623">
+                <IconStyle id="2624">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2625">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2628">
+                <IconStyle id="2629">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2630">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2633">
+                <IconStyle id="2634">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2635">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2638">
+                <IconStyle id="2639">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2640">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2643">
+                <IconStyle id="2644">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2645">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2648">
+                <IconStyle id="2649">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2650">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2653">
+                <IconStyle id="2654">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2655">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2658">
+                <IconStyle id="2659">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2660">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2663">
+                <IconStyle id="2664">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2665">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2668">
+                <IconStyle id="2669">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2670">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2673">
+                <IconStyle id="2674">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2675">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2678">
+                <IconStyle id="2679">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2680">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2683">
+                <IconStyle id="2684">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2685">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2688">
+                <IconStyle id="2689">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2690">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2693">
+                <IconStyle id="2694">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2695">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2698">
+                <IconStyle id="2699">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2700">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2703">
+                <IconStyle id="2704">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2705">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2708">
+                <IconStyle id="2709">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2710">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2713">
+                <IconStyle id="2714">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2715">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2718">
+                <IconStyle id="2719">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2720">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2723">
+                <IconStyle id="2724">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2725">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2728">
+                <IconStyle id="2729">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2730">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2733">
+                <IconStyle id="2734">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2735">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2738">
+                <IconStyle id="2739">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2740">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2743">
+                <IconStyle id="2744">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2745">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2748">
+                <IconStyle id="2749">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2750">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2753">
+                <IconStyle id="2754">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2755">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2758">
+                <IconStyle id="2759">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2760">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2763">
+                <IconStyle id="2764">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2765">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2768">
+                <IconStyle id="2769">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2770">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2773">
+                <IconStyle id="2774">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2775">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2778">
+                <IconStyle id="2779">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2780">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2783">
+                <IconStyle id="2784">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2785">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2788">
+                <IconStyle id="2789">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2790">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2793">
+                <IconStyle id="2794">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2795">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2798">
+                <IconStyle id="2799">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2800">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2803">
+                <IconStyle id="2804">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2805">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2808">
+                <IconStyle id="2809">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2810">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2813">
+                <IconStyle id="2814">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2815">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2818">
+                <IconStyle id="2819">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2820">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Wind - no contact</name>
+            <Placemark id="2562">
+                <name>EAST-WEST PROPERTIES LLC (68,184 SF)</name>
+                <description>&lt;b&gt;EAST-WEST PROPERTIES LLC&lt;/b&gt;&lt;br&gt;620 South 5Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 68,184 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832856,-109.713097' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2563</styleUrl>
+                <Point id="2561">
+                    <coordinates>-109.71309688049068,32.832855980883274,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2567">
+                <name>STANDAGE GREGG P &amp; RITA (54,554 SF)</name>
+                <description>&lt;b&gt;STANDAGE GREGG P &amp;amp; RITA&lt;/b&gt;&lt;br&gt;604 South Central Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 54,554 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832910,-109.711891' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2568</styleUrl>
+                <Point id="2566">
+                    <coordinates>-109.71189143235256,32.83290972939028,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2572">
+                <name>CASA DE VERDE ENTERPRISES, INC. (44,049 SF)</name>
+                <description>&lt;b&gt;CASA DE VERDE ENTERPRISES, INC.&lt;/b&gt; &lt;i&gt;(DW GREEN&amp;#x27;S FURNITURE LLC)&lt;/i&gt;&lt;br&gt;520 South 6Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 44,049 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834904,-109.713181' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2573</styleUrl>
+                <Point id="2571">
+                    <coordinates>-109.71318117625981,32.8349043628873,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2577">
+                <name>FREEPORT MINERALS CORPORATION (32,823 SF)</name>
+                <description>&lt;b&gt;FREEPORT MINERALS CORPORATION&lt;/b&gt;&lt;br&gt;3443 East United States Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 32,823 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 954&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.815709,-109.657979' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2578</styleUrl>
+                <Point id="2576">
+                    <coordinates>-109.65797858042426,32.81570931378439,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2582">
+                <name>GARAGE AZ LLC (28,412 SF)</name>
+                <description>&lt;b&gt;GARAGE AZ LLC&lt;/b&gt;&lt;br&gt;605 West Main Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 28,412 SF (Entertainment and Recreation)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832988,-109.714227' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2583</styleUrl>
+                <Point id="2581">
+                    <coordinates>-109.71422720339237,32.832988194614764,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2587">
+                <name>SE7 HOLDINGS LLC (26,810 SF)</name>
+                <description>&lt;b&gt;SE7 HOLDINGS LLC&lt;/b&gt;&lt;br&gt;350 East Armory Road, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 26,810 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.795642,-109.704768' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2588</styleUrl>
+                <Point id="2586">
+                    <coordinates>-109.70476827908449,32.795642272628584,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2592">
+                <name>SOUTHEASTERN BOTTLING CO OF ARIZ (26,641 SF)</name>
+                <description>&lt;b&gt;SOUTHEASTERN BOTTLING CO OF ARIZ&lt;/b&gt;&lt;br&gt;17 North 8Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 26,641 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.838762,-109.715589' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2593</styleUrl>
+                <Point id="2591">
+                    <coordinates>-109.7155894186381,32.83876171098106,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2597">
+                <name>MANOR 415 LLC (25,833 SF)</name>
+                <description>&lt;b&gt;MANOR 415 LLC&lt;/b&gt;&lt;br&gt;415 East United States Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 25,833 SF (Entertainment and Recreation)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832872,-109.702158' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2598</styleUrl>
+                <Point id="2596">
+                    <coordinates>-109.70215823761964,32.83287196060471,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2602">
+                <name>HARALSON'S TIRE CO INC (24,921 SF)</name>
+                <description>&lt;b&gt;HARALSON&amp;#x27;S TIRE CO INC&lt;/b&gt;&lt;br&gt;222 East Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 24,921 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834647,-109.704844' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2603</styleUrl>
+                <Point id="2601">
+                    <coordinates>-109.70484439739903,32.83464734190111,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2607">
+                <name>NORTHERN ARIZONA COCA-COLA BOTTLING COMPANY, INC (24,185 SF)</name>
+                <description>&lt;b&gt;NORTHERN ARIZONA COCA-COLA BOTTLING COMPANY, INC&lt;/b&gt; &lt;i&gt;(C/O SILVER OAK ADVISORS)&lt;/i&gt;&lt;br&gt;203 West 7Th Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 24,185 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.831773,-109.709113' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2608</styleUrl>
+                <Point id="2606">
+                    <coordinates>-109.70911343817713,32.831772907968066,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2612">
+                <name>CROMPTON HOLDINGS LLC (23,804 SF)</name>
+                <description>&lt;b&gt;CROMPTON HOLDINGS LLC&lt;/b&gt; &lt;i&gt;(C/O TRACTOR SUPPLY CO)&lt;/i&gt;&lt;br&gt;2411 West United States Highway 70, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 23,804 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.840425,-109.740294' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2613</styleUrl>
+                <Point id="2611">
+                    <coordinates>-109.74029359939576,32.84042539677074,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2617">
+                <name>HARALSON S TIRE CO INC (23,595 SF)</name>
+                <description>&lt;b&gt;HARALSON S TIRE CO INC&lt;/b&gt;&lt;br&gt;214 E Us Hwy 70, Safford, AZ&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 23,595 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834755,-109.705616' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2618</styleUrl>
+                <Point id="2616">
+                    <coordinates>-109.70561642829584,32.83475495192857,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2622">
+                <name>HORNE 2161 LLC (20,798 SF)</name>
+                <description>&lt;b&gt;HORNE 2161 LLC&lt;/b&gt;&lt;br&gt;2161 West United States Highway 70, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 20,798 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.837309,-109.735880' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2623</styleUrl>
+                <Point id="2621">
+                    <coordinates>-109.73588032271827,32.83730946328164,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2627">
+                <name>BINGHAM BRANDON R (20,299 SF)</name>
+                <description>&lt;b&gt;BINGHAM BRANDON R&lt;/b&gt;&lt;br&gt;805 South 6Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 20,299 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.830712,-109.713222' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2628</styleUrl>
+                <Point id="2626">
+                    <coordinates>-109.713221956918,32.830712208192836,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2632">
+                <name>KEMPTON'S STORAGE LLC (20,000 SF)</name>
+                <description>&lt;b&gt;KEMPTON&amp;#x27;S STORAGE LLC&lt;/b&gt;&lt;br&gt;715 West 5Th Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 20,000 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834016,-109.715489' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2633</styleUrl>
+                <Point id="2631">
+                    <coordinates>-109.71548884103932,32.834016155368964,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2637">
+                <name>SE7 HOLDINGS LLC (19,307 SF)</name>
+                <description>&lt;b&gt;SE7 HOLDINGS LLC&lt;/b&gt;&lt;br&gt;448 East Armory Road, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 19,307 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.795593,-109.704324' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2638</styleUrl>
+                <Point id="2636">
+                    <coordinates>-109.70432356654592,32.79559277369228,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2642">
+                <name>OAK STREET INVESTMENT GRADE NET LEASE FUND SERIES 2021-2 LLC (18,815 SF)</name>
+                <description>&lt;b&gt;OAK STREET INVESTMENT GRADE NET LEASE FUND SERIES 2021-2 LLC&lt;/b&gt; &lt;i&gt;(ATTN: WALGREENS CO)&lt;/i&gt;&lt;br&gt;1995 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 18,815 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.835258,-109.732332' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2643</styleUrl>
+                <Point id="2641">
+                    <coordinates>-109.73233175065121,32.83525768243532,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2647">
+                <name>ALLEN JAMES C AND SANDRA K TRUSTEES (18,115 SF)</name>
+                <description>&lt;b&gt;ALLEN JAMES C AND SANDRA K TRUSTEES&lt;/b&gt; &lt;i&gt;(THE ALLEN FAMILY TRUST)&lt;/i&gt;&lt;br&gt;610 South Graham Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 18,115 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832973,-109.703133' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2648</styleUrl>
+                <Point id="2646">
+                    <coordinates>-109.70313337121468,32.832973050320085,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2652">
+                <name>JSSA LLC (18,000 SF)</name>
+                <description>&lt;b&gt;JSSA LLC&lt;/b&gt;&lt;br&gt;507 East United States Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 18,000 SF (Entertainment and Recreation)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.833586,-109.705405' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2653</styleUrl>
+                <Point id="2651">
+                    <coordinates>-109.70540517288269,32.833585987311814,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2657">
+                <name>HOISINGTON BROTHERS AZ LLC (17,950 SF)</name>
+                <description>&lt;b&gt;HOISINGTON BROTHERS AZ LLC&lt;/b&gt;&lt;br&gt;1878 North Safford Bryce Road, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,950 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 954&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.858306,-109.717219' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2658</styleUrl>
+                <Point id="2656">
+                    <coordinates>-109.7172190725035,32.858306323492044,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2662">
+                <name>3JS CARWASH CORPORATION (17,893 SF)</name>
+                <description>&lt;b&gt;3JS CARWASH CORPORATION&lt;/b&gt;&lt;br&gt;2185 West United States Highway 70, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,893 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.837867,-109.736314' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2663</styleUrl>
+                <Point id="2661">
+                    <coordinates>-109.73631413230322,32.83786740272051,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2667">
+                <name>DESERT VIEW MANAGEMENT LLC (17,792 SF)</name>
+                <description>&lt;b&gt;DESERT VIEW MANAGEMENT LLC&lt;/b&gt;&lt;br&gt;267 N 8Th Ave, Safford, AZ&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,792 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.840354,-109.715462' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2668</styleUrl>
+                <Point id="2666">
+                    <coordinates>-109.71546202320613,32.840353593141245,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2672">
+                <name>WICK COMMUNICATIONS CO. INC. (16,463 SF)</name>
+                <description>&lt;b&gt;WICK COMMUNICATIONS CO. INC.&lt;/b&gt;&lt;br&gt;325 East United States Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,463 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.833646,-109.703861' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2673</styleUrl>
+                <Point id="2671">
+                    <coordinates>-109.7038607796772,32.833645517599535,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2677">
+                <name>III COUNTIES DISTR. CO., INC. (16,416 SF)</name>
+                <description>&lt;b&gt;III COUNTIES DISTR. CO., INC.&lt;/b&gt; &lt;i&gt;(C/O TIM LINDEN)&lt;/i&gt;&lt;br&gt;812 South 10Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,416 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.830968,-109.720287' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2678</styleUrl>
+                <Point id="2676">
+                    <coordinates>-109.72028729214463,32.83096806969979,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2682">
+                <name>BOX K PROPERTIES LLC (16,387 SF)</name>
+                <description>&lt;b&gt;BOX K PROPERTIES LLC&lt;/b&gt;&lt;br&gt;526 South 7Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,387 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.833597,-109.715299' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2683</styleUrl>
+                <Point id="2681">
+                    <coordinates>-109.71529915564942,32.833597387561994,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2687">
+                <name>JAMB INVESTMENTS LLC (16,168 SF)</name>
+                <description>&lt;b&gt;JAMB INVESTMENTS LLC&lt;/b&gt;&lt;br&gt;215 East United States Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,168 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.833962,-109.706195' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2688</styleUrl>
+                <Point id="2686">
+                    <coordinates>-109.70619506490111,32.8339618975335,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2692">
+                <name>HOISINGTON BROTHERS AZ LLC (15,949 SF)</name>
+                <description>&lt;b&gt;HOISINGTON BROTHERS AZ LLC&lt;/b&gt;&lt;br&gt;1878 North Safford Bryce Road, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,949 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 954&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.858842,-109.717859' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2693</styleUrl>
+                <Point id="2691">
+                    <coordinates>-109.7178593340359,32.85884157367586,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2697">
+                <name>191 PROPERTIES LLC (15,881 SF)</name>
+                <description>&lt;b&gt;191 PROPERTIES LLC&lt;/b&gt;&lt;br&gt;1505 South 1St Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,881 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.821167,-109.706888' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2698</styleUrl>
+                <Point id="2696">
+                    <coordinates>-109.70688756170392,32.82116650015478,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2702">
+                <name>THE WAY WORLD OUTREACH MINISTRIES (15,346 SF)</name>
+                <description>&lt;b&gt;THE WAY WORLD OUTREACH MINISTRIES&lt;/b&gt;&lt;br&gt;410 East 4Th Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,346 SF (Entertainment and Recreation)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.835546,-109.702816' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2703</styleUrl>
+                <Point id="2701">
+                    <coordinates>-109.7028162545842,32.835545635677185,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2707">
+                <name>HOISINGTON BROTHERS AZ LLC (15,324 SF)</name>
+                <description>&lt;b&gt;HOISINGTON BROTHERS AZ LLC&lt;/b&gt;&lt;br&gt;1852 North Safford Bryce Road, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,324 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 954&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.857903,-109.716754' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2708</styleUrl>
+                <Point id="2706">
+                    <coordinates>-109.71675399352293,32.85790252050813,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2712">
+                <name>SERENDIPITY PROPERTY LEASING, LLC (15,023 SF)</name>
+                <description>&lt;b&gt;SERENDIPITY PROPERTY LEASING, LLC&lt;/b&gt;&lt;br&gt;490 West 8Th Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,023 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.831677,-109.712106' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2713</styleUrl>
+                <Point id="2711">
+                    <coordinates>-109.7121055824019,32.831676630989406,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2717">
+                <name>GILA BUILDING ASSOCIATES LLC (14,642 SF)</name>
+                <description>&lt;b&gt;GILA BUILDING ASSOCIATES LLC&lt;/b&gt;&lt;br&gt;1680 South 20Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 14,642 SF (Medical Office/Clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 957&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.820957,-109.734110' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2718</styleUrl>
+                <Point id="2716">
+                    <coordinates>-109.73410962931212,32.820957302035694,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2722">
+                <name>KONOPNICKI FAMILY TRUST (14,560 SF)</name>
+                <description>&lt;b&gt;KONOPNICKI FAMILY TRUST&lt;/b&gt; &lt;i&gt;(C/O WSK MANAGEMENT)&lt;/i&gt;&lt;br&gt;1491 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 14,560 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834198,-109.726017' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2723</styleUrl>
+                <Point id="2721">
+                    <coordinates>-109.72601684162349,32.8341979555358,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2727">
+                <name>OAXACA LLC (14,283 SF)</name>
+                <description>&lt;b&gt;OAXACA LLC&lt;/b&gt; &lt;i&gt;(C/O LORI RHINEHART)&lt;/i&gt;&lt;br&gt;1260 South 20Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 14,283 SF (Medical Office/Clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.824908,-109.733509' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2728</styleUrl>
+                <Point id="2726">
+                    <coordinates>-109.73350926674563,32.8249079992312,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2732">
+                <name>DODGE DENNIS BRUCE &amp; SUSAN IN TRUST (13,615 SF)</name>
+                <description>&lt;b&gt;DODGE DENNIS BRUCE &amp;amp; SUSAN IN TRUST&lt;/b&gt;&lt;br&gt;1221 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 13,615 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834489,-109.722306' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2733</styleUrl>
+                <Point id="2731">
+                    <coordinates>-109.72230563977348,32.834489352691264,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2737">
+                <name>ESSENTIAL NET LEASE PORTFOLIO 90 DST (13,263 SF)</name>
+                <description>&lt;b&gt;ESSENTIAL NET LEASE PORTFOLIO 90 DST&lt;/b&gt;&lt;br&gt;1735 West 1St Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 13,263 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.837739,-109.730747' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2738</styleUrl>
+                <Point id="2736">
+                    <coordinates>-109.73074693929176,32.83773942368018,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2742">
+                <name>HORNE 1641 LLC (12,699 SF)</name>
+                <description>&lt;b&gt;HORNE 1641 LLC&lt;/b&gt;&lt;br&gt;1623 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,699 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834327,-109.727873' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2743</styleUrl>
+                <Point id="2741">
+                    <coordinates>-109.72787341256567,32.834326991852656,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2747">
+                <name>MACK'S AUTO RENTALS LLC (12,573 SF)</name>
+                <description>&lt;b&gt;MACK&amp;#x27;S AUTO RENTALS LLC&lt;/b&gt;&lt;br&gt;1575 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,573 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834256,-109.727267' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2748</styleUrl>
+                <Point id="2746">
+                    <coordinates>-109.72726694046939,32.834255745224574,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2752">
+                <name>ARIZONA STATE SAVINGS AND CREDIT UNION (12,099 SF)</name>
+                <description>&lt;b&gt;ARIZONA STATE SAVINGS AND CREDIT UNION&lt;/b&gt; &lt;i&gt;(ATTN: ACCOUNTING DEPARTMENT)&lt;/i&gt;&lt;br&gt;280 West Main Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,099 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.833711,-109.709688' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2753</styleUrl>
+                <Point id="2751">
+                    <coordinates>-109.70968841977918,32.833710590615574,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2757">
+                <name>MCDOUGAL-IFP RE, LLC (11,938 SF)</name>
+                <description>&lt;b&gt;MCDOUGAL-IFP RE, LLC&lt;/b&gt;&lt;br&gt;112 East Main Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,938 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.833646,-109.706462' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2758</styleUrl>
+                <Point id="2756">
+                    <coordinates>-109.70646215691343,32.83364573605849,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2762">
+                <name>VALLEY NATIONAL BANK (11,898 SF)</name>
+                <description>&lt;b&gt;VALLEY NATIONAL BANK&lt;/b&gt; &lt;i&gt;(C/O KERRIE GILBERT)&lt;/i&gt;&lt;br&gt;321 West Main Street, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,898 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.832946,-109.710991' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2763</styleUrl>
+                <Point id="2761">
+                    <coordinates>-109.71099127272942,32.832945787145235,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2767">
+                <name>SOUTHEASTERN BOTTLING CO OF ARIZ (11,726 SF)</name>
+                <description>&lt;b&gt;SOUTHEASTERN BOTTLING CO OF ARIZ&lt;/b&gt;&lt;br&gt;17 North 8Th Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,726 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.838895,-109.715229' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2768</styleUrl>
+                <Point id="2766">
+                    <coordinates>-109.71522921495229,32.838895385885905,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2772">
+                <name>CIRCLE K STORES INC (11,643 SF)</name>
+                <description>&lt;b&gt;CIRCLE K STORES INC&lt;/b&gt; &lt;i&gt;(DC-17)&lt;/i&gt;&lt;br&gt;1542 E Us Hwy 70, Safford, AZ&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,643 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.823272,-109.688180' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2773</styleUrl>
+                <Point id="2771">
+                    <coordinates>-109.688179548456,32.82327218113457,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2777">
+                <name>MEDLEY LLC (11,503 SF)</name>
+                <description>&lt;b&gt;MEDLEY LLC&lt;/b&gt;&lt;br&gt;1825 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,503 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834526,-109.730811' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2778</styleUrl>
+                <Point id="2776">
+                    <coordinates>-109.73081095768539,32.83452560815018,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2782">
+                <name>JOHNSON TERRY J (11,446 SF)</name>
+                <description>&lt;b&gt;JOHNSON TERRY J&lt;/b&gt;&lt;br&gt;804 South 1St Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,446 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.831009,-109.708010' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2783</styleUrl>
+                <Point id="2781">
+                    <coordinates>-109.7080097187651,32.83100890959171,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2787">
+                <name>A C AUSTIN PROPERTY MANAGEMENT LLC (11,169 SF)</name>
+                <description>&lt;b&gt;A C AUSTIN PROPERTY MANAGEMENT LLC&lt;/b&gt;&lt;br&gt;803 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,169 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834290,-109.716545' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2788</styleUrl>
+                <Point id="2786">
+                    <coordinates>-109.71654497514956,32.834290193741545,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2792">
+                <name>ALTECH REFRIGERATION CORPORATION (11,008 SF)</name>
+                <description>&lt;b&gt;ALTECH REFRIGERATION CORPORATION&lt;/b&gt;&lt;br&gt;2250 West United States Highway 70, Thatcher, AZ 85552&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,008 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.840183,-109.737368' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2793</styleUrl>
+                <Point id="2791">
+                    <coordinates>-109.73736804321894,32.84018308816943,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2797">
+                <name>MAVERICK 212 LLC (10,936 SF)</name>
+                <description>&lt;b&gt;MAVERICK 212 LLC&lt;/b&gt;&lt;br&gt;212 East United States Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,936 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.834696,-109.706607' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2798</styleUrl>
+                <Point id="2796">
+                    <coordinates>-109.7066074412691,32.834695784446524,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2802">
+                <name>PRENTICE KIMBERLY JO (10,645 SF)</name>
+                <description>&lt;b&gt;PRENTICE KIMBERLY JO&lt;/b&gt;&lt;br&gt;1404 South 1St Avenue, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,645 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 955&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.823690,-109.708065' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2803</styleUrl>
+                <Point id="2801">
+                    <coordinates>-109.7080645614021,32.82368990681741,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2807">
+                <name>RDJ PROPERTIES LLC (10,641 SF)</name>
+                <description>&lt;b&gt;RDJ PROPERTIES LLC&lt;/b&gt; &lt;i&gt;(C/O RICK ANDERSON)&lt;/i&gt;&lt;br&gt;1640 West Thatcher Boulevard, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,641 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 956&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.835555,-109.728320' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2808</styleUrl>
+                <Point id="2806">
+                    <coordinates>-109.72831990729823,32.83555534911339,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2812">
+                <name>SUBURBAN PROPANE, L.P. (10,497 SF)</name>
+                <description>&lt;b&gt;SUBURBAN PROPANE, L.P.&lt;/b&gt;&lt;br&gt;444 West Old Country Club Road, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,497 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 957&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.784598,-109.711188' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2813</styleUrl>
+                <Point id="2811">
+                    <coordinates>-109.71118771243904,32.784598476060346,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2817">
+                <name>FREEPORT-MCMORAN SAFFORD INC (10,410 SF)</name>
+                <description>&lt;b&gt;FREEPORT-MCMORAN SAFFORD INC&lt;/b&gt;&lt;br&gt;3443 East United States Highway 70, Safford, AZ 85546&lt;br&gt;&lt;b&gt;Wind:&lt;/b&gt; 73 mph measured gust (PWS) &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,410 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 954&lt;br&gt;&lt;a href='https://www.google.com/maps?q=32.814802,-109.658119' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2818</styleUrl>
+                <Point id="2816">
+                    <coordinates>-109.65811946290472,32.81480186048191,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
