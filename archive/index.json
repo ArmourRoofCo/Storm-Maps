@@ -1,6 +1,26 @@
 {
  "dates": [
   {
+   "key": "2026-10-24",
+   "date": "2026-10-24",
+   "label": "Sat 10/24/2026",
+   "summary": "469 storm bldgs (15 w/ contact), 0 asset hits, 79 mph high wind Casper WY + Lander WY/Organ NM",
+   "file": "archive/2026-10-24.html",
+   "kml": "archive/2026-10-24.kml",
+   "geojson": "archive/2026-10-24.geojson",
+   "counts": {
+    "storm_building_with_contact": 15,
+    "storm_building_no_contact": 454,
+    "hail_buildings": 0,
+    "wind_buildings": 469,
+    "rain_buildings": 0,
+    "asset_hits": 0,
+    "storm_report": 16,
+    "roof_search": 0
+   },
+   "archived_at": "2026-10-24T12:06:47+00:00"
+  },
+  {
    "key": "2026-10-23",
    "date": "2026-10-23",
    "label": "Fri 10/23/2026",
@@ -210,7 +230,7 @@
   {
    "key": "2026-03-10-to-12-TEST",
    "date": "2026-03-10",
-   "label": "TEST: Mar 10–12, 2026",
+   "label": "TEST: Mar 10\u201312, 2026",
    "summary": "17736 storm bldgs (47 w/ contact), 1 bid requests, 4 social media",
    "file": "archive/2026-03-10-to-12-TEST.html",
    "kml": "archive/2026-03-10-to-12-TEST.kml",
@@ -229,6 +249,6 @@
    "archived_at": "2026-10-19T18:06:09-05:00"
   }
  ],
- "latest": "2026-10-23",
+ "latest": "2026-10-24",
  "note": "Storm-Maps daily report archive. Root index.html is the latest report; each archive page has its own pins."
 }
