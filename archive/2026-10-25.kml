@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Armour Storm Leads 2026-10-25</name>
+        <Folder id="2">
+            <Style id="5">
+                <IconStyle id="6">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="7">
+                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="10">
+                <IconStyle id="11">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="12">
+                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Wind - reports</name>
+            <Placemark id="4">
+                <name>75 mph measured gust - 25 N Organ NM</name>
+                <description>&lt;b&gt;Wind 75 mph measured&lt;/b&gt;&lt;br&gt;25 N Organ, NM (White Sands Missile Range)&lt;br&gt;2026-10-24 23:50Z - NWS El Paso (Public)&lt;br&gt;No C/I buildings &gt;=10k SF within 5 mi</description>
+                <styleUrl>#5</styleUrl>
+                <Point id="3">
+                    <coordinates>-106.5,32.79,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="9">
+                <name>68 mph measured gust - 22 W Holloman Afb NM</name>
+                <description>&lt;b&gt;Wind 68 mph measured&lt;/b&gt;&lt;br&gt;22 W Holloman Afb, NM (White Sands Missile Range)&lt;br&gt;2026-10-25 00:05Z - NWS El Paso (Mesonet)&lt;br&gt;No C/I buildings &gt;=10k SF within 5 mi</description>
+                <styleUrl>#10</styleUrl>
+                <Point id="8">
+                    <coordinates>-106.49,32.87,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
