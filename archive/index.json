@@ -4,21 +4,20 @@
    "key": "2026-10-25",
    "date": "2026-10-25",
    "label": "Sun 10/25/2026",
-   "summary": "0 storm bldgs, 0 asset hits; 75/68 mph gusts White Sands NM (no buildings)",
+   "summary": "quiet day, 28 bid requests, 2 social media",
    "file": "archive/2026-10-25.html",
    "kml": "archive/2026-10-25.kml",
    "geojson": "archive/2026-10-25.geojson",
    "counts": {
-    "storm_building_with_contact": 0,
-    "storm_building_no_contact": 0,
-    "hail_buildings": 0,
-    "wind_buildings": 0,
-    "rain_buildings": 0,
-    "asset_hits": 0,
-    "storm_report": 2,
-    "roof_search": 0
+    "swath_or_outline": 4,
+    "storm_report": 7,
+    "roof_search": 30,
+    "callable_lead_pins": 0,
+    "kml_points": 37,
+    "roof_bid_requests": 28,
+    "roof_social_media": 2
    },
-   "archived_at": "2026-10-25T12:03:35+00:00"
+   "archived_at": "2026-10-25T07:16:13-05:00"
   },
   {
    "key": "2026-10-24",
@@ -251,7 +250,7 @@
   {
    "key": "2026-03-10-to-12-TEST",
    "date": "2026-03-10",
-   "label": "TEST: Mar 10\u201312, 2026",
+   "label": "TEST: Mar 10–12, 2026",
    "summary": "17736 storm bldgs (47 w/ contact), 1 bid requests, 4 social media",
    "file": "archive/2026-03-10-to-12-TEST.html",
    "kml": "archive/2026-03-10-to-12-TEST.kml",
