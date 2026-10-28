@@ -1,0 +1,83 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Armour Storm Leads - Oct 28, 2026</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../callstatus.js"></script>
+<style>
+ html,body,#map{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif}
+ .panel{position:absolute;z-index:1000;background:#fff;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,.3);font-size:13px}
+ #top{top:10px;left:54px;padding:8px 12px;max-width:min(560px,calc(100% - 120px))}
+ #top h1{font-size:15px;margin:0 0 4px}
+ #top .sub{color:#444;margin-bottom:6px}
+ #top select{font-size:13px;padding:3px;max-width:100%}
+ #ctl{top:10px;right:10px;width:250px;max-height:calc(100% - 40px);overflow:auto}
+ .hdr{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;cursor:pointer;font-weight:bold;border-bottom:1px solid #eee;user-select:none}
+ .body{padding:6px 10px 10px}
+ .collapsed .body{display:none}
+ .grp{margin:6px 0 8px}
+ .grp>label{font-weight:bold}
+ .sub label{display:block;margin-left:20px;color:#333}
+ .cnt{color:#777}
+ .base label{display:block}
+ .legend span{display:inline-block;width:11px;height:11px;border-radius:50%;margin:0 4px 0 0;border:1px solid #333;vertical-align:-1px}
+ .leaflet-popup-content{font-size:13px;line-height:1.35}
+ .callbtn{margin-top:6px;font-size:13px;padding:3px 8px;cursor:pointer}
+ .callstat{display:block;color:#555;margin-top:4px}
+ #top{top:48px}
+
+ @media (max-width:640px){#ctl{width:200px}#top{max-width:calc(100% - 270px)}}
+</style></head><body><div id="map"></div>
+<div id="top" class="panel"><h1>Armour Storm Leads - Oct 28, 2026</h1><div class="sub">Window 10/27 7AM - 10/28 7AM CDT &middot; <b>0 asset hits</b> &middot; Hail: 2.00 in public report 14 SE Kent TX - 0 buildings &middot; Wind: none &middot; Rain: none</div>
+ <label for="datesel"><b>Map date:</b></label> <select id="datesel"><option value="">This map (Oct 28, 2026)</option></select>
+</div>
+<div id="ctl" class="panel"><div class="hdr" data-t="b1">Base map <span>&#9662;</span></div>
+ <div class="body base" id="b1"><label><input type="radio" name="base" value="street" checked> Street</label>
+ <label><input type="radio" name="base" value="sat"> Satellite</label>
+ <label><input type="radio" name="base" value="hyb"> Satellite + labels</label></div>
+ <div class="hdr" data-t="b2">Layers &amp; filters <span>&#9662;</span></div><div class="body" id="b2"></div>
+ <div class="hdr" data-t="b3">Legend <span>&#9662;</span></div>
+ <div class="body legend" id="b3"><div><span style="background:#d62728"></span>Measured</div>
+ <div><span style="background:#ff7f0e"></span>Spotter / public report</div>
+ <div><span style="background:#9467bd"></span>Radar estimate (MESH)</div>
+ <div style="margin-top:4px">Solid pin = has contact (phone and/or email)<br>Hollow pin = no contact</div></div>
+</div>
+<script>
+const D={"subtitle": "Window 10/27 7AM - 10/28 7AM CDT &middot; <b>0 asset hits<\/b> &middot; Hail: 2.00 in public report 14 SE Kent TX - 0 buildings &middot; Wind: none &middot; Rain: none", "center": [30.93, -104.04], "zoom": 10, "features": [{"layer": "Hail", "lat": 30.93, "lon": -104.04, "basis": "spotter", "has_contact": false, "kind": "report", "tooltip": "2.00 in hail (public) - 14 SE Kent TX", "popup_html": "<b>Hail 2.00 in (public report)<\/b><br>14 SE Kent, Jeff Davis Co., TX (ranch property)<br>2026-10-28 00:55Z - NWS Midland (Public)<br>No C/I buildings >=10k SF within 3 mi"}, {"layer": "Hail", "lat": 30.93, "lon": -104.04, "basis": "spotter", "has_contact": false, "kind": "radius", "radius_m": 4828, "popup_html": "3-mile building search radius"}]}, INDEX_URL="index.json", ROOT="../";
+const map=L.map('map',{zoomControl:true}).setView(D.center,D.zoom);window.map_storm=map;
+const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Imagery &copy; Esri, Maxar, Earthstar Geographics'});
+const labels=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:19});
+document.querySelectorAll('input[name=base]').forEach(r=>r.onchange=()=>{[street,sat,labels].forEach(l=>map.removeLayer(l));
+ if(r.value==='street')street.addTo(map);else{sat.addTo(map);if(r.value==='hyb')labels.addTo(map);}});
+const COL={measured:'#d62728',spotter:'#ff7f0e',radar:'#9467bd',none:'#1f77b4'};
+const LAYERS=['Hail','Wind','Rain','Our Assets','Bid Requests','Social Media'].filter(n=>n!=='Our Assets'||false);
+const groups={};LAYERS.forEach(n=>groups[n]={yes:L.layerGroup(),no:L.layerGroup(),cy:0,cn:0});
+D.features.forEach(f=>{const g=groups[f.layer];if(!g)return;let m;
+ if(f.kind==='radius'){m=L.circle([f.lat,f.lon],{radius:f.radius_m,color:COL[f.basis]||'#ff7f0e',weight:2,fillOpacity:.07});(g.yes).addLayer(m);if(f.popup_html)m.bindPopup(f.popup_html);return;}
+ const c=f.layer==='Our Assets'?COL.none:(COL[f.basis]||'#555');
+ const r=f.kind==='report'?6:(f.layer==='Our Assets'?4:8);
+ m=L.circleMarker([f.lat,f.lon],{radius:r,color:f.kind==='report'?'#000':c,weight:f.kind==='report'?2:(f.has_contact?1:2.5),fillColor:c,fillOpacity:f.has_contact||f.kind==='report'?.9:.1});
+ if(f.popup_html)m.bindPopup(f.popup_html,{maxWidth:340});if(f.tooltip)m.bindTooltip(f.tooltip);
+ if(f.kind==='report'||f.has_contact){g.yes.addLayer(m);if(f.kind!=='report')g.cy++;}else{g.no.addLayer(m);g.cn++;}});
+const box=document.getElementById('b2');
+LAYERS.forEach((n,i)=>{const g=groups[n];const on=n!=='Our Assets';
+ const d=document.createElement('div');d.className='grp';
+ d.innerHTML=`<label><input type="checkbox" id="L${i}" ${on?'checked':''}> ${n} <span class="cnt">(${g.cy+g.cn})</span></label>
+ <div class="sub"><label><input type="checkbox" id="L${i}y" checked> With contact <span class="cnt">(${g.cy})</span></label>
+ <label><input type="checkbox" id="L${i}n" checked> No contact <span class="cnt">(${g.cn})</span></label></div>`;box.appendChild(d);
+ const main=d.querySelector('#L'+i),y=d.querySelector('#L'+i+'y'),no=d.querySelector('#L'+i+'n');
+ const sync=()=>{[['yes',y],['no',no]].forEach(([k,cb])=>{const show=main.checked&&cb.checked;show?g[k].addTo(map):map.removeLayer(g[k]);});};
+ [main,y,no].forEach(cb=>cb.onchange=sync);sync();});
+const all=document.createElement('div');all.className='grp';
+all.innerHTML='<b>All layers:</b> <a href="#" id="ay">contact only</a> &middot; <a href="#" id="an">no contact only</a> &middot; <a href="#" id="ab">both</a>';box.appendChild(all);
+function setAll(y,n){LAYERS.forEach((_,i)=>{const a=document.getElementById('L'+i+'y'),b=document.getElementById('L'+i+'n');a.checked=y;b.checked=n;a.onchange();});}
+document.getElementById('ay').onclick=e=>{e.preventDefault();setAll(true,false)};
+document.getElementById('an').onclick=e=>{e.preventDefault();setAll(false,true)};
+document.getElementById('ab').onclick=e=>{e.preventDefault();setAll(true,true)};
+document.querySelectorAll('.hdr').forEach(h=>h.onclick=()=>{const b=document.getElementById(h.dataset.t);b.style.display=b.style.display==='none'?'':'none';});
+if(window.innerWidth<640){['b1','b3'].forEach(id=>document.getElementById(id).style.display='none');}
+const sel=document.getElementById('datesel');
+if(INDEX_URL){fetch(INDEX_URL+'?t='+Date.now()).then(r=>r.json()).then(j=>{(j.dates||[]).forEach(d=>{const o=document.createElement('option');o.value=ROOT+d.file;o.textContent=d.label+(d.summary?' - '+d.summary:'');sel.appendChild(o);});}).catch(()=>{const o=document.createElement('option');o.disabled=true;o.textContent='(previous days unavailable offline)';sel.appendChild(o);});}
+sel.onchange=()=>{if(sel.value)location.href=sel.value;};
+</script></body></html>
