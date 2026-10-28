@@ -4,21 +4,20 @@
    "key": "2026-10-28",
    "date": "2026-10-28",
    "label": "Wed 10/28/2026",
-   "summary": "0 storm bldgs, 0 asset hits; 2.00 in hail 14 SE Kent TX (no buildings)",
+   "summary": "quiet day, 33 bid requests, 3 social media",
    "file": "archive/2026-10-28.html",
    "kml": "archive/2026-10-28.kml",
    "geojson": "archive/2026-10-28.geojson",
    "counts": {
-    "storm_building_with_contact": 0,
-    "storm_building_no_contact": 0,
-    "hail_buildings": 0,
-    "wind_buildings": 0,
-    "rain_buildings": 0,
-    "asset_hits": 0,
     "storm_report": 1,
-    "roof_search": 0
+    "swath_or_outline": 5,
+    "roof_search": 36,
+    "callable_lead_pins": 0,
+    "kml_points": 37,
+    "roof_bid_requests": 33,
+    "roof_social_media": 3
    },
-   "archived_at": "2026-10-28T12:04:10+00:00"
+   "archived_at": "2026-10-28T07:11:10-05:00"
   },
   {
    "key": "2026-10-27",
@@ -309,7 +308,7 @@
   {
    "key": "2026-03-10-to-12-TEST",
    "date": "2026-03-10",
-   "label": "TEST: Mar 10\u201312, 2026",
+   "label": "TEST: Mar 10–12, 2026",
    "summary": "17736 storm bldgs (47 w/ contact), 1 bid requests, 4 social media",
    "file": "archive/2026-03-10-to-12-TEST.html",
    "kml": "archive/2026-03-10-to-12-TEST.kml",
