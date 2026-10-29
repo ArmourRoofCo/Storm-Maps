@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="2176">
+        <name>Armour Storm Leads 2026-10-29</name>
+        <Folder id="2177">
+            <Style id="2180">
+                <IconStyle id="2181">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2182">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2185">
+                <IconStyle id="2186">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2187">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2190">
+                <IconStyle id="2191">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2192">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2195">
+                <IconStyle id="2196">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2197">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2200">
+                <IconStyle id="2201">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2202">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2205">
+                <IconStyle id="2206">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2207">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2210">
+                <IconStyle id="2211">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2212">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2215">
+                <IconStyle id="2216">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2217">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2220">
+                <IconStyle id="2221">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2222">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2241">
+                <IconStyle id="2242">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2243">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Hail - with contact</name>
+            <Placemark id="2179">
+                <name>JENNIE-O TURKEY STORE INC (39,326 SF)</name>
+                <description>&lt;b&gt;JENNIE-O TURKEY STORE INC&lt;/b&gt;&lt;br&gt;501 Pleasant Ave E, Atwater, MN 56209&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 39,326 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Jennie-O Turkey Store - Atwater Feed Mill (Elbert Mahn, Mill Management) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-974-8891&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 275&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.138183,-94.770943' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2180</styleUrl>
+                <Point id="2178">
+                    <coordinates>-94.77094311402713,45.138182919088194,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2184">
+                <name>DAHL PROPERTIES LLC (26,371 SF)</name>
+                <description>&lt;b&gt;DAHL PROPERTIES LLC&lt;/b&gt;&lt;br&gt;108 N 1st St, Grove City, MN 56243&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 26,371 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Precision Fiberglass Products &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-857-2974&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 277&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.152639,-94.680259' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2185</styleUrl>
+                <Point id="2183">
+                    <coordinates>-94.68025947906645,45.1526385033053,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2189">
+                <name>CORVAL PROPERTIES, LLC (26,091 SF)</name>
+                <description>&lt;b&gt;CORVAL PROPERTIES, LLC&lt;/b&gt; &lt;i&gt;(Taxpayer: HENNES PROPERTIES, LLC)&lt;/i&gt;&lt;br&gt;215 Pleasant Ave E, Atwater, MN 56209&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 26,091 SF (Unclassified)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Hennes Machine and Repair (Michael &amp;amp; Amy Hennes, owners) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-974-8090&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; hennesmachine@hennesmachine.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 275&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.139568,-94.774232' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2190</styleUrl>
+                <Point id="2188">
+                    <coordinates>-94.77423215895288,45.13956825537612,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2194">
+                <name>DAHL PROPERTIES LLC (19,267 SF)</name>
+                <description>&lt;b&gt;DAHL PROPERTIES LLC&lt;/b&gt;&lt;br&gt;105 N 5th St, Grove City, MN 56243&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 19,267 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Midwest Metal Works Inc (Howard Koehn, President) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-857-2885&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 276&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.150827,-94.685671' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2195</styleUrl>
+                <Point id="2193">
+                    <coordinates>-94.68567129524814,45.15082680278051,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2199">
+                <name>HENNES PROPERTIES, LLC (17,916 SF)</name>
+                <description>&lt;b&gt;HENNES PROPERTIES, LLC&lt;/b&gt;&lt;br&gt;206 Atlantic Ave E, Atwater, MN 56209&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,916 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Hennes Machine and Repair (Michael &amp;amp; Amy Hennes, owners) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-974-8090&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; hennesmachine@hennesmachine.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 274&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.137804,-94.775117' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2200</styleUrl>
+                <Point id="2198">
+                    <coordinates>-94.77511746508576,45.13780364395257,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2204">
+                <name>CORVAL PROPERTIES, LLC (16,976 SF)</name>
+                <description>&lt;b&gt;CORVAL PROPERTIES, LLC&lt;/b&gt; &lt;i&gt;(Taxpayer: HENNES PROPERTIES, LLC)&lt;/i&gt;&lt;br&gt;near 45.13854,-94.77466, Atwater, MN 56209 (no site address on parcel)&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,976 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Hennes Machine and Repair (Michael &amp;amp; Amy Hennes, owners) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-974-8090&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; hennesmachine@hennesmachine.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 275&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.138542,-94.774657' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2205</styleUrl>
+                <Point id="2203">
+                    <coordinates>-94.77465650325263,45.138542052905535,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2209">
+                <name>ROOSTIN RIDGE WOODWORKS, LLC (15,246 SF)</name>
+                <description>&lt;b&gt;ROOSTIN RIDGE WOODWORKS, LLC&lt;/b&gt;&lt;br&gt;116 Atlantic Ave W, Atwater, MN 56209&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,246 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Roostin Ridge Woodworks (Clair Butcher, CEO) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-979-0335&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 274&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.137467,-94.779084' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2210</styleUrl>
+                <Point id="2208">
+                    <coordinates>-94.7790835804679,45.13746722775295,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2214">
+                <name>MID RENTALS LLC (12,757 SF)</name>
+                <description>&lt;b&gt;MID RENTALS LLC&lt;/b&gt;&lt;br&gt;637 Pleasant Ave E, Atwater, MN 56209&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,757 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Midwest Metal (roll-formed metal roofing/siding supplier) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-974-0111&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 275&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.138242,-94.758847' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2215</styleUrl>
+                <Point id="2213">
+                    <coordinates>-94.75884651201335,45.138242418153375,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2219">
+                <name>MIDWEST LOCOMOTIVE SERVICES (10,845 SF)</name>
+                <description>&lt;b&gt;MIDWEST LOCOMOTIVE SERVICES&lt;/b&gt;&lt;br&gt;108 2nd St N, Atwater, MN 56209&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,845 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Midwest Locomotive Services Inc (Pete &amp;amp; Roxy Bierwerth) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 320-974-8419&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; midloco@outlook.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 274&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.138146,-94.780113' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2220</styleUrl>
+                <Point id="2218">
+                    <coordinates>-94.78011264501421,45.13814643242266,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2240">
+                <name>3.00 in hail (public) - 2 SW Grove City MN 18:53Z</name>
+                <description>&lt;b&gt;Hail 3.00 in (public report)&lt;/b&gt;&lt;br&gt;2 SW Grove City, Meeker Co., MN - 2026-10-28 18:53Z&lt;br&gt;Photo submitted via social media of large spikey hailstones. Hail was much larger than quarter size. Time estimated via radar.&lt;br&gt;Source: NWS MPX (Public)</description>
+                <styleUrl>#2241</styleUrl>
+                <Point id="2239">
+                    <coordinates>-94.72,45.14,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="2223">
+            <Style id="2226">
+                <IconStyle id="2227">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2228">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2231">
+                <IconStyle id="2232">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2233">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2236">
+                <IconStyle id="2237">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2238">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Hail - no contact</name>
+            <Placemark id="2225">
+                <name>OTTING ENTERPRISES LP (12,559 SF)</name>
+                <description>&lt;b&gt;OTTING ENTERPRISES LP&lt;/b&gt;&lt;br&gt;716 W Pacific Ave, Grove City, MN 56243&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,559 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 276&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.148812,-94.685418' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2226</styleUrl>
+                <Point id="2224">
+                    <coordinates>-94.68541803430857,45.14881243237193,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2230">
+                <name>TBMGC LLC C/O TOM KEMPF (11,010 SF)</name>
+                <description>&lt;b&gt;TBMGC LLC C/O TOM KEMPF&lt;/b&gt;&lt;br&gt;104 E Atlantic Ave, Grove City, MN 56243&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,010 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 277&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.152480,-94.679327' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2231</styleUrl>
+                <Point id="2229">
+                    <coordinates>-94.67932650830676,45.15248044277779,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2235">
+                <name>AK HAAG LLC (10,136 SF)</name>
+                <description>&lt;b&gt;AK HAAG LLC&lt;/b&gt;&lt;br&gt;312 W Atlantic Ave, Grove City, MN 56243&lt;br&gt;&lt;b&gt;Hail:&lt;/b&gt; 3.00&amp;quot; hail (public social-media photo, 2 SW Grove City MN) &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,136 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 276&lt;br&gt;&lt;a href='https://www.google.com/maps?q=45.150950,-94.682561' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2236</styleUrl>
+                <Point id="2234">
+                    <coordinates>-94.68256102808976,45.15094981522798,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
