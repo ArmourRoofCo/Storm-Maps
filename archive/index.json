@@ -4,21 +4,23 @@
    "key": "2026-10-30",
    "date": "2026-10-30",
    "label": "Fri 10/30/2026",
-   "summary": "72 storm bldgs (53 w/ contact), 0 asset hits, 5.50 in rain Marysville KS + 2.03 in Topeka KS",
+   "summary": "43 storm bldgs (39 w/ contact), 33 bid requests, 1 social media",
    "file": "archive/2026-10-30.html",
    "kml": "archive/2026-10-30.kml",
    "geojson": "archive/2026-10-30.geojson",
    "counts": {
-    "storm_building_with_contact": 53,
-    "storm_building_no_contact": 19,
-    "hail_buildings": 0,
-    "wind_buildings": 0,
-    "rain_buildings": 72,
-    "asset_hits": 0,
-    "storm_report": 3,
-    "roof_search": 0
+    "storm_report": 6,
+    "storm_building_with_contact": 39,
+    "storm_building_no_contact": 4,
+    "swath_or_outline": 13,
+    "source_check_non_lead": 1,
+    "roof_search": 34,
+    "callable_lead_pins": 43,
+    "kml_points": 84,
+    "roof_bid_requests": 33,
+    "roof_social_media": 1
    },
-   "archived_at": "2026-10-30T12:08:28Z"
+   "archived_at": "2026-10-30T07:26:55-05:00"
   },
   {
    "key": "2026-10-29",
@@ -349,7 +351,7 @@
   {
    "key": "2026-03-10-to-12-TEST",
    "date": "2026-03-10",
-   "label": "TEST: Mar 10\u201312, 2026",
+   "label": "TEST: Mar 10–12, 2026",
    "summary": "17736 storm bldgs (47 w/ contact), 1 bid requests, 4 social media",
    "file": "archive/2026-03-10-to-12-TEST.html",
    "kml": "archive/2026-03-10-to-12-TEST.kml",
