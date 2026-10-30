@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="2486">
+        <name>Armour Storm Leads 2026-10-30</name>
+        <Folder id="2487">
+            <Style id="2490">
+                <IconStyle id="2491">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2492">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2495">
+                <IconStyle id="2496">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2497">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2500">
+                <IconStyle id="2501">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2502">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2505">
+                <IconStyle id="2506">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2507">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2510">
+                <IconStyle id="2511">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2512">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2515">
+                <IconStyle id="2516">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2517">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2520">
+                <IconStyle id="2521">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2522">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2525">
+                <IconStyle id="2526">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2527">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2530">
+                <IconStyle id="2531">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2532">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2535">
+                <IconStyle id="2536">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2537">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2540">
+                <IconStyle id="2541">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2542">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2545">
+                <IconStyle id="2546">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2547">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2550">
+                <IconStyle id="2551">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2552">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2555">
+                <IconStyle id="2556">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2557">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2560">
+                <IconStyle id="2561">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2562">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2565">
+                <IconStyle id="2566">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2567">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2570">
+                <IconStyle id="2571">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2572">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2575">
+                <IconStyle id="2576">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2577">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2580">
+                <IconStyle id="2581">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2582">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2585">
+                <IconStyle id="2586">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2587">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2590">
+                <IconStyle id="2591">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2592">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2595">
+                <IconStyle id="2596">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2597">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2600">
+                <IconStyle id="2601">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2602">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2605">
+                <IconStyle id="2606">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2607">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2610">
+                <IconStyle id="2611">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2612">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2615">
+                <IconStyle id="2616">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2617">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2620">
+                <IconStyle id="2621">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2622">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2625">
+                <IconStyle id="2626">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2627">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2630">
+                <IconStyle id="2631">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2632">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2635">
+                <IconStyle id="2636">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2637">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2640">
+                <IconStyle id="2641">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2642">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2645">
+                <IconStyle id="2646">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2647">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2650">
+                <IconStyle id="2651">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2652">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2655">
+                <IconStyle id="2656">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2657">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2660">
+                <IconStyle id="2661">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2662">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2665">
+                <IconStyle id="2666">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2667">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2670">
+                <IconStyle id="2671">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2672">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2675">
+                <IconStyle id="2676">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2677">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2680">
+                <IconStyle id="2681">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2682">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2685">
+                <IconStyle id="2686">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2687">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2690">
+                <IconStyle id="2691">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2692">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2695">
+                <IconStyle id="2696">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2697">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2700">
+                <IconStyle id="2701">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2702">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2705">
+                <IconStyle id="2706">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2707">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2710">
+                <IconStyle id="2711">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2712">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2715">
+                <IconStyle id="2716">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2717">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2720">
+                <IconStyle id="2721">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2722">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2725">
+                <IconStyle id="2726">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2727">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2730">
+                <IconStyle id="2731">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2732">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2735">
+                <IconStyle id="2736">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2737">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2740">
+                <IconStyle id="2741">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2742">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2745">
+                <IconStyle id="2746">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2747">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2750">
+                <IconStyle id="2751">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2752">
+                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2851">
+                <IconStyle id="2852">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2853">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2856">
+                <IconStyle id="2857">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2858">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2861">
+                <IconStyle id="2862">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2863">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Rain - with contact</name>
+            <Placemark id="2489">
+                <name>Possibly Landoll Company LLC (960,000+ SF Marysville manufac (407,411 SF)</name>
+                <description>&lt;b&gt;Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed&lt;/b&gt;&lt;br&gt;near 39.85161,-96.63506, Marysville, KS 66508 (no address point)&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 407,411 SF (Heavy)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5381&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.851613,-96.635055' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2490</styleUrl>
+                <Point id="2488">
+                    <coordinates>-96.63505530780621,39.851613261787875,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2494">
+                <name>Possibly Landoll Company LLC (960,000+ SF Marysville manufac (335,811 SF)</name>
+                <description>&lt;b&gt;Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed&lt;/b&gt;&lt;br&gt;1085 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 335,811 SF (Heavy)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5381&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.839842,-96.622717' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2495</styleUrl>
+                <Point id="2493">
+                    <coordinates>-96.62271728741939,39.83984159341983,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2499">
+                <name>Valley Vet Supply (109,695 SF)</name>
+                <description>&lt;b&gt;Valley Vet Supply&lt;/b&gt;&lt;br&gt;1118 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 109,695 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Valley Vet Supply &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 800-419-9524&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.843020,-96.617279' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2500</styleUrl>
+                <Point id="2498">
+                    <coordinates>-96.61727928574193,39.84301967360891,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2504">
+                <name>Walmart Supercenter (104,279 SF)</name>
+                <description>&lt;b&gt;Walmart Supercenter&lt;/b&gt;&lt;br&gt;1174 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 104,279 SF (Wholesale Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Walmart Supercenter &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2390&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.843377,-96.605129' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2505</styleUrl>
+                <Point id="2503">
+                    <coordinates>-96.60512904794207,39.843377188112335,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2509">
+                <name>Marysville Livestock Inc (Jim Dalinghaus, manager) (100,432 SF)</name>
+                <description>&lt;b&gt;Marysville Livestock Inc (Jim Dalinghaus, manager)&lt;/b&gt;&lt;br&gt;1180 Hwy 77, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 100,432 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Marysville Livestock Inc (Jim Dalinghaus, manager) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-1015&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.846472,-96.663407' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2510</styleUrl>
+                <Point id="2508">
+                    <coordinates>-96.66340678117085,39.8464715953722,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2514">
+                <name>Possibly Landoll Company LLC (960,000+ SF Marysville manufac (68,660 SF)</name>
+                <description>&lt;b&gt;Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed&lt;/b&gt;&lt;br&gt;near 39.84985,-96.63580, Marysville, KS 66508 (no address point)&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 68,660 SF (Heavy)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5381&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.849848,-96.635796' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2515</styleUrl>
+                <Point id="2513">
+                    <coordinates>-96.6357962888364,39.849848466188774,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2519">
+                <name>Tension (Tension Envelopes) - Marysville manufacturing (48,725 SF)</name>
+                <description>&lt;b&gt;Tension (Tension Envelopes) - Marysville manufacturing&lt;/b&gt;&lt;br&gt;1601 Spring St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 48,725 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Tension (Tension Envelopes) - Marysville manufacturing &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2307&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.838135,-96.637977' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2520</styleUrl>
+                <Point id="2518">
+                    <coordinates>-96.6379765619246,39.83813525861271,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2524">
+                <name>Pepsi-Cola of Marysville / Canteen (47,689 SF)</name>
+                <description>&lt;b&gt;Pepsi-Cola of Marysville / Canteen&lt;/b&gt;&lt;br&gt;604 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 47,689 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Pepsi-Cola of Marysville / Canteen &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5334&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842561,-96.650038' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2525</styleUrl>
+                <Point id="2523">
+                    <coordinates>-96.65003805309742,39.842561205849016,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2529">
+                <name>Kaw Valley Greenhouses (seasonal store) (43,823 SF)</name>
+                <description>&lt;b&gt;Kaw Valley Greenhouses (seasonal store)&lt;/b&gt;&lt;br&gt;1115 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 43,823 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Kaw Valley Greenhouses (seasonal store) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-770-0472&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.840566,-96.616869' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2530</styleUrl>
+                <Point id="2528">
+                    <coordinates>-96.6168692103477,39.84056592906532,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2534">
+                <name>Hometown Lumber &amp; Hardware (32,471 SF)</name>
+                <description>&lt;b&gt;Hometown Lumber &amp;amp; Hardware&lt;/b&gt;&lt;br&gt;1204 12 Rd, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 32,471 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Hometown Lumber &amp;amp; Hardware &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-1200&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.840759,-96.600045' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2535</styleUrl>
+                <Point id="2533">
+                    <coordinates>-96.6000450145869,39.84075879648664,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2539">
+                <name>Landoll Company LLC (24,921 SF)</name>
+                <description>&lt;b&gt;Landoll Company LLC&lt;/b&gt;&lt;br&gt;1104 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 24,921 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Landoll Company LLC &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-4780&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842450,-96.618919' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2540</styleUrl>
+                <Point id="2538">
+                    <coordinates>-96.61891886604457,39.84244967961806,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2544">
+                <name>Possibly Landoll Company LLC (960,000+ SF Marysville manufac (24,890 SF)</name>
+                <description>&lt;b&gt;Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed&lt;/b&gt;&lt;br&gt;1612 May St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 24,890 SF (Heavy)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Possibly Landoll Company LLC (960,000+ SF Marysville manufacturing campus) - unconfirmed &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5381&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.848995,-96.637362' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2545</styleUrl>
+                <Point id="2543">
+                    <coordinates>-96.63736226884353,39.84899532559128,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2549">
+                <name>The Korner Bistro &amp; Diner (tenant) (21,179 SF)</name>
+                <description>&lt;b&gt;The Korner Bistro &amp;amp; Diner (tenant)&lt;/b&gt;&lt;br&gt;814 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 21,179 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; The Korner Bistro &amp;amp; Diner (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5012&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841934,-96.647471' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2550</styleUrl>
+                <Point id="2548">
+                    <coordinates>-96.64747136315327,39.84193444566942,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2554">
+                <name>Astro 3 Theatre / Sandy's Pantry (tenants) (18,881 SF)</name>
+                <description>&lt;b&gt;Astro 3 Theatre / Sandy&amp;#x27;s Pantry (tenants)&lt;/b&gt;&lt;br&gt;820 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 18,881 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Astro 3 Theatre / Sandy&amp;#x27;s Pantry (tenants) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2322&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842443,-96.647259' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2555</styleUrl>
+                <Point id="2553">
+                    <coordinates>-96.64725852961438,39.8424426289867,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2559">
+                <name>Tractor Supply Co. Store #2857 (18,724 SF)</name>
+                <description>&lt;b&gt;Tractor Supply Co. Store #2857&lt;/b&gt;&lt;br&gt;1095 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 18,724 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Tractor Supply Co. Store #2857 &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2459&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.840854,-96.620817' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2560</styleUrl>
+                <Point id="2558">
+                    <coordinates>-96.6208172720729,39.84085381143646,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2564">
+                <name>KanEquip Inc (New Holland dealer) (17,437 SF)</name>
+                <description>&lt;b&gt;KanEquip Inc (New Holland dealer)&lt;/b&gt;&lt;br&gt;1152 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,437 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; KanEquip Inc (New Holland dealer) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2377&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.843431,-96.609955' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2565</styleUrl>
+                <Point id="2563">
+                    <coordinates>-96.60995539697198,39.84343064042679,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2569">
+                <name>Landoll Lanes (bowling/event center) (16,880 SF)</name>
+                <description>&lt;b&gt;Landoll Lanes (bowling/event center)&lt;/b&gt;&lt;br&gt;2005 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,880 SF (Entertainment and Recreation)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Landoll Lanes (bowling/event center) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-8971&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; reservations@landolllanes.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841520,-96.633068' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2570</styleUrl>
+                <Point id="2568">
+                    <coordinates>-96.63306803023046,39.841519535144876,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2574">
+                <name>Nordhus Motor Company (16,650 SF)</name>
+                <description>&lt;b&gt;Nordhus Motor Company&lt;/b&gt;&lt;br&gt;1406 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,650 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Nordhus Motor Company &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2383&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842438,-96.639997' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2575</styleUrl>
+                <Point id="2573">
+                    <coordinates>-96.63999692205546,39.842437881020246,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2579">
+                <name>Titan Trailer (16,141 SF)</name>
+                <description>&lt;b&gt;Titan Trailer&lt;/b&gt;&lt;br&gt;600 S 17 St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,141 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Titan Trailer &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-619-6200&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.837704,-96.635850' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2580</styleUrl>
+                <Point id="2578">
+                    <coordinates>-96.63584989982677,39.83770395929194,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2584">
+                <name>Crome's Market (15,760 SF)</name>
+                <description>&lt;b&gt;Crome&amp;#x27;s Market&lt;/b&gt;&lt;br&gt;505 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,760 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Crome&amp;#x27;s Market &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2316&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841417,-96.651377' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2585</styleUrl>
+                <Point id="2583">
+                    <coordinates>-96.65137654328717,39.84141687227334,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2589">
+                <name>Bruna Implement Co. (Case IH dealer) (15,745 SF)</name>
+                <description>&lt;b&gt;Bruna Implement Co. (Case IH dealer)&lt;/b&gt;&lt;br&gt;1128 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,745 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Bruna Implement Co. (Case IH dealer) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5304&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842530,-96.614562' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2590</styleUrl>
+                <Point id="2588">
+                    <coordinates>-96.61456228187065,39.84253001611638,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2594">
+                <name>Feldkamp's Home Furnishings (15,627 SF)</name>
+                <description>&lt;b&gt;Feldkamp&amp;#x27;s Home Furnishings&lt;/b&gt;&lt;br&gt;504 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,627 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Feldkamp&amp;#x27;s Home Furnishings &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-539-4466&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; manhattansales@feldkampsfurniture.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842455,-96.651280' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2595</styleUrl>
+                <Point id="2593">
+                    <coordinates>-96.65128016129674,39.842454751778526,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2599">
+                <name>Community Memorial Healthcare (hospital) (15,602 SF)</name>
+                <description>&lt;b&gt;Community Memorial Healthcare (hospital)&lt;/b&gt;&lt;br&gt;708 N 18 St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,602 SF (Hospital)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Community Memorial Healthcare (hospital) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2311&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; trhood@cmhcare.com&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.847384,-96.635399' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2600</styleUrl>
+                <Point id="2598">
+                    <coordinates>-96.63539868422097,39.84738416491031,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2604">
+                <name>Farmers Insurance - Stacey Latta (tenant) (15,318 SF)</name>
+                <description>&lt;b&gt;Farmers Insurance - Stacey Latta (tenant)&lt;/b&gt;&lt;br&gt;712 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,318 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Farmers Insurance - Stacey Latta (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5169&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841938,-96.648563' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2605</styleUrl>
+                <Point id="2603">
+                    <coordinates>-96.64856259378224,39.84193818872723,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2609">
+                <name>Inline Construction (13,895 SF)</name>
+                <description>&lt;b&gt;Inline Construction&lt;/b&gt;&lt;br&gt;930 Jayhawk Rd, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 13,895 SF (Entertainment and Recreation)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Inline Construction &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5525&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.859639,-96.653269' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2610</styleUrl>
+                <Point id="2608">
+                    <coordinates>-96.65326870526889,39.859639285653856,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2614">
+                <name>Dollar General (tenant) (13,562 SF)</name>
+                <description>&lt;b&gt;Dollar General (tenant)&lt;/b&gt;&lt;br&gt;200 N 11 St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 13,562 SF (Wholesale Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Dollar General (tenant) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-713-6102&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842478,-96.643990' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2615</styleUrl>
+                <Point id="2613">
+                    <coordinates>-96.64398965342484,39.84247784406514,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2619">
+                <name>Health Made Easy "Naturally" (tenant) (12,787 SF)</name>
+                <description>&lt;b&gt;Health Made Easy &amp;quot;Naturally&amp;quot; (tenant)&lt;/b&gt;&lt;br&gt;408 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,787 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Health Made Easy &amp;quot;Naturally&amp;quot; (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-713-0019&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841943,-96.652259' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2620</styleUrl>
+                <Point id="2618">
+                    <coordinates>-96.65225878161122,39.84194273651096,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2624">
+                <name>Farmers Cooperative (12,642 SF)</name>
+                <description>&lt;b&gt;Farmers Cooperative&lt;/b&gt;&lt;br&gt;1130 Hwy 77, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,642 SF (Heavy)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Farmers Cooperative &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5371&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.851557,-96.664326' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2625</styleUrl>
+                <Point id="2623">
+                    <coordinates>-96.66432562948991,39.851556745499344,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2629">
+                <name>Landoll Company LLC (12,409 SF)</name>
+                <description>&lt;b&gt;Landoll Company LLC&lt;/b&gt;&lt;br&gt;1900 North St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,409 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Landoll Company LLC &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5381&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.849645,-96.634740' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2630</styleUrl>
+                <Point id="2628">
+                    <coordinates>-96.6347404012792,39.849645395729404,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2634">
+                <name>Nordhus Motors (11,815 SF)</name>
+                <description>&lt;b&gt;Nordhus Motors&lt;/b&gt;&lt;br&gt;1301 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,815 SF (Personal and Repair Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Nordhus Motors &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-2596&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841382,-96.641628' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2635</styleUrl>
+                <Point id="2633">
+                    <coordinates>-96.64162802652321,39.84138157797984,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2639">
+                <name>Blue Valley Insurance Agencies Inc (11,443 SF)</name>
+                <description>&lt;b&gt;Blue Valley Insurance Agencies Inc&lt;/b&gt;&lt;br&gt;519 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,443 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Blue Valley Insurance Agencies Inc &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-4310&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841428,-96.650852' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2640</styleUrl>
+                <Point id="2638">
+                    <coordinates>-96.6508521427088,39.84142766669687,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2644">
+                <name>Bruna Implement Co. (Case IH dealer) (11,443 SF)</name>
+                <description>&lt;b&gt;Bruna Implement Co. (Case IH dealer)&lt;/b&gt;&lt;br&gt;1128 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,443 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Bruna Implement Co. (Case IH dealer) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-5304&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.843081,-96.614092' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2645</styleUrl>
+                <Point id="2643">
+                    <coordinates>-96.61409238677426,39.84308098443828,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2649">
+                <name>F &amp; H Iron Works LLC (10,613 SF)</name>
+                <description>&lt;b&gt;F &amp;amp; H Iron Works LLC&lt;/b&gt;&lt;br&gt;1123 Pony Express Hwy, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,613 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; F &amp;amp; H Iron Works LLC &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-562-3824&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841238,-96.615275' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2650</styleUrl>
+                <Point id="2648">
+                    <coordinates>-96.61527537230049,39.84123819653102,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2654">
+                <name>Stormont Vail Health (286,446 SF)</name>
+                <description>&lt;b&gt;STORMONT-VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;1500 SW 10th Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 286,446 SF (6530-Hospital)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.052701,-95.696221' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2655</styleUrl>
+                <Point id="2653">
+                    <coordinates>-95.69622075821479,39.05270126783936,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2659">
+                <name>Blue Cross and Blue Shield of Kansas (85,116 SF)</name>
+                <description>&lt;b&gt;BLUE CROSS AND BLUE SHIELD OF KANSAS INC&lt;/b&gt;&lt;br&gt;1135 SW Topeka Blvd, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 85,116 SF (2401-General office buildings (1-4 stories))&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Blue Cross and Blue Shield of Kansas &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-291-4185&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.045688,-95.683869' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2660</styleUrl>
+                <Point id="2658">
+                    <coordinates>-95.68386859578213,39.04568825982059,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2664">
+                <name>Stormont Vail Health (29,901 SF)</name>
+                <description>&lt;b&gt;STORMONT-VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;901 SW Garfield Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 29,901 SF (6511-Medical / dental office or clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.052857,-95.698181' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2665</styleUrl>
+                <Point id="2663">
+                    <coordinates>-95.69818095702252,39.05285691546134,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2669">
+                <name>Blue Cross and Blue Shield of Kansas (25,889 SF)</name>
+                <description>&lt;b&gt;BLUE CROSS AND BLUE SHIELD OF KANSAS INC&lt;/b&gt;&lt;br&gt;1135 SW Topeka Blvd, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 25,889 SF (2401-General office buildings (1-4 stories))&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Blue Cross and Blue Shield of Kansas &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-291-4185&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.045015,-95.683332' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2670</styleUrl>
+                <Point id="2668">
+                    <coordinates>-95.68333236707478,39.04501534696624,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2674">
+                <name>Dollar General (tenant) (23,567 SF)</name>
+                <description>&lt;b&gt;RKL HOLDINGS LLC&lt;/b&gt;&lt;br&gt;1920 SW 10th Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 23,567 SF (2102-Retail store)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Dollar General (tenant) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-289-9419&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.051824,-95.701358' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2675</styleUrl>
+                <Point id="2673">
+                    <coordinates>-95.70135771396782,39.05182367646336,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2679">
+                <name>Stormont Vail Health (22,844 SF)</name>
+                <description>&lt;b&gt;STORMONT-VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;929 SW Mulvane St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 22,844 SF (6511-Medical / dental office or clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.052713,-95.699885' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2680</styleUrl>
+                <Point id="2678">
+                    <coordinates>-95.69988498465662,39.05271298990796,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2684">
+                <name>Kansas National Education Association (KNEA) (22,832 SF)</name>
+                <description>&lt;b&gt;KANSAS STATE TEACHERS ASSOC&lt;/b&gt;&lt;br&gt;715 SW 10th Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 22,832 SF (2401-General office buildings (1-4 stories))&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Kansas National Education Association (KNEA) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-232-8271&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.047877,-95.684977' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2685</styleUrl>
+                <Point id="2683">
+                    <coordinates>-95.68497740390417,39.04787663973353,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2689">
+                <name>Stormont Vail Health (21,467 SF)</name>
+                <description>&lt;b&gt;STORMONT-VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;1500 SW 10th Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 21,467 SF (6530-Hospital)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.052707,-95.696746' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2690</styleUrl>
+                <Point id="2688">
+                    <coordinates>-95.69674584679655,39.052707116266795,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2694">
+                <name>Stormont Vail Health (19,853 SF)</name>
+                <description>&lt;b&gt;STORMONT-VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;823 SW Mulvane St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 19,853 SF (6511-Medical / dental office or clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.054091,-95.698717' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2695</styleUrl>
+                <Point id="2693">
+                    <coordinates>-95.69871738162045,39.05409077926302,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2699">
+                <name>Westboro Mart - Porterfield's Flowers (tenant) (18,306 SF)</name>
+                <description>&lt;b&gt;WESTBORO MART LLC&lt;/b&gt;&lt;br&gt;3101 SW Huntoon St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 18,306 SF (2105-Strip store center)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Westboro Mart - Porterfield&amp;#x27;s Flowers (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-1707&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.043772,-95.716060' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2700</styleUrl>
+                <Point id="2698">
+                    <coordinates>-95.71605964015679,39.043771908533756,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2704">
+                <name>Waters Hardware (17,800 SF)</name>
+                <description>&lt;b&gt;GERKEN HOLDINGS LLC&lt;/b&gt;&lt;br&gt;1321 SW 21st St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,800 SF (2102-Retail store)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Waters Hardware &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-233-9606&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.029077,-95.695177' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2705</styleUrl>
+                <Point id="2703">
+                    <coordinates>-95.69517683374406,39.02907687685485,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2709">
+                <name>Till-Star Enterprises (17,292 SF)</name>
+                <description>&lt;b&gt;STARKEY, JAMES D &amp;amp; SHERLYN R &amp;amp; TREVOR J&lt;/b&gt;&lt;br&gt;2001 SW Western Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,292 SF (3610-Warehouse distribution / storage facility)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Till-Star Enterprises &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-7710&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.032076,-95.687950' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2710</styleUrl>
+                <Point id="2708">
+                    <coordinates>-95.68794975204702,39.03207601110686,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2714">
+                <name>Stormont Vail Health (14,900 SF)</name>
+                <description>&lt;b&gt;STORMONT-VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;920 SW Lane St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 14,900 SF (6511-Medical / dental office or clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.051360,-95.693507' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2715</styleUrl>
+                <Point id="2713">
+                    <coordinates>-95.69350655881496,39.05135968931372,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2719">
+                <name>NAMI Kansas (tenant) (14,037 SF)</name>
+                <description>&lt;b&gt;ASPEN MANAGEMENT LLC&lt;/b&gt;&lt;br&gt;2252 SW 10th Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 14,037 SF (2401-General office buildings (1-4 stories))&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; NAMI Kansas (tenant) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-233-0755&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; info@namikansas.org&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.051591,-95.705453' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2720</styleUrl>
+                <Point id="2718">
+                    <coordinates>-95.70545312132003,39.051590647254415,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2724">
+                <name>Blue Cross and Blue Shield of Kansas (12,757 SF)</name>
+                <description>&lt;b&gt;BLUE CROSS AND BLUE SHIELD OF KANSAS INC&lt;/b&gt;&lt;br&gt;1234 SW Polk St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,757 SF (2401-General office buildings (1-4 stories))&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Blue Cross and Blue Shield of Kansas &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-291-4185&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.044414,-95.685528' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2725</styleUrl>
+                <Point id="2723">
+                    <coordinates>-95.6855283599439,39.04441438060281,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2729">
+                <name>Stormont Vail Health (11,089 SF)</name>
+                <description>&lt;b&gt;STORMONT VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;1710 SW 10th Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,089 SF (6511-Medical / dental office or clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.051710,-95.698695' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2730</styleUrl>
+                <Point id="2728">
+                    <coordinates>-95.69869492460151,39.05171006587119,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2734">
+                <name>Reeves-Wiedman (plumbing supply) (10,386 SF)</name>
+                <description>&lt;b&gt;EIGHTY SEVEN CAPITAL LLC&lt;/b&gt;&lt;br&gt;1815 SW Western Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,386 SF (3630-Warehouse-retail combination)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Reeves-Wiedman (plumbing supply) &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-234-4294&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.034795,-95.688048' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2735</styleUrl>
+                <Point id="2733">
+                    <coordinates>-95.68804811542097,39.0347947521127,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2739">
+                <name>Penwell-Gabel Funeral Home (10,220 SF)</name>
+                <description>&lt;b&gt;HEARTLAND MANAGEMENT COMPANY&lt;/b&gt;&lt;br&gt;1321 SW 10th Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,220 SF (6710-Funeral home / mortuary)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Penwell-Gabel Funeral Home &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-8558&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.050292,-95.693917' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2740</styleUrl>
+                <Point id="2738">
+                    <coordinates>-95.69391701993274,39.05029213986394,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2744">
+                <name>Fincher Law Office (Roger D. Fincher, owner) (10,050 SF)</name>
+                <description>&lt;b&gt;FINCHER, ROGER D&lt;/b&gt;&lt;br&gt;1263 SW Topeka Blvd, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,050 SF (2401-General office buildings (1-4 stories))&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Fincher Law Office (Roger D. Fincher, owner) &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-430-5770&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.043293,-95.683336' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2745</styleUrl>
+                <Point id="2743">
+                    <coordinates>-95.68333600317028,39.04329305857653,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2749">
+                <name>Stormont Vail Health (10,002 SF)</name>
+                <description>&lt;b&gt;STORMONT-VAIL HEALTHCARE INC&lt;/b&gt;&lt;br&gt;830 SW Lane St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,002 SF (6511-Medical / dental office or clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Stormont Vail Health &lt;i&gt;[high]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 785-354-6000&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.052450,-95.693005' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2750</styleUrl>
+                <Point id="2748">
+                    <coordinates>-95.69300516152056,39.05245044400549,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2850">
+                <name>5.50 in rain - Marysville, Marshall Co., KS</name>
+                <description>&lt;b&gt;Rain 5.50 in (Measured)&lt;/b&gt;&lt;br&gt;Marysville, Marshall Co., KS&lt;br&gt;2026-10-30T06:25:00Z&lt;br&gt;Source: NWS Topeka LSR (Emergency Manager measured 5.5 in; city park and roads flooded)&lt;br&gt;NOAA MRMS radar 24h at point: 3.74 in</description>
+                <styleUrl>#2851</styleUrl>
+                <Point id="2849">
+                    <coordinates>-96.65,39.84,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2855">
+                <name>3.23 in rain - Baileyville 6.1 NNE, Nemaha Co., KS (CoCoRaHS KS-NM-11)</name>
+                <description>&lt;b&gt;Rain 3.23 in (Measured)&lt;/b&gt;&lt;br&gt;Baileyville 6.1 NNE, Nemaha Co., KS (CoCoRaHS KS-NM-11)&lt;br&gt;2026-10-30 7AM obs&lt;br&gt;Source: CoCoRaHS KS-NM-11 24h gauge (7 AM 10/30)&lt;br&gt;NOAA MRMS radar 24h at point: 2.9 in</description>
+                <styleUrl>#2856</styleUrl>
+                <Point id="2854">
+                    <coordinates>-96.145,39.9264,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2860">
+                <name>2.03 in rain - 1 W Topeka, Shawnee Co., KS</name>
+                <description>&lt;b&gt;Rain 2.03 in (Spotter/public)&lt;/b&gt;&lt;br&gt;1 W Topeka, Shawnee Co., KS&lt;br&gt;2026-10-30T06:53:00Z&lt;br&gt;Source: NWS Topeka LSR (public: 2.03 in in one hour)&lt;br&gt;NOAA MRMS radar 24h at point: 1.28 in</description>
+                <styleUrl>#2861</styleUrl>
+                <Point id="2859">
+                    <coordinates>-95.7,39.04,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="2753">
+            <Style id="2756">
+                <IconStyle id="2757">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2758">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2761">
+                <IconStyle id="2762">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2763">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2766">
+                <IconStyle id="2767">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2768">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2771">
+                <IconStyle id="2772">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2773">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2776">
+                <IconStyle id="2777">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2778">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2781">
+                <IconStyle id="2782">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2783">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2786">
+                <IconStyle id="2787">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2788">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2791">
+                <IconStyle id="2792">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2793">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2796">
+                <IconStyle id="2797">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2798">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2801">
+                <IconStyle id="2802">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2803">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2806">
+                <IconStyle id="2807">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2808">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2811">
+                <IconStyle id="2812">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2813">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2816">
+                <IconStyle id="2817">
+                    <color>ff2827d6</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2818">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2821">
+                <IconStyle id="2822">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2823">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2826">
+                <IconStyle id="2827">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2828">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2831">
+                <IconStyle id="2832">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2833">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2836">
+                <IconStyle id="2837">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2838">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2841">
+                <IconStyle id="2842">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2843">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="2846">
+                <IconStyle id="2847">
+                    <color>ff0e7fff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="2848">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Rain - no contact</name>
+            <Placemark id="2755">
+                <name>Not available online (Marshall County parcel data not publis (52,787 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;810 N 18 St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 52,787 SF (Hospital)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.848701,-96.635362' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2756</styleUrl>
+                <Point id="2754">
+                    <coordinates>-96.63536228100133,39.84870055477003,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2760">
+                <name>Not available online (Marshall County parcel data not publis (28,590 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;713 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 28,590 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841433,-96.648666' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2761</styleUrl>
+                <Point id="2759">
+                    <coordinates>-96.64866556125934,39.84143253814231,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2765">
+                <name>Not available online (Marshall County parcel data not publis (25,033 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;809 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 25,033 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841448,-96.647467' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2766</styleUrl>
+                <Point id="2764">
+                    <coordinates>-96.64746704005705,39.841447736660214,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2770">
+                <name>Not available online (Marshall County parcel data not publis (20,455 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;1502 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 20,455 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842863,-96.639009' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2771</styleUrl>
+                <Point id="2769">
+                    <coordinates>-96.63900853303653,39.84286329911269,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2775">
+                <name>Potter's Jewelry (listed at address) (19,420 SF)</name>
+                <description>&lt;b&gt;Potter&amp;#x27;s Jewelry (listed at address)&lt;/b&gt;&lt;br&gt;714 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 19,420 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Potter&amp;#x27;s Jewelry (listed at address) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842437,-96.648729' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2776</styleUrl>
+                <Point id="2774">
+                    <coordinates>-96.64872882414792,39.84243665144167,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2780">
+                <name>Edward Jones - Kate Manley (tenant) (17,673 SF)</name>
+                <description>&lt;b&gt;Edward Jones - Kate Manley (tenant)&lt;/b&gt;&lt;br&gt;910 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 17,673 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Edward Jones - Kate Manley (tenant) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841932,-96.646312' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2781</styleUrl>
+                <Point id="2779">
+                    <coordinates>-96.6463121936289,39.84193193115507,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2785">
+                <name>Not available online (Marshall County parcel data not publis (15,242 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;1106 Broadway St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 15,242 SF (Retail Trade)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.841928,-96.643909' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2786</styleUrl>
+                <Point id="2784">
+                    <coordinates>-96.6439086571718,39.84192765875249,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2790">
+                <name>Not available online (Marshall County parcel data not publis (13,910 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;901 Elm St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 13,910 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.840530,-96.646484' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2791</styleUrl>
+                <Point id="2789">
+                    <coordinates>-96.64648419258269,39.84052963879305,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2795">
+                <name>Not available online (Marshall County parcel data not publis (12,436 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;111 S 8 St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,436 SF (Entertainment and Recreation)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.840977,-96.648576' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2796</styleUrl>
+                <Point id="2794">
+                    <coordinates>-96.64857556016625,39.84097729082956,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2800">
+                <name>Not available online (Marshall County parcel data not publis (11,661 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;1700 May St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,661 SF (Heavy)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.848417,-96.636952' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2801</styleUrl>
+                <Point id="2799">
+                    <coordinates>-96.63695192854956,39.84841735493315,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2805">
+                <name>Pony Express Auto Inc (11,261 SF)</name>
+                <description>&lt;b&gt;Pony Express Auto Inc&lt;/b&gt;&lt;br&gt;1920 Center St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,261 SF (Light)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Pony Express Auto Inc &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.842815,-96.633856' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2806</styleUrl>
+                <Point id="2804">
+                    <coordinates>-96.63385615257133,39.84281524429307,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2810">
+                <name>Not available online (Marshall County parcel data not publis (11,074 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;1216 11 Rd, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 11,074 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 104&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.840303,-96.619090' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2811</styleUrl>
+                <Point id="2809">
+                    <coordinates>-96.61909023615499,39.84030313106298,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2815">
+                <name>Not available online (Marshall County parcel data not publis (10,750 SF)</name>
+                <description>&lt;b&gt;Owner not available online&lt;/b&gt;&lt;br&gt;608 Carolina St, Marysville, KS 66508&lt;br&gt;Owner: not published online (Marshall Co.)&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 5.50&amp;quot; rain - Marysville, Marshall Co., KS &amp;middot; Measured&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,750 SF (Professional/Technical Services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 105&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.843446,-96.649926' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2816</styleUrl>
+                <Point id="2814">
+                    <coordinates>-96.64992551735969,39.84344605681787,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2820">
+                <name>Kansas Commercial Real Estate Services (leasing broker) (34,917 SF)</name>
+                <description>&lt;b&gt;901 REAL ESTATE LLC&lt;/b&gt;&lt;br&gt;2035 SW Western Ave, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 34,917 SF (3640-Warehouse-office combination)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; Kansas Commercial Real Estate Services (leasing broker) &lt;i&gt;[unconfirmed]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.031374,-95.687912' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2821</styleUrl>
+                <Point id="2819">
+                    <coordinates>-95.68791225937171,39.03137424636437,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2825">
+                <name>PLAZA 21 LLC (29,335 SF)</name>
+                <description>&lt;b&gt;PLAZA 21 LLC&lt;/b&gt;&lt;br&gt;2605 SW 21st St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 29,335 SF (2105-Strip store center)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.029185,-95.710051' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2826</styleUrl>
+                <Point id="2824">
+                    <coordinates>-95.71005117158586,39.02918510030263,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2830">
+                <name>GraceMed Health Clinic - Capitol Family Clinic (27,182 SF)</name>
+                <description>&lt;b&gt;GRACEMED HEALTH CLINIC INC&lt;/b&gt;&lt;br&gt;1400 SW Huntoon St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 27,182 SF (6511-Medical / dental office or clinic)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; GraceMed Health Clinic - Capitol Family Clinic &lt;i&gt;[medium]&lt;/i&gt;&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 153&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.044753,-95.696127' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2831</styleUrl>
+                <Point id="2829">
+                    <coordinates>-95.69612677398474,39.04475255398747,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2835">
+                <name>IMPACT ASSET MANAGEMENT LLC (16,741 SF)</name>
+                <description>&lt;b&gt;IMPACT ASSET MANAGEMENT LLC&lt;/b&gt;&lt;br&gt;1313 SW 21st St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 16,741 SF (2105-Strip store center)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.029032,-95.694622' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2836</styleUrl>
+                <Point id="2834">
+                    <coordinates>-95.69462201103478,39.02903222558506,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2840">
+                <name>1334 SW BUCHANAN LLC (12,935 SF)</name>
+                <description>&lt;b&gt;1334 SW BUCHANAN LLC&lt;/b&gt;&lt;br&gt;1334 SW Buchanan St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 12,935 SF (1250-Skilled-nursing services)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.041302,-95.692720' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2841</styleUrl>
+                <Point id="2839">
+                    <coordinates>-95.69271973496637,39.04130221897151,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="2845">
+                <name>IMPACT ASSET MANAGEMENT LLC (10,353 SF)</name>
+                <description>&lt;b&gt;IMPACT ASSET MANAGEMENT LLC&lt;/b&gt;&lt;br&gt;1501 SW 21st St, Topeka, KS 66604&lt;br&gt;&lt;b&gt;Rain:&lt;/b&gt; 2.03&amp;quot; rain - 1 W Topeka, Shawnee Co., KS &amp;middot; Spotter/public&lt;br&gt;&lt;b&gt;Building:&lt;/b&gt; 10,353 SF (2105-Strip store center)&lt;br&gt;&lt;b&gt;Contact:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Email:&lt;/b&gt; -&lt;br&gt;&lt;b&gt;Miles from Omaha:&lt;/b&gt; 154&lt;br&gt;&lt;a href='https://www.google.com/maps?q=39.029041,-95.695696' target='_blank'&gt;Google Maps&lt;/a&gt;</description>
+                <styleUrl>#2846</styleUrl>
+                <Point id="2844">
+                    <coordinates>-95.69569643476703,39.02904074923818,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
