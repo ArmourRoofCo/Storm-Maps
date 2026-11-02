@@ -3,22 +3,20 @@
   {
    "key": "2026-11-02",
    "date": "2026-11-02",
-   "label": "Mon 11/2/2026",
-   "summary": "No qualifying events - 0 storm bldgs, 0 asset hits",
+   "label": "Mon 11/02/2026",
+   "summary": "quiet day, 37 bid requests, 2 social media",
    "file": "archive/2026-11-02.html",
    "kml": "archive/2026-11-02.kml",
    "geojson": "archive/2026-11-02.geojson",
    "counts": {
-    "storm_building_with_contact": 0,
-    "storm_building_no_contact": 0,
-    "hail_buildings": 0,
-    "wind_buildings": 0,
-    "rain_buildings": 0,
-    "asset_hits": 0,
-    "storm_report": 0,
-    "roof_search": 0
+    "storm_report": 2,
+    "roof_search": 39,
+    "callable_lead_pins": 0,
+    "kml_points": 41,
+    "roof_bid_requests": 37,
+    "roof_social_media": 2
    },
-   "archived_at": "2026-11-02T13:03:26Z"
+   "archived_at": "2026-11-02T07:18:40-06:00"
   },
   {
    "key": "2026-11-01",
@@ -413,7 +411,7 @@
   {
    "key": "2026-03-10-to-12-TEST",
    "date": "2026-03-10",
-   "label": "TEST: Mar 10\u201312, 2026",
+   "label": "TEST: Mar 10–12, 2026",
    "summary": "17736 storm bldgs (47 w/ contact), 1 bid requests, 4 social media",
    "file": "archive/2026-03-10-to-12-TEST.html",
    "kml": "archive/2026-03-10-to-12-TEST.kml",
