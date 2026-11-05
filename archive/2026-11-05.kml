@@ -1,0 +1,2528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads Thu 11/5/2026</name>
+        <Folder id="14">
+            <name>Hail</name>
+            <Folder id="17">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="18">
+                <name>No contact</name>
+            </Folder>
+            <Folder id="95">
+                <Style id="100">
+                    <LineStyle id="102">
+                        <color>6e800080</color>
+                        <colorMode>normal</colorMode>
+                    </LineStyle>
+                    <PolyStyle id="101">
+                        <color>23800080</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="107">
+                    <LineStyle id="109">
+                        <color>6e800080</color>
+                        <colorMode>normal</colorMode>
+                    </LineStyle>
+                    <PolyStyle id="108">
+                        <color>23800080</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
+                <Placemark id="97">
+                    <name>Radar estimate (unconfirmed, EXCLUDED): MESH 4.8in QC/NY fringe (SW Quebec / Adirondacks)</name>
+                    <description>Radar estimate (unconfirmed) - Radar estimate (MESH). EXCLUDED - radar-only MESH, no ground confirmation: 4 cell(s), max 4.8" near 46.05N -75.47W (SW Quebec / Adirondacks fringe); 0 C/I buildings &gt;=10k SF inside or within ~1.4 mi; no hail LSR or SPC hail report (SPC 261104 and today: 0 hail); HailTrace 11/4 and 11/5 public pages show 0 properties at 1"+ hail. Likely non-hail radar artifact.</description>
+                    <styleUrl>#100</styleUrl>
+                    <Polygon id="96">
+                        <outerBoundaryIs>
+                            <LinearRing id="98">
+                                <coordinates>-75.47010155825453,46.050100000001784,0.0 -75.47010155825453,46.06000000000178,0.0 -75.47010107672719,46.060009801715815,0.0 -75.47009963678256,46.06001950903398,0.0 -75.4700972522881,46.0600290284695,0.0 -75.47009394620777,46.06003826834502,0.0 -75.47008975038096,46.06004713967546,0.0 -75.47008470521575,46.06005555702508,0.0 -75.47007885929986,46.06006343933019,0.0 -75.47007226893264,46.060070710679895,0.0 -75.47006499758294,46.060077301047116,0.0 -75.47005711527783,46.06008314696301,0.0 -75.4700486979282,46.06008819212821,0.0 -75.47003982659776,46.06009238795503,0.0 -75.47003058672225,46.060095694035354,0.0 -75.47002106728672,46.06009807852982,0.0 -75.47001135996855,46.060099518474445,0.0 -75.47000155825452,46.06010000000178,0.0 -75.4500015585403,46.06010000000178,0.0 -75.44999175682626,46.060099518474445,0.0 -75.4499820495081,46.06009807852982,0.0 -75.44997253007257,46.060095694035354,0.0 -75.44996329019706,46.06009238795503,0.0 -75.44995441886661,46.06008819212821,0.0 -75.44994600151699,46.06008314696301,0.0 -75.44993811921188,46.060077301047116,0.0 -75.44993084786218,46.060070710679895,0.0 -75.44992425749496,46.06006343933019,0.0 -75.44991841157906,46.06005555702508,0.0 -75.44991336641385,46.06004713967546,0.0 -75.44990917058705,46.06003826834502,0.0 -75.44990586450672,46.0600290284695,0.0 -75.44990348001225,46.06001950903398,0.0 -75.44990204006763,46.060009801715815,0.0 -75.44990155854029,46.06000000000178,0.0 -75.44990155854029,46.05000000000177,0.0 -75.44990204006763,46.04999019828774,0.0 -75.44990348001225,46.049980490969574,0.0 -75.44990586450672,46.04997097153405,0.0 -75.44990917058705,46.049961731658534,0.0 -75.44991336641385,46.04995286032809,0.0 -75.44991841157906,46.04994444297847,0.0 -75.44992425749496,46.04993656067336,0.0 -75.44993084786218,46.04992928932366,0.0 -75.44993811921188,46.049922698956436,0.0 -75.44994600151699,46.04991685304054,0.0 -75.44995441886661,46.04991180787534,0.0 -75.44996329019706,46.04990761204852,0.0 -75.44997253007257,46.0499043059682,0.0 -75.4499820495081,46.04990192147373,0.0 -75.44999175682626,46.04990048152911,0.0 -75.4500015585403,46.04990000000177,0.0 -75.46990155796877,46.04990000000177,0.0 -75.46990155796877,46.040000000001776,0.0 -75.4699020394961,46.03999019828774,0.0 -75.46990347944073,46.039980490969576,0.0 -75.4699058639352,46.03997097153405,0.0 -75.46990917001553,46.039961731658536,0.0 -75.46991336584233,46.03995286032809,0.0 -75.46991841100754,46.039944442978474,0.0 -75.46992425692343,46.03993656067336,0.0 -75.46993084729066,46.03992928932366,0.0 -75.46993811864036,46.03992269895644,0.0 -75.46994600094547,46.039916853040545,0.0 -75.46995441829509,46.03991180787534,0.0 -75.46996328962554,46.03990761204852,0.0 -75.46997252950105,46.0399043059682,0.0 -75.46998204893657,46.039901921473735,0.0 -75.46999175625474,46.03990048152911,0.0 -75.47000155796877,46.03990000000177,0.0 -75.490001557683,46.03990000000177,0.0 -75.49001135939703,46.03990048152911,0.0 -75.4900210667152,46.039901921473735,0.0 -75.49003058615072,46.0399043059682,0.0 -75.49003982602623,46.03990761204852,0.0 -75.49004869735668,46.03991180787534,0.0 -75.4900571147063,46.039916853040545,0.0 -75.49006499701142,46.03992269895644,0.0 -75.49007226836112,46.03992928932366,0.0 -75.49007885872834,46.03993656067336,0.0 -75.49008470464423,46.039944442978474,0.0 -75.49008974980944,46.03995286032809,0.0 -75.49009394563625,46.039961731658536,0.0 -75.49009725171658,46.03997097153405,0.0 -75.49009963621104,46.039980490969576,0.0 -75.49010107615567,46.03999019828774,0.0 -75.490101557683,46.040000000001776,0.0 -75.490101557683,46.05000000000178,0.0 -75.49010107615567,46.05000980171582,0.0 -75.49009963621104,46.05001950903398,0.0 -75.49009725171658,46.0500290284695,0.0 -75.49009394563625,46.05003826834502,0.0 -75.49008974980944,46.05004713967546,0.0 -75.49008470464423,46.05005555702508,0.0 -75.49007885872834,46.050063439330195,0.0 -75.49007226836112,46.0500707106799,0.0 -75.49006499701142,46.05007730104712,0.0 -75.4900571147063,46.05008314696301,0.0 -75.49004869735668,46.050088192128214,0.0 -75.49003982602623,46.05009238795503,0.0 -75.49003058615072,46.050095694035356,0.0 -75.4900210667152,46.05009807852982,0.0 -75.49001135939703,46.05009951847445,0.0 -75.490001557683,46.050100000001784,0.0 -75.47010155825453,46.050100000001784,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="104">
+                    <name>Radar estimate (unconfirmed, EXCLUDED): MESH 3.59in QC/NY fringe (SW Quebec / Adirondacks)</name>
+                    <description>Radar estimate (unconfirmed) - Radar estimate (MESH). EXCLUDED - radar-only MESH, no ground confirmation: 1 cell(s), max 3.59" near 46.035N -75.505W (SW Quebec / Adirondacks fringe); 0 C/I buildings &gt;=10k SF inside or within ~1.4 mi; no hail LSR or SPC hail report (SPC 261104 and today: 0 hail); HailTrace 11/4 and 11/5 public pages show 0 properties at 1"+ hail. Likely non-hail radar artifact.</description>
+                    <styleUrl>#107</styleUrl>
+                    <Polygon id="103">
+                        <outerBoundaryIs>
+                            <LinearRing id="105">
+                                <coordinates>-75.50000155711149,46.029900000001774,0.0 -75.51000155711148,46.029900000001774,0.0 -75.51001135882551,46.02990048152911,0.0 -75.51002106614368,46.02990192147374,0.0 -75.5100305855792,46.0299043059682,0.0 -75.51003982545471,46.029907612048525,0.0 -75.51004869678516,46.029911807875344,0.0 -75.51005711413478,46.02991685304055,0.0 -75.5100649964399,46.02992269895644,0.0 -75.5100722677896,46.02992928932366,0.0 -75.51007885815682,46.02993656067336,0.0 -75.51008470407271,46.029944442978476,0.0 -75.51008974923792,46.029952860328095,0.0 -75.51009394506472,46.02996173165854,0.0 -75.51009725114505,46.029970971534055,0.0 -75.51009963563952,46.02998049096958,0.0 -75.51010107558415,46.02999019828774,0.0 -75.51010155711148,46.03000000000178,0.0 -75.51010155711148,46.04000000000178,0.0 -75.51010107558415,46.04000980171582,0.0 -75.51009963563952,46.04001950903398,0.0 -75.51009725114505,46.040029028469505,0.0 -75.51009394506472,46.04003826834502,0.0 -75.51008974923792,46.040047139675465,0.0 -75.51008470407271,46.040055557025084,0.0 -75.51007885815682,46.0400634393302,0.0 -75.5100722677896,46.0400707106799,0.0 -75.5100649964399,46.04007730104712,0.0 -75.51005711413478,46.04008314696301,0.0 -75.51004869678516,46.040088192128216,0.0 -75.51003982545471,46.040092387955035,0.0 -75.5100305855792,46.04009569403536,0.0 -75.51002106614368,46.04009807852982,0.0 -75.51001135882551,46.04009951847445,0.0 -75.51000155711148,46.040100000001786,0.0 -75.50000155711149,46.040100000001786,0.0 -75.49999175539746,46.04009951847445,0.0 -75.49998204807929,46.04009807852982,0.0 -75.49997252864377,46.04009569403536,0.0 -75.49996328876826,46.040092387955035,0.0 -75.4999544174378,46.040088192128216,0.0 -75.49994600008819,46.04008314696301,0.0 -75.49993811778307,46.04007730104712,0.0 -75.49993084643337,46.0400707106799,0.0 -75.49992425606615,46.0400634393302,0.0 -75.49991841015026,46.040055557025084,0.0 -75.49991336498505,46.040047139675465,0.0 -75.49990916915824,46.04003826834502,0.0 -75.49990586307791,46.040029028469505,0.0 -75.49990347858345,46.04001950903398,0.0 -75.49990203863882,46.04000980171582,0.0 -75.49990155711149,46.04000000000178,0.0 -75.49990155711149,46.03000000000178,0.0 -75.49990203863882,46.02999019828774,0.0 -75.49990347858345,46.02998049096958,0.0 -75.49990586307791,46.029970971534055,0.0 -75.49990916915824,46.02996173165854,0.0 -75.49991336498505,46.029952860328095,0.0 -75.49991841015026,46.029944442978476,0.0 -75.49992425606615,46.02993656067336,0.0 -75.49993084643337,46.02992928932366,0.0 -75.49993811778307,46.02992269895644,0.0 -75.49994600008819,46.02991685304055,0.0 -75.4999544174378,46.029911807875344,0.0 -75.49996328876826,46.029907612048525,0.0 -75.49997252864377,46.0299043059682,0.0 -75.49998204807929,46.02990192147374,0.0 -75.49999175539746,46.02990048152911,0.0 -75.50000155711149,46.029900000001774,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+        </Folder>
+        <Folder id="15">
+            <name>Wind</name>
+            <Folder id="19">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="20">
+                <name>No contact</name>
+            </Folder>
+        </Folder>
+        <Folder id="16">
+            <Style id="116">
+                <PolyStyle id="117">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="124">
+                <PolyStyle id="125">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="132">
+                <PolyStyle id="133">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="140">
+                <PolyStyle id="141">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="148">
+                <PolyStyle id="149">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="156">
+                <PolyStyle id="157">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="164">
+                <PolyStyle id="165">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="172">
+                <PolyStyle id="173">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="180">
+                <PolyStyle id="181">
+                    <color>1eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Rain</name>
+            <Folder id="21">
+                <Style id="8">
+                    <IconStyle id="9">
+                        <color>ff00ff00</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="10">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>With contact</name>
+                <Placemark id="24">
+                    <name>Super 8 by Wyndham Mound City (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+109 West 8th Street (OSM reverse geocode, approx.), Mound City, MO
+14,468 SF footprint; built n/a in source
+0.3 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Super 8 by Wyndham Mound City
+Op contact: -
+Op phone: 660-383-4506
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13294,-95.23455</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="23">
+                        <coordinates>-95.23455,40.13294,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="26">
+                    <name>Earlham Medical Clinic (Madison County Health / madisonhealt (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+113 W 1St St, Earlham, IA
+39,367 SF footprint; built n/a in source
+1.9 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Earlham Medical Clinic (Madison County Health / madisonhealth.com)
+Op contact: -
+Op phone: 515-758-2907
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49196,-94.12341</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="25">
+                        <coordinates>-94.12341,41.49196,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="28">
+                    <name>Montross Pharmacy, Inc. (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+127 S Chestnut Ave, Earlham, IA
+20,547 SF footprint; built n/a in source
+1.9 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Montross Pharmacy, Inc.
+Op contact: -
+Op phone: 515-758-2174
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49118,-94.12339</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="27">
+                        <coordinates>-94.12339,41.49118,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Folder id="22">
+                <Style id="2">
+                    <IconStyle id="3">
+                        <color>ff0080ff</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="4">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>No contact</name>
+                <Placemark id="30">
+                    <name>(not looked up - Clay Co. NE assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.25in measured gauge Trumbull 0.33 SE (Clay4305) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Clay Co. NE assessor; no free API reached this run)
+205 Courtland Street (OSM reverse geocode, approx.), Trumbull, NE
+12,691 SF footprint; built n/a in source
+0.3 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+128 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.67779,-98.27459</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="29">
+                        <coordinates>-98.27459,40.67779,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="32">
+                    <name>(not looked up - Clay Co. NE assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.25in measured gauge Trumbull 0.33 SE (Clay4305) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Clay Co. NE assessor; no free API reached this run)
+647 Hartford St, Trumbull, NE
+10,938 SF footprint; built n/a in source
+0.4 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+129 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.67805,-98.27671</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="31">
+                        <coordinates>-98.27671,40.67805,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="34">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+145 Hickory Street (OSM reverse geocode, approx.), Mound City, MO
+46,797 SF footprint; built n/a in source
+0.3 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+85 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.14122,-95.23718</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="33">
+                        <coordinates>-95.23718,40.14122,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="36">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+1483 State Street (OSM reverse geocode, approx.), Mound City, MO
+17,855 SF footprint; built n/a in source
+0.2 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+85 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.1394,-95.23797</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="35">
+                        <coordinates>-95.23797,40.1394,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="38">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+125 East 4th Street (OSM reverse geocode, approx.), Mound City, MO
+15,485 SF footprint; built n/a in source
+0.6 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13035,-95.23104</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="37">
+                        <coordinates>-95.23104,40.13035,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="40">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+198 East 2nd Street (OSM reverse geocode, approx.), Mound City, MO
+13,980 SF footprint; built n/a in source
+0.8 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.1285,-95.22843</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="39">
+                        <coordinates>-95.22843,40.1285,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="42">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+174 West Davis Street (OSM reverse geocode, approx.), Mound City, MO
+13,005 SF footprint; built n/a in source
+0.1 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13696,-95.23844</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="41">
+                        <coordinates>-95.23844,40.13696,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="44">
+                    <name>Audrey's Motel (OSM tag at footprint - unconfirmed) (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+1211 State Street (OSM reverse geocode, approx.), Mound City, MO
+12,815 SF footprint; built n/a in source
+0.1 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Audrey's Motel (OSM tag at footprint - unconfirmed)
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13772,-95.2372</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="43">
+                        <coordinates>-95.2372,40.13772,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="46">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+18121 State Street (OSM reverse geocode, approx.), Mound City, MO
+11,988 SF footprint; built n/a in source
+0.5 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+85 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.14376,-95.23937</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="45">
+                        <coordinates>-95.23937,40.14376,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="48">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+183 West 6th Street (OSM reverse geocode, approx.), Mound City, MO
+11,937 SF footprint; built n/a in source
+0.4 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13154,-95.23284</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="47">
+                        <coordinates>-95.23284,40.13154,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="50">
+                    <name>Crop Care Airport I-29 (OSM aerodrome tag - unconfirmed) (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+I 29 (OSM reverse geocode, approx.), Mound City, MO
+11,262 SF footprint; built n/a in source
+0.4 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Crop Care Airport I-29 (OSM aerodrome tag - unconfirmed)
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+85 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.14164,-95.24025</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="49">
+                        <coordinates>-95.24025,40.14164,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="52">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+399 East 3rd Street (OSM reverse geocode, approx.), Mound City, MO
+10,923 SF footprint; built n/a in source
+0.7 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13061,-95.22817</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="51">
+                        <coordinates>-95.22817,40.13061,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="54">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+West 7th Street (OSM reverse geocode, approx.), Mound City, MO
+10,850 SF footprint; built n/a in source
+0.4 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13226,-95.23334</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="53">
+                        <coordinates>-95.23334,40.13226,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="56">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+West 2nd Street (OSM reverse geocode, approx.), Mound City, MO
+10,823 SF footprint; built n/a in source
+0.6 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.12878,-95.23171</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="55">
+                        <coordinates>-95.23171,40.12878,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="58">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+126 West 5th Street (OSM reverse geocode, approx.), Mound City, MO
+10,744 SF footprint; built n/a in source
+0.5 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13086,-95.23224</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="57">
+                        <coordinates>-95.23224,40.13086,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="60">
+                    <name>(not looked up - Holt Co. MO assessor; no free API reached t (rain)</name>
+                    <description>Rain 3.15in measured gauge Mound City 0.2 WNW (MO-FSA-087) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Holt Co. MO assessor; no free API reached this run)
+662 Railroad Street (OSM reverse geocode, approx.), Mound City, MO
+10,490 SF footprint; built n/a in source
+0.4 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MO SOS search not run - owner not identified
+86 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.13162,-95.2336</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="59">
+                        <coordinates>-95.2336,40.13162,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="62">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+340 1St St, Utica, NE
+34,349 SF footprint; built n/a in source
+0.3 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+78 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89525,-97.34707</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="61">
+                        <coordinates>-97.34707,40.89525,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="64">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+466 1St St, Utica, NE
+21,343 SF footprint; built n/a in source
+0.3 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+78 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89524,-97.34554</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="63">
+                        <coordinates>-97.34554,40.89524,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="66">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+4550 McKelvie Road (OSM reverse geocode, approx.), Seward, NE
+17,692 SF footprint; built n/a in source
+0.9 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+77 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.90264,-97.3368</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="65">
+                        <coordinates>-97.3368,40.90264,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="68">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+400 5Th St, Utica, NE
+17,620 SF footprint; built n/a in source
+0.5 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+78 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89893,-97.34602</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="67">
+                        <coordinates>-97.34602,40.89893,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="70">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+601 Hwy 34, Utica, NE
+16,888 SF footprint; built n/a in source
+0.7 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+77 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.90123,-97.34367</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="69">
+                        <coordinates>-97.34367,40.90123,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="72">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+407 Ohio St, Utica, NE
+16,644 SF footprint; built n/a in source
+0.2 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+78 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89394,-97.34562</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="71">
+                        <coordinates>-97.34562,40.89394,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="74">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+1st Street (OSM reverse geocode, approx.), Utica, NE
+14,427 SF footprint; built n/a in source
+0.5 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+77 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89476,-97.33746</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="73">
+                        <coordinates>-97.33746,40.89476,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="76">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+1st Street (OSM reverse geocode, approx.), Utica, NE
+11,890 SF footprint; built n/a in source
+0.5 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+77 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89477,-97.33653</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="75">
+                        <coordinates>-97.33653,40.89477,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="78">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+400 5Th St, Utica, NE
+11,845 SF footprint; built n/a in source
+0.6 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+78 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89929,-97.34587</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="77">
+                        <coordinates>-97.34587,40.89929,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="80">
+                    <name>(not looked up - Seward Co. NE assessor; no free API reached (rain)</name>
+                    <description>Rain 2.75in measured gauge Utica 0.1 SSE (sewa023) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Seward Co. NE assessor; no free API reached this run)
+540 1St St, Utica, NE
+10,496 SF footprint; built n/a in source
+0.3 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: NE SOS corporate search not run this pass - verify legal entity before outreach
+78 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=40.89525,-97.34443</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="79">
+                        <coordinates>-97.34443,40.89525,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="82">
+                    <name>USPS Denison Post Office (rain)</name>
+                    <description>Rain 2.26in measured gauge Denison 0.2 NNW (KS-JA-12) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS - DISCREPANCY (radar lower), verify) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: United States Postal Service (federal)
+201 Central Avenue (OSM reverse geocode, approx.), Denison, KS
+10,426 SF footprint; built n/a in source
+0.3 mi from report
+Has contact (phone/email): No
+Owner contact: USPS Denison KS Post Office
+Owner phone: -
+Owner email: -
+Operator / Tenant: USPS Denison Post Office
+Op contact: -
+Op phone: -
+Op email: -
+SOS: KS SOS business entity search not run this pass - verify legal entity before outreach
+130 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.39185,-95.62736</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="81">
+                        <coordinates>-95.62736,39.39185,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="84">
+                    <name>(not looked up - Madison Co. IA assessor; no free API reache (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+690 N Chestnut Ave, Earlham, IA
+49,882 SF footprint; built n/a in source
+2.0 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49768,-94.12204</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="83">
+                        <coordinates>-94.12204,41.49768,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="86">
+                    <name>(not looked up - Madison Co. IA assessor; no free API reache (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+175 S Chestnut Ave, Earlham, IA
+29,746 SF footprint; built n/a in source
+1.9 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49023,-94.12377</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="85">
+                        <coordinates>-94.12377,41.49023,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="88">
+                    <name>(not looked up - Madison Co. IA assessor; no free API reache (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+220 W 1St St, Earlham, IA
+13,352 SF footprint; built n/a in source
+1.8 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49126,-94.12492</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="87">
+                        <coordinates>-94.12492,41.49126,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="90">
+                    <name>(not looked up - Madison Co. IA assessor; no free API reache (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+345 Southwest 2Nd St, Earlham, IA
+13,069 SF footprint; built n/a in source
+1.8 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49073,-94.12654</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="89">
+                        <coordinates>-94.12654,41.49073,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="92">
+                    <name>(not looked up - Madison Co. IA assessor; no free API reache (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+145 Southeast Sycamore Ave, Earlham, IA
+12,236 SF footprint; built n/a in source
+2.0 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49072,-94.12196</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="91">
+                        <coordinates>-94.12196,41.49072,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="94">
+                    <name>(not looked up - Madison Co. IA assessor; no free API reache (rain)</name>
+                    <description>Rain 2.19in measured gauge Earlham 2.0 W (IA-MD-3) (late-reported 24h total, late-reported 11/3-11/4 CoCoRaHS) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: (not looked up - Madison Co. IA assessor; no free API reached this run)
+no situs address (Madison Co., IA, near Earlham)
+10,406 SF footprint; built n/a in source
+2.0 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: IA SOS search not run - owner not identified
+95 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.49002,-94.12216</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="93">
+                        <coordinates>-94.12216,41.49002,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Placemark id="111">
+                <name>2.75in rain Utica 0.1 SSE NE</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (2.75" measured, DISCREPANCY) - 10 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 1.88" (max within ~3 mi 2.14"). Nearby gauges: Waco 3.6 E 2.35" at 2.6 mi. DISCREPANCY: gauge reads &gt;0.5" above radar - verify before outreach.</description>
+                <Point id="110">
+                    <coordinates>-97.34555556,40.89111111,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="113">
+                <name>Rain lead radius 2 mi - Utica 0.1 SSE</name>
+                <styleUrl>#116</styleUrl>
+                <Polygon id="112">
+                    <outerBoundaryIs>
+                        <LinearRing id="114">
+                            <coordinates>-97.30721266150134,40.89111111,0.0 -97.3073972930378,40.89395218653129,0.0 -97.30794940954452,40.896765901942494,0.0 -97.30886369383775,40.89952515861607,0.0 -97.31013134085993,40.90220338340188,0.0 -97.31174014247728,40.90477478353119,0.0 -97.31367460505076,40.907214595015056,0.0 -97.3159160986483,40.90949932113517,0.0 -97.31844303646125,40.91160695873004,0.0 -97.32123108269708,40.91351721009747,0.0 -97.32425338694645,40.91521167847254,0.0 -97.32748084276727,40.9166740451985,0.0 -97.3308823679957,40.91789022688438,0.0 -97.33442520408431,40.91884851103571,0.0 -97.33807523158487,40.919539668852266,0.0 -97.3417972987372,40.91995704410644,0.0 -97.34555556,40.92009661724637,0.0 -97.34931382126278,40.91995704410644,0.0 -97.35303588841512,40.919539668852266,0.0 -97.35668591591568,40.91884851103571,0.0 -97.36022875200429,40.91789022688438,0.0 -97.36363027723272,40.9166740451985,0.0 -97.36685773305354,40.91521167847254,0.0 -97.3698800373029,40.91351721009747,0.0 -97.37266808353874,40.91160695873004,0.0 -97.37519502135169,40.90949932113517,0.0 -97.37743651494922,40.907214595015056,0.0 -97.37937097752271,40.90477478353119,0.0 -97.38097977914006,40.90220338340188,0.0 -97.38224742616224,40.89952515861607,0.0 -97.38316171045547,40.896765901942494,0.0 -97.3837138269622,40.89395218653129,0.0 -97.38389845849865,40.89111111,0.0 -97.3837138269622,40.88827003346871,0.0 -97.38316171045547,40.8854563180575,0.0 -97.38224742616224,40.88269706138392,0.0 -97.38097977914006,40.88001883659811,0.0 -97.37937097752271,40.877447436468806,0.0 -97.37743651494922,40.87500762498494,0.0 -97.37519502135169,40.87272289886482,0.0 -97.37266808353874,40.870615261269954,0.0 -97.3698800373029,40.86870500990253,0.0 -97.36685773305354,40.867010541527456,0.0 -97.36363027723272,40.865548174801496,0.0 -97.36022875200429,40.86433199311561,0.0 -97.35668591591568,40.86337370896428,0.0 -97.35303588841512,40.86268255114773,0.0 -97.34931382126278,40.862265175893555,0.0 -97.34555556,40.86212560275362,0.0 -97.3417972987372,40.862265175893555,0.0 -97.33807523158487,40.86268255114773,0.0 -97.33442520408431,40.86337370896428,0.0 -97.3308823679957,40.86433199311561,0.0 -97.32748084276727,40.865548174801496,0.0 -97.32425338694645,40.867010541527456,0.0 -97.32123108269708,40.86870500990253,0.0 -97.31844303646125,40.870615261269954,0.0 -97.3159160986483,40.87272289886482,0.0 -97.31367460505076,40.87500762498494,0.0 -97.31174014247728,40.877447436468806,0.0 -97.31013134085993,40.88001883659811,0.0 -97.30886369383775,40.88269706138392,0.0 -97.30794940954452,40.8854563180575,0.0 -97.3073972930378,40.88827003346871,0.0 -97.30721266150134,40.89111111,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="119">
+                <name>3.15in rain Mound City 0.2 WNW MO</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (3.15" measured, DISCREPANCY) - 15 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 0.66" (max within ~3 mi 0.7"). DISCREPANCY: gauge reads &gt;0.5" above radar - verify before outreach.</description>
+                <Point id="118">
+                    <coordinates>-95.2373,40.137,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="121">
+                <name>Rain lead radius 2 mi - Mound City 0.2 WNW</name>
+                <styleUrl>#124</styleUrl>
+                <Polygon id="120">
+                    <outerBoundaryIs>
+                        <LinearRing id="122">
+                            <coordinates>-95.19938592951327,40.137,0.0 -95.19956849612564,40.13984107653129,0.0 -95.20011443774645,40.1426547919425,0.0 -95.20101849665946,40.145414048616075,0.0 -95.20227196628312,40.148092273401886,0.0 -95.20386277501976,40.15066367353119,0.0 -95.2057756025116,40.15310348501506,0.0 -95.20799202718423,40.155388211135175,0.0 -95.21049070365645,40.15749584873004,0.0 -95.2132475683079,40.15940610009747,0.0 -95.21623607102497,40.16110056847254,0.0 -95.21942743089276,40.1625629351985,0.0 -95.22279091337121,40.163779116884385,0.0 -95.22629412628537,40.164737401035715,0.0 -95.22990333177981,40.16542855885227,0.0 -95.23358377123265,40.16584593410644,0.0 -95.2373,40.165985507246376,0.0 -95.24101622876736,40.16584593410644,0.0 -95.2446966682202,40.16542855885227,0.0 -95.24830587371464,40.164737401035715,0.0 -95.2518090866288,40.163779116884385,0.0 -95.25517256910724,40.1625629351985,0.0 -95.25836392897504,40.16110056847254,0.0 -95.2613524316921,40.15940610009747,0.0 -95.26410929634356,40.15749584873004,0.0 -95.26660797281578,40.155388211135175,0.0 -95.26882439748842,40.15310348501506,0.0 -95.27073722498025,40.15066367353119,0.0 -95.27232803371689,40.148092273401886,0.0 -95.27358150334055,40.145414048616075,0.0 -95.27448556225356,40.1426547919425,0.0 -95.27503150387437,40.13984107653129,0.0 -95.27521407048674,40.137,0.0 -95.27503150387437,40.13415892346871,0.0 -95.27448556225356,40.1313452080575,0.0 -95.27358150334055,40.128585951383926,0.0 -95.27232803371689,40.125907726598115,0.0 -95.27073722498025,40.12333632646881,0.0 -95.26882439748842,40.12089651498494,0.0 -95.26660797281578,40.118611788864825,0.0 -95.26410929634356,40.11650415126996,0.0 -95.2613524316921,40.11459389990253,0.0 -95.25836392897504,40.11289943152746,0.0 -95.25517256910724,40.1114370648015,0.0 -95.2518090866288,40.110220883115616,0.0 -95.24830587371464,40.109262598964285,0.0 -95.2446966682202,40.10857144114773,0.0 -95.24101622876736,40.10815406589356,0.0 -95.2373,40.108014492753625,0.0 -95.23358377123265,40.10815406589356,0.0 -95.22990333177981,40.10857144114773,0.0 -95.22629412628537,40.109262598964285,0.0 -95.22279091337121,40.110220883115616,0.0 -95.21942743089276,40.1114370648015,0.0 -95.21623607102497,40.11289943152746,0.0 -95.2132475683079,40.11459389990253,0.0 -95.21049070365645,40.11650415126996,0.0 -95.20799202718423,40.118611788864825,0.0 -95.2057756025116,40.12089651498494,0.0 -95.20386277501976,40.12333632646881,0.0 -95.20227196628312,40.125907726598115,0.0 -95.20101849665946,40.128585951383926,0.0 -95.20011443774645,40.1313452080575,0.0 -95.19956849612564,40.13415892346871,0.0 -95.19938592951327,40.137,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="127">
+                <name>2.19in rain Earlham 2.0 W IA</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (2.19" measured) - 8 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 1.31" (max within ~3 mi 1.8").</description>
+                <Point id="126">
+                    <coordinates>-94.1599158,41.4963976,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="129">
+                <name>Rain lead radius 2 mi - Earlham 2.0 W</name>
+                <styleUrl>#132</styleUrl>
+                <Polygon id="128">
+                    <outerBoundaryIs>
+                        <LinearRing id="130">
+                            <coordinates>-94.12121672308345,41.4963976,0.0 -94.12140306971634,41.49923867653129,0.0 -94.12196031499506,41.5020523919425,0.0 -94.12288309234296,41.50481164861608,0.0 -94.12416251490973,41.50748987340189,0.0 -94.12578626115665,41.51006127353119,0.0 -94.12773869351973,41.51250108501506,0.0 -94.13000100900803,41.51478581113518,0.0 -94.13255142028665,41.516893448730045,0.0 -94.1353653655008,41.51880370009747,0.0 -94.13841574481982,41.52049816847254,0.0 -94.14167318142336,41.5219605351985,0.0 -94.14510630441622,41.523176716884386,0.0 -94.14868205094723,41.52413500103572,0.0 -94.15236598462262,41.52482615885227,0.0 -94.15612262714724,41.525243534106444,0.0 -94.1599158,41.52538310724638,0.0 -94.16370897285275,41.525243534106444,0.0 -94.16746561537737,41.52482615885227,0.0 -94.17114954905276,41.52413500103572,0.0 -94.17472529558377,41.523176716884386,0.0 -94.17815841857663,41.5219605351985,0.0 -94.18141585518016,41.52049816847254,0.0 -94.18446623449918,41.51880370009747,0.0 -94.18728017971334,41.516893448730045,0.0 -94.18983059099196,41.51478581113518,0.0 -94.19209290648026,41.51250108501506,0.0 -94.19404533884334,41.51006127353119,0.0 -94.19566908509026,41.50748987340189,0.0 -94.19694850765703,41.50481164861608,0.0 -94.19787128500492,41.5020523919425,0.0 -94.19842853028365,41.49923867653129,0.0 -94.19861487691654,41.4963976,0.0 -94.19842853028365,41.49355652346871,0.0 -94.19787128500492,41.490742808057504,0.0 -94.19694850765703,41.48798355138393,0.0 -94.19566908509026,41.485305326598116,0.0 -94.19404533884334,41.48273392646881,0.0 -94.19209290648026,41.48029411498494,0.0 -94.18983059099196,41.47800938886483,0.0 -94.18728017971334,41.47590175126996,0.0 -94.18446623449918,41.47399149990253,0.0 -94.18141585518016,41.47229703152746,0.0 -94.17815841857663,41.4708346648015,0.0 -94.17472529558377,41.46961848311562,0.0 -94.17114954905276,41.46866019896429,0.0 -94.16746561537737,41.46796904114773,0.0 -94.16370897285275,41.46755166589356,0.0 -94.1599158,41.46741209275363,0.0 -94.15612262714724,41.46755166589356,0.0 -94.15236598462262,41.46796904114773,0.0 -94.14868205094723,41.46866019896429,0.0 -94.14510630441622,41.46961848311562,0.0 -94.14167318142336,41.4708346648015,0.0 -94.13841574481982,41.47229703152746,0.0 -94.1353653655008,41.47399149990253,0.0 -94.13255142028665,41.47590175126996,0.0 -94.13000100900803,41.47800938886483,0.0 -94.12773869351973,41.48029411498494,0.0 -94.12578626115665,41.48273392646881,0.0 -94.12416251490973,41.485305326598116,0.0 -94.12288309234296,41.48798355138393,0.0 -94.12196031499506,41.490742808057504,0.0 -94.12140306971634,41.49355652346871,0.0 -94.12121672308345,41.4963976,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="135">
+                <name>2.27in rain Genoa 2.7 WSW NE</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (2.27" measured) - 0 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 2.13" (max within ~3 mi 2.28").</description>
+                <Point id="134">
+                    <coordinates>-97.7717,41.4246,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="137">
+                <name>Rain lead radius 2 mi - Genoa 2.7 WSW</name>
+                <styleUrl>#140</styleUrl>
+                <Polygon id="136">
+                    <outerBoundaryIs>
+                        <LinearRing id="138">
+                            <coordinates>-97.73304374367578,41.4246,0.0 -97.73322988411581,41.42744107653129,0.0 -97.73378651280171,41.430254791942495,0.0 -97.73470826909495,41.43301404861607,0.0 -97.73598627597855,41.435692273401884,0.0 -97.73760822554758,41.43826367353119,0.0 -97.73955849754104,41.44070348501506,0.0 -97.7418183097735,41.44298821113517,0.0 -97.74436589901786,41.44509584873004,0.0 -97.747176730597,41.44700610009747,0.0 -97.75022373466629,41.44870056847254,0.0 -97.75347756691086,41.4501629351985,0.0 -97.75690689114747,41.45137911688438,0.0 -97.76047868110905,41.45233740103571,0.0 -97.76415853850577,41.45302855885227,0.0 -97.76791102429925,41.45344593410644,0.0 -97.7717,41.45358550724637,0.0 -97.77548897570074,41.45344593410644,0.0 -97.77924146149422,41.45302855885227,0.0 -97.78292131889094,41.45233740103571,0.0 -97.78649310885253,41.45137911688438,0.0 -97.78992243308913,41.4501629351985,0.0 -97.7931762653337,41.44870056847254,0.0 -97.79622326940299,41.44700610009747,0.0 -97.79903410098213,41.44509584873004,0.0 -97.80158169022648,41.44298821113517,0.0 -97.80384150245895,41.44070348501506,0.0 -97.80579177445242,41.43826367353119,0.0 -97.80741372402144,41.435692273401884,0.0 -97.80869173090504,41.43301404861607,0.0 -97.80961348719828,41.430254791942495,0.0 -97.81017011588418,41.42744107653129,0.0 -97.81035625632421,41.4246,0.0 -97.81017011588418,41.42175892346871,0.0 -97.80961348719828,41.4189452080575,0.0 -97.80869173090504,41.41618595138392,0.0 -97.80741372402144,41.41350772659811,0.0 -97.80579177445242,41.41093632646881,0.0 -97.80384150245895,41.40849651498494,0.0 -97.80158169022648,41.40621178886482,0.0 -97.79903410098213,41.404104151269955,0.0 -97.79622326940299,41.40219389990253,0.0 -97.7931762653337,41.40049943152746,0.0 -97.78992243308913,41.3990370648015,0.0 -97.78649310885253,41.397820883115614,0.0 -97.78292131889094,41.39686259896428,0.0 -97.77924146149422,41.39617144114773,0.0 -97.77548897570074,41.395754065893556,0.0 -97.7717,41.39561449275362,0.0 -97.76791102429925,41.395754065893556,0.0 -97.76415853850577,41.39617144114773,0.0 -97.76047868110906,41.39686259896428,0.0 -97.75690689114747,41.397820883115614,0.0 -97.75347756691086,41.3990370648015,0.0 -97.75022373466629,41.40049943152746,0.0 -97.747176730597,41.40219389990253,0.0 -97.74436589901786,41.404104151269955,0.0 -97.7418183097735,41.40621178886482,0.0 -97.73955849754104,41.40849651498494,0.0 -97.73760822554758,41.41093632646881,0.0 -97.73598627597855,41.41350772659811,0.0 -97.73470826909495,41.41618595138392,0.0 -97.73378651280171,41.4189452080575,0.0 -97.73322988411581,41.42175892346871,0.0 -97.73304374367578,41.4246,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="143">
+                <name>4.20in rain Hordville 5.54 SSE NE</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (4.20" measured, DISCREPANCY) - 0 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 1.87" (max within ~3 mi 2.0"). DISCREPANCY: gauge reads &gt;0.5" above radar - verify before outreach.</description>
+                <Point id="142">
+                    <coordinates>-97.84426322,41.00710839,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="145">
+                <name>Rain lead radius 2 mi - Hordville 5.54 SSE</name>
+                <styleUrl>#148</styleUrl>
+                <Polygon id="144">
+                    <outerBoundaryIs>
+                        <LinearRing id="146">
+                            <coordinates>-97.80585290351242,41.00710839,0.0 -97.8060378596849,41.00994946653129,0.0 -97.80659094697334,41.012763181942496,0.0 -97.80750683884479,41.015522438616074,0.0 -97.80877671475983,41.018200663401885,0.0 -97.81038834511925,41.02077206353119,0.0 -97.81232620904164,41.02321187501506,0.0 -97.81457164383812,41.025496601135174,0.0 -97.8171030247441,41.02760423873004,0.0 -97.81989597317768,41.02951449009747,0.0 -97.82292359151863,41.03120895847254,0.0 -97.8261567221473,41.0326713251985,0.0 -97.8295642282483,41.03388750688438,0.0 -97.83311329367515,41.034845791035714,0.0 -97.8367697389877,41.03553694885227,0.0 -97.84049835061873,41.03595432410644,0.0 -97.84426322,41.036093897246374,0.0 -97.84802808938127,41.03595432410644,0.0 -97.8517567010123,41.03553694885227,0.0 -97.85541314632485,41.034845791035714,0.0 -97.8589622117517,41.03388750688438,0.0 -97.8623697178527,41.0326713251985,0.0 -97.86560284848137,41.03120895847254,0.0 -97.86863046682232,41.02951449009747,0.0 -97.8714234152559,41.02760423873004,0.0 -97.87395479616188,41.025496601135174,0.0 -97.87620023095836,41.02321187501506,0.0 -97.87813809488075,41.02077206353119,0.0 -97.87974972524017,41.018200663401885,0.0 -97.88101960115522,41.015522438616074,0.0 -97.88193549302666,41.012763181942496,0.0 -97.8824885803151,41.00994946653129,0.0 -97.88267353648759,41.00710839,0.0 -97.8824885803151,41.00426731346871,0.0 -97.88193549302666,41.0014535980575,0.0 -97.88101960115522,40.998694341383924,0.0 -97.87974972524017,40.99601611659811,0.0 -97.87813809488075,40.99344471646881,0.0 -97.87620023095836,40.99100490498494,0.0 -97.87395479616188,40.988720178864824,0.0 -97.8714234152559,40.986612541269956,0.0 -97.86863046682232,40.98470228990253,0.0 -97.86560284848137,40.98300782152746,0.0 -97.8623697178527,40.9815454548015,0.0 -97.8589622117517,40.980329273115615,0.0 -97.85541314632485,40.979370988964284,0.0 -97.8517567010123,40.97867983114773,0.0 -97.84802808938127,40.97826245589356,0.0 -97.84426322,40.978122882753624,0.0 -97.84049835061873,40.97826245589356,0.0 -97.8367697389877,40.97867983114773,0.0 -97.83311329367515,40.979370988964284,0.0 -97.8295642282483,40.980329273115615,0.0 -97.8261567221473,40.9815454548015,0.0 -97.82292359151863,40.98300782152746,0.0 -97.81989597317768,40.98470228990253,0.0 -97.8171030247441,40.986612541269956,0.0 -97.81457164383812,40.988720178864824,0.0 -97.81232620904164,40.99100490498494,0.0 -97.81038834511925,40.99344471646881,0.0 -97.80877671475983,40.99601611659811,0.0 -97.80750683884479,40.998694341383924,0.0 -97.80659094697334,41.0014535980575,0.0 -97.8060378596849,41.00426731346871,0.0 -97.80585290351242,41.00710839,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="151">
+                <name>2.20in rain Muscotah 2.0 WSW KS</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (2.20" measured, DISCREPANCY) - 0 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 1.04" (max within ~3 mi 1.58"). DISCREPANCY: gauge reads &gt;0.5" above radar - verify before outreach.</description>
+                <Point id="150">
+                    <coordinates>-95.5534968,39.5390735,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="153">
+                <name>Rain lead radius 2 mi - Muscotah 2.0 WSW</name>
+                <styleUrl>#156</styleUrl>
+                <Polygon id="152">
+                    <outerBoundaryIs>
+                        <LinearRing id="154">
+                            <coordinates>-95.51591140104635,39.5390735,0.0 -95.51609238501544,39.54191457653129,0.0 -95.51663359394817,39.5447282919425,0.0 -95.51752981570667,39.547487548616076,0.0 -95.51877241918545,39.550165773401886,0.0 -95.52034943743377,39.55273717353119,0.0 -95.52224568290377,39.55517698501506,0.0 -95.52444289371502,39.557461711135176,0.0 -95.52691990952627,39.559569348730044,0.0 -95.52965287532119,39.56147960009747,0.0 -95.53261547114519,39.56317406847254,0.0 -95.53577916558095,39.5646364351985,0.0 -95.53911349052161,39.565852616884385,0.0 -95.54258633459526,39.566810901035716,0.0 -95.54616425241502,39.56750205885227,0.0 -95.54981278667643,39.56791943410644,0.0 -95.5534968,39.568059007246376,0.0 -95.55718081332358,39.56791943410644,0.0 -95.56082934758498,39.56750205885227,0.0 -95.56440726540475,39.566810901035716,0.0 -95.5678801094784,39.565852616884385,0.0 -95.57121443441906,39.5646364351985,0.0 -95.57437812885482,39.56317406847254,0.0 -95.57734072467882,39.56147960009747,0.0 -95.58007369047374,39.559569348730044,0.0 -95.58255070628499,39.557461711135176,0.0 -95.58474791709624,39.55517698501506,0.0 -95.58664416256624,39.55273717353119,0.0 -95.58822118081456,39.550165773401886,0.0 -95.58946378429334,39.547487548616076,0.0 -95.59036000605184,39.5447282919425,0.0 -95.59090121498457,39.54191457653129,0.0 -95.59108219895366,39.5390735,0.0 -95.59090121498457,39.53623242346871,0.0 -95.59036000605184,39.5334187080575,0.0 -95.58946378429334,39.530659451383926,0.0 -95.58822118081456,39.527981226598115,0.0 -95.58664416256624,39.52540982646881,0.0 -95.58474791709624,39.52297001498494,0.0 -95.58255070628499,39.520685288864826,0.0 -95.58007369047374,39.51857765126996,0.0 -95.57734072467882,39.51666739990253,0.0 -95.57437812885482,39.51497293152746,0.0 -95.57121443441906,39.5135105648015,0.0 -95.5678801094784,39.512294383115616,0.0 -95.56440726540475,39.511336098964286,0.0 -95.56082934758498,39.51064494114773,0.0 -95.55718081332358,39.51022756589356,0.0 -95.5534968,39.510087992753625,0.0 -95.54981278667643,39.51022756589356,0.0 -95.54616425241502,39.51064494114773,0.0 -95.54258633459526,39.511336098964286,0.0 -95.53911349052161,39.512294383115616,0.0 -95.53577916558095,39.5135105648015,0.0 -95.53261547114519,39.51497293152746,0.0 -95.52965287532119,39.51666739990253,0.0 -95.52691990952627,39.51857765126996,0.0 -95.52444289371502,39.520685288864826,0.0 -95.52224568290377,39.52297001498494,0.0 -95.52034943743377,39.52540982646881,0.0 -95.51877241918545,39.527981226598115,0.0 -95.51752981570667,39.530659451383926,0.0 -95.51663359394817,39.5334187080575,0.0 -95.51609238501544,39.53623242346871,0.0 -95.51591140104635,39.5390735,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="159">
+                <name>3.25in rain Trumbull 0.33 SE NE</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (3.25" measured, DISCREPANCY) - 2 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 1.01" (max within ~3 mi 1.15"). DISCREPANCY: gauge reads &gt;0.5" above radar - verify before outreach.</description>
+                <Point id="158">
+                    <coordinates>-98.26951564,40.67645197,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="161">
+                <name>Rain lead radius 2 mi - Trumbull 0.33 SE</name>
+                <styleUrl>#164</styleUrl>
+                <Polygon id="160">
+                    <outerBoundaryIs>
+                        <LinearRing id="162">
+                            <coordinates>-98.23129646784339,40.67645197,0.0 -98.23148050360369,40.67929304653129,0.0 -98.2320308385196,40.6821067619425,0.0 -98.23294217256506,40.68486601861608,0.0 -98.234205729095,40.68754424340189,0.0 -98.2358093393693,40.69011564353119,0.0 -98.23773755974443,40.69255545501506,0.0 -98.23997182040408,40.69484018113518,0.0 -98.24249060419673,40.696947818730045,0.0 -98.24526965385756,40.69885807009747,0.0 -98.24828220561913,40.70055253847254,0.0 -98.25149924696119,40.7020149051985,0.0 -98.25488979601695,40.70323108688439,0.0 -98.25842119994559,40.70418937103572,0.0 -98.26205944939677,40.70488052885227,0.0 -98.26576950603945,40.705297904106445,0.0 -98.26951564,40.70543747724638,0.0 -98.27326177396054,40.705297904106445,0.0 -98.27697183060322,40.70488052885227,0.0 -98.2806100800544,40.70418937103572,0.0 -98.28414148398303,40.70323108688439,0.0 -98.2875320330388,40.7020149051985,0.0 -98.29074907438086,40.70055253847254,0.0 -98.29376162614243,40.69885807009747,0.0 -98.29654067580326,40.696947818730045,0.0 -98.29905945959591,40.69484018113518,0.0 -98.30129372025556,40.69255545501506,0.0 -98.30322194063069,40.69011564353119,0.0 -98.304825550905,40.68754424340189,0.0 -98.30608910743493,40.68486601861608,0.0 -98.30700044148038,40.6821067619425,0.0 -98.3075507763963,40.67929304653129,0.0 -98.3077348121566,40.67645197,0.0 -98.3075507763963,40.67361089346871,0.0 -98.30700044148038,40.670797178057505,0.0 -98.30608910743493,40.66803792138393,0.0 -98.304825550905,40.66535969659812,0.0 -98.30322194063069,40.66278829646881,0.0 -98.30129372025556,40.660348484984944,0.0 -98.29905945959591,40.65806375886483,0.0 -98.29654067580326,40.65595612126996,0.0 -98.29376162614243,40.65404586990253,0.0 -98.29074907438086,40.65235140152746,0.0 -98.2875320330388,40.6508890348015,0.0 -98.28414148398303,40.64967285311562,0.0 -98.2806100800544,40.64871456896429,0.0 -98.27697183060322,40.64802341114773,0.0 -98.27326177396054,40.64760603589356,0.0 -98.26951564,40.64746646275363,0.0 -98.26576950603945,40.64760603589356,0.0 -98.26205944939677,40.64802341114773,0.0 -98.25842119994559,40.64871456896429,0.0 -98.25488979601695,40.64967285311562,0.0 -98.25149924696119,40.6508890348015,0.0 -98.24828220561913,40.65235140152746,0.0 -98.24526965385756,40.65404586990253,0.0 -98.24249060419673,40.65595612126996,0.0 -98.23997182040408,40.65806375886483,0.0 -98.23773755974443,40.660348484984944,0.0 -98.2358093393693,40.66278829646881,0.0 -98.234205729095,40.66535969659812,0.0 -98.23294217256506,40.66803792138393,0.0 -98.2320308385196,40.670797178057505,0.0 -98.23148050360369,40.67361089346871,0.0 -98.23129646784339,40.67645197,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="167">
+                <name>2.26in rain Denison 0.2 NNW KS</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (2.26" measured, DISCREPANCY) - 1 NEW C/I buildings &gt;=10k SF within 2 mi
+MRMS multi-sensor 24h QPE at the gauge 1.23" (max within ~3 mi 1.7"). DISCREPANCY: gauge reads &gt;0.5" above radar - verify before outreach.</description>
+                <Point id="166">
+                    <coordinates>-95.629392,39.395672,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="169">
+                <name>Rain lead radius 2 mi - Denison 0.2 NNW</name>
+                <styleUrl>#172</styleUrl>
+                <Polygon id="168">
+                    <outerBoundaryIs>
+                        <LinearRing id="170">
+                            <coordinates>-95.59188397659224,39.395672,0.0 -95.59206458797695,39.39851307653129,0.0 -95.59260468274466,39.401326791942495,0.0 -95.59349905948754,39.40408604861607,0.0 -95.59473910486862,39.40676427340188,0.0 -95.59631287657302,39.40933567353119,0.0 -95.59820521831892,39.411775485015056,0.0 -95.60039790582083,39.41406021113517,0.0 -95.60286982229947,39.41616784873004,0.0 -95.60559716184787,39.41807810009747,0.0 -95.60855365869524,39.41977256847254,0.0 -95.6117108401608,39.4212349351985,0.0 -95.61503830086109,39.42245111688438,0.0 -95.61850399553063,39.42340940103571,0.0 -95.6220745476352,39.42410055885227,0.0 -95.62571557080615,39.42451793410644,0.0 -95.629392,39.42465750724637,0.0 -95.63306842919384,39.42451793410644,0.0 -95.6367094523648,39.42410055885227,0.0 -95.64028000446936,39.42340940103571,0.0 -95.6437456991389,39.42245111688438,0.0 -95.6470731598392,39.4212349351985,0.0 -95.65023034130475,39.41977256847254,0.0 -95.65318683815212,39.41807810009747,0.0 -95.65591417770052,39.41616784873004,0.0 -95.65838609417916,39.41406021113517,0.0 -95.66057878168107,39.411775485015056,0.0 -95.66247112342697,39.40933567353119,0.0 -95.66404489513137,39.40676427340188,0.0 -95.66528494051245,39.40408604861607,0.0 -95.66617931725533,39.401326791942495,0.0 -95.66671941202304,39.39851307653129,0.0 -95.66690002340775,39.395672,0.0 -95.66671941202304,39.39283092346871,0.0 -95.66617931725533,39.3900172080575,0.0 -95.66528494051245,39.38725795138392,0.0 -95.66404489513137,39.38457972659811,0.0 -95.66247112342697,39.38200832646881,0.0 -95.66057878168107,39.37956851498494,0.0 -95.65838609417916,39.37728378886482,0.0 -95.65591417770052,39.375176151269955,0.0 -95.65318683815212,39.37326589990253,0.0 -95.65023034130475,39.37157143152746,0.0 -95.6470731598392,39.3701090648015,0.0 -95.6437456991389,39.36889288311561,0.0 -95.64028000446936,39.36793459896428,0.0 -95.6367094523648,39.36724344114773,0.0 -95.63306842919384,39.366826065893555,0.0 -95.629392,39.36668649275362,0.0 -95.62571557080615,39.366826065893555,0.0 -95.6220745476352,39.36724344114773,0.0 -95.61850399553063,39.36793459896428,0.0 -95.61503830086109,39.36889288311561,0.0 -95.6117108401608,39.3701090648015,0.0 -95.60855365869524,39.37157143152746,0.0 -95.60559716184787,39.37326589990253,0.0 -95.60286982229947,39.375176151269955,0.0 -95.60039790582083,39.37728378886482,0.0 -95.59820521831892,39.37956851498494,0.0 -95.59631287657302,39.38200832646881,0.0 -95.59473910486862,39.38457972659811,0.0 -95.59349905948754,39.38725795138392,0.0 -95.59260468274466,39.3900172080575,0.0 -95.59206458797695,39.39283092346871,0.0 -95.59188397659224,39.395672,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="175">
+                <name>2.61in rain Hastings 1.8 N NE</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES (2.61" measured) - 0 NEW C/I buildings &gt;=10k SF within 2 mi (6 already reported 11/3-11/4)
+MRMS multi-sensor 24h QPE at the gauge 2.18" (max within ~3 mi 2.72"). Nearby gauges: Hastings 0.86 E 2.70" at 1.5 mi Hastings 3.4 N 2.47" at 1.6 mi Hastings 0.6 SW 2.29" at 1.8 mi.</description>
+                <Point id="174">
+                    <coordinates>-98.394,40.615,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="177">
+                <name>Rain lead radius 2 mi - Hastings 1.8 N</name>
+                <styleUrl>#180</styleUrl>
+                <Polygon id="176">
+                    <outerBoundaryIs>
+                        <LinearRing id="178">
+                            <coordinates>-98.35581600245534,40.615,0.0 -98.35599986884027,40.61784107653129,0.0 -98.35654969726124,40.6206547919425,0.0 -98.35746019257002,40.62341404861608,0.0 -98.35872258619902,40.62609227340189,0.0 -98.36032472060754,40.62866367353119,0.0 -98.36225116636538,40.63110348501506,0.0 -98.3644833707468,40.63338821113518,0.0 -98.36699983640337,40.635495848730045,0.0 -98.36977632839515,40.63740610009747,0.0 -98.37278610758649,40.63910056847254,0.0 -98.37600018815847,40.6405629351985,0.0 -98.3793876167582,40.641779116884386,0.0 -98.38291577059647,40.64273740103572,0.0 -98.38655067162316,40.64342855885227,0.0 -98.39025731375433,40.643845934106444,0.0 -98.394,40.64398550724638,0.0 -98.39774268624568,40.643845934106444,0.0 -98.40144932837686,40.64342855885227,0.0 -98.40508422940354,40.64273740103572,0.0 -98.40861238324182,40.641779116884386,0.0 -98.41199981184154,40.6405629351985,0.0 -98.41521389241352,40.63910056847254,0.0 -98.41822367160486,40.63740610009747,0.0 -98.42100016359664,40.635495848730045,0.0 -98.42351662925321,40.63338821113518,0.0 -98.42574883363463,40.63110348501506,0.0 -98.42767527939247,40.62866367353119,0.0 -98.42927741380099,40.62609227340189,0.0 -98.43053980743,40.62341404861608,0.0 -98.43145030273877,40.6206547919425,0.0 -98.43200013115974,40.61784107653129,0.0 -98.43218399754467,40.615,0.0 -98.43200013115974,40.61215892346871,0.0 -98.43145030273877,40.609345208057505,0.0 -98.43053980743,40.60658595138393,0.0 -98.42927741380099,40.603907726598116,0.0 -98.42767527939247,40.60133632646881,0.0 -98.42574883363463,40.59889651498494,0.0 -98.42351662925321,40.59661178886483,0.0 -98.42100016359664,40.59450415126996,0.0 -98.41822367160486,40.59259389990253,0.0 -98.41521389241352,40.59089943152746,0.0 -98.41199981184154,40.5894370648015,0.0 -98.40861238324182,40.58822088311562,0.0 -98.40508422940354,40.58726259896429,0.0 -98.40144932837686,40.58657144114773,0.0 -98.39774268624568,40.58615406589356,0.0 -98.394,40.58601449275363,0.0 -98.39025731375433,40.58615406589356,0.0 -98.38655067162316,40.58657144114773,0.0 -98.38291577059647,40.58726259896429,0.0 -98.3793876167582,40.58822088311562,0.0 -98.37600018815847,40.5894370648015,0.0 -98.37278610758649,40.59089943152746,0.0 -98.36977632839515,40.59259389990253,0.0 -98.36699983640337,40.59450415126996,0.0 -98.3644833707468,40.59661178886483,0.0 -98.36225116636538,40.59889651498494,0.0 -98.36032472060754,40.60133632646881,0.0 -98.35872258619902,40.603907726598116,0.0 -98.35746019257002,40.60658595138393,0.0 -98.35654969726124,40.609345208057505,0.0 -98.35599986884027,40.61215892346871,0.0 -98.35581600245534,40.615,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
+        <Folder id="182">
+            <Style id="185">
+                <IconStyle id="186">
+                    <colorMode>normal</colorMode>
+                    <scale>1.3</scale>
+                    <heading>0</heading>
+                    <Icon id="187">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="190">
+                <IconStyle id="191">
+                    <colorMode>normal</colorMode>
+                    <scale>1.3</scale>
+                    <heading>0</heading>
+                    <Icon id="192">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Our Assets (HailTrace prior lead/customer/bid) - 2 hit</name>
+            <Placemark id="184">
+                <name>ASSET: 702 E 39th St, Hastings NE</name>
+                <description>HailTrace asset (prior lead/customer/bid)
+Asset ID HT0412
+Rain 24h: 2.61 in - Hastings 1.8 N (NE-AD-14) 2026-11-03
+Basis: Confirmed: measured
+within 2 mi of report (street-level geocode) (0.91 mi)
+Location precision: street-level (Nominatim: East 39th Street, no house number) MEDIUM PRECISION
+Owner contact (HailTrace): -
+~134.9 mi from Omaha</description>
+                <styleUrl>#185</styleUrl>
+                <Point id="183">
+                    <coordinates>-98.380158,40.622991,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="189">
+                <name>ASSET: 2315 US-6, Hastings NE</name>
+                <description>HailTrace asset (prior lead/customer/bid)
+Asset ID HT0122
+Rain 24h: 2.61 in - Hastings 1.8 N (NE-AD-14) 2026-11-03
+Basis: Confirmed: measured
+possibly inside (approximate-level geocode, +3 mi buffer) (2.1 mi)
+Location precision: approximate (Census non-exact, DIFFERENT street/direction: 2315 W 6TH ST, HASTINGS, NE, 68901) LOW PRECISION
+Owner contact (HailTrace): -
+~137.5 mi from Omaha</description>
+                <styleUrl>#190</styleUrl>
+                <Point id="188">
+                    <coordinates>-98.414945,40.589052,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="193">
+            <Style id="196">
+                <IconStyle id="197">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="198">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="201">
+                <IconStyle id="202">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="203">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="206">
+                <IconStyle id="207">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="208">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="211">
+                <IconStyle id="212">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="213">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="216">
+                <IconStyle id="217">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="218">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="221">
+                <IconStyle id="222">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="223">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="226">
+                <IconStyle id="227">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="228">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="231">
+                <IconStyle id="232">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="233">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="236">
+                <IconStyle id="237">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="238">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="241">
+                <IconStyle id="242">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="243">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="246">
+                <IconStyle id="247">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="248">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="251">
+                <IconStyle id="252">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="253">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="256">
+                <IconStyle id="257">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="258">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="261">
+                <IconStyle id="262">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="263">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="266">
+                <IconStyle id="267">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="268">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="271">
+                <IconStyle id="272">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="273">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="276">
+                <IconStyle id="277">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="278">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="281">
+                <IconStyle id="282">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="283">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="286">
+                <IconStyle id="287">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="288">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="291">
+                <IconStyle id="292">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="293">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="296">
+                <IconStyle id="297">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="298">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="301">
+                <IconStyle id="302">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="303">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="306">
+                <IconStyle id="307">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="308">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="311">
+                <IconStyle id="312">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="313">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="316">
+                <IconStyle id="317">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="318">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="321">
+                <IconStyle id="322">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="323">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="326">
+                <IconStyle id="327">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="328">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="331">
+                <IconStyle id="332">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="333">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="336">
+                <IconStyle id="337">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="338">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="341">
+                <IconStyle id="342">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="343">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="346">
+                <IconStyle id="347">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="348">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="351">
+                <IconStyle id="352">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="353">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="356">
+                <IconStyle id="357">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="358">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="361">
+                <IconStyle id="362">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="363">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="366">
+                <IconStyle id="367">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="368">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="371">
+                <IconStyle id="372">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="373">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="376">
+                <IconStyle id="377">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="378">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="381">
+                <IconStyle id="382">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="383">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="386">
+                <IconStyle id="387">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="388">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="391">
+                <IconStyle id="392">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="393">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Bid Requests — 40 (37 with phone/email)</name>
+            <Placemark id="195">
+                <name>Council Bluffs CSD – Bloomer Elementary (Council Bluffs, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+capital plan (pre-bid) | Capital-plan signal (not yet bid) | Detected 2026-09-22 (district facility assessment) | STATUS 2026-10-21: capital-plan signal (no bid yet)
+District facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator's sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.
+Contact: Aaron Rang, Director of Facilities Maintenance &amp; Custodial Services (FMCS)
+Phone: 712-328-6406
+Email: arang@cb-schools.org
+Website: https://www.cb-schools.org
+Confidence: unconfirmed (aggregator summary of assessment; no bid date yet)
+Source: https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb ; https://www.cb-schools.org/departments/facilities
+~4 mi from Omaha</description>
+                <styleUrl>#196</styleUrl>
+                <Point id="194">
+                    <coordinates>-95.8608,41.2619,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="200">
+                <name>Cuming County Courthouse (Cuming County, NE) (West Point, NE)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid | 2026-10-16 (published; re-runs 10/23) | STATUS 2026-11-05: bids due Tue 11/10 10:30 AM
+Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.
+Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents)
+Phone: (402) 372-6002 (County Clerk)
+Email: clerk@cumingcounty.ne.gov
+Website: https://cumingcountyne.gov
+Confidence: confirmed
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623
+~57 mi from Omaha</description>
+                <styleUrl>#201</styleUrl>
+                <Point id="199">
+                    <coordinates>-96.7086,41.8417,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="205">
+                <name>NE Dept. of Correctional Services - Tecumseh State Correctional Institution roof replacements (Bldgs G, Q, S, T) (Tecumseh, NE)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - state correctional facility roof replacements) | Open public bid | 2026-11-04 (published) | pre-bid conference Tue 11/24/2026 10:00 AM at the TSCI front entrance; sealed bids due Thu 12/3/2026 2:00 PM CST | STATUS 2026-11-05: pre-bid Tue 11/24 10:00 AM; bids due Thu 12/3 2:00 PM (re-posted NoticeRegistry #776980 = same project)
+NDCS ITB: roof replacements on buildings G, Q, S and T at Tecumseh State Correctional Institution, Tecumseh NE. Plans/specs from A&amp;D Technical Supply, 1822 N St, Lincoln NE; bid security required; pre-bid 11/24 10:00 AM; bids due 12/3/2026 2:00 PM.
+Contact: Nathan Bornemeier (NDCS, receives bids) - TSCI main line
+Phone: 402-335-5998
+Email: -
+Website: https://corrections.nebraska.gov/facilities/tecumseh-state-correctional-institution
+Confidence: high (legal notice); medium on contact (facility main line, not the bid contact)
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-tecumseh-776258
+~63 mi from Omaha</description>
+                <styleUrl>#206</styleUrl>
+                <Point id="204">
+                    <coordinates>-96.195,40.3667,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="210">
+                <name>Sioux City CSD - North Middle School (Sioux City, IA)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (approx) | STATUS 2026-11-05: proposals due 11/12 - verify with the district
+North Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.
+Contact: -
+Phone: -
+Email: -
+Website: siouxcityschools.org (not opened)
+Confidence: unconfirmed
+Source: https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65
+~89 mi from Omaha</description>
+                <styleUrl>#211</styleUrl>
+                <Point id="209">
+                    <coordinates>-96.4049,42.4963,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="215">
+                <name>State of Iowa DAS - WRC CDC Freezer Repair (roof patching/flashing; Woodward Resource Center) (Woodward, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - roof patching, flashing, sealant, downspouts within a freezer structural repair) | Open public bid | ~2026-10-09 (Iowa DAS notice; first found by this search 11/2) | bids due Tue 11/17/2026 2:00 PM CST via IMPACS; questions due 11/4 10:00 AM | STATUS 2026-11-05: due 11/17 2:00 PM
+RFB #950300-01 WRC CDC Freezer Repair: re-grading, concrete, structural steel repairs, ROOF PATCHING, sealant, flashing and downspout modifications at the Woodward Resource Center, 1251 334th St, Woodward IA. Bids due 11/17/2026 2:00 PM on IMPACS (5% bid security); optional pre-bid was 10/28. Construction 12/21/2026-6/30/2027. Roofing is a partial scope (likely a sub to a GC). Notice posted ~10/9; first found by this search 11/2. Separate from the carried WRC Dispatch Garage design RFP.
+Contact: Katelyn Howells, Issuing Officer
+Phone: 515-721-7856
+Email: construction.procurement@das.iowa.gov
+Website: https://bidopportunities.iowa.gov
+Confidence: high (state bid document); roofing is a minor part of the scope
+Source: https://bidopportunities.iowa.gov/Home/GetBidOpportunityDocument/e2c93fb6-bf1b-4cdc-928a-d33166b293a5
+~112 mi from Omaha</description>
+                <styleUrl>#216</styleUrl>
+                <Point id="214">
+                    <coordinates>-93.927,41.857,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="220">
+                <name>State of Iowa – Woodward Resource Center Dispatch Garage (Woodward, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (design RFP) | Open RFP (design services; construction bid to follow) | Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM | STATUS 2026-11-05: due Tue 11/10 2:00 PM
+RFP956800-01 "WRC Dispatch Garage Roof Replacement &amp; Birches Tuckpointing" – professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).
+Contact: Katelyn Howells, Construction Procurement
+Phone: (515) 721-7856
+Email: construction.procurement@das.iowa.gov
+Website: https://das.iowa.gov
+Confidence: confirmed
+Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c
+~112 mi from Omaha</description>
+                <styleUrl>#221</styleUrl>
+                <Point id="219">
+                    <coordinates>-93.9222,41.8564,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="225">
+                <name>Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates) (Johnston, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) - MATERIAL UPDATE |  | 2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23 | STATUS 2026-11-05: due Thu 11/12 3:00 PM
+UPDATE to a lead first listed 10/17 (that listing only said "due Nov 12"). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2" polyiso + 1/2" HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline &amp; Blue, Des Moines ($50 refundable deposit).
+Contact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings &amp; Grounds (phone redacted on notice)
+Phone: 515-250-6950 (architect, from 10/17 plan-room brief)
+Email: -
+Website: -
+Confidence: confirmed (official notice text)
+Source: https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159
+~119 mi from Omaha</description>
+                <styleUrl>#226</styleUrl>
+                <Point id="224">
+                    <coordinates>-93.6977,41.673,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="230">
+                <name>Des Moines Public Schools - Roosevelt High School (Des Moines, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10-08 (issued) | STATUS 2026-11-05: due TODAY Thu 11/5 3:00 PM
+CIP26073 Roosevelt High School - Re-Roofing Phase I. Issued 10/08/2026, due 11/05/2026 (plan room: 3:00 PM). Architect Angelo Architectural Assoc. (515-250-6950).
+Contact: DMPS Purchasing (901 Walnut St)
+Phone: 515-242-7911 (district); 515-554-4718 (per plan room)
+Email: -
+Website: dmschools.org
+Confidence: confirmed
+Source: https://www.dmschools.org/departments/business-finance/purchasing/open-proposals/
+~122 mi from Omaha</description>
+                <styleUrl>#231</styleUrl>
+                <Point id="229">
+                    <coordinates>-93.625,41.5868,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="235">
+                <name>Ankeny CSD - Innovation Hub Contract 7B Metal Roofing (~160k SF new school, Northview MS campus) (Ankeny, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - new school metal roofing prime contract) | Open public bid | 2026-11-03 (published) | pre-bid Tue 11/10/2026 1:00 PM; bids due Tue 11/17/2026 11:00 AM CST (Cottonwood Conference Room) | STATUS 2026-11-05: pre-bid Tue 11/10 1:00 PM; bids due Tue 11/17 11:00 AM
+Contract 7B Metal Roofing for the new two-story ~160,000 SF Innovation Hub on the Northview Middle School campus, Ankeny IA (multiple-prime, Agency CM). Documents via Procore from CM Donna Foster (Stahl); 5% bid security; P&amp;P bonds; not prevailing wage. Pre-bid 11/10 1:00 PM; bids due 11/17 11:00 AM at 406 SW School St.
+Contact: Ankeny CSD district office (CM contact Donna Foster, Stahl Construction - email redacted in free copy)
+Phone: 515-965-9600
+Email: -
+Website: https://www.ankenyschools.org
+Confidence: high (legal notice); medium on contact (district main line)
+Source: https://www.noticeregistry.com/iowa/notice/bid-notice-ankeny-137217
+~125 mi from Omaha</description>
+                <styleUrl>#236</styleUrl>
+                <Point id="234">
+                    <coordinates>-93.6001,41.7318,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="240">
+                <name>State of Iowa DAS - Fort Dodge Correctional Facility Powerhouse &amp; Warehouse roof replacement (RFP955000-01, design phase) (Fort Dodge, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public RFP (design phase) | 2026-10-26 (posted on Iowa DAS Bidding Opportunities; documents dated 10/22) | proposals due Mon 12/7/2026 2:00 PM | STATUS 2026-11-05: proposals due Mon 12/7 2:00 PM
+RFP955000-01 "DOC FDCF Powerhouse and Warehouse Roof Replacement": DAS is seeking professional DESIGN services for roof replacements of the Powerhouse and Warehouse buildings at Fort Dodge Correctional Facility, 1550 L St. This is the design (A/E) phase - the roofing construction bid should follow; worth tracking and getting on the plan-holder list.
+Contact: Michael Bradbury, DAS Construction Procurement
+Phone: 515-823-9327
+Email: construction.procurement@das.iowa.gov
+Website: https://bidopportunities.iowa.gov
+Confidence: high (official state portal); map pin approximate (1550 L St)
+Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=32851523-bc07-4dea-a406-6c44bb3ea4c2
+~125 mi from Omaha</description>
+                <styleUrl>#241</styleUrl>
+                <Point id="239">
+                    <coordinates>-94.168,42.4975,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="245">
+                <name>Kansas State University - Waters Hall (Manhattan, KS)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (state capital project - design stage) |  | 2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting | STATUS 2026-10-21: open
+New capital improvement ad: "KSU Waters Hall ReRoof - #54623 - October 15, 2026" for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.
+Contact: KS DoA OFPM professional qualifications inbox (A/E submittals)
+Phone: -
+Email: professional.qualifications@ks.gov
+Website: https://admin.ks.gov
+Confidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)
+Source: https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections
+~147 mi from Omaha</description>
+                <styleUrl>#246</styleUrl>
+                <Point id="244">
+                    <coordinates>-96.5806,39.191,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="250">
+                <name>MDC - Parma Woods Range &amp; Training Center (Platte County (Parkville area), MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (listed; due Nov 5) | STATUS 2026-11-05: due TODAY Thu 11/5 11:00 AM
+MDC Parma Woods Range and Training Center Roof Replacement (Platte County). Bids due Nov 5, 2026 11:00 AM CT.
+Contact: Veronica Mecko (contract specialist); Mike Stornello (design PM)
+Phone: 573-522-4115 x3744 / x3766
+Email: -
+Website: -
+Confidence: confirmed
+Source: https://www.buildersepr.com/PlanRoomBrief.aspx?ID=1
+~157 mi from Omaha</description>
+                <styleUrl>#251</styleUrl>
+                <Point id="249">
+                    <coordinates>-94.6819,39.1911,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="255">
+                <name>Hume R-VIII School District - bus barn (Hume, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) |  | 2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01 | STATUS 2026-11-05: due Mon 11/9 3:00 PM
+RFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.
+Contact: Scott Morrison, Superintendent (named on notice for the site visit)
+Phone: 660-643-7411 (district main line)
+Email: -
+Website: https://www.humer8.k12.mo.us
+Confidence: confirmed (official notice); small scope
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008
+~230 mi from Omaha</description>
+                <styleUrl>#256</styleUrl>
+                <Point id="254">
+                    <coordinates>-94.5808,38.0898,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="260">
+                <name>University of Missouri - Keene Street Envelope &amp; Infrastructure Improvements (Bid Pkg 2: 7.2B Roofing &amp; Sheet Metal; CM River City Construction) (Columbia, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid / CM sub-bid) | Open CM sub-bid package | 2026-10-30 (published on NoticeRegistry) | Bid Package 2 bids due Thu 11/12/2026 1:30 PM CST via the online bidding platform
+University of Missouri "Keene Street Envelope &amp; Infrastructure Improvements", Columbia MO. CM River City Construction is taking bids on Bid Package 2 work categories incl. 7.2B Roofing and Sheet Metal (also 7.2A Fluid Air Barrier, 9.2 Drywall, 1.2 Site Services). Bids due 11/12 1:30 PM CST via the online platform; documents on the River City Construction website under "River City - Peoria". Email contacts are redacted in the free copy.
+Contact: River City Construction, LLC (CM) - East Peoria office, 101 Hoffer Ln
+Phone: 309-694-3120
+Email: -
+Website: https://www.rccllc.com
+Confidence: high (legal notice; CM main office line); map pin approximate (Keene St, Columbia)
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-columbia-1299557
+~250 mi from Omaha</description>
+                <styleUrl>#261</styleUrl>
+                <Point id="259">
+                    <coordinates>-92.287,38.957,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="265">
+                <name>State of Missouri – Scruggs Station / Fairgrounds Warehouse (Jefferson City, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking coating | Open public bid | Listed Oct 2026; due 2026-11-05 1:30 PM; pre-bid 10/22 1:30 PM | STATUS 2026-11-05: due TODAY Thu 11/5 1:30 PM
+Project O2534-01 Scruggs Station Warehouse Complex (Fairgrounds Warehouse, 1525 Fairgrounds Rd): new FLUID-APPLIED ROOFING MEMBRANE on existing metal roof (coating job), gutters/downspouts, plus HVAC/electrical. Roofing would likely be a sub to the GC/mechanical prime.
+Contact: Andy Carroll, Project Manager
+Phone: 573-446-7768 (ADS plan room)
+Email: Andy.Carroll@oa.mo.gov
+Website: -
+Confidence: confirmed
+Source: https://oa.mo.gov/sites/default/files/bid-opportunities/O2534-01%20IFB.pdf ; https://www.oafmdcplanroom.com/projects/3442/details/o2534-01-scruggs-station-warehouse-complex-porite-roof-elect-hvac-rep-fairgrounds-warehouse
+~272 mi from Omaha</description>
+                <styleUrl>#266</styleUrl>
+                <Point id="264">
+                    <coordinates>-92.212,38.556,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="270">
+                <name>Rock Island County Highway Dept - roof replacement (Sect #26-00405-00-MG) (Milan, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-24 (published) | sealed bids due Fri 11/6/2026 10:00 AM to the Public Works Committee at the County Engineer's office | STATUS 2026-11-05: due Fri 11/6 10:00 AM
+Rock Island County is taking sealed bids for a roof replacement (bundled with 2027 fuel) under Section #26-00405-00-MG, delivered to the County Engineer's office, 851 W 10th Ave, Milan IL 61264. Building SF not stated.
+Contact: Rock Island County Highway Dept (Lisa Geiger, County Engineer; Donna Huys)
+Phone: 309-787-4668
+Email: highway@rockislandcountyil.gov
+Website: https://www.rockislandcountyil.gov/429/Highway-Department
+Confidence: high (official county site)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-milan-3347974
+~278 mi from Omaha</description>
+                <styleUrl>#271</styleUrl>
+                <Point id="269">
+                    <coordinates>-90.57,41.44,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="275">
+                <name>Davenport CSD – Madison Elementary School (116 E Locust St) (Davenport, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-19 (posted 1:00 PM) | bids due Mon 11/16 7:00 PM (CT per portal); optional pre-bid Thu 10/22 2:30 PM at the school
+Invitation to Bid FY27-091: single-prime partial roof replacement at Madison Elementary School, incl. unit prices for roof drain replacement (sump, flashing, piping) and pressure-treated wood nailer replacement. 5% bid bond, 100% P&amp;P bonds; submit via davenportschools.ionwave.net. Roof area not stated.
+Contact: Dawn Evans (Purchasing)
+Phone: -
+Email: evansd@davenportschools.org
+Website: https://davenportschools.ionwave.net
+Confidence: high (official solicitation contact)
+Source: https://bidscopeai.com/opportunities/49ac0474-3910-45ad-859a-63b4bc63d15c
+~278 mi from Omaha</description>
+                <styleUrl>#276</styleUrl>
+                <Point id="274">
+                    <coordinates>-90.57373,41.53832,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="280">
+                <name>City of Camdenton - City Park white metal roof &amp; soffit replacement (IFB 26-07) (Camdenton, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-20 (posted; picked up by Missouri Bid Network 10/24 and Dodge 10/25) | bids (IFB 26-07) due Thu 11/12/2026 3:00 PM by mail; questions due 11/10 4:00 PM; site inspection encouraged | STATUS 2026-11-05: due Thu 11/12 3:00 PM
+City of Camdenton seeks bids to tear off and replace the roof on an existing brick building at Camdenton City Park with a new white metal roof plus new soffit, flashing/sealing, inspection of the roof structure and debris removal. Itemized pricing, materials/warranty info, GL and workers comp insurance required. Building SF not stated (park building - likely small).
+Contact: Renee Kingston, City of Camdenton
+Phone: 573-346-3600
+Email: renee.kingston@camdentoncity.com
+Website: https://www.camdentoncity.com
+Confidence: medium-high (bid aggregator copy of the city IFB)
+Source: https://bidscopeai.com/opportunities/cd0842c3-7a24-4d26-b298-a5e1fd6dd1b8 ; https://www.missouribids.com/bid_opportunities/2026/10/24/15084614-white-metal-roof-replacement-and-soffit-replacement.html
+~281 mi from Omaha</description>
+                <styleUrl>#281</styleUrl>
+                <Point id="279">
+                    <coordinates>-92.744,38.008,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="285">
+                <name>Minneapolis Public Housing Authority - 630 Cedar Ave high-rise (Minneapolis, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-22 (published) | pre-bid walk-through Mon 10/26 9:30 AM; questions due 10/29 2:00 PM CDT; bids due Tue 11/10/2026 2:00 PM CST | STATUS 2026-11-05: bids due Tue 11/10 2:00 PM
+MPHA IFB B26025: exterior repairs and roof anchors at 630 Cedar Ave (public-housing high-rise, Cedar-Riverside). Documents and bids through Housing Agency Marketplace (ha.internationaleprocurement.com). Roof scope is anchors/fall-protection plus exterior repairs - check the spec for any roofing work.
+Contact: Greg Lewis, Senior Buyer (MPHA)
+Phone: 612-342-1414
+Email: glewis@mplspha.org
+Website: https://mphaonline.org/contracting-opportunities/
+Confidence: high (official buyer contact on MPHA notices)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-minneapolis-1116654
+~290 mi from Omaha</description>
+                <styleUrl>#286</styleUrl>
+                <Point id="284">
+                    <coordinates>-93.2475,44.9695,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="290">
+                <name>Forest Lake ISD 831 - Forest View Elementary facility improvements (roofs + MEP; prime bids) (Forest Lake, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school facility improvements incl. roofs) | Open public bid | 2026-11-04 (published, week of 11/2 and 11/9) | pre-bid walk-through Fri 11/20/2026 7:30 AM; bids due Tue 12/8/2026 2:00 PM CST via BuildingConnected | STATUS 2026-11-05: pre-bid Fri 11/20 7:30 AM; bids due Tue 12/8 2:00 PM
+Forest View Elementary 2026 Facility Improvements, Forest Lake MN: multi-phase MEP/structural upgrades extending to roofs, RTUs, AHUs, boilers, lighting, flooring, doors/frames; summers 2027 and 2028; lump-sum prime bids via BuildingConnected; plan-room help Kari Aufrere (KA). Pre-bid 11/20 7:30 AM.
+Contact: Kraus-Anderson Construction (CM) - JF Ndomb; Minneapolis HQ line
+Phone: 612-332-7281
+Email: -
+Website: https://www.krausanderson.com
+Confidence: high (legal notice); medium on contact (CM HQ line)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-forest-lake-1127053
+~315 mi from Omaha</description>
+                <styleUrl>#291</styleUrl>
+                <Point id="289">
+                    <coordinates>-92.9852,45.2789,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="295">
+                <name>City of Marionville - city building roof replacement (Marionville, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-28 (published on NoticeRegistry) | sealed bids due Tue 11/10/2026 3:00 PM at City Hall, 107 S Central; opened at the 11/12 council meeting | STATUS 2026-11-05: due Tue 11/10 3:00 PM
+City of Marionville is taking sealed bids for a roof replacement on a city building; bids due 11/10 3:00 PM at City Hall (107 S Central), opened at the 11/12 council meeting. Building SF not stated in the notice.
+Contact: Krissa Bliss, City Clerk
+Phone: 417-258-2466
+Email: clerk@marionvillemo.gov
+Website: https://www.marionvillemo.gov
+Confidence: high (official notice + city page)
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-marionville-1296875
+~319 mi from Omaha</description>
+                <styleUrl>#296</styleUrl>
+                <Point id="294">
+                    <coordinates>-93.6374,37.004,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="300">
+                <name>Henderson's Advertising building (2508 E Cook St) (Springfield, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open bid - urgent | 2026-10-21 (published) | no deadline stated in notice
+Notice requests bids for an URGENT roof replacement at 2508 E. Cook St., Springfield IL; Illinois prevailing wage required; contractors must have a US DOL-certified apprenticeship program; work must meet city codes. Contact Leon Henderson for bid details (contact digits masked on the free page). Building is the Henderson's Advertising commercial building (business listings).
+Contact: Leon Henderson
+Phone: 217-544-9419
+Email: -
+Website: -
+Confidence: medium (business line at the address; notice phone masked)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-springfield-3342478
+~347 mi from Omaha</description>
+                <styleUrl>#301</styleUrl>
+                <Point id="299">
+                    <coordinates>-89.62018,39.79461,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="305">
+                <name>Onamia ISD 480 - IAQ &amp; Roofing project (Onamia, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school IAQ &amp; roofing) | Open public bid | 2026-11-04 (published) | pre-bid Fri 11/6/2026 10:00 AM on site; bids due Thu 12/3/2026 2:00 PM CST | STATUS 2026-11-05: pre-bid Fri 11/6 10:00 AM; bids due Thu 12/3 2:00 PM
+Onamia Public Schools IAQ &amp; Roofing, 35465 125th Ave, Onamia MN - multiple work scopes incl. roofing; 5% bid security; award ~12/22/2026; on-site work by 6/1/2027, substantial completion 8/13/2027. Electronic documents via Bekah Fuchs (ICS; number redacted in free copy). Pre-bid 11/6 10:00 AM.
+Contact: Onamia Public Schools district office (CM ICS Consulting - Rich Gareis)
+Phone: 320-532-6703
+Email: -
+Website: https://www.onamia.k12.mn.us
+Confidence: high (legal notice); medium on contact (district office line)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-onamia-1126987
+~351 mi from Omaha</description>
+                <styleUrl>#306</styleUrl>
+                <Point id="304">
+                    <coordinates>-93.6677,46.0705,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="310">
+                <name>Oglala Lakota College - Roof Repair / Insurance Loss RFP (Pine Ridge campus) (Kyle, SD)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - insurance-loss roof repair) | Open public bid | 2026-10-31 (published on NoticeRegistry; notice dated 10/26) | sealed bids due Fri 11/13/2026 1:00 PM MST (2:00 PM CST) | STATUS 2026-11-05: sealed bids due Fri 11/13 1:00 PM MST
+"REQUEST FOR PROPOSALS FOR Roof Repair/Insurance loss - Oglala Lakota College, Pine Ridge SD" (notice dated 10/26/2026). Sealed bids to the Finance Committee Chair, 490 Piya Wiconi Road, Kyle SD 57752, due 1:00 PM Mountain Time 11/13/2026; insurance-loss specifications at the Office of the Director of Maintenance. College may hold bids up to 90 days. Phone in the free copy is redacted; the maintenance line below is from the college staff directory.
+Contact: Director of Maintenance (Lance Black Horn per staff directory), Piya Wiconi
+Phone: 605-455-6057
+Email: -
+Website: https://www.olc.edu
+Confidence: high (legal notice; college directory); map pin approximate (Piya Wiconi campus)
+Source: https://www.noticeregistry.com/south-dakota/notice/bid-notice-kyle-251487
+~352 mi from Omaha</description>
+                <styleUrl>#311</styleUrl>
+                <Point id="309">
+                    <coordinates>-102.196,43.399,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="315">
+                <name>Indian Prairie SD 204 - Waubonsie Valley High School (Roofing package) (Aurora, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-23 (published) | non-mandatory pre-bid Thu 10/29/2026 2:30 PM CDT (Pepper trailer); bids due Tue 11/17/2026 2:00 PM CDT | STATUS 2026-11-05: bids due 11/17 2:00 PM
+Waubonsie Valley High School Phase 2 renovations (2590 Ogden Ave, Aurora): 21 bid packages including ROOFING; work March 2027 - Sept 2028; 10% bid bond; DuPage prevailing wage; sealed bids only at the District Maintenance Operation Center, 1250 Shore Rd, Naperville. Documents via Pepper Construction (contact digits masked on the free page).
+Contact: Building Operations (Director John Robinson per Jan 2026 district award letter); bid docs: Thomas Grunert, Pepper Construction
+Phone: 630-375-3000
+Email: -
+Website: https://www.ipsd.org/departments/building-operations
+Confidence: medium (district main line; CM contact masked)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-aurora-3345267
+~401 mi from Omaha</description>
+                <styleUrl>#316</styleUrl>
+                <Point id="314">
+                    <coordinates>-88.2167,41.744,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="320">
+                <name>Joliet Township HSD 204 - Joliet Central High School (07B Roofing) (Joliet, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-23 (published) | docs to pre-qualified bidders ~Mon 10/26; virtual pre-bid Mon 11/2 10:00 AM; site walk Tue 11/3 8:00 AM; proposals due Fri 11/20/2026 10:00 AM | STATUS 2026-11-05: proposals due Fri 11/20 10:00 AM
+Joliet Central HS Phase 3 Smith (~11,000 SF) and T&amp;I (~27,000 SF) renovations, 201 E Jefferson St, Joliet: Bid Release 1 includes package 07B ROOFING WORK; bidders must pre-qualify with Gilbane via COMPASS; bids via Procore. Substantial completion Dec 2027.
+Contact: Brian Paczesny, Director of Buildings and Grounds (district); Gilbane: Yvonda Royster (digits masked)
+Phone: 815-727-6991
+Email: -
+Website: https://www.jths.org/district-departments/buildings-and-grounds
+Confidence: high (official district page)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-joliet-3344514
+~407 mi from Omaha</description>
+                <styleUrl>#321</styleUrl>
+                <Point id="319">
+                    <coordinates>-88.0787,41.5266,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="325">
+                <name>New Lenox SD 122 - Martino Junior High School (New Lenox, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-22 (published) | documents after 11/2; optional pre-bid Wed 11/11 1:00 PM; bids due Tue 12/1/2026 11:30 AM
+Sealed lump-sum bids for Martino Junior High roof replacement (731 E Joliet Hwy) plus a Cherry Hill paint refresh; 10% bid bond; documents from International Contractors, Inc. after Nov 2.
+Contact: Robert Groos, Chief School Business Official (district business office)
+Phone: 815-485-2169
+Email: -
+Website: https://www.nlsd122.org/c/index.php/departments/business/department-overview
+Confidence: high (official district office)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-new-lenox-3343579
+~414 mi from Omaha</description>
+                <styleUrl>#326</styleUrl>
+                <Point id="324">
+                    <coordinates>-87.9531,41.5106,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="330">
+                <name>Lincoln-Way Community HSD 210 - Lincoln-Way Central High School (New Lenox, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-23 (published; documents released 10/22 12:00 PM) | pre-bid meeting &amp; tour Mon 10/26/2026 9:00 AM (Central HS front vestibule); bid opening Thu 11/5/2026 1:00 PM | STATUS 2026-11-05: bid opening TODAY Thu 11/5 1:00 PM
+2027 Roof Replacement &amp; Restoration Project at Lincoln-Way Central High School: demolition/removal/replacement of select roofs plus FLUID-APPLIED RESTORATION (coating) of select roofs; single contract; 10% bid security; prevailing wage. Bid documents from BHFX Digital Imaging for PRE-QUALIFIED bidders only. Bids opened Room D103b, 1801 E Lincoln Hwy.
+Contact: Charles (Chuck) Welke, Director of Buildings and Grounds
+Phone: 815-462-2132
+Email: -
+Website: https://www.lw210.org/staff
+Confidence: high (official district directory)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-new-lenox-3346172
+~415 mi from Omaha</description>
+                <styleUrl>#331</styleUrl>
+                <Point id="329">
+                    <coordinates>-87.9275,41.5197,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="335">
+                <name>Bourbonnais ESD 53 - 2027 Shepard Roofing Project (Alan Shepard Elementary) (Bourbonnais, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school roofing project) | Open public bid | 2026-11-04 (published) | mandatory pre-bid Thu 11/12/2026 11:00 AM; bids due Tue 11/24/2026 3:00 PM CST | STATUS 2026-11-05: mandatory pre-bid Thu 11/12 11:00 AM; bids due Tue 11/24 3:00 PM
+2027 Shepard Roofing Project at Alan Shepard Elementary, 325 N Convent, Bourbonnais IL. Plans from the Cordogan Clark plan room starting 11/5; prevailing wage; mandatory pre-bid 11/12 11:00 AM at the main entry; bids opened at the District Office, 281 W John Casey Rd, 11/24 3:00 PM.
+Contact: Bourbonnais ESD 53 district office
+Phone: 815-929-5100
+Email: -
+Website: https://www.besd53.org
+Confidence: high (legal notice); medium on contact (district main line)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-bourbonnais-3357522
+~419 mi from Omaha</description>
+                <styleUrl>#336</styleUrl>
+                <Point id="334">
+                    <coordinates>-87.88,41.15,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="340">
+                <name>Warren Township HSD 121 - 2027 Roof Work Phase V (Almond &amp; O'Plaine campuses, ~1,000 squares) (Gurnee, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school roof replacement ITB) | Open public bid | 2026-11-03 (published on NoticeRegistry) | mandatory pre-proposal walk-through Tue 11/17/2026 10:30 AM; RFIs due 11/24 noon; bids opened Tue 12/8/2026 3:00 PM CST
+2027 Roof Work - Phase V at the Almond Campus (34090 Almond Rd) and O'Plaine Campus (500 N O'Plaine Rd), Gurnee IL: tear-off and replacement of ~1,000 roofing squares plus masonry, precast and sheet-metal work; 2-year contractor warranty plus manufacturer warranties. Mandatory walk-through 11/17 10:30 AM (District Office, NE corner of Almond Campus); RFIs to C.E. Crowley &amp; Associates by 11/24 noon; bids opened 12/8/2026 3:00 PM at the District Offices.
+Contact: C.E. Crowley &amp; Associates, Inc. (roof consultant; receives RFIs)
+Phone: 847-662-8132
+Email: -
+Website: -
+Confidence: high (legal notice); medium on contact (consultant office line)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-gurnee-3355968
+~419 mi from Omaha</description>
+                <styleUrl>#341</styleUrl>
+                <Point id="339">
+                    <coordinates>-87.93,42.37,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="345">
+                <name>Township HSD 113 - Deerfield High School remedial roofing repairs (INSPEC #400988) (Deerfield, IL)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-30 (published on NoticeRegistry) | mandatory pre-bid Mon 11/9/2026 1:00 PM; sealed bids opened Thu 11/19/2026 2:30 PM
+Request for bids: INSPEC Job #400988 "2027 Remedial Roofing Repairs at Deerfield High School" (plus a separate remedial masonry package #400989). MANDATORY pre-bid 11/9 1:00 PM at the visitors entrance, 1959 Waukegan Rd - bids from non-attendees rejected. 10% bid security; performance/payment bonds; Illinois Prevailing Wage. Documents from the BHFX planroom after 11/2 ($60 per set - not purchased).
+Contact: District 113 business office (1040 Park Ave W, Highland Park IL); INSPEC (consultant) - phone/email redacted in the free notice
+Phone: -
+Email: -
+Website: https://www.dist113.org
+Confidence: high (legal notice); no direct phone/email in free copy; map pin approximate (1959 Waukegan Rd)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-deerfield-3353579
+~421 mi from Omaha</description>
+                <styleUrl>#346</styleUrl>
+                <Point id="344">
+                    <coordinates>-87.8525,42.163,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="350">
+                <name>City of Lake Forest - Fire Station HQ renovation, Bid Pkg #7 Roofing &amp; Coping (REBID) (Lake Forest, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-26 (published on NoticeRegistry / Daily Herald) | bids due Mon 11/9/2026 9:00 AM CST at 800 N Field Dr, Lake Forest; questions due 11/2; prequalification (AIA A305) and 10% bid security required | STATUS 2026-11-05: due Mon 11/9 9:00 AM
+Lake Forest Fire Department Headquarters Fire Station renovation (255 W Deerpath Rd) - Bid Package #7 Roofing &amp; Coping, REBID. Whole project estimate about $13.96M. Prequalification and 10% bid security required; questions to George Gardner by 11/2.
+Contact: Mary Judge, Wight Construction Services (CM); questions to George Gardner
+Phone: -
+Email: mjudge@wightco.com
+Website: https://www.cityoflakeforest.com
+Confidence: high (legal notice); map pin approximate (W Deerpath)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-lake-forest-3348429 ; http://marketplace.dailyherald.com/chicago/legals-public-notices/notice-to-bidders-notice-is-he/AC1E054E18fb6186C6eNds4C7DA9
+~422 mi from Omaha</description>
+                <styleUrl>#351</styleUrl>
+                <Point id="349">
+                    <coordinates>-87.8475,42.2535,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="355">
+                <name>Garland ISD - Garland High School roof replacement (McCownGordon CMAR, BP02) (Garland, TX)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - CM-at-risk trade package, school roof replacement) | Open public bid | 2026-11-03 (published on NoticeRegistry) | mandatory pre-proposal meeting Wed 11/11/2026 3:30 PM at Garland HS; bid packages posted by 11/20; bids due Wed 12/2/2026 2:00 PM CST
+McCownGordon is soliciting lump-sum trade bids for the Garland High School roof replacement (Project 15D PH5-BP02), 310 S. Garland Ave, Garland TX 75040. Mandatory pre-proposal meeting 11/11/2026 3:30 PM (auditorium entrance); bid forms/packages via BuildingConnected or local plan rooms by 11/20; bids due 12/2/2026 2:00 PM via BuildingConnected, email, or to 5700 Granite Pkwy Ste 800, Plano TX 75024; bids held 90 days. Notice email redacted in the free copy.
+Contact: McCownGordon Construction - Plano/DFW office (bid contact redacted in free copy)
+Phone: 469-378-0648
+Email: -
+Website: https://dfw.mccowngordon.com
+Confidence: high (legal notice); medium on contact (office line, not the named bid contact)
+Source: https://www.noticeregistry.com/texas/notice/bid-notice-garland-975302
+~578 mi from Omaha</description>
+                <styleUrl>#356</styleUrl>
+                <Point id="354">
+                    <coordinates>-96.638,32.911,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="360">
+                <name>City of Arlington - East Police Sub-Station re-roofing (CSP 26-0247) (Arlington, TX)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-28 (published; re-runs 11/4) | proposals due Thu 12/3/2026 2:00 PM at the Office of the Purchasing Manager, 101 S. Mesquite St, Suite 800 | STATUS 2026-11-05: proposals due Thu 12/3 2:00 PM
+CSP 26-0247 Re-Roofing, Window Systems and Fire Alarm System Replacement at the East Police Sub-Station (2001 New York Ave). Documents on the City procurement portal (registration). Building SF not stated.
+Contact: Office of the Purchasing Manager, City of Arlington (phone/email redacted in the free notice; use the procurement portal)
+Phone: -
+Email: -
+Website: https://www.arlingtontx.gov
+Confidence: high (legal notice); no direct phone/email; map pin approximate
+Source: https://www.noticeregistry.com/texas/notice/bid-notice-arlington-971500
+~593 mi from Omaha</description>
+                <styleUrl>#361</styleUrl>
+                <Point id="359">
+                    <coordinates>-97.078,32.729,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="365">
+                <name>City of Corpus Christi - Arena roof replacement (RFB 7672) (Corpus Christi, TX)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-25 (released on CivCast; NoticeRegistry 10/25) | bids due Wed 12/2/2026 2:30 PM CT (CivCast e-bid or sealed flash drive); pre-bid WebEx 11/4 9:30 AM; site visit Thu 11/5 10:00 AM (registration); questions due 11/11 4:00 PM | STATUS 2026-11-05: due Wed 12/2 2:30 PM
+RFB 7672 Arena Roof Replacement (Project 25021): replace the existing arena roof system with associated repairs, parapet metal coping, exhaust fan curbs and lightning protection; penetrations brought to current code. Engineer's estimate $3,238,646.30; 11 planholders. NO-CONTACT period - questions only via CivCast.
+Contact: Ariel Bueno-Cortinas, City of Corpus Christi Finance &amp; Procurement (questions via CivCast only - no-contact period)
+Phone: 361-826-3277
+Email: arielbc@corpuschristitx.gov
+Website: https://www.corpuschristitx.gov
+Confidence: high (agency bid record)
+Source: https://www.lightrfp.com/marketplace/bid/CIVCAST-6ad0f5129c5c4aa7bb81932c/rfb-7672-arena-roof-replacement-25021 ; https://www.noticeregistry.com/texas/notice/bid-notice-corpus-christi-970851
+~933 mi from Omaha</description>
+                <styleUrl>#366</styleUrl>
+                <Point id="364">
+                    <coordinates>-97.3939,27.8072,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="370">
+                <name>Venetian Community Development District - reroofing RFP (Venice, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - reroofing RFP) | Open public bid | 2026-11-02 (published on NoticeRegistry) | proposals due Tue 12/15/2026 2:00 PM ET; questions by 11/13 noon; board decision 1/11/2027
+The Venetian CDD (a Chapter 190 local government unit, Venice FL) solicits proposals for a REROOFING project; RFP package by email from 11/2/2026 9:00 AM. One hard copy + one electronic copy due 12/15/2026 2:00 PM to 9530 Marketplace Rd Suite 206, Ft. Myers FL 33912; public opening 2:01 PM; board decision 1/11/2027 9:30 AM. Building(s) not named in the free summary - CDD owns community amenity buildings (River Club clubhouse); verify scope and size in the RFP.
+Contact: Belinda Blandon, District Manager (Rizzetta &amp; Company)
+Phone: 239-936-0913
+Email: -
+Website: https://www.venetiancdd.org
+Confidence: high (legal notice); medium on contact; map pin approximate (Venetian community, Venice FL)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-fort-myers-11727329
+~1243 mi from Omaha</description>
+                <styleUrl>#371</styleUrl>
+                <Point id="369">
+                    <coordinates>-82.404,27.116,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="375">
+                <name>Lee County - Medical Examiner's Office Expansion (Roofing package, CPPI) (Fort Myers, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid (prequal) | 2026-10-23 (published) | pre-bid Thu 11/5/2026 1:00 PM; bids due Thu 12/3/2026 2:00 PM via BuildingConnected; prequalification required | STATUS 2026-11-05: pre-bid was Thu 11/5 1:00 PM; bids due 12/3
+CPPI is prequalifying subcontractors for the Lee County Medical Examiner's Office Expansion, 70 South Danley Dr, Fort Myers; trade packages include ROOFING. Bids through BuildingConnected; prequalification link from prequalification@cppi.com.
+Contact: Tiffany Watkins, CPPI
+Phone: 352-333-9292
+Email: tiffany.watkins@cppi.com
+Website: https://www.cppi.com
+Confidence: medium (notice text via search index; source page down)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-fort-myers-11720390
+~1292 mi from Omaha</description>
+                <styleUrl>#376</styleUrl>
+                <Point id="374">
+                    <coordinates>-81.809,26.6098,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="380">
+                <name>School Board of Palm Beach County - Jeaga Middle School roofing (ITB #27-26D) (West Palm Beach, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school roofing ITB) | Open public bid | 2026-11-02 (published on NoticeRegistry) | mandatory site inspection Tue 12/1/2026; bids due Mon 1/4/2027 2:00 PM ET via BidNet Direct
+ITB #27-26D roofing at Jeaga Middle School, 3777 N. Jog Rd, West Palm Beach FL 33411. Bidders must be State of Florida certified roofing or building contractors and School Board prequalified. Mandatory site inspection 12/1/2026; electronic proposals due 1/4/2027 2:00 PM ET on BidNet Direct.
+Contact: Construction Purchasing (Nathan Benedict, Purchasing Agent)
+Phone: 561-882-1992
+Email: nathan.benedict@palmbeachschools.org
+Website: https://www.palmbeachschools.org
+Confidence: high (legal notice; district purchasing directory - agent for this ITB not named, construction purchasing desk)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-west-palm-beach-11727370
+~1345 mi from Omaha</description>
+                <styleUrl>#381</styleUrl>
+                <Point id="379">
+                    <coordinates>-80.155,26.749,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="385">
+                <name>PBI Airport - Concourse C Roof Replacement (Whiting-Turner CMAR sub bids) (West Palm Beach, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - CM-at-risk subcontract, roof replacement) | Open public bid | 2026-11-01 (published on NoticeRegistry) | sub bids due Wed 12/2/2026 2:00 PM ET via BuildingConnected; Whiting-Turner prequalification required
+Whiting-Turner is soliciting subcontractor bids for the Concourse C Roof Replacement (LSAR0623561) at President Donald J. Trump (Palm Beach) International Airport: roof, structural, mechanical, electrical work. Electronic bids due 12/2/2026 2:00 PM via BuildingConnected; prequalification with Whiting-Turner mandatory. Notice bid contact is Elisha Entingh (phone/email redacted in the free copy). The County airports list names Whiting-Turner as the CMAR for this project with Mike Avni as the CMAR contact.
+Contact: Mike Avni, Whiting-Turner (CMAR contact); bid contact Elisha Entingh
+Phone: -
+Email: Michael.Avni@Whiting-Turner.com
+Website: https://www.pbia.org
+Confidence: high (legal notice + County airports CMAR list)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-west-palm-beach-11726964
+~1351 mi from Omaha</description>
+                <styleUrl>#386</styleUrl>
+                <Point id="384">
+                    <coordinates>-80.0956,26.6832,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="390">
+                <name>Columbus City Schools - Highland Elementary School (Columbus, OH)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-21 (published) | bids due Thu 11/5/2026 10:00 AM (ET) | STATUS 2026-11-05: bids due TODAY Thu 11/5 10:00 AM ET
+ITB: roof replacement at Highland Elementary School (CCS project 27008B per Ohio MBE notice); electronic bids via Public Purchase due 11/5/2026 10:00 AM; plans/specs from Franklin Imaging.
+Contact: Columbus City Schools Purchasing
+Phone: 614-365-5820
+Email: purchasing@columbus.k12.oh.us
+Website: https://www.ccsoh.us/our-district/departments/vendors
+Confidence: high (official district purchasing contact)
+Source: https://www.noticeregistry.com/ohio/notice/bid-notice-columbus-335913 ; https://www.ccsoh.us/our-district/departments/capital-improvements/request-for-proposals
+~681 mi from Omaha</description>
+                <styleUrl>#391</styleUrl>
+                <Point id="389">
+                    <coordinates>-83.05994,39.95462,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="394">
+            <Style id="397">
+                <IconStyle id="398">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="399">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="402">
+                <IconStyle id="403">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="404">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="407">
+                <IconStyle id="408">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="409">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Social Media — 3 (2 with phone/email)</name>
+            <Placemark id="396">
+                <name>Keyes OK EF1 tornado - community center + Polk St commercial buildings (roof damage) (Keyes, OK)</name>
+                <description>Social Media | has contact: No
+Prior run, still open
+storm damage (commercial/public building roofs - EF1 tornado) | Storm-damage news lead | 2026-11-03 (KVII/KSCB report; EF1 tornado 11:03 PM CST Sun 11/1) | STATUS 2026-11-05: EF1 tornado storm-damage news lead - owners not identified
+NWS-confirmed EF1 (100 mph) tornado in Keyes OK: the community center lost a wall and had minor roof damage; an old pool hall on Polk St collapsed and the roof was lifted off a building across the street; a grain silo was tossed. Owners of the damaged commercial buildings not named.
+Contact: -
+Phone: -
+Email: -
+Website: -
+Confidence: medium (news report)
+Source: https://www.kscbnews.net/2026/11/03/106300/
+~457 mi from Omaha</description>
+                <styleUrl>#397</styleUrl>
+                <Point id="395">
+                    <coordinates>-102.2499,36.8106,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="401">
+                <name>Knights of Columbus hall, Gallup (200 Apache Circle) (Gallup, NM)</name>
+                <description>Social Media | has contact: Yes
+Prior run, still open
+storm damage (commercial/assembly building roof blown off) | Storm damage report | 2026-11-01 1:05 PM MST (20:05Z) NWS Local Storm Report | non-thunderstorm wind damage
+"Knights of Columbus building in Gallup sustained roof damage from straight-line wind gusts. Roofing material was blown off of the building." (NON-TSTM WND DMG, no measured speed; also tree limbs/power lines down in Gallup). Not a qualifying 68+ mph event (no speed), so carried here as a storm-damage lead only. Building size not verified (no SF claim). Outside the preferred states (NM).
+Contact: Knights of Columbus Gallup (hall listing)
+Phone: 505-722-5911
+Email: -
+Website: https://www.visitgallup.com/directory/knights-of-columbus/
+Confidence: high on damage (EM report); medium that 200 Apache Circle is the damaged building
+Source: https://mesonet.agron.iastate.edu/geojson/lsr.php?sts=202611011900&amp;ets=202611012200&amp;wfos=ABQ
+~798 mi from Omaha</description>
+                <styleUrl>#402</styleUrl>
+                <Point id="400">
+                    <coordinates>-108.74,35.52,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="406">
+                <name>Sun Pain Management - north Phoenix clinic (11047 N 19th Ave) (Phoenix, AZ)</name>
+                <description>Social Media | has contact: Yes
+Prior run, still open
+storm damage to commercial roof | Storm damage - news | 2026-10-27 (Hoodline / FOX10 Phoenix) | STATUS 2026-11-05: storm 10/26-27 - news lead (owner not identified)
+Baseball-size hail broke through the roof of a north Phoenix pain clinic; roof estimate near $300K; clinic closed while repairs are sorted out. Building owner not identified (clinic is the tenant/operator).
+Contact: Sun Pain Management (clinic office - tenant/operator; owner not identified)
+Phone: 602-589-0500
+Email: -
+Website: https://sunpainmanagement.com
+Confidence: medium (address/phone from the clinic site; building owner unknown)
+Source: https://hoodline.com/2026/10/hail-punches-through-north-phoenix-pain-clinic-roof-roof-estimate-nears-300k/ ; https://www.fox10phoenix.com/news/phoenix-hailstorm-damages-north-phoenix-pain-clinic
+~1031 mi from Omaha</description>
+                <styleUrl>#407</styleUrl>
+                <Point id="405">
+                    <coordinates>-112.0996,33.5863,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
