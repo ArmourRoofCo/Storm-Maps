@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="1">
-        <name>Storm leads Fri 11/6/2026</name>
+        <name>Storm leads Sat 11/7/2026</name>
         <Folder id="14">
             <name>Hail</name>
             <Folder id="17">
@@ -10,478 +10,1468 @@
             <Folder id="18">
                 <name>No contact</name>
             </Folder>
-            <Folder id="23">
+            <Folder id="95">
                 <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
             </Folder>
         </Folder>
         <Folder id="15">
             <name>Wind</name>
             <Folder id="19">
+                <Style id="8">
+                    <IconStyle id="9">
+                        <color>ff00ff00</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="10">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
                 <name>With contact</name>
+                <Placemark id="22">
+                    <name>Glacier Park Lodge / East Glacier park lodging (verify which (wind)</name>
+                    <description>Wind 84 mph Non-thunderstorm (measured gust) 1 E East Glacier Park MT (0830Z 11/07) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free Montana Cadastral this run
+no situs address in FEMA (Glacier Co., Montana)
+64,319 SF footprint; built n/a in source
+1.16 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Glacier Park Lodge / East Glacier park lodging (verify which building)
+Op contact: -
+Op phone: 406-892-2525
+Op email: -
+SOS: not researched
+978 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.4425332663652,-113.22273410287886</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="21">
+                        <coordinates>-113.22273410287886,48.4425332663652,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="24">
+                    <name>Glacier Park Lodge / East Glacier park lodging (verify which (wind)</name>
+                    <description>Wind 84 mph Non-thunderstorm (measured gust) 1 E East Glacier Park MT (0830Z 11/07) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free Montana Cadastral this run
+310 United States Highway 2, East Glacier Park, Montana 59434
+14,816 SF footprint; built n/a in source
+1.02 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Glacier Park Lodge / East Glacier park lodging (verify which building)
+Op contact: -
+Op phone: 406-892-2525
+Op email: -
+SOS: not researched
+978 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.441415970359756,-113.21816124193353</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="23">
+                        <coordinates>-113.21816124193353,48.441415970359756,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="26">
+                    <name>Glacier Park Lodge / East Glacier park lodging (verify which (wind)</name>
+                    <description>Wind 84 mph Non-thunderstorm (measured gust) 1 E East Glacier Park MT (0830Z 11/07) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free Montana Cadastral this run
+800 Unknown, East Glacier Park, Montana 59434
+13,774 SF footprint; built n/a in source
+1.0 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Glacier Park Lodge / East Glacier park lodging (verify which building)
+Op contact: -
+Op phone: 406-892-2525
+Op email: -
+SOS: not researched
+978 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.446097386633625,-113.22107520062694</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="25">
+                        <coordinates>-113.22107520062694,48.446097386633625,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="28">
+                    <name>Blackfeet Community Hospital (IHS) (wind)</name>
+                    <description>Wind 71 mph Non-thunderstorm (measured gust) 2 SE Browning MT (1815Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: Indian Health Service / Blackfeet Tribe (federal/tribal) - verify
+760 Hospital Circle, Browning, Montana 59417
+120,579 SF footprint; built n/a in source
+2.53 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: 406-338-6100
+Owner email: -
+Operator / Tenant: Blackfeet Community Hospital (IHS)
+Op contact: -
+Op phone: 406-338-6100
+Op email: -
+SOS: federal/tribal
+974 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.56555775417862,-113.01965962862353</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="27">
+                        <coordinates>-113.01965962862353,48.56555775417862,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="30">
+                    <name>Jefferson Healthcare Hospital (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: Jefferson County Public Hospital District No. 2 (Jefferson Healthcare) - verify
+836 Sheridan Street, Port Townsend, Washington 98368
+93,824 SF footprint; built n/a in source
+2.05 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: 360-385-2200
+Owner email: -
+Operator / Tenant: Jefferson Healthcare Hospital
+Op contact: -
+Op phone: 360-385-2200
+Op email: -
+SOS: public hospital district
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10597012040127,-122.78917121466557</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="29">
+                        <coordinates>-122.78917121466557,48.10597012040127,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="32">
+                    <name>Safeway (Port Townsend) (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+442 West Sims Way, Port Townsend, Washington 98368
+58,488 SF footprint; built n/a in source
+1.72 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Safeway (Port Townsend)
+Op contact: -
+Op phone: 360-385-2806
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10806376622234,-122.78260445045166</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="31">
+                        <coordinates>-122.78260445045166,48.10806376622234,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="34">
+                    <name>Four Seasons (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+1139 Water Street, Port Townsend, Washington 98368
+45,801 SF footprint; built n/a in source
+0.64 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Four Seasons
+Op contact: -
+Op phone: 360-385-5395
+Op email: -
+SOS: not researched
+1392 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.11290751679903,-122.7587954031656</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="33">
+                        <coordinates>-122.7587954031656,48.11290751679903,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="36">
+                    <name>Port Townsend Branch Community Services Office (WA DSHS) (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: Washington State (agency building) - verify
+2507 Evans Vista, Port Townsend, Washington 98368
+10,814 SF footprint; built n/a in source
+2.87 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: 877-501-2233
+Owner email: -
+Operator / Tenant: Port Townsend Branch Community Services Office (WA DSHS)
+Op contact: -
+Op phone: 877-501-2233
+Op email: -
+SOS: state agency
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10119389620665,-122.80557471866729</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="35">
+                        <coordinates>-122.80557471866729,48.10119389620665,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="38">
+                    <name>Elevated Ice Cream (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+627 Water Street, Port Townsend, Washington 98368
+10,438 SF footprint; built n/a in source
+0.38 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Elevated Ice Cream
+Op contact: -
+Op phone: 360-385-1156
+Op email: -
+SOS: not researched
+1392 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.115175057869486,-122.75390758759518</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="37">
+                        <coordinates>-122.75390758759518,48.115175057869486,0.0</coordinates>
+                    </Point>
+                </Placemark>
             </Folder>
             <Folder id="20">
+                <Style id="2">
+                    <IconStyle id="3">
+                        <color>ff0080ff</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="4">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
                 <name>No contact</name>
+                <Placemark id="40">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 71 mph Non-thunderstorm (measured gust) 2 SE Browning MT (1815Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Glacier Co., Montana)
+40,957 SF footprint; built n/a in source
+1.6 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+973 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.5503440131129,-113.01127651373595</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="39">
+                        <coordinates>-113.01127651373595,48.5503440131129,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="42">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 71 mph Non-thunderstorm (measured gust) 2 SE Browning MT (1815Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Glacier Co., Montana)
+32,326 SF footprint; built n/a in source
+1.59 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+973 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.54924415151633,-113.01187285369853</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="41">
+                        <coordinates>-113.01187285369853,48.54924415151633,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="44">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 71 mph Non-thunderstorm (measured gust) 2 SE Browning MT (1815Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Glacier Co., Montana)
+24,461 SF footprint; built n/a in source
+1.41 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+972 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.535501173692204,-113.00998162313995</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="43">
+                        <coordinates>-113.00998162313995,48.535501173692204,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="46">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 71 mph Non-thunderstorm (measured gust) 2 SE Browning MT (1815Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Glacier Co., Montana)
+11,595 SF footprint; built n/a in source
+1.63 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+973 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.55365600598264,-113.00901269765346</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="45">
+                        <coordinates>-113.00901269765346,48.55365600598264,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="48">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+100 Paper Mill Hill Road, Port Townsend, Washington 98368
+85,038 SF footprint; built n/a in source
+2.68 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.09576914772083,-122.79548112724494</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="47">
+                        <coordinates>-122.79548112724494,48.09576914772083,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="50">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+221 Seton Road, Port Townsend, Washington 98368
+42,686 SF footprint; built n/a in source
+3.81 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.08340077045242,-122.81176909279111</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="49">
+                        <coordinates>-122.81176909279111,48.08340077045242,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="52">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+919 Haines Place, Port Townsend, Washington 98368
+36,013 SF footprint; built n/a in source
+1.72 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10635906420441,-122.78123954718302</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="51">
+                        <coordinates>-122.78123954718302,48.10635906420441,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="54">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Jefferson Co., Washington)
+27,688 SF footprint; built n/a in source
+2.77 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.09486887181154,-122.79680366691167</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="53">
+                        <coordinates>-122.79680366691167,48.09486887181154,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="56">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+218 West Sims Way, Port Townsend, Washington 98368
+19,893 SF footprint; built n/a in source
+1.58 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.108381143273746,-122.77952462573819</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="55">
+                        <coordinates>-122.77952462573819,48.108381143273746,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="58">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+602 Howard Street, Port Townsend, Washington 98368
+16,602 SF footprint; built n/a in source
+2.72 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10399233337352,-122.80389889314262</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="57">
+                        <coordinates>-122.80389889314262,48.10399233337352,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="60">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+192 West Fredericks Street, Port Townsend, Washington 98368
+15,421 SF footprint; built n/a in source
+3.88 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.08836513573255,-122.81960013353144</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="59">
+                        <coordinates>-122.81960013353144,48.08836513573255,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="62">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+182 Otto Street, Port Townsend, Washington 98368
+14,895 SF footprint; built n/a in source
+3.84 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.08576048541542,-122.8156188504761</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="61">
+                        <coordinates>-122.8156188504761,48.08576048541542,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="64">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+211 Seton Road, Port Townsend, Washington 98368
+14,822 SF footprint; built n/a in source
+3.85 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.08322014135992,-122.8125882281959</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="63">
+                        <coordinates>-122.8125882281959,48.08322014135992,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="66">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+2137 Washington Street, Port Townsend, Washington 98368
+13,142 SF footprint; built n/a in source
+1.17 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1392 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10944981703576,-122.7697258727528</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="65">
+                        <coordinates>-122.7697258727528,48.10944981703576,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="68">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+8585 Highway 20, Port Townsend, Washington 98368
+13,078 SF footprint; built n/a in source
+4.12 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.08305908552462,-122.82015535396029</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="67">
+                        <coordinates>-122.82015535396029,48.08305908552462,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="70">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Jefferson Co., Washington)
+12,933 SF footprint; built n/a in source
+1.83 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.133218927082865,-122.78427778224514</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="69">
+                        <coordinates>-122.78427778224514,48.133218927082865,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="72">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Jefferson Co., Washington)
+11,262 SF footprint; built n/a in source
+2.91 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.09317593644217,-122.79864278840364</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="71">
+                        <coordinates>-122.79864278840364,48.09317593644217,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="74">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+50 Fredericks Street, Port Townsend, Washington 98368
+11,080 SF footprint; built n/a in source
+3.74 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.08797871139075,-122.81544645315525</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="73">
+                        <coordinates>-122.81544645315525,48.08797871139075,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="76">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+14082 Airport Cutoff Road, Port Townsend, Washington 98368
+11,026 SF footprint; built n/a in source
+4.56 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.071997525434064,-122.81773304087345</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="75">
+                        <coordinates>-122.81773304087345,48.071997525434064,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="78">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+13578 Airport Cutoff Road, Port Townsend, Washington 98368
+10,938 SF footprint; built n/a in source
+4.71 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.065472214501284,-122.81127684926818</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="77">
+                        <coordinates>-122.81127684926818,48.065472214501284,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="80">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Jefferson Co., Washington)
+10,450 SF footprint; built n/a in source
+2.89 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.093041960606996,-122.79792476804758</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="79">
+                        <coordinates>-122.79792476804758,48.093041960606996,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="82">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+2640 West Sims Way, Port Townsend, Washington 98368
+10,420 SF footprint; built n/a in source
+2.89 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10334379897133,-122.80757159152152</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="81">
+                        <coordinates>-122.80757159152152,48.10334379897133,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="84">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+4907 Landes Street, Port Townsend, Washington 98368
+10,390 SF footprint; built n/a in source
+1.81 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1393 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.134332829606805,-122.78290409837324</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="83">
+                        <coordinates>-122.78290409837324,48.134332829606805,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="86">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+no situs address in FEMA (Jefferson Co., Washington)
+10,390 SF footprint; built n/a in source
+3.88 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.088639734041976,-122.81968706554728</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="85">
+                        <coordinates>-122.81968706554728,48.088639734041976,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="88">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+203 North Otto Street, Port Townsend, Washington 98368
+10,350 SF footprint; built n/a in source
+3.61 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.091195447226944,-122.81522492540029</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="87">
+                        <coordinates>-122.81522492540029,48.091195447226944,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="90">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+272 North Otto Street, Port Townsend, Washington 98368
+10,293 SF footprint; built n/a in source
+3.53 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.09215985277538,-122.81418047994414</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="89">
+                        <coordinates>-122.81418047994414,48.09215985277538,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="92">
+                    <name>not identified in free assessor sources this run (wind)</name>
+                    <description>Wind 69 mph Non-thunderstorm (measured gust) Port Townsend WA (1858Z 11/06) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified in free assessor sources this run
+606 East Park Avenue, Port Townsend, Washington 98368
+10,172 SF footprint; built n/a in source
+2.61 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not researched
+1394 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.10396162321655,-122.80129494426144</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="91">
+                        <coordinates>-122.80129494426144,48.10396162321655,0.0</coordinates>
+                    </Point>
+                </Placemark>
             </Folder>
+            <Placemark id="97">
+                <name>96 mph 9 SE East Glacier Park MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 96 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="96">
+                    <coordinates>-113.06,48.38,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="99">
+                <name>93 mph 3 S Crystal Mountain WA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 93 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="98">
+                    <coordinates>-121.52,46.88,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="101">
+                <name>84 mph 1 E East Glacier Park MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 84 mph measured non-thunderstorm gust; 3 C/I building(s) &gt;=10k SF within 5 mi</description>
+                <Point id="100">
+                    <coordinates>-113.2,48.45,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="103">
+                <name>81 mph 2 SE Mount Rainier WA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 81 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="102">
+                    <coordinates>-121.73,46.84,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="105">
+                <name>77 mph 8 SE East Glacier Park MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 77 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="104">
+                    <coordinates>-113.11,48.36,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="107">
+                <name>74 mph 16 N Browning MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 74 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="106">
+                    <coordinates>-113.12,48.78,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="109">
+                <name>71 mph 2 SE Browning MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 71 mph measured non-thunderstorm gust; 5 C/I building(s) &gt;=10k SF within 5 mi</description>
+                <Point id="108">
+                    <coordinates>-112.98,48.54,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="111">
+                <name>69 mph Port Townsend WA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 69 mph measured non-thunderstorm gust; 28 C/I building(s) &gt;=10k SF within 5 mi</description>
+                <Point id="110">
+                    <coordinates>-122.75,48.12,0.0</coordinates>
+                </Point>
+            </Placemark>
         </Folder>
         <Folder id="16">
             <name>Rain</name>
-            <Folder id="21">
+            <Folder id="93">
                 <name>With contact</name>
             </Folder>
-            <Folder id="22">
+            <Folder id="94">
                 <name>No contact</name>
             </Folder>
         </Folder>
-        <Folder id="24">
+        <Folder id="112">
             <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
             <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
         </Folder>
-        <Folder id="25">
-            <Style id="28">
-                <IconStyle id="29">
+        <Folder id="113">
+            <Style id="116">
+                <IconStyle id="117">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="30">
+                    <Icon id="118">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="33">
-                <IconStyle id="34">
+            <Style id="121">
+                <IconStyle id="122">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="35">
+                    <Icon id="123">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="38">
-                <IconStyle id="39">
+            <Style id="126">
+                <IconStyle id="127">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="40">
+                    <Icon id="128">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="43">
-                <IconStyle id="44">
+            <Style id="131">
+                <IconStyle id="132">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="45">
+                    <Icon id="133">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="48">
-                <IconStyle id="49">
+            <Style id="136">
+                <IconStyle id="137">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="50">
+                    <Icon id="138">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="53">
-                <IconStyle id="54">
+            <Style id="141">
+                <IconStyle id="142">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="143">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="146">
+                <IconStyle id="147">
                     <color>ff0080ff</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="55">
+                    <Icon id="148">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="58">
-                <IconStyle id="59">
+            <Style id="151">
+                <IconStyle id="152">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="60">
+                    <Icon id="153">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="63">
-                <IconStyle id="64">
+            <Style id="156">
+                <IconStyle id="157">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="65">
+                    <Icon id="158">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="68">
-                <IconStyle id="69">
+            <Style id="161">
+                <IconStyle id="162">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="70">
+                    <Icon id="163">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="73">
-                <IconStyle id="74">
+            <Style id="166">
+                <IconStyle id="167">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="75">
+                    <Icon id="168">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="78">
-                <IconStyle id="79">
+            <Style id="171">
+                <IconStyle id="172">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="80">
+                    <Icon id="173">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="83">
-                <IconStyle id="84">
+            <Style id="176">
+                <IconStyle id="177">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="85">
+                    <Icon id="178">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="88">
-                <IconStyle id="89">
+            <Style id="181">
+                <IconStyle id="182">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="90">
+                    <Icon id="183">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="93">
-                <IconStyle id="94">
+            <Style id="186">
+                <IconStyle id="187">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="95">
+                    <Icon id="188">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="98">
-                <IconStyle id="99">
+            <Style id="191">
+                <IconStyle id="192">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="100">
+                    <Icon id="193">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="103">
-                <IconStyle id="104">
+            <Style id="196">
+                <IconStyle id="197">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="105">
+                    <Icon id="198">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="108">
-                <IconStyle id="109">
+            <Style id="201">
+                <IconStyle id="202">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="110">
+                    <Icon id="203">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="113">
-                <IconStyle id="114">
+            <Style id="206">
+                <IconStyle id="207">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="115">
+                    <Icon id="208">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="118">
-                <IconStyle id="119">
+            <Style id="211">
+                <IconStyle id="212">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="120">
+                    <Icon id="213">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="123">
-                <IconStyle id="124">
+            <Style id="216">
+                <IconStyle id="217">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="125">
+                    <Icon id="218">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="128">
-                <IconStyle id="129">
+            <Style id="221">
+                <IconStyle id="222">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="130">
+                    <Icon id="223">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="133">
-                <IconStyle id="134">
+            <Style id="226">
+                <IconStyle id="227">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="135">
+                    <Icon id="228">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="138">
-                <IconStyle id="139">
+            <Style id="231">
+                <IconStyle id="232">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="140">
+                    <Icon id="233">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="143">
-                <IconStyle id="144">
+            <Style id="236">
+                <IconStyle id="237">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="145">
+                    <Icon id="238">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="148">
-                <IconStyle id="149">
+            <Style id="241">
+                <IconStyle id="242">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="150">
+                    <Icon id="243">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="153">
-                <IconStyle id="154">
+            <Style id="246">
+                <IconStyle id="247">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="155">
+                    <Icon id="248">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="158">
-                <IconStyle id="159">
+            <Style id="251">
+                <IconStyle id="252">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="160">
+                    <Icon id="253">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="163">
-                <IconStyle id="164">
+            <Style id="256">
+                <IconStyle id="257">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="165">
+                    <Icon id="258">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="168">
-                <IconStyle id="169">
+            <Style id="261">
+                <IconStyle id="262">
                     <color>ff0080ff</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="170">
+                    <Icon id="263">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="173">
-                <IconStyle id="174">
+            <Style id="266">
+                <IconStyle id="267">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="175">
+                    <Icon id="268">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="178">
-                <IconStyle id="179">
+            <Style id="271">
+                <IconStyle id="272">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="180">
+                    <Icon id="273">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="183">
-                <IconStyle id="184">
+            <Style id="276">
+                <IconStyle id="277">
                     <color>ff0080ff</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="185">
+                    <Icon id="278">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="188">
-                <IconStyle id="189">
+            <Style id="281">
+                <IconStyle id="282">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="190">
+                    <Icon id="283">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="193">
-                <IconStyle id="194">
+            <Style id="286">
+                <IconStyle id="287">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="195">
+                    <Icon id="288">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="198">
-                <IconStyle id="199">
+            <Style id="291">
+                <IconStyle id="292">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="200">
+                    <Icon id="293">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="203">
-                <IconStyle id="204">
+            <Style id="296">
+                <IconStyle id="297">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="205">
+                    <Icon id="298">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="208">
-                <IconStyle id="209">
+            <Style id="301">
+                <IconStyle id="302">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="210">
+                    <Icon id="303">
                         <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <name>Bid Requests — 37 (34 with phone/email)</name>
-            <Placemark id="27">
-                <name>Kandiyohi County HRA - Lakeview Apartments roofing/electrical/generator/fire alarm (300 7th St NW) (Willmar, MN)</name>
+            <Style id="306">
+                <IconStyle id="307">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="308">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Bid Requests — 39 (36 with phone/email)</name>
+            <Placemark id="115">
+                <name>Greene County - Temporary Repair of Salt Shed Roof (IFB 26-11171) (Springfield, MO)</name>
                 <description>Bid Requests | has contact: Yes
 NEW this report
-seeking roofer (public bid - public housing multifamily roofing + electrical gear/generator/fire alarm) | Open public bid | 2026-11-04 (published) | MANDATORY pre-bid walkthrough Thu 11/19/2026 10:00 AM at Lakeview Apartments; documents issued 11/12; sealed bids due Tue 12/15/2026 2:00 PM CST
-ITB: Lakeview Apartments, 300 7th Street NW, Willmar MN - replacement of roofing, electrical gear, a generator and the fire alarm system; one prime contract to the lowest responsible bidder; 5% bid security; mandatory prime-contractor walkthrough 11/19 10:00 AM; drawings/specs issued 11/12; bids due 12/15 2:00 PM.
-Contact: Jill Bengtson (bid receipt per notice) - HRA main office line
-Phone: 320-235-8637
+seeking roofer (public bid - county salt shed temporary roof repair) | Open public bid | 2026-11-06 (published) | bids due Tue 12/1/2026 2:30 PM CST via Greene County Purchasing website (Beacon Bid)
+IFB #26-11171 Greene County Temporary Repair of Salt Shed Roof. Electronically sealed bids through Greene County Purchasing website by 2:30 PM Tue 12/1/2026. Contact Stephanie.Smith@greene... (email redacted in free copy).
+Contact: Greene County Purchasing (Stephanie Smith named in notice)
+Phone: 417-868-4012
 Email: -
-Website: https://www.willmarmn.gov/government/boards_and_commissions/kandiyohi_county_hra.php
-Confidence: high (legal notice); medium on contact (HRA main office line, not the named bid contact)
-Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-willmar-1127709
-~271 mi from Omaha</description>
-                <styleUrl>#28</styleUrl>
-                <Point id="26">
-                    <coordinates>-95.053,45.126,0.0</coordinates>
+Website: https://greenecountymo.gov/purchasing/bids.php
+Confidence: high (legal notice); high on Purchasing main line
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-springfield-1301777
+~313 mi from Omaha</description>
+                <styleUrl>#116</styleUrl>
+                <Point id="114">
+                    <coordinates>-93.292,37.209,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="32">
-                <name>Town of South Palm Beach - Town Hall roof replacement (ITB 11-02-2026) (South Palm Beach, FL)</name>
+            <Placemark id="120">
+                <name>Starved Rock Lodge - Cabins 602/603 roof replacement (Utica, IL)</name>
                 <description>Bid Requests | has contact: Yes
 NEW this report
-seeking roofer (public bid - municipal Town Hall roof replacement) | Open public bid | 2026-11-06 (published) | optional pre-proposal conference Thu 11/12/2026 3:00 PM; sealed bids due Mon 11/30/2026 2:00 PM
-ITB No. 11-02-2026 Town Hall Roof Replacement, 3577 South Ocean Blvd, South Palm Beach FL: eight packages plus one USB copy to the Town Clerk by 11/30 2:00 PM; optional pre-proposal conference 11/12 3:00 PM; addenda on the Town website and DemandStar.
-Contact: Town Manager James Titcomb / Town Hall (email redacted in free copy)
-Phone: 561-588-8889
+seeking roofer (public bid - lodge cabin roof replacement) | Open public bid | 2026-11-07 (published) | mandatory pre-bid Thu 11/13/2026 8:30 AM; proposals due Fri 11/27/2026 4:00 PM CST
+RFP: Cabin 602/603 roof replacement at Starved Rock Lodge, Utica IL. Request RFP packet from GM Jenny Roulston. Mandatory pre-bid Thu 11/13 8:30 AM; proposals due Fri 11/27/2026 4 PM CST.
+Contact: Jenny Roulston, General Manager - Starved Rock Lodge
+Phone: 815-667-4211
 Email: -
-Website: https://www.southpalmbeach.com
-Confidence: high (legal notice); high on Town Hall main line
-Source: https://www.noticeregistry.com/florida/notice/bid-notice-south-palm-beach-11731750
-~1358 mi from Omaha</description>
-                <styleUrl>#33</styleUrl>
-                <Point id="31">
-                    <coordinates>-80.0388,26.5886,0.0</coordinates>
+Website: https://www.starvedrocklodge.com
+Confidence: high (legal notice); high on lodge main line
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-utica-3360587
+~361 mi from Omaha</description>
+                <styleUrl>#121</styleUrl>
+                <Point id="119">
+                    <coordinates>-88.978,41.321,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="37">
+            <Placemark id="125">
+                <name>Brownsville ISD - Roofing Maintenance District-Wide (RFP 27-079) (Brownsville, TX)</name>
+                <description>Bid Requests | has contact: Yes
+NEW this report
+seeking roofer (public bid - school district roofing maintenance district-wide) | Open public bid | 2026-11-07 (published) | Roofing Maintenance District-Wide RFP 27-079 due Wed 12/10/2026 9:00 AM (opening 9:45 AM); Senior Buyer Connie Alvear
+BISD district-wide solicitations package includes RFP 27-079 Roofing Maintenance District-Wide (submission 12/10/2026 9:00 AM, opening 9:45 AM). Senior Buyer Connie Alvear. Submit via BISD eBid or sealed to Procurement Services.
+Contact: Connie Alvear, CTSBO - Senior Buyer, BISD Procurement
+Phone: 956-548-8361
+Email: mcalvear@bisd.us
+Website: https://www.bisd.us
+Confidence: high (legal notice); high on named buyer phone/email from public BISD solicitations
+Source: https://www.noticeregistry.com/texas/notice/bid-notice-brownsville-977846
+~1065 mi from Omaha</description>
+                <styleUrl>#126</styleUrl>
+                <Point id="124">
+                    <coordinates>-97.4975,25.9018,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="130">
                 <name>Council Bluffs CSD – Bloomer Elementary (Council Bluffs, IA)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -494,16 +1484,16 @@ Website: https://www.cb-schools.org
 Confidence: unconfirmed (aggregator summary of assessment; no bid date yet)
 Source: https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb ; https://www.cb-schools.org/departments/facilities
 ~4 mi from Omaha</description>
-                <styleUrl>#38</styleUrl>
-                <Point id="36">
+                <styleUrl>#131</styleUrl>
+                <Point id="129">
                     <coordinates>-95.8608,41.2619,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="42">
+            <Placemark id="135">
                 <name>Cuming County Courthouse (Cuming County, NE) (West Point, NE)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer | Open public bid | 2026-10-16 (published; re-runs 10/23) | STATUS 2026-11-06: bids due Tue 11/10 10:30 AM
+seeking roofer | Open public bid | 2026-10-16 (published; re-runs 10/23) | STATUS 2026-11-07: bids due Tue 11/10 10:30 AM
 Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.
 Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents)
 Phone: (402) 372-6002 (County Clerk)
@@ -512,12 +1502,12 @@ Website: https://cumingcountyne.gov
 Confidence: confirmed
 Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623
 ~57 mi from Omaha</description>
-                <styleUrl>#43</styleUrl>
-                <Point id="41">
+                <styleUrl>#136</styleUrl>
+                <Point id="134">
                     <coordinates>-96.7086,41.8417,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="47">
+            <Placemark id="140">
                 <name>NE Dept. of Correctional Services - Tecumseh State Correctional Institution roof replacements (Bldgs G, Q, S, T) (Tecumseh, NE)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -530,16 +1520,16 @@ Website: https://corrections.nebraska.gov/facilities/tecumseh-state-correctional
 Confidence: high (legal notice); medium on contact (facility main line, not the bid contact)
 Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-tecumseh-776258
 ~63 mi from Omaha</description>
-                <styleUrl>#48</styleUrl>
-                <Point id="46">
+                <styleUrl>#141</styleUrl>
+                <Point id="139">
                     <coordinates>-96.195,40.3667,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="52">
+            <Placemark id="145">
                 <name>Sioux City CSD - North Middle School (Sioux City, IA)</name>
                 <description>Bid Requests | has contact: No
 Prior run, still open
-seeking roofer | Open public bid (carried forward) | 2026-10 (approx) | STATUS 2026-11-05: proposals due 11/12 - verify with the district
+seeking roofer | Open public bid (carried forward) | 2026-10 (approx) | STATUS 2026-11-07: proposals due 11/12 - verify
 North Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.
 Contact: -
 Phone: -
@@ -548,12 +1538,12 @@ Website: siouxcityschools.org (not opened)
 Confidence: unconfirmed
 Source: https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65
 ~89 mi from Omaha</description>
-                <styleUrl>#53</styleUrl>
-                <Point id="51">
+                <styleUrl>#146</styleUrl>
+                <Point id="144">
                     <coordinates>-96.4049,42.4963,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="57">
+            <Placemark id="150">
                 <name>State of Iowa DAS - WRC CDC Freezer Repair (roof patching/flashing; Woodward Resource Center) (Woodward, IA)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -566,16 +1556,16 @@ Website: https://bidopportunities.iowa.gov
 Confidence: high (state bid document); roofing is a minor part of the scope
 Source: https://bidopportunities.iowa.gov/Home/GetBidOpportunityDocument/e2c93fb6-bf1b-4cdc-928a-d33166b293a5
 ~112 mi from Omaha</description>
-                <styleUrl>#58</styleUrl>
-                <Point id="56">
+                <styleUrl>#151</styleUrl>
+                <Point id="149">
                     <coordinates>-93.927,41.857,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="62">
+            <Placemark id="155">
                 <name>State of Iowa – Woodward Resource Center Dispatch Garage (Woodward, IA)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (design RFP) | Open RFP (design services; construction bid to follow) | Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM | STATUS 2026-11-06: due Tue 11/10 2:00 PM
+seeking roofer (design RFP) | Open RFP (design services; construction bid to follow) | Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM | STATUS 2026-11-07: due Tue 11/10 2:00 PM
 RFP956800-01 "WRC Dispatch Garage Roof Replacement &amp; Birches Tuckpointing" – professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).
 Contact: Katelyn Howells, Construction Procurement
 Phone: (515) 721-7856
@@ -584,16 +1574,16 @@ Website: https://das.iowa.gov
 Confidence: confirmed
 Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c
 ~112 mi from Omaha</description>
-                <styleUrl>#63</styleUrl>
-                <Point id="61">
+                <styleUrl>#156</styleUrl>
+                <Point id="154">
                     <coordinates>-93.9222,41.8564,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="67">
+            <Placemark id="160">
                 <name>Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates) (Johnston, IA)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid) - MATERIAL UPDATE |  | 2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23 | STATUS 2026-11-05: due Thu 11/12 3:00 PM
+seeking roofer (public bid) - MATERIAL UPDATE |  | 2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23 | STATUS 2026-11-07: due Thu 11/12 3:00 PM
 UPDATE to a lead first listed 10/17 (that listing only said "due Nov 12"). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2" polyiso + 1/2" HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline &amp; Blue, Des Moines ($50 refundable deposit).
 Contact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings &amp; Grounds (phone redacted on notice)
 Phone: 515-250-6950 (architect, from 10/17 plan-room brief)
@@ -602,16 +1592,16 @@ Website: -
 Confidence: confirmed (official notice text)
 Source: https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159
 ~119 mi from Omaha</description>
-                <styleUrl>#68</styleUrl>
-                <Point id="66">
+                <styleUrl>#161</styleUrl>
+                <Point id="159">
                     <coordinates>-93.6977,41.673,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="72">
+            <Placemark id="165">
                 <name>Ankeny CSD - Innovation Hub Contract 7B Metal Roofing (~160k SF new school, Northview MS campus) (Ankeny, IA)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid - new school metal roofing prime contract) | Open public bid | 2026-11-03 (published) | pre-bid Tue 11/10/2026 1:00 PM; bids due Tue 11/17/2026 11:00 AM CST (Cottonwood Conference Room) | STATUS 2026-11-05: pre-bid Tue 11/10 1:00 PM; bids due Tue 11/17 11:00 AM
+seeking roofer (public bid - new school metal roofing prime contract) | Open public bid | 2026-11-03 (published) | pre-bid Tue 11/10/2026 1:00 PM; bids due Tue 11/17/2026 11:00 AM CST (Cottonwood Conference Room) | STATUS 2026-11-07: pre-bid Tue 11/10 1:00 PM; bids due Tue 11/17 11:00 AM
 Contract 7B Metal Roofing for the new two-story ~160,000 SF Innovation Hub on the Northview Middle School campus, Ankeny IA (multiple-prime, Agency CM). Documents via Procore from CM Donna Foster (Stahl); 5% bid security; P&amp;P bonds; not prevailing wage. Pre-bid 11/10 1:00 PM; bids due 11/17 11:00 AM at 406 SW School St.
 Contact: Ankeny CSD district office (CM contact Donna Foster, Stahl Construction - email redacted in free copy)
 Phone: 515-965-9600
@@ -620,12 +1610,12 @@ Website: https://www.ankenyschools.org
 Confidence: high (legal notice); medium on contact (district main line)
 Source: https://www.noticeregistry.com/iowa/notice/bid-notice-ankeny-137217
 ~125 mi from Omaha</description>
-                <styleUrl>#73</styleUrl>
-                <Point id="71">
+                <styleUrl>#166</styleUrl>
+                <Point id="164">
                     <coordinates>-93.6001,41.7318,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="77">
+            <Placemark id="170">
                 <name>State of Iowa DAS - Fort Dodge Correctional Facility Powerhouse &amp; Warehouse roof replacement (RFP955000-01, design phase) (Fort Dodge, IA)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -638,12 +1628,12 @@ Website: https://bidopportunities.iowa.gov
 Confidence: high (official state portal); map pin approximate (1550 L St)
 Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=32851523-bc07-4dea-a406-6c44bb3ea4c2
 ~125 mi from Omaha</description>
-                <styleUrl>#78</styleUrl>
-                <Point id="76">
+                <styleUrl>#171</styleUrl>
+                <Point id="169">
                     <coordinates>-94.168,42.4975,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="82">
+            <Placemark id="175">
                 <name>Kansas State University - Waters Hall (Manhattan, KS)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -656,16 +1646,16 @@ Website: https://admin.ks.gov
 Confidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)
 Source: https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections
 ~147 mi from Omaha</description>
-                <styleUrl>#83</styleUrl>
-                <Point id="81">
+                <styleUrl>#176</styleUrl>
+                <Point id="174">
                     <coordinates>-96.5806,39.191,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="87">
+            <Placemark id="180">
                 <name>Hume R-VIII School District - bus barn (Hume, MO)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid) |  | 2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01 | STATUS 2026-11-06: due Mon 11/9 3:00 PM
+seeking roofer (public bid) |  | 2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01 | STATUS 2026-11-07: due Mon 11/9 3:00 PM
 RFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.
 Contact: Scott Morrison, Superintendent (named on notice for the site visit)
 Phone: 660-643-7411 (district main line)
@@ -674,12 +1664,12 @@ Website: https://www.humer8.k12.mo.us
 Confidence: confirmed (official notice); small scope
 Source: https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008
 ~230 mi from Omaha</description>
-                <styleUrl>#88</styleUrl>
-                <Point id="86">
+                <styleUrl>#181</styleUrl>
+                <Point id="179">
                     <coordinates>-94.5808,38.0898,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="92">
+            <Placemark id="185">
                 <name>University of Missouri - Keene Street Envelope &amp; Infrastructure Improvements (Bid Pkg 2: 7.2B Roofing &amp; Sheet Metal; CM River City Construction) (Columbia, MO)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -692,30 +1682,30 @@ Website: https://www.rccllc.com
 Confidence: high (legal notice; CM main office line); map pin approximate (Keene St, Columbia)
 Source: https://www.noticeregistry.com/missouri/notice/bid-notice-columbia-1299557
 ~250 mi from Omaha</description>
-                <styleUrl>#93</styleUrl>
-                <Point id="91">
+                <styleUrl>#186</styleUrl>
+                <Point id="184">
                     <coordinates>-92.287,38.957,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="97">
-                <name>Rock Island County Highway Dept - roof replacement (Sect #26-00405-00-MG) (Milan, IL)</name>
+            <Placemark id="190">
+                <name>Kandiyohi County HRA - Lakeview Apartments roofing/electrical/generator/fire alarm (300 7th St NW) (Willmar, MN)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid) | Open public bid | 2026-10-24 (published) | sealed bids due Fri 11/6/2026 10:00 AM to the Public Works Committee at the County Engineer's office | STATUS 2026-11-06: due TODAY Fri 11/6 10:00 AM
-Rock Island County is taking sealed bids for a roof replacement (bundled with 2027 fuel) under Section #26-00405-00-MG, delivered to the County Engineer's office, 851 W 10th Ave, Milan IL 61264. Building SF not stated.
-Contact: Rock Island County Highway Dept (Lisa Geiger, County Engineer; Donna Huys)
-Phone: 309-787-4668
-Email: highway@rockislandcountyil.gov
-Website: https://www.rockislandcountyil.gov/429/Highway-Department
-Confidence: high (official county site)
-Source: https://www.noticeregistry.com/illinois/notice/bid-notice-milan-3347974
-~278 mi from Omaha</description>
-                <styleUrl>#98</styleUrl>
-                <Point id="96">
-                    <coordinates>-90.57,41.44,0.0</coordinates>
+seeking roofer (public bid - public housing multifamily roofing + electrical gear/generator/fire alarm) | Open public bid | 2026-11-04 (published) | MANDATORY pre-bid walkthrough Thu 11/19/2026 10:00 AM at Lakeview Apartments; documents issued 11/12; sealed bids due Tue 12/15/2026 2:00 PM CST
+ITB: Lakeview Apartments, 300 7th Street NW, Willmar MN - replacement of roofing, electrical gear, a generator and the fire alarm system; one prime contract to the lowest responsible bidder; 5% bid security; mandatory prime-contractor walkthrough 11/19 10:00 AM; drawings/specs issued 11/12; bids due 12/15 2:00 PM.
+Contact: Jill Bengtson (bid receipt per notice) - HRA main office line
+Phone: 320-235-8637
+Email: -
+Website: https://www.willmarmn.gov/government/boards_and_commissions/kandiyohi_county_hra.php
+Confidence: high (legal notice); medium on contact (HRA main office line, not the named bid contact)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-willmar-1127709
+~271 mi from Omaha</description>
+                <styleUrl>#191</styleUrl>
+                <Point id="189">
+                    <coordinates>-95.053,45.126,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="102">
+            <Placemark id="195">
                 <name>Davenport CSD – Madison Elementary School (116 E Locust St) (Davenport, IA)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -728,16 +1718,16 @@ Website: https://davenportschools.ionwave.net
 Confidence: high (official solicitation contact)
 Source: https://bidscopeai.com/opportunities/49ac0474-3910-45ad-859a-63b4bc63d15c
 ~278 mi from Omaha</description>
-                <styleUrl>#103</styleUrl>
-                <Point id="101">
+                <styleUrl>#196</styleUrl>
+                <Point id="194">
                     <coordinates>-90.57373,41.53832,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="107">
+            <Placemark id="200">
                 <name>City of Camdenton - City Park white metal roof &amp; soffit replacement (IFB 26-07) (Camdenton, MO)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid) | Open public bid | 2026-10-20 (posted; picked up by Missouri Bid Network 10/24 and Dodge 10/25) | bids (IFB 26-07) due Thu 11/12/2026 3:00 PM by mail; questions due 11/10 4:00 PM; site inspection encouraged | STATUS 2026-11-05: due Thu 11/12 3:00 PM
+seeking roofer (public bid) | Open public bid | 2026-10-20 (posted; picked up by Missouri Bid Network 10/24 and Dodge 10/25) | bids (IFB 26-07) due Thu 11/12/2026 3:00 PM by mail; questions due 11/10 4:00 PM; site inspection encouraged | STATUS 2026-11-07: due Thu 11/12 3:00 PM
 City of Camdenton seeks bids to tear off and replace the roof on an existing brick building at Camdenton City Park with a new white metal roof plus new soffit, flashing/sealing, inspection of the roof structure and debris removal. Itemized pricing, materials/warranty info, GL and workers comp insurance required. Building SF not stated (park building - likely small).
 Contact: Renee Kingston, City of Camdenton
 Phone: 573-346-3600
@@ -746,16 +1736,16 @@ Website: https://www.camdentoncity.com
 Confidence: medium-high (bid aggregator copy of the city IFB)
 Source: https://bidscopeai.com/opportunities/cd0842c3-7a24-4d26-b298-a5e1fd6dd1b8 ; https://www.missouribids.com/bid_opportunities/2026/10/24/15084614-white-metal-roof-replacement-and-soffit-replacement.html
 ~281 mi from Omaha</description>
-                <styleUrl>#108</styleUrl>
-                <Point id="106">
+                <styleUrl>#201</styleUrl>
+                <Point id="199">
                     <coordinates>-92.744,38.008,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="112">
+            <Placemark id="205">
                 <name>Minneapolis Public Housing Authority - 630 Cedar Ave high-rise (Minneapolis, MN)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid) | Open public bid | 2026-10-22 (published) | pre-bid walk-through Mon 10/26 9:30 AM; questions due 10/29 2:00 PM CDT; bids due Tue 11/10/2026 2:00 PM CST | STATUS 2026-11-06: bids due Tue 11/10 2:00 PM
+seeking roofer (public bid) | Open public bid | 2026-10-22 (published) | pre-bid walk-through Mon 10/26 9:30 AM; questions due 10/29 2:00 PM CDT; bids due Tue 11/10/2026 2:00 PM CST | STATUS 2026-11-07: bids due Tue 11/10 2:00 PM
 MPHA IFB B26025: exterior repairs and roof anchors at 630 Cedar Ave (public-housing high-rise, Cedar-Riverside). Documents and bids through Housing Agency Marketplace (ha.internationaleprocurement.com). Roof scope is anchors/fall-protection plus exterior repairs - check the spec for any roofing work.
 Contact: Greg Lewis, Senior Buyer (MPHA)
 Phone: 612-342-1414
@@ -764,12 +1754,12 @@ Website: https://mphaonline.org/contracting-opportunities/
 Confidence: high (official buyer contact on MPHA notices)
 Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-minneapolis-1116654
 ~290 mi from Omaha</description>
-                <styleUrl>#113</styleUrl>
-                <Point id="111">
+                <styleUrl>#206</styleUrl>
+                <Point id="204">
                     <coordinates>-93.2475,44.9695,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="117">
+            <Placemark id="210">
                 <name>Forest Lake ISD 831 - Forest View Elementary facility improvements (roofs + MEP; prime bids) (Forest Lake, MN)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -782,16 +1772,16 @@ Website: https://www.krausanderson.com
 Confidence: high (legal notice); medium on contact (CM HQ line)
 Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-forest-lake-1127053
 ~315 mi from Omaha</description>
-                <styleUrl>#118</styleUrl>
-                <Point id="116">
+                <styleUrl>#211</styleUrl>
+                <Point id="209">
                     <coordinates>-92.9852,45.2789,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="122">
+            <Placemark id="215">
                 <name>City of Marionville - city building roof replacement (Marionville, MO)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid) | Open public bid | 2026-10-28 (published on NoticeRegistry) | sealed bids due Tue 11/10/2026 3:00 PM at City Hall, 107 S Central; opened at the 11/12 council meeting | STATUS 2026-11-06: due Tue 11/10 3:00 PM
+seeking roofer (public bid) | Open public bid | 2026-10-28 (published on NoticeRegistry) | sealed bids due Tue 11/10/2026 3:00 PM at City Hall, 107 S Central; opened at the 11/12 council meeting | STATUS 2026-11-07: due Tue 11/10 3:00 PM
 City of Marionville is taking sealed bids for a roof replacement on a city building; bids due 11/10 3:00 PM at City Hall (107 S Central), opened at the 11/12 council meeting. Building SF not stated in the notice.
 Contact: Krissa Bliss, City Clerk
 Phone: 417-258-2466
@@ -800,12 +1790,12 @@ Website: https://www.marionvillemo.gov
 Confidence: high (official notice + city page)
 Source: https://www.noticeregistry.com/missouri/notice/bid-notice-marionville-1296875
 ~319 mi from Omaha</description>
-                <styleUrl>#123</styleUrl>
-                <Point id="121">
+                <styleUrl>#216</styleUrl>
+                <Point id="214">
                     <coordinates>-93.6374,37.004,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="127">
+            <Placemark id="220">
                 <name>Henderson's Advertising building (2508 E Cook St) (Springfield, IL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -818,16 +1808,16 @@ Website: -
 Confidence: medium (business line at the address; notice phone masked)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-springfield-3342478
 ~347 mi from Omaha</description>
-                <styleUrl>#128</styleUrl>
-                <Point id="126">
+                <styleUrl>#221</styleUrl>
+                <Point id="219">
                     <coordinates>-89.62018,39.79461,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="132">
+            <Placemark id="225">
                 <name>Onamia ISD 480 - IAQ &amp; Roofing project (Onamia, MN)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid - school IAQ &amp; roofing) | Open public bid | 2026-11-04 (published) | pre-bid Fri 11/6/2026 10:00 AM on site; bids due Thu 12/3/2026 2:00 PM CST | STATUS 2026-11-06: pre-bid TODAY Fri 11/6 10:00 AM; bids due Thu 12/3 2:00 PM
+seeking roofer (public bid - school IAQ &amp; roofing) | Open public bid | 2026-11-04 (published) | pre-bid Fri 11/6/2026 10:00 AM on site; bids due Thu 12/3/2026 2:00 PM CST | STATUS 2026-11-07: pre-bid was Fri 11/6; bids due Thu 12/3 2:00 PM
 Onamia Public Schools IAQ &amp; Roofing, 35465 125th Ave, Onamia MN - multiple work scopes incl. roofing; 5% bid security; award ~12/22/2026; on-site work by 6/1/2027, substantial completion 8/13/2027. Electronic documents via Bekah Fuchs (ICS; number redacted in free copy). Pre-bid 11/6 10:00 AM.
 Contact: Onamia Public Schools district office (CM ICS Consulting - Rich Gareis)
 Phone: 320-532-6703
@@ -836,12 +1826,12 @@ Website: https://www.onamia.k12.mn.us
 Confidence: high (legal notice); medium on contact (district office line)
 Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-onamia-1126987
 ~351 mi from Omaha</description>
-                <styleUrl>#133</styleUrl>
-                <Point id="131">
+                <styleUrl>#226</styleUrl>
+                <Point id="224">
                     <coordinates>-93.6677,46.0705,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="137">
+            <Placemark id="230">
                 <name>Oglala Lakota College - Roof Repair / Insurance Loss RFP (Pine Ridge campus) (Kyle, SD)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -854,12 +1844,12 @@ Website: https://www.olc.edu
 Confidence: high (legal notice; college directory); map pin approximate (Piya Wiconi campus)
 Source: https://www.noticeregistry.com/south-dakota/notice/bid-notice-kyle-251487
 ~352 mi from Omaha</description>
-                <styleUrl>#138</styleUrl>
-                <Point id="136">
+                <styleUrl>#231</styleUrl>
+                <Point id="229">
                     <coordinates>-102.196,43.399,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="142">
+            <Placemark id="235">
                 <name>Indian Prairie SD 204 - Waubonsie Valley High School (Roofing package) (Aurora, IL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -872,12 +1862,12 @@ Website: https://www.ipsd.org/departments/building-operations
 Confidence: medium (district main line; CM contact masked)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-aurora-3345267
 ~401 mi from Omaha</description>
-                <styleUrl>#143</styleUrl>
-                <Point id="141">
+                <styleUrl>#236</styleUrl>
+                <Point id="234">
                     <coordinates>-88.2167,41.744,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="147">
+            <Placemark id="240">
                 <name>Joliet Township HSD 204 - Joliet Central High School (07B Roofing) (Joliet, IL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -890,12 +1880,12 @@ Website: https://www.jths.org/district-departments/buildings-and-grounds
 Confidence: high (official district page)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-joliet-3344514
 ~407 mi from Omaha</description>
-                <styleUrl>#148</styleUrl>
-                <Point id="146">
+                <styleUrl>#241</styleUrl>
+                <Point id="239">
                     <coordinates>-88.0787,41.5266,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="152">
+            <Placemark id="245">
                 <name>New Lenox SD 122 - Martino Junior High School (New Lenox, IL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -908,12 +1898,12 @@ Website: https://www.nlsd122.org/c/index.php/departments/business/department-ove
 Confidence: high (official district office)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-new-lenox-3343579
 ~414 mi from Omaha</description>
-                <styleUrl>#153</styleUrl>
-                <Point id="151">
+                <styleUrl>#246</styleUrl>
+                <Point id="244">
                     <coordinates>-87.9531,41.5106,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="157">
+            <Placemark id="250">
                 <name>Bourbonnais ESD 53 - 2027 Shepard Roofing Project (Alan Shepard Elementary) (Bourbonnais, IL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -926,12 +1916,12 @@ Website: https://www.besd53.org
 Confidence: high (legal notice); medium on contact (district main line)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-bourbonnais-3357522
 ~419 mi from Omaha</description>
-                <styleUrl>#158</styleUrl>
-                <Point id="156">
+                <styleUrl>#251</styleUrl>
+                <Point id="249">
                     <coordinates>-87.88,41.15,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="162">
+            <Placemark id="255">
                 <name>Warren Township HSD 121 - 2027 Roof Work Phase V (Almond &amp; O'Plaine campuses, ~1,000 squares) (Gurnee, IL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -944,12 +1934,12 @@ Website: -
 Confidence: high (legal notice); medium on contact (consultant office line)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-gurnee-3355968
 ~419 mi from Omaha</description>
-                <styleUrl>#163</styleUrl>
-                <Point id="161">
+                <styleUrl>#256</styleUrl>
+                <Point id="254">
                     <coordinates>-87.93,42.37,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="167">
+            <Placemark id="260">
                 <name>Township HSD 113 - Deerfield High School remedial roofing repairs (INSPEC #400988) (Deerfield, IL)</name>
                 <description>Bid Requests | has contact: No
 Prior run, still open
@@ -962,16 +1952,16 @@ Website: https://www.dist113.org
 Confidence: high (legal notice); no direct phone/email in free copy; map pin approximate (1959 Waukegan Rd)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-deerfield-3353579
 ~421 mi from Omaha</description>
-                <styleUrl>#168</styleUrl>
-                <Point id="166">
+                <styleUrl>#261</styleUrl>
+                <Point id="259">
                     <coordinates>-87.8525,42.163,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="172">
+            <Placemark id="265">
                 <name>City of Lake Forest - Fire Station HQ renovation, Bid Pkg #7 Roofing &amp; Coping (REBID) (Lake Forest, IL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
-seeking roofer (public bid) | Open public bid | 2026-10-26 (published on NoticeRegistry / Daily Herald) | bids due Mon 11/9/2026 9:00 AM CST at 800 N Field Dr, Lake Forest; questions due 11/2; prequalification (AIA A305) and 10% bid security required | STATUS 2026-11-06: due Mon 11/9 9:00 AM
+seeking roofer (public bid) | Open public bid | 2026-10-26 (published on NoticeRegistry / Daily Herald) | bids due Mon 11/9/2026 9:00 AM CST at 800 N Field Dr, Lake Forest; questions due 11/2; prequalification (AIA A305) and 10% bid security required | STATUS 2026-11-07: due Mon 11/9 9:00 AM
 Lake Forest Fire Department Headquarters Fire Station renovation (255 W Deerpath Rd) - Bid Package #7 Roofing &amp; Coping, REBID. Whole project estimate about $13.96M. Prequalification and 10% bid security required; questions to George Gardner by 11/2.
 Contact: Mary Judge, Wight Construction Services (CM); questions to George Gardner
 Phone: -
@@ -980,12 +1970,12 @@ Website: https://www.cityoflakeforest.com
 Confidence: high (legal notice); map pin approximate (W Deerpath)
 Source: https://www.noticeregistry.com/illinois/notice/bid-notice-lake-forest-3348429 ; http://marketplace.dailyherald.com/chicago/legals-public-notices/notice-to-bidders-notice-is-he/AC1E054E18fb6186C6eNds4C7DA9
 ~422 mi from Omaha</description>
-                <styleUrl>#173</styleUrl>
-                <Point id="171">
+                <styleUrl>#266</styleUrl>
+                <Point id="264">
                     <coordinates>-87.8475,42.2535,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="177">
+            <Placemark id="270">
                 <name>Garland ISD - Garland High School roof replacement (McCownGordon CMAR, BP02) (Garland, TX)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -998,12 +1988,12 @@ Website: https://dfw.mccowngordon.com
 Confidence: high (legal notice); medium on contact (office line, not the named bid contact)
 Source: https://www.noticeregistry.com/texas/notice/bid-notice-garland-975302
 ~578 mi from Omaha</description>
-                <styleUrl>#178</styleUrl>
-                <Point id="176">
+                <styleUrl>#271</styleUrl>
+                <Point id="269">
                     <coordinates>-96.638,32.911,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="182">
+            <Placemark id="275">
                 <name>City of Arlington - East Police Sub-Station re-roofing (CSP 26-0247) (Arlington, TX)</name>
                 <description>Bid Requests | has contact: No
 Prior run, still open
@@ -1016,12 +2006,12 @@ Website: https://www.arlingtontx.gov
 Confidence: high (legal notice); no direct phone/email; map pin approximate
 Source: https://www.noticeregistry.com/texas/notice/bid-notice-arlington-971500
 ~593 mi from Omaha</description>
-                <styleUrl>#183</styleUrl>
-                <Point id="181">
+                <styleUrl>#276</styleUrl>
+                <Point id="274">
                     <coordinates>-97.078,32.729,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="187">
+            <Placemark id="280">
                 <name>City of Corpus Christi - Arena roof replacement (RFB 7672) (Corpus Christi, TX)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -1034,12 +2024,12 @@ Website: https://www.corpuschristitx.gov
 Confidence: high (agency bid record)
 Source: https://www.lightrfp.com/marketplace/bid/CIVCAST-6ad0f5129c5c4aa7bb81932c/rfb-7672-arena-roof-replacement-25021 ; https://www.noticeregistry.com/texas/notice/bid-notice-corpus-christi-970851
 ~933 mi from Omaha</description>
-                <styleUrl>#188</styleUrl>
-                <Point id="186">
+                <styleUrl>#281</styleUrl>
+                <Point id="279">
                     <coordinates>-97.3939,27.8072,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="192">
+            <Placemark id="285">
                 <name>Venetian Community Development District - reroofing RFP (Venice, FL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -1052,12 +2042,12 @@ Website: https://www.venetiancdd.org
 Confidence: high (legal notice); medium on contact; map pin approximate (Venetian community, Venice FL)
 Source: https://www.noticeregistry.com/florida/notice/bid-notice-fort-myers-11727329
 ~1243 mi from Omaha</description>
-                <styleUrl>#193</styleUrl>
-                <Point id="191">
+                <styleUrl>#286</styleUrl>
+                <Point id="284">
                     <coordinates>-82.404,27.116,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="197">
+            <Placemark id="290">
                 <name>Lee County - Medical Examiner's Office Expansion (Roofing package, CPPI) (Fort Myers, FL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -1070,12 +2060,12 @@ Website: https://www.cppi.com
 Confidence: medium (notice text via search index; source page down)
 Source: https://www.noticeregistry.com/florida/notice/bid-notice-fort-myers-11720390
 ~1292 mi from Omaha</description>
-                <styleUrl>#198</styleUrl>
-                <Point id="196">
+                <styleUrl>#291</styleUrl>
+                <Point id="289">
                     <coordinates>-81.809,26.6098,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="202">
+            <Placemark id="295">
                 <name>School Board of Palm Beach County - Jeaga Middle School roofing (ITB #27-26D) (West Palm Beach, FL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -1088,12 +2078,12 @@ Website: https://www.palmbeachschools.org
 Confidence: high (legal notice; district purchasing directory - agent for this ITB not named, construction purchasing desk)
 Source: https://www.noticeregistry.com/florida/notice/bid-notice-west-palm-beach-11727370
 ~1345 mi from Omaha</description>
-                <styleUrl>#203</styleUrl>
-                <Point id="201">
+                <styleUrl>#296</styleUrl>
+                <Point id="294">
                     <coordinates>-80.155,26.749,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="207">
+            <Placemark id="300">
                 <name>PBI Airport - Concourse C Roof Replacement (Whiting-Turner CMAR sub bids) (West Palm Beach, FL)</name>
                 <description>Bid Requests | has contact: Yes
 Prior run, still open
@@ -1106,73 +2096,91 @@ Website: https://www.pbia.org
 Confidence: high (legal notice + County airports CMAR list)
 Source: https://www.noticeregistry.com/florida/notice/bid-notice-west-palm-beach-11726964
 ~1351 mi from Omaha</description>
-                <styleUrl>#208</styleUrl>
-                <Point id="206">
+                <styleUrl>#301</styleUrl>
+                <Point id="299">
                     <coordinates>-80.0956,26.6832,0.0</coordinates>
                 </Point>
             </Placemark>
+            <Placemark id="305">
+                <name>Town of South Palm Beach - Town Hall roof replacement (ITB 11-02-2026) (South Palm Beach, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - municipal Town Hall roof replacement) | Open public bid | 2026-11-06 (published) | optional pre-proposal conference Thu 11/12/2026 3:00 PM; sealed bids due Mon 11/30/2026 2:00 PM
+ITB No. 11-02-2026 Town Hall Roof Replacement, 3577 South Ocean Blvd, South Palm Beach FL: eight packages plus one USB copy to the Town Clerk by 11/30 2:00 PM; optional pre-proposal conference 11/12 3:00 PM; addenda on the Town website and DemandStar.
+Contact: Town Manager James Titcomb / Town Hall (email redacted in free copy)
+Phone: 561-588-8889
+Email: -
+Website: https://www.southpalmbeach.com
+Confidence: high (legal notice); high on Town Hall main line
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-south-palm-beach-11731750
+~1358 mi from Omaha</description>
+                <styleUrl>#306</styleUrl>
+                <Point id="304">
+                    <coordinates>-80.0388,26.5886,0.0</coordinates>
+                </Point>
+            </Placemark>
         </Folder>
-        <Folder id="211">
-            <Style id="214">
-                <IconStyle id="215">
+        <Folder id="309">
+            <Style id="312">
+                <IconStyle id="313">
                     <color>ff0080ff</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="216">
+                    <Icon id="314">
                         <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="219">
-                <IconStyle id="220">
+            <Style id="317">
+                <IconStyle id="318">
                     <color>ff0080ff</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="221">
+                    <Icon id="319">
                         <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="224">
-                <IconStyle id="225">
+            <Style id="322">
+                <IconStyle id="323">
                     <color>ff0080ff</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="226">
+                    <Icon id="324">
                         <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="229">
-                <IconStyle id="230">
+            <Style id="327">
+                <IconStyle id="328">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="231">
+                    <Icon id="329">
                         <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
-            <Style id="234">
-                <IconStyle id="235">
+            <Style id="332">
+                <IconStyle id="333">
                     <color>ff00ff00</color>
                     <colorMode>normal</colorMode>
                     <scale>1</scale>
                     <heading>0</heading>
-                    <Icon id="236">
+                    <Icon id="334">
                         <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
                     </Icon>
                 </IconStyle>
             </Style>
             <name>Social Media — 5 (2 with phone/email)</name>
-            <Placemark id="213">
+            <Placemark id="311">
                 <name>Unnamed industrial building - 1 SW Madison SD (roof damage, wind) (Madison, SD)</name>
                 <description>Social Media | has contact: No
-NEW this report
+Prior run, still open
 storm damage (industrial building roof damage - thunderstorm wind) | Storm-damage lead (LSR) | 2026-11-02 20:58Z (2:58 PM CST) NWS Sioux Falls Local Storm Report (pulled 11/6; not in earlier runs)
 LSR TSTM WND DMG 1 SW Madison, Lake County SD (44.00N, 97.13W): "Roof damage to an industrial building." Building/owner not named; no magnitude given.
 Contact: -
@@ -1182,30 +2190,12 @@ Website: -
 Confidence: medium (official NWS report; building unidentified)
 Source: https://mesonet.agron.iastate.edu/geojson/lsr.geojson?sts=2026-11-02T12:00Z&amp;ets=2026-11-03T14:00Z&amp;wfo=FSD
 ~199 mi from Omaha</description>
-                <styleUrl>#214</styleUrl>
-                <Point id="212">
+                <styleUrl>#312</styleUrl>
+                <Point id="310">
                     <coordinates>-97.13,44.0,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="218">
-                <name>Downtown Nocona building at Clay St &amp; Willow St (tin roof blown off) (Nocona, TX)</name>
-                <description>Social Media | has contact: No
-NEW this report
-storm damage (downtown commercial building - tin roof blown off) | Storm-damage lead (LSR) | 2026-11-02 9:06 PM CST (delayed report) NWS Fort Worth Local Storm Report
-LSR TSTM WND DMG Nocona, Montague County TX: "Emergency management reported a tin roof blew off of a building in downtown Nocona near the intersection of Clay St and Willow St." Building type/owner not named.
-Contact: -
-Phone: -
-Email: -
-Website: -
-Confidence: medium (official NWS report; occupancy not stated)
-Source: https://mesonet.agron.iastate.edu/geojson/lsr.geojson?sts=2026-11-02T12:00Z&amp;ets=2026-11-03T14:00Z&amp;wfo=FWD
-~525 mi from Omaha</description>
-                <styleUrl>#219</styleUrl>
-                <Point id="217">
-                    <coordinates>-97.73,33.79,0.0</coordinates>
-                </Point>
-            </Placemark>
-            <Placemark id="223">
+            <Placemark id="316">
                 <name>Keyes OK EF1 tornado - community center + Polk St commercial buildings (roof damage) (Keyes, OK)</name>
                 <description>Social Media | has contact: No
 Prior run, still open
@@ -1218,12 +2208,30 @@ Website: -
 Confidence: medium (news report)
 Source: https://www.kscbnews.net/2026/11/03/106300/
 ~457 mi from Omaha</description>
-                <styleUrl>#224</styleUrl>
-                <Point id="222">
+                <styleUrl>#317</styleUrl>
+                <Point id="315">
                     <coordinates>-102.2499,36.8106,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="228">
+            <Placemark id="321">
+                <name>Downtown Nocona building at Clay St &amp; Willow St (tin roof blown off) (Nocona, TX)</name>
+                <description>Social Media | has contact: No
+Prior run, still open
+storm damage (downtown commercial building - tin roof blown off) | Storm-damage lead (LSR) | 2026-11-02 9:06 PM CST (delayed report) NWS Fort Worth Local Storm Report
+LSR TSTM WND DMG Nocona, Montague County TX: "Emergency management reported a tin roof blew off of a building in downtown Nocona near the intersection of Clay St and Willow St." Building type/owner not named.
+Contact: -
+Phone: -
+Email: -
+Website: -
+Confidence: medium (official NWS report; occupancy not stated)
+Source: https://mesonet.agron.iastate.edu/geojson/lsr.geojson?sts=2026-11-02T12:00Z&amp;ets=2026-11-03T14:00Z&amp;wfo=FWD
+~525 mi from Omaha</description>
+                <styleUrl>#322</styleUrl>
+                <Point id="320">
+                    <coordinates>-97.73,33.79,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="326">
                 <name>Knights of Columbus hall, Gallup (200 Apache Circle) (Gallup, NM)</name>
                 <description>Social Media | has contact: Yes
 Prior run, still open
@@ -1236,12 +2244,12 @@ Website: https://www.visitgallup.com/directory/knights-of-columbus/
 Confidence: high on damage (EM report); medium that 200 Apache Circle is the damaged building
 Source: https://mesonet.agron.iastate.edu/geojson/lsr.php?sts=202611011900&amp;ets=202611012200&amp;wfos=ABQ
 ~798 mi from Omaha</description>
-                <styleUrl>#229</styleUrl>
-                <Point id="227">
+                <styleUrl>#327</styleUrl>
+                <Point id="325">
                     <coordinates>-108.74,35.52,0.0</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id="233">
+            <Placemark id="331">
                 <name>Sun Pain Management - north Phoenix clinic (11047 N 19th Ave) (Phoenix, AZ)</name>
                 <description>Social Media | has contact: Yes
 Prior run, still open
@@ -1254,8 +2262,8 @@ Website: https://sunpainmanagement.com
 Confidence: medium (address/phone from the clinic site; building owner unknown)
 Source: https://hoodline.com/2026/10/hail-punches-through-north-phoenix-pain-clinic-roof-roof-estimate-nears-300k/ ; https://www.fox10phoenix.com/news/phoenix-hailstorm-damages-north-phoenix-pain-clinic
 ~1031 mi from Omaha</description>
-                <styleUrl>#234</styleUrl>
-                <Point id="232">
+                <styleUrl>#332</styleUrl>
+                <Point id="330">
                     <coordinates>-112.0996,33.5863,0.0</coordinates>
                 </Point>
             </Placemark>
