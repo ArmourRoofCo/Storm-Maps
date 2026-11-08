@@ -1,6 +1,26 @@
 {
  "dates": [
   {
+   "key": "2026-11-08",
+   "date": "2026-11-08",
+   "label": "Sun 11/08/2026",
+   "summary": "144 storm bldgs (42 w/ contact), 41 bid requests, 5 social media",
+   "file": "archive/2026-11-08.html",
+   "kml": "archive/2026-11-08.kml",
+   "geojson": "archive/2026-11-08.geojson",
+   "counts": {
+    "storm_building_with_contact": 42,
+    "storm_building_no_contact": 102,
+    "storm_report": 4,
+    "roof_search": 46,
+    "callable_lead_pins": 144,
+    "kml_points": 194,
+    "roof_bid_requests": 41,
+    "roof_social_media": 5
+   },
+   "archived_at": "2026-11-08T07:27:10-06:00"
+  },
+  {
    "key": "2026-11-07",
    "date": "2026-11-07",
    "label": "Sat 11/07/2026",
@@ -533,6 +553,6 @@
    "archived_at": "2026-10-19T18:06:09-05:00"
   }
  ],
- "latest": "2026-11-07",
+ "latest": "2026-11-08",
  "note": "Storm-Maps daily report archive. Root index.html is the latest report; each archive page has its own pins."
 }
