@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads Mon 11/9/2026</name>
+        <Folder id="14">
+            <name>Hail</name>
+            <Folder id="17">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="18">
+                <name>No contact</name>
+            </Folder>
+            <Folder id="57">
+                <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
+            </Folder>
+        </Folder>
+        <Folder id="15">
+            <name>Wind</name>
+            <Folder id="19">
+                <Style id="8">
+                    <IconStyle id="9">
+                        <color>ff00ff00</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="10">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>With contact</name>
+                <Placemark id="22">
+                    <name>BILLMANS INC (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: BILLMANS INC
+133 West Railroad Street, Cut Bank, Montana
+20,895 SF footprint; built n/a in source
+2.89 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: 406-873-4123
+Owner email: info@billmans.com
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MT SOS business search not completed (JS/CAPTCHA site); name matches assessor owner BILLMANS INC
+947 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.638082,-112.333018</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="21">
+                        <coordinates>-112.333018,48.638082,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="24">
+                    <name>CUT BANK AUTO BODY LLC (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CUT BANK AUTO BODY LLC
+314 East Railroad Street, Cut Bank, Montana
+16,367 SF footprint; built n/a in source
+2.91 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: 406-873-2092
+Owner email: cbab@cutbankautobody.com
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MT SOS business search not completed (JS/CAPTCHA site) - name matches the assessor owner CUT BANK AUTO BODY LLC on the D&amp;B listing
+947 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.634313,-112.327943</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="23">
+                        <coordinates>-112.327943,48.634313,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="26">
+                    <name>Family Dollar (25451 US Hwy 2, Cut Bank - store in a 10,296  (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: C &amp; N CUT BANK LLC
+25451 Us Highway 2, Cut Bank, Montana
+11,740 SF footprint; built n/a in source
+2.56 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Family Dollar (25451 US Hwy 2, Cut Bank - store in a 10,296 SF 2021 retail building)
+Op contact: -
+Op phone: 406-434-6361
+Op email: -
+SOS: MT SOS business search not completed (JS/CAPTCHA site)
+948 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.638109,-112.343614</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="25">
+                        <coordinates>-112.343614,48.638109,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="28">
+                    <name>CUT BANK TIRE (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CUT BANK TIRE
+W Railroad St, Cut Bank, Montana
+10,529 SF footprint; built n/a in source
+2.88 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: 406-873-5025
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MT SOS business search not completed (JS/CAPTCHA site)
+947 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.638929,-112.334571</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="27">
+                        <coordinates>-112.334571,48.638929,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Folder id="20">
+                <Style id="2">
+                    <IconStyle id="3">
+                        <color>ff0080ff</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="4">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>No contact</name>
+                <Placemark id="30">
+                    <name>USDI BLM (RESERVED) MONTANA STATE OFFICE (wind)</name>
+                    <description>Wind 75 mph Non-thunderstorm (measured gust) 22 NW Augusta MT (2045Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: USDI BLM (RESERVED) MONTANA STATE OFFICE
+no situs address in source, Augusta area, Montana
+11,119 SF footprint; built n/a in source
+4.34 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MT SOS business search not completed (JS/CAPTCHA site)
+938 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=47.79955,-112.682519</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="29">
+                        <coordinates>-112.682519,47.79955,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="32">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+501 West Main Street, Cut Bank, Montana
+31,357 SF footprint; built n/a in source
+2.84 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+948 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.640553,-112.338518</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="31">
+                        <coordinates>-112.338518,48.640553,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="34">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+15 Tank Hill Drive, Cut Bank, Montana
+16,823 SF footprint; built n/a in source
+3.0 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+946 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.626057,-112.319042</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="33">
+                        <coordinates>-112.319042,48.626057,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="36">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+25770 United States Highway 2, Cut Bank, Montana
+16,045 SF footprint; built n/a in source
+4.29 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+945 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.614663,-112.286319</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="35">
+                        <coordinates>-112.286319,48.614663,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="38">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+650 West Main Street, Cut Bank, Montana
+14,059 SF footprint; built n/a in source
+2.63 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+948 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.638119,-112.34118</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="37">
+                        <coordinates>-112.34118,48.638119,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="40">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+no situs address in source, Cut Bank, Montana
+13,331 SF footprint; built n/a in source
+3.13 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+946 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.625076,-112.315442</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="39">
+                        <coordinates>-112.315442,48.625076,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="42">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+no situs address in source, Cut Bank, Montana
+12,763 SF footprint; built n/a in source
+4.33 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+945 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.614211,-112.285526</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="41">
+                        <coordinates>-112.285526,48.614211,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="44">
+                    <name>HAAS MITCHELL &amp; ANGELA (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: HAAS MITCHELL &amp; ANGELA
+612 West Main Street, Cut Bank, Montana
+12,394 SF footprint; built n/a in source
+2.66 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: MT SOS business search not completed (JS/CAPTCHA site)
+948 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.638593,-112.340854</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="43">
+                        <coordinates>-112.340854,48.638593,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="46">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+121 East Main Street, Cut Bank, Montana
+12,292 SF footprint; built n/a in source
+2.89 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+947 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.635357,-112.329767</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="45">
+                        <coordinates>-112.329767,48.635357,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="48">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+512 West Main Street, Cut Bank, Montana
+11,262 SF footprint; built n/a in source
+2.74 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+948 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.638948,-112.338981</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="47">
+                        <coordinates>-112.338981,48.638948,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="50">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+18 Hope Road, Cut Bank, Montana
+10,687 SF footprint; built n/a in source
+4.12 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+946 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.637989,-112.300377</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="49">
+                        <coordinates>-112.300377,48.637989,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="52">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+no situs address in source, Cut Bank, Montana
+10,329 SF footprint; built n/a in source
+2.89 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+947 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.638784,-112.334221</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="51">
+                        <coordinates>-112.334221,48.638784,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="54">
+                    <name>not identified (no MT cadastral parcel polygon at the buildi (wind)</name>
+                    <description>Wind 68 mph Non-thunderstorm (measured gust) 3 SW Cut Bank MT (1656Z 11/08) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified (no MT cadastral parcel polygon at the building point)
+3 North Central Avenue, Cut Bank, Montana
+10,172 SF footprint; built n/a in source
+2.86 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+SOS: not checked - owner not identified from parcel layer
+947 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=48.63633,-112.331546</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="53">
+                        <coordinates>-112.331546,48.63633,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Placemark id="59">
+                <name>84 mph 15 S Dupuyer MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 84 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="58">
+                    <coordinates>-112.61,47.98,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="61">
+                <name>79 mph 19 NE Heart Butte MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 79 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="60">
+                    <coordinates>-112.63,48.53,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="63">
+                <name>75 mph 22 NW Augusta MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 75 mph measured non-thunderstorm gust; 1 C/I buildings &gt;=10k SF within 5 mi</description>
+                <Point id="62">
+                    <coordinates>-112.6,47.77,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="65">
+                <name>71 mph 6 NW Ledger MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 71 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (rural/mountain)</description>
+                <Point id="64">
+                    <coordinates>-111.94,48.29,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="67">
+                <name>68 mph 3 SW Cut Bank MT - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 68 mph measured non-thunderstorm gust; 16 C/I buildings &gt;=10k SF within 5 mi</description>
+                <Point id="66">
+                    <coordinates>-112.38,48.61,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="16">
+            <name>Rain</name>
+            <Folder id="55">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="56">
+                <name>No contact</name>
+            </Folder>
+        </Folder>
+        <Folder id="68">
+            <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
+            <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
+        </Folder>
+        <Folder id="69">
+            <Style id="72">
+                <IconStyle id="73">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="74">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="77">
+                <IconStyle id="78">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="79">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="82">
+                <IconStyle id="83">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="84">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="87">
+                <IconStyle id="88">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="89">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="92">
+                <IconStyle id="93">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="94">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="97">
+                <IconStyle id="98">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="99">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="102">
+                <IconStyle id="103">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="104">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="107">
+                <IconStyle id="108">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="109">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="112">
+                <IconStyle id="113">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="114">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="117">
+                <IconStyle id="118">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="119">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="122">
+                <IconStyle id="123">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="124">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="127">
+                <IconStyle id="128">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="129">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="132">
+                <IconStyle id="133">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="134">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="137">
+                <IconStyle id="138">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="139">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="142">
+                <IconStyle id="143">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="144">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="147">
+                <IconStyle id="148">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="149">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="152">
+                <IconStyle id="153">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="154">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="157">
+                <IconStyle id="158">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="159">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="162">
+                <IconStyle id="163">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="164">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="167">
+                <IconStyle id="168">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="169">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="172">
+                <IconStyle id="173">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="174">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="177">
+                <IconStyle id="178">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="179">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="182">
+                <IconStyle id="183">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="184">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="187">
+                <IconStyle id="188">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="189">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="192">
+                <IconStyle id="193">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="194">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="197">
+                <IconStyle id="198">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="199">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="202">
+                <IconStyle id="203">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="204">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="207">
+                <IconStyle id="208">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="209">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="212">
+                <IconStyle id="213">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="214">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="217">
+                <IconStyle id="218">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="219">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="222">
+                <IconStyle id="223">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="224">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="227">
+                <IconStyle id="228">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="229">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="232">
+                <IconStyle id="233">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="234">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="237">
+                <IconStyle id="238">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="239">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="242">
+                <IconStyle id="243">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="244">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="247">
+                <IconStyle id="248">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="249">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="252">
+                <IconStyle id="253">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="254">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="257">
+                <IconStyle id="258">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="259">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="262">
+                <IconStyle id="263">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="264">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="267">
+                <IconStyle id="268">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="269">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="272">
+                <IconStyle id="273">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="274">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="277">
+                <IconStyle id="278">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="279">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/blu-square.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Bid Requests — 42 (38 with phone/email)</name>
+            <Placemark id="71">
+                <name>Naperville CUSD 203 - 2027 Roofing Work, Elmwood Elementary School (Naperville, IL)</name>
+                <description>Bid Requests | has contact: No
+NEW this report
+seeking roofer (public bid - school district 2027 roofing work) | Open public bid | 2026-11-08 (published on NoticeRegistry) | pre-bid Mon 11/16/2026 2:00 PM at Elmwood Elementary (Door 1); sealed bids due Wed 12/2/2026 1:00 PM at 203 W. Hillside Rd.
+ITB "2027 Roofing Work, Elmwood Elementary School" (1024 Magnolia Lane, Naperville IL): general-contract roofing bid, 10% bid guarantee, performance and payment bonds, Bidder Responsibility documents due with the bid.
+Contact: Melanie Brown, Director of Buildings and Grounds (site visits)
+Phone: -
+Email: -
+Website: https://www.naperville203.org/
+Confidence: high (official notice); contact details not available
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-naperville-3362861
+~404 mi from Omaha</description>
+                <styleUrl>#72</styleUrl>
+                <Point id="70">
+                    <coordinates>-88.147,41.7858,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="76">
+                <name>Council Bluffs CSD – Bloomer Elementary (Council Bluffs, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+capital plan (pre-bid) | Capital-plan signal (not yet bid) | Detected 2026-09-22 (district facility assessment) | STATUS 2026-10-21: capital-plan signal (no bid yet)
+District facility assessment lists Bloomer (Elementary) as a top project: ~$7.8M roof repair + HVAC VRF replacement package; described as a likely future bid once funding is aligned. Primary assessment document and timing are behind the aggregator's sign-up wall (not used). 2020 district Facility Master Plan also flagged Bloomer HVAC/controls.
+Contact: Aaron Rang, Director of Facilities Maintenance &amp; Custodial Services (FMCS)
+Phone: 712-328-6406
+Email: arang@cb-schools.org
+Website: https://www.cb-schools.org
+Confidence: unconfirmed (aggregator summary of assessment; no bid date yet)
+Source: https://civiciq.com/public-project/bloomer-was-listed-as-a-top-project-with-a-78-million-roof-81a38563-d80d-4b39-87d9-99c5fce1c6bb ; https://www.cb-schools.org/departments/facilities
+~4 mi from Omaha</description>
+                <styleUrl>#77</styleUrl>
+                <Point id="75">
+                    <coordinates>-95.8608,41.2619,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="81">
+                <name>Cuming County Courthouse (Cuming County, NE) (West Point, NE)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer | Open public bid | 2026-10-16 (published; re-runs 10/23) | STATUS 2026-11-08: bids due Tue 11/10 10:30 AM
+Invitation to bid: removal and full roof replacement of the Cuming County Courthouse, 200 S. Lincoln St. Sealed bids due Tue Nov 10, 2026 10:30 AM (opened 10:45 AM); award Nov 24; completion desired by Apr 30, 2027. 5% bid bond/certified check; bidder must be membrane-manufacturer certified, 15+ yrs in business, proof of 1,000,000 sq low-slope membrane installed under warranty, no subcontracted labor. Documents at County Clerk, Room 100.
+Contact: Brian Fischer, Grounds and Building Manager (project questions; mobile redacted on notice); County Clerk Addisen Johnson (bid documents)
+Phone: (402) 372-6002 (County Clerk)
+Email: clerk@cumingcounty.ne.gov
+Website: https://cumingcountyne.gov
+Confidence: confirmed
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-west-point-768623
+~57 mi from Omaha</description>
+                <styleUrl>#82</styleUrl>
+                <Point id="80">
+                    <coordinates>-96.7086,41.8417,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="86">
+                <name>NE Dept. of Correctional Services - Tecumseh State Correctional Institution roof replacements (Bldgs G, Q, S, T) (Tecumseh, NE)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - state correctional facility roof replacements) | Open public bid | 2026-11-04 (published) | pre-bid conference Tue 11/24/2026 10:00 AM at the TSCI front entrance; sealed bids due Thu 12/3/2026 2:00 PM CST | STATUS 2026-11-05: pre-bid Tue 11/24 10:00 AM; bids due Thu 12/3 2:00 PM (re-posted NoticeRegistry #776980 = same project)
+NDCS ITB: roof replacements on buildings G, Q, S and T at Tecumseh State Correctional Institution, Tecumseh NE. Plans/specs from A&amp;D Technical Supply, 1822 N St, Lincoln NE; bid security required; pre-bid 11/24 10:00 AM; bids due 12/3/2026 2:00 PM.
+Contact: Nathan Bornemeier (NDCS, receives bids) - TSCI main line
+Phone: 402-335-5998
+Email: -
+Website: https://corrections.nebraska.gov/facilities/tecumseh-state-correctional-institution
+Confidence: high (legal notice); medium on contact (facility main line, not the bid contact)
+Source: https://www.noticeregistry.com/nebraska/notice/bid-notice-tecumseh-776258
+~63 mi from Omaha</description>
+                <styleUrl>#87</styleUrl>
+                <Point id="85">
+                    <coordinates>-96.195,40.3667,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="91">
+                <name>Sioux City CSD - North Middle School (Sioux City, IA)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer | Open public bid (carried forward) | 2026-10 (approx) | STATUS 2026-11-07: proposals due 11/12 - verify
+North Middle School roof renovation: remove existing roof, new membrane + insulation, structural repairs. Listing says due Nov 12, 2026 2:00 PM CT (a search snippet said Oct 29 - due date conflicts; check district notice). Docs via Action Reprographics plan room.
+Contact: -
+Phone: -
+Email: -
+Website: siouxcityschools.org (not opened)
+Confidence: unconfirmed
+Source: https://publicbidsearch.com/bids/sioux-city-csd-north-middle-school-roof-renovation-ia-eabf65
+~89 mi from Omaha</description>
+                <styleUrl>#92</styleUrl>
+                <Point id="90">
+                    <coordinates>-96.4049,42.4963,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="96">
+                <name>State of Iowa DAS - WRC CDC Freezer Repair (roof patching/flashing; Woodward Resource Center) (Woodward, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - roof patching, flashing, sealant, downspouts within a freezer structural repair) | Open public bid | ~2026-10-09 (Iowa DAS notice; first found by this search 11/2) | bids due Tue 11/17/2026 2:00 PM CST via IMPACS; questions due 11/4 10:00 AM | STATUS 2026-11-05: due 11/17 2:00 PM
+RFB #950300-01 WRC CDC Freezer Repair: re-grading, concrete, structural steel repairs, ROOF PATCHING, sealant, flashing and downspout modifications at the Woodward Resource Center, 1251 334th St, Woodward IA. Bids due 11/17/2026 2:00 PM on IMPACS (5% bid security); optional pre-bid was 10/28. Construction 12/21/2026-6/30/2027. Roofing is a partial scope (likely a sub to a GC). Notice posted ~10/9; first found by this search 11/2. Separate from the carried WRC Dispatch Garage design RFP.
+Contact: Katelyn Howells, Issuing Officer
+Phone: 515-721-7856
+Email: construction.procurement@das.iowa.gov
+Website: https://bidopportunities.iowa.gov
+Confidence: high (state bid document); roofing is a minor part of the scope
+Source: https://bidopportunities.iowa.gov/Home/GetBidOpportunityDocument/e2c93fb6-bf1b-4cdc-928a-d33166b293a5
+~112 mi from Omaha</description>
+                <styleUrl>#97</styleUrl>
+                <Point id="95">
+                    <coordinates>-93.927,41.857,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="101">
+                <name>State of Iowa – Woodward Resource Center Dispatch Garage (Woodward, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (design RFP) | Open RFP (design services; construction bid to follow) | Posted 2026-10-12; due 2026-11-10 2:00 PM; pre-proposal 10/22 1 PM | STATUS 2026-11-08: due Tue 11/10 2:00 PM
+RFP956800-01 "WRC Dispatch Garage Roof Replacement &amp; Birches Tuckpointing" – professional design services to replace the flat roof on the Dispatch Garage at Woodward Resource Center, 1251 334th St, Woodward IA. Design-phase now; the roofing construction bid should follow (good early-relationship target with the selected architect).
+Contact: Katelyn Howells, Construction Procurement
+Phone: (515) 721-7856
+Email: construction.procurement@das.iowa.gov
+Website: https://das.iowa.gov
+Confidence: confirmed
+Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=f098cb14-8ede-4503-94d6-402d9cfa6d7c
+~112 mi from Omaha</description>
+                <styleUrl>#102</styleUrl>
+                <Point id="100">
+                    <coordinates>-93.9222,41.8564,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="106">
+                <name>Iowa Dept. of Public Defense - Camp Dodge M-Series Corridor Reroof (AD14PC220010) (Johnston, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - state military facility reroof, EPDM to PVC) | Open public bid | 2026-11-05 (posted on Iowa DAS Bidding Opportunities) | pre-bid Thu 11/12/2026 10:00 AM, Conf. Rm 106, Bldg B-61 Camp Dodge; bids due Thu 11/26/2026 1:00 PM via IMPACS (LightRFP summary of the bid documents lists 11/24 1:00 PM - verify in IMPACS)
+Bid AD14PC220010 "M-SERIES CORRIDOR REROOF" at Camp Dodge, Johnston IA: remove existing EPDM roofs to deck, new tapered insulation and PVC membrane, replace gutters/scuppers/downspouts/fascia; shingle roofs remain. Federal BABA applies. Bids via State of Iowa IMPACS only.
+Contact: Philip Payton, Procurement Officer
+Phone: 515-252-4928
+Email: philip.payton@dpd.iowa.gov
+Website: https://bidopportunities.iowa.gov/
+Confidence: high (state procurement portal)
+Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=b1f81fbf-dd95-4cf1-ba4f-0e27a203bfff
+~119 mi from Omaha</description>
+                <styleUrl>#107</styleUrl>
+                <Point id="105">
+                    <coordinates>-93.706,41.7,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="111">
+                <name>Johnston CSD - Johnston Middle School (+ Wallace Elementary alternates) (Johnston, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) - MATERIAL UPDATE |  | 2026-10-16 (notice published); mandatory pre-bid Wed 2026-10-28 1:00 PM; bids due 2026-11-12 3:00 PM; board award 11/23 | STATUS 2026-11-07: due Thu 11/12 3:00 PM
+UPDATE to a lead first listed 10/17 (that listing only said "due Nov 12"). Full notice now posted: Johnston Middle School Partial Re-Roof Phase III, base bid tears off ballasted/adhered EPDM and installs 2" polyiso + 1/2" HD cover board + fully adhered 60-mil EPDM on ~70,000 SF, plus ~10,000 SF vertical metal siding; 2 alternates re-roof ~35,000 SF at Wallace Elementary (~1,000 ft east). MANDATORY pre-bid Oct 28 1:00 PM at JCSD Middle School, 6501 NW 62nd Ave (bidders who miss it cannot bid unless they arrange a walk-through with the owner before 10/28). 5% bid security. Plans from Beeline &amp; Blue, Des Moines ($50 refundable deposit).
+Contact: Mark Thiessen, Angelo Architectural Associates (architect); owner rep Rick Stark, Director of Buildings &amp; Grounds (phone redacted on notice)
+Phone: 515-250-6950 (architect, from 10/17 plan-room brief)
+Email: -
+Website: -
+Confidence: confirmed (official notice text)
+Source: https://www.noticeregistry.com/iowa/notice/bid-notice-johnston-132159
+~119 mi from Omaha</description>
+                <styleUrl>#112</styleUrl>
+                <Point id="110">
+                    <coordinates>-93.6977,41.673,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="116">
+                <name>Ankeny CSD - Innovation Hub Contract 7B Metal Roofing (~160k SF new school, Northview MS campus) (Ankeny, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - new school metal roofing prime contract) | Open public bid | 2026-11-03 (published) | pre-bid Tue 11/10/2026 1:00 PM; bids due Tue 11/17/2026 11:00 AM CST (Cottonwood Conference Room) | STATUS 2026-11-07: pre-bid Tue 11/10 1:00 PM; bids due Tue 11/17 11:00 AM
+Contract 7B Metal Roofing for the new two-story ~160,000 SF Innovation Hub on the Northview Middle School campus, Ankeny IA (multiple-prime, Agency CM). Documents via Procore from CM Donna Foster (Stahl); 5% bid security; P&amp;P bonds; not prevailing wage. Pre-bid 11/10 1:00 PM; bids due 11/17 11:00 AM at 406 SW School St.
+Contact: Ankeny CSD district office (CM contact Donna Foster, Stahl Construction - email redacted in free copy)
+Phone: 515-965-9600
+Email: -
+Website: https://www.ankenyschools.org
+Confidence: high (legal notice); medium on contact (district main line)
+Source: https://www.noticeregistry.com/iowa/notice/bid-notice-ankeny-137217
+~125 mi from Omaha</description>
+                <styleUrl>#117</styleUrl>
+                <Point id="115">
+                    <coordinates>-93.6001,41.7318,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="121">
+                <name>State of Iowa DAS - Fort Dodge Correctional Facility Powerhouse &amp; Warehouse roof replacement (RFP955000-01, design phase) (Fort Dodge, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public RFP (design phase) | 2026-10-26 (posted on Iowa DAS Bidding Opportunities; documents dated 10/22) | proposals due Mon 12/7/2026 2:00 PM | STATUS 2026-11-05: proposals due Mon 12/7 2:00 PM
+RFP955000-01 "DOC FDCF Powerhouse and Warehouse Roof Replacement": DAS is seeking professional DESIGN services for roof replacements of the Powerhouse and Warehouse buildings at Fort Dodge Correctional Facility, 1550 L St. This is the design (A/E) phase - the roofing construction bid should follow; worth tracking and getting on the plan-holder list.
+Contact: Michael Bradbury, DAS Construction Procurement
+Phone: 515-823-9327
+Email: construction.procurement@das.iowa.gov
+Website: https://bidopportunities.iowa.gov
+Confidence: high (official state portal); map pin approximate (1550 L St)
+Source: https://bidopportunities.iowa.gov/Home/BidInfo?bidId=32851523-bc07-4dea-a406-6c44bb3ea4c2
+~125 mi from Omaha</description>
+                <styleUrl>#122</styleUrl>
+                <Point id="120">
+                    <coordinates>-94.168,42.4975,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="126">
+                <name>Kansas State University - Waters Hall (Manhattan, KS)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (state capital project - design stage) |  | 2026-10-15 (advertised in Kansas Register #54623); SBAC nomination slated for the Nov 18, 2026 meeting | STATUS 2026-10-21: open
+New capital improvement ad: "KSU Waters Hall ReRoof - #54623 - October 15, 2026" for architectural/engineering services; listed for State Building Advisory Commission nominations on Nov 18, 2026. Design-phase now, so the roofing construction bid should follow after the architect is selected (early relationship target with the A/E). Roof size/system not stated on the page; the Kansas Register ad text did not load in a read-only fetch.
+Contact: KS DoA OFPM professional qualifications inbox (A/E submittals)
+Phone: -
+Email: professional.qualifications@ks.gov
+Website: https://admin.ks.gov
+Confidence: confirmed listing; scope/size unconfirmed (map pin at K-State campus, approximate)
+Source: https://admin.ks.gov/offices/facilities-property-management/design-construction--compliance/architectural--engineering-advertisements-nominations-and-selections
+~147 mi from Omaha</description>
+                <styleUrl>#127</styleUrl>
+                <Point id="125">
+                    <coordinates>-96.5806,39.191,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="131">
+                <name>Hume R-VIII School District - bus barn (Hume, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) |  | 2026-10-10 (published; re-ran 10/17); proposals due 2026-11-09 3:00 PM; complete by 2027-03-01 | STATUS 2026-11-08: due TOMORROW Mon 11/9 3:00 PM | STATUS 2026-11-09: due/mandatory pre-bid TODAY 11/9 - verify before pursuing
+RFP to remove and replace the metal roof on a 50 x 60 ft bus barn (~3,000 SF, under the 10,000 SF building threshold - small job) at 9163 SW 2nd St, Hume. On-site visit required before proposals; include metal gauge, color, screw size/specs, proof of licensing and insurance.
+Contact: Scott Morrison, Superintendent (named on notice for the site visit)
+Phone: 660-643-7411 (district main line)
+Email: -
+Website: https://www.humer8.k12.mo.us
+Confidence: confirmed (official notice); small scope
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-hume-1288008
+~230 mi from Omaha</description>
+                <styleUrl>#132</styleUrl>
+                <Point id="130">
+                    <coordinates>-94.5808,38.0898,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="136">
+                <name>University of Missouri - Keene Street Envelope &amp; Infrastructure Improvements (Bid Pkg 2: 7.2B Roofing &amp; Sheet Metal; CM River City Construction) (Columbia, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid / CM sub-bid) | Open CM sub-bid package | 2026-10-30 (published on NoticeRegistry) | Bid Package 2 bids due Thu 11/12/2026 1:30 PM CST via the online bidding platform
+University of Missouri "Keene Street Envelope &amp; Infrastructure Improvements", Columbia MO. CM River City Construction is taking bids on Bid Package 2 work categories incl. 7.2B Roofing and Sheet Metal (also 7.2A Fluid Air Barrier, 9.2 Drywall, 1.2 Site Services). Bids due 11/12 1:30 PM CST via the online platform; documents on the River City Construction website under "River City - Peoria". Email contacts are redacted in the free copy.
+Contact: River City Construction, LLC (CM) - East Peoria office, 101 Hoffer Ln
+Phone: 309-694-3120
+Email: -
+Website: https://www.rccllc.com
+Confidence: high (legal notice; CM main office line); map pin approximate (Keene St, Columbia)
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-columbia-1299557
+~250 mi from Omaha</description>
+                <styleUrl>#137</styleUrl>
+                <Point id="135">
+                    <coordinates>-92.287,38.957,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="141">
+                <name>Kandiyohi County HRA - Lakeview Apartments roofing/electrical/generator/fire alarm (300 7th St NW) (Willmar, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - public housing multifamily roofing + electrical gear/generator/fire alarm) | Open public bid | 2026-11-04 (published) | MANDATORY pre-bid walkthrough Thu 11/19/2026 10:00 AM at Lakeview Apartments; documents issued 11/12; sealed bids due Tue 12/15/2026 2:00 PM CST
+ITB: Lakeview Apartments, 300 7th Street NW, Willmar MN - replacement of roofing, electrical gear, a generator and the fire alarm system; one prime contract to the lowest responsible bidder; 5% bid security; mandatory prime-contractor walkthrough 11/19 10:00 AM; drawings/specs issued 11/12; bids due 12/15 2:00 PM.
+Contact: Jill Bengtson (bid receipt per notice) - HRA main office line
+Phone: 320-235-8637
+Email: -
+Website: https://www.willmarmn.gov/government/boards_and_commissions/kandiyohi_county_hra.php
+Confidence: high (legal notice); medium on contact (HRA main office line, not the named bid contact)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-willmar-1127709
+~271 mi from Omaha</description>
+                <styleUrl>#142</styleUrl>
+                <Point id="140">
+                    <coordinates>-95.053,45.126,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="146">
+                <name>Davenport CSD – Madison Elementary School (116 E Locust St) (Davenport, IA)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-19 (posted 1:00 PM) | bids due Mon 11/16 7:00 PM (CT per portal); optional pre-bid Thu 10/22 2:30 PM at the school
+Invitation to Bid FY27-091: single-prime partial roof replacement at Madison Elementary School, incl. unit prices for roof drain replacement (sump, flashing, piping) and pressure-treated wood nailer replacement. 5% bid bond, 100% P&amp;P bonds; submit via davenportschools.ionwave.net. Roof area not stated.
+Contact: Dawn Evans (Purchasing)
+Phone: -
+Email: evansd@davenportschools.org
+Website: https://davenportschools.ionwave.net
+Confidence: high (official solicitation contact)
+Source: https://bidscopeai.com/opportunities/49ac0474-3910-45ad-859a-63b4bc63d15c
+~278 mi from Omaha</description>
+                <styleUrl>#147</styleUrl>
+                <Point id="145">
+                    <coordinates>-90.57373,41.53832,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="151">
+                <name>City of Camdenton - City Park white metal roof &amp; soffit replacement (IFB 26-07) (Camdenton, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-20 (posted; picked up by Missouri Bid Network 10/24 and Dodge 10/25) | bids (IFB 26-07) due Thu 11/12/2026 3:00 PM by mail; questions due 11/10 4:00 PM; site inspection encouraged | STATUS 2026-11-07: due Thu 11/12 3:00 PM
+City of Camdenton seeks bids to tear off and replace the roof on an existing brick building at Camdenton City Park with a new white metal roof plus new soffit, flashing/sealing, inspection of the roof structure and debris removal. Itemized pricing, materials/warranty info, GL and workers comp insurance required. Building SF not stated (park building - likely small).
+Contact: Renee Kingston, City of Camdenton
+Phone: 573-346-3600
+Email: renee.kingston@camdentoncity.com
+Website: https://www.camdentoncity.com
+Confidence: medium-high (bid aggregator copy of the city IFB)
+Source: https://bidscopeai.com/opportunities/cd0842c3-7a24-4d26-b298-a5e1fd6dd1b8 ; https://www.missouribids.com/bid_opportunities/2026/10/24/15084614-white-metal-roof-replacement-and-soffit-replacement.html
+~281 mi from Omaha</description>
+                <styleUrl>#152</styleUrl>
+                <Point id="150">
+                    <coordinates>-92.744,38.008,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="156">
+                <name>Minneapolis Public Housing Authority - 630 Cedar Ave high-rise (Minneapolis, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-22 (published) | pre-bid walk-through Mon 10/26 9:30 AM; questions due 10/29 2:00 PM CDT; bids due Tue 11/10/2026 2:00 PM CST | STATUS 2026-11-08: bids due Tue 11/10 2:00 PM
+MPHA IFB B26025: exterior repairs and roof anchors at 630 Cedar Ave (public-housing high-rise, Cedar-Riverside). Documents and bids through Housing Agency Marketplace (ha.internationaleprocurement.com). Roof scope is anchors/fall-protection plus exterior repairs - check the spec for any roofing work.
+Contact: Greg Lewis, Senior Buyer (MPHA)
+Phone: 612-342-1414
+Email: glewis@mplspha.org
+Website: https://mphaonline.org/contracting-opportunities/
+Confidence: high (official buyer contact on MPHA notices)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-minneapolis-1116654
+~290 mi from Omaha</description>
+                <styleUrl>#157</styleUrl>
+                <Point id="155">
+                    <coordinates>-93.2475,44.9695,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="161">
+                <name>Greene County - Temporary Repair of Salt Shed Roof (IFB 26-11171) (Springfield, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - county salt shed temporary roof repair) | Open public bid | 2026-11-06 (published) | bids due Tue 12/1/2026 2:30 PM CST via Greene County Purchasing website (Beacon Bid)
+IFB #26-11171 Greene County Temporary Repair of Salt Shed Roof. Electronically sealed bids through Greene County Purchasing website by 2:30 PM Tue 12/1/2026. Contact Stephanie.Smith@greene... (email redacted in free copy).
+Contact: Greene County Purchasing (Stephanie Smith named in notice)
+Phone: 417-868-4012
+Email: -
+Website: https://greenecountymo.gov/purchasing/bids.php
+Confidence: high (legal notice); high on Purchasing main line
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-springfield-1301777
+~313 mi from Omaha</description>
+                <styleUrl>#162</styleUrl>
+                <Point id="160">
+                    <coordinates>-93.292,37.209,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="166">
+                <name>Forest Lake ISD 831 - Forest View Elementary facility improvements (roofs + MEP; prime bids) (Forest Lake, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school facility improvements incl. roofs) | Open public bid | 2026-11-04 (published, week of 11/2 and 11/9) | pre-bid walk-through Fri 11/20/2026 7:30 AM; bids due Tue 12/8/2026 2:00 PM CST via BuildingConnected | STATUS 2026-11-05: pre-bid Fri 11/20 7:30 AM; bids due Tue 12/8 2:00 PM
+Forest View Elementary 2026 Facility Improvements, Forest Lake MN: multi-phase MEP/structural upgrades extending to roofs, RTUs, AHUs, boilers, lighting, flooring, doors/frames; summers 2027 and 2028; lump-sum prime bids via BuildingConnected; plan-room help Kari Aufrere (KA). Pre-bid 11/20 7:30 AM.
+Contact: Kraus-Anderson Construction (CM) - JF Ndomb; Minneapolis HQ line
+Phone: 612-332-7281
+Email: -
+Website: https://www.krausanderson.com
+Confidence: high (legal notice); medium on contact (CM HQ line)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-forest-lake-1127053
+~315 mi from Omaha</description>
+                <styleUrl>#167</styleUrl>
+                <Point id="165">
+                    <coordinates>-92.9852,45.2789,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="171">
+                <name>City of Marionville - city building roof replacement (Marionville, MO)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-28 (published on NoticeRegistry) | sealed bids due Tue 11/10/2026 3:00 PM at City Hall, 107 S Central; opened at the 11/12 council meeting | STATUS 2026-11-08: due Tue 11/10 3:00 PM
+City of Marionville is taking sealed bids for a roof replacement on a city building; bids due 11/10 3:00 PM at City Hall (107 S Central), opened at the 11/12 council meeting. Building SF not stated in the notice.
+Contact: Krissa Bliss, City Clerk
+Phone: 417-258-2466
+Email: clerk@marionvillemo.gov
+Website: https://www.marionvillemo.gov
+Confidence: high (official notice + city page)
+Source: https://www.noticeregistry.com/missouri/notice/bid-notice-marionville-1296875
+~319 mi from Omaha</description>
+                <styleUrl>#172</styleUrl>
+                <Point id="170">
+                    <coordinates>-93.6374,37.004,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="176">
+                <name>Henderson's Advertising building (2508 E Cook St) (Springfield, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open bid - urgent | 2026-10-21 (published) | no deadline stated in notice
+Notice requests bids for an URGENT roof replacement at 2508 E. Cook St., Springfield IL; Illinois prevailing wage required; contractors must have a US DOL-certified apprenticeship program; work must meet city codes. Contact Leon Henderson for bid details (contact digits masked on the free page). Building is the Henderson's Advertising commercial building (business listings).
+Contact: Leon Henderson
+Phone: 217-544-9419
+Email: -
+Website: -
+Confidence: medium (business line at the address; notice phone masked)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-springfield-3342478
+~347 mi from Omaha</description>
+                <styleUrl>#177</styleUrl>
+                <Point id="175">
+                    <coordinates>-89.62018,39.79461,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="181">
+                <name>Onamia ISD 480 - IAQ &amp; Roofing project (Onamia, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school IAQ &amp; roofing) | Open public bid | 2026-11-04 (published) | pre-bid Fri 11/6/2026 10:00 AM on site; bids due Thu 12/3/2026 2:00 PM CST | STATUS 2026-11-07: pre-bid was Fri 11/6; bids due Thu 12/3 2:00 PM
+Onamia Public Schools IAQ &amp; Roofing, 35465 125th Ave, Onamia MN - multiple work scopes incl. roofing; 5% bid security; award ~12/22/2026; on-site work by 6/1/2027, substantial completion 8/13/2027. Electronic documents via Bekah Fuchs (ICS; number redacted in free copy). Pre-bid 11/6 10:00 AM.
+Contact: Onamia Public Schools district office (CM ICS Consulting - Rich Gareis)
+Phone: 320-532-6703
+Email: -
+Website: https://www.onamia.k12.mn.us
+Confidence: high (legal notice); medium on contact (district office line)
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-onamia-1126987
+~351 mi from Omaha</description>
+                <styleUrl>#182</styleUrl>
+                <Point id="180">
+                    <coordinates>-93.6677,46.0705,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="186">
+                <name>Oglala Lakota College - Roof Repair / Insurance Loss RFP (Pine Ridge campus) (Kyle, SD)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - insurance-loss roof repair) | Open public bid | 2026-10-31 (published on NoticeRegistry; notice dated 10/26) | sealed bids due Fri 11/13/2026 1:00 PM MST (2:00 PM CST) | STATUS 2026-11-05: sealed bids due Fri 11/13 1:00 PM MST
+"REQUEST FOR PROPOSALS FOR Roof Repair/Insurance loss - Oglala Lakota College, Pine Ridge SD" (notice dated 10/26/2026). Sealed bids to the Finance Committee Chair, 490 Piya Wiconi Road, Kyle SD 57752, due 1:00 PM Mountain Time 11/13/2026; insurance-loss specifications at the Office of the Director of Maintenance. College may hold bids up to 90 days. Phone in the free copy is redacted; the maintenance line below is from the college staff directory.
+Contact: Director of Maintenance (Lance Black Horn per staff directory), Piya Wiconi
+Phone: 605-455-6057
+Email: -
+Website: https://www.olc.edu
+Confidence: high (legal notice; college directory); map pin approximate (Piya Wiconi campus)
+Source: https://www.noticeregistry.com/south-dakota/notice/bid-notice-kyle-251487
+~352 mi from Omaha</description>
+                <styleUrl>#187</styleUrl>
+                <Point id="185">
+                    <coordinates>-102.196,43.399,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="191">
+                <name>Starved Rock Lodge - Cabins 602/603 roof replacement (Utica, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - lodge cabin roof replacement) | Open public bid | 2026-11-07 (published) | mandatory pre-bid Thu 11/13/2026 8:30 AM; proposals due Fri 11/27/2026 4:00 PM CST
+RFP: Cabin 602/603 roof replacement at Starved Rock Lodge, Utica IL. Request RFP packet from GM Jenny Roulston. Mandatory pre-bid Thu 11/13 8:30 AM; proposals due Fri 11/27/2026 4 PM CST.
+Contact: Jenny Roulston, General Manager - Starved Rock Lodge
+Phone: 815-667-4211
+Email: -
+Website: https://www.starvedrocklodge.com
+Confidence: high (legal notice); high on lodge main line
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-utica-3360587
+~361 mi from Omaha</description>
+                <styleUrl>#192</styleUrl>
+                <Point id="190">
+                    <coordinates>-88.978,41.321,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="196">
+                <name>Indian Prairie SD 204 - Waubonsie Valley High School (Roofing package) (Aurora, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-23 (published) | non-mandatory pre-bid Thu 10/29/2026 2:30 PM CDT (Pepper trailer); bids due Tue 11/17/2026 2:00 PM CDT | STATUS 2026-11-05: bids due 11/17 2:00 PM
+Waubonsie Valley High School Phase 2 renovations (2590 Ogden Ave, Aurora): 21 bid packages including ROOFING; work March 2027 - Sept 2028; 10% bid bond; DuPage prevailing wage; sealed bids only at the District Maintenance Operation Center, 1250 Shore Rd, Naperville. Documents via Pepper Construction (contact digits masked on the free page).
+Contact: Building Operations (Director John Robinson per Jan 2026 district award letter); bid docs: Thomas Grunert, Pepper Construction
+Phone: 630-375-3000
+Email: -
+Website: https://www.ipsd.org/departments/building-operations
+Confidence: medium (district main line; CM contact masked)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-aurora-3345267
+~401 mi from Omaha</description>
+                <styleUrl>#197</styleUrl>
+                <Point id="195">
+                    <coordinates>-88.2167,41.744,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="201">
+                <name>Joliet Township HSD 204 - Joliet Central High School (07B Roofing) (Joliet, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-23 (published) | docs to pre-qualified bidders ~Mon 10/26; virtual pre-bid Mon 11/2 10:00 AM; site walk Tue 11/3 8:00 AM; proposals due Fri 11/20/2026 10:00 AM | STATUS 2026-11-05: proposals due Fri 11/20 10:00 AM
+Joliet Central HS Phase 3 Smith (~11,000 SF) and T&amp;I (~27,000 SF) renovations, 201 E Jefferson St, Joliet: Bid Release 1 includes package 07B ROOFING WORK; bidders must pre-qualify with Gilbane via COMPASS; bids via Procore. Substantial completion Dec 2027.
+Contact: Brian Paczesny, Director of Buildings and Grounds (district); Gilbane: Yvonda Royster (digits masked)
+Phone: 815-727-6991
+Email: -
+Website: https://www.jths.org/district-departments/buildings-and-grounds
+Confidence: high (official district page)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-joliet-3344514
+~407 mi from Omaha</description>
+                <styleUrl>#202</styleUrl>
+                <Point id="200">
+                    <coordinates>-88.0787,41.5266,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="206">
+                <name>New Lenox SD 122 - Martino Junior High School (New Lenox, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-22 (published) | documents after 11/2; optional pre-bid Wed 11/11 1:00 PM; bids due Tue 12/1/2026 11:30 AM
+Sealed lump-sum bids for Martino Junior High roof replacement (731 E Joliet Hwy) plus a Cherry Hill paint refresh; 10% bid bond; documents from International Contractors, Inc. after Nov 2.
+Contact: Robert Groos, Chief School Business Official (district business office)
+Phone: 815-485-2169
+Email: -
+Website: https://www.nlsd122.org/c/index.php/departments/business/department-overview
+Confidence: high (official district office)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-new-lenox-3343579
+~414 mi from Omaha</description>
+                <styleUrl>#207</styleUrl>
+                <Point id="205">
+                    <coordinates>-87.9531,41.5106,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="211">
+                <name>Bourbonnais ESD 53 - 2027 Shepard Roofing Project (Alan Shepard Elementary) (Bourbonnais, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school roofing project) | Open public bid | 2026-11-04 (published) | mandatory pre-bid Thu 11/12/2026 11:00 AM; bids due Tue 11/24/2026 3:00 PM CST | STATUS 2026-11-05: mandatory pre-bid Thu 11/12 11:00 AM; bids due Tue 11/24 3:00 PM
+2027 Shepard Roofing Project at Alan Shepard Elementary, 325 N Convent, Bourbonnais IL. Plans from the Cordogan Clark plan room starting 11/5; prevailing wage; mandatory pre-bid 11/12 11:00 AM at the main entry; bids opened at the District Office, 281 W John Casey Rd, 11/24 3:00 PM.
+Contact: Bourbonnais ESD 53 district office
+Phone: 815-929-5100
+Email: -
+Website: https://www.besd53.org
+Confidence: high (legal notice); medium on contact (district main line)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-bourbonnais-3357522
+~419 mi from Omaha</description>
+                <styleUrl>#212</styleUrl>
+                <Point id="210">
+                    <coordinates>-87.88,41.15,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="216">
+                <name>Warren Township HSD 121 - 2027 Roof Work Phase V (Almond &amp; O'Plaine campuses, ~1,000 squares) (Gurnee, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school roof replacement ITB) | Open public bid | 2026-11-03 (published on NoticeRegistry) | mandatory pre-proposal walk-through Tue 11/17/2026 10:30 AM; RFIs due 11/24 noon; bids opened Tue 12/8/2026 3:00 PM CST
+2027 Roof Work - Phase V at the Almond Campus (34090 Almond Rd) and O'Plaine Campus (500 N O'Plaine Rd), Gurnee IL: tear-off and replacement of ~1,000 roofing squares plus masonry, precast and sheet-metal work; 2-year contractor warranty plus manufacturer warranties. Mandatory walk-through 11/17 10:30 AM (District Office, NE corner of Almond Campus); RFIs to C.E. Crowley &amp; Associates by 11/24 noon; bids opened 12/8/2026 3:00 PM at the District Offices.
+Contact: C.E. Crowley &amp; Associates, Inc. (roof consultant; receives RFIs)
+Phone: 847-662-8132
+Email: -
+Website: -
+Confidence: high (legal notice); medium on contact (consultant office line)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-gurnee-3355968
+~419 mi from Omaha</description>
+                <styleUrl>#217</styleUrl>
+                <Point id="215">
+                    <coordinates>-87.93,42.37,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="221">
+                <name>Township HSD 113 - Deerfield High School remedial roofing repairs (INSPEC #400988) (Deerfield, IL)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-30 (published on NoticeRegistry) | mandatory pre-bid Mon 11/9/2026 1:00 PM; sealed bids opened Thu 11/19/2026 2:30 PM | STATUS 2026-11-08: mandatory pre-bid TOMORROW Mon 11/9 1:00 PM; bids opened Thu 11/19 2:30 PM | STATUS 2026-11-09: due/mandatory pre-bid TODAY 11/9 - verify before pursuing
+Request for bids: INSPEC Job #400988 "2027 Remedial Roofing Repairs at Deerfield High School" (plus a separate remedial masonry package #400989). MANDATORY pre-bid 11/9 1:00 PM at the visitors entrance, 1959 Waukegan Rd - bids from non-attendees rejected. 10% bid security; performance/payment bonds; Illinois Prevailing Wage. Documents from the BHFX planroom after 11/2 ($60 per set - not purchased).
+Contact: District 113 business office (1040 Park Ave W, Highland Park IL); INSPEC (consultant) - phone/email redacted in the free notice
+Phone: -
+Email: -
+Website: https://www.dist113.org
+Confidence: high (legal notice); no direct phone/email in free copy; map pin approximate (1959 Waukegan Rd)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-deerfield-3353579
+~421 mi from Omaha</description>
+                <styleUrl>#222</styleUrl>
+                <Point id="220">
+                    <coordinates>-87.8525,42.163,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="226">
+                <name>City of Lake Forest - Fire Station HQ renovation, Bid Pkg #7 Roofing &amp; Coping (REBID) (Lake Forest, IL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-26 (published on NoticeRegistry / Daily Herald) | bids due Mon 11/9/2026 9:00 AM CST at 800 N Field Dr, Lake Forest; questions due 11/2; prequalification (AIA A305) and 10% bid security required | STATUS 2026-11-08: due TOMORROW Mon 11/9 9:00 AM | STATUS 2026-11-09: due/mandatory pre-bid TODAY 11/9 - verify before pursuing
+Lake Forest Fire Department Headquarters Fire Station renovation (255 W Deerpath Rd) - Bid Package #7 Roofing &amp; Coping, REBID. Whole project estimate about $13.96M. Prequalification and 10% bid security required; questions to George Gardner by 11/2.
+Contact: Mary Judge, Wight Construction Services (CM); questions to George Gardner
+Phone: -
+Email: mjudge@wightco.com
+Website: https://www.cityoflakeforest.com
+Confidence: high (legal notice); map pin approximate (W Deerpath)
+Source: https://www.noticeregistry.com/illinois/notice/bid-notice-lake-forest-3348429 ; http://marketplace.dailyherald.com/chicago/legals-public-notices/notice-to-bidders-notice-is-he/AC1E054E18fb6186C6eNds4C7DA9
+~422 mi from Omaha</description>
+                <styleUrl>#227</styleUrl>
+                <Point id="225">
+                    <coordinates>-87.8475,42.2535,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="231">
+                <name>Grand Rapids ISD 318 - 2027 Roofing Project, Educational Services Center (Grand Rapids, MN)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school district 2027 roofing project) | Open public bid | 2026-11-08 (published on NoticeRegistry) | pre-bid Wed 11/18/2026 1:00 PM, Room 126, Educational Services Center; sealed bids due Tue 11/24/2026 2:00 PM at the ISD 318 Business Office
+ITB "Roofing &amp; Waterproofing" - ISD 318 2027 roofing project at the District Educational Services Center, Grand Rapids MN. 5% bid security; on-site work starts by 7/5/2027, substantial completion 8/27/2027. District financed $9.975M of roof work with 2026A facilities-maintenance bonds (Baird case study).
+Contact: ISD 318 district office (Kris Shattuck named in notice for documents)
+Phone: 218-327-5700
+Email: -
+Website: https://www.isd318.org/
+Confidence: high (legal notice); medium on district main line for bid questions
+Source: https://www.noticeregistry.com/minnesota/notice/bid-notice-grand-rapids-1130459
+~430 mi from Omaha</description>
+                <styleUrl>#232</styleUrl>
+                <Point id="230">
+                    <coordinates>-93.5372,47.2337,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="236">
+                <name>Garland ISD - Garland High School roof replacement (McCownGordon CMAR, BP02) (Garland, TX)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - CM-at-risk trade package, school roof replacement) | Open public bid | 2026-11-03 (published on NoticeRegistry) | mandatory pre-proposal meeting Wed 11/11/2026 3:30 PM at Garland HS; bid packages posted by 11/20; bids due Wed 12/2/2026 2:00 PM CST
+McCownGordon is soliciting lump-sum trade bids for the Garland High School roof replacement (Project 15D PH5-BP02), 310 S. Garland Ave, Garland TX 75040. Mandatory pre-proposal meeting 11/11/2026 3:30 PM (auditorium entrance); bid forms/packages via BuildingConnected or local plan rooms by 11/20; bids due 12/2/2026 2:00 PM via BuildingConnected, email, or to 5700 Granite Pkwy Ste 800, Plano TX 75024; bids held 90 days. Notice email redacted in the free copy.
+Contact: McCownGordon Construction - Plano/DFW office (bid contact redacted in free copy)
+Phone: 469-378-0648
+Email: -
+Website: https://dfw.mccowngordon.com
+Confidence: high (legal notice); medium on contact (office line, not the named bid contact)
+Source: https://www.noticeregistry.com/texas/notice/bid-notice-garland-975302
+~578 mi from Omaha</description>
+                <styleUrl>#237</styleUrl>
+                <Point id="235">
+                    <coordinates>-96.638,32.911,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="241">
+                <name>City of Arlington - East Police Sub-Station re-roofing (CSP 26-0247) (Arlington, TX)</name>
+                <description>Bid Requests | has contact: No
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-28 (published; re-runs 11/4) | proposals due Thu 12/3/2026 2:00 PM at the Office of the Purchasing Manager, 101 S. Mesquite St, Suite 800 | STATUS 2026-11-05: proposals due Thu 12/3 2:00 PM
+CSP 26-0247 Re-Roofing, Window Systems and Fire Alarm System Replacement at the East Police Sub-Station (2001 New York Ave). Documents on the City procurement portal (registration). Building SF not stated.
+Contact: Office of the Purchasing Manager, City of Arlington (phone/email redacted in the free notice; use the procurement portal)
+Phone: -
+Email: -
+Website: https://www.arlingtontx.gov
+Confidence: high (legal notice); no direct phone/email; map pin approximate
+Source: https://www.noticeregistry.com/texas/notice/bid-notice-arlington-971500
+~593 mi from Omaha</description>
+                <styleUrl>#242</styleUrl>
+                <Point id="240">
+                    <coordinates>-97.078,32.729,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="246">
+                <name>City of Corpus Christi - Arena roof replacement (RFB 7672) (Corpus Christi, TX)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid | 2026-10-25 (released on CivCast; NoticeRegistry 10/25) | bids due Wed 12/2/2026 2:30 PM CT (CivCast e-bid or sealed flash drive); pre-bid WebEx 11/4 9:30 AM; site visit Thu 11/5 10:00 AM (registration); questions due 11/11 4:00 PM | STATUS 2026-11-05: due Wed 12/2 2:30 PM
+RFB 7672 Arena Roof Replacement (Project 25021): replace the existing arena roof system with associated repairs, parapet metal coping, exhaust fan curbs and lightning protection; penetrations brought to current code. Engineer's estimate $3,238,646.30; 11 planholders. NO-CONTACT period - questions only via CivCast.
+Contact: Ariel Bueno-Cortinas, City of Corpus Christi Finance &amp; Procurement (questions via CivCast only - no-contact period)
+Phone: 361-826-3277
+Email: arielbc@corpuschristitx.gov
+Website: https://www.corpuschristitx.gov
+Confidence: high (agency bid record)
+Source: https://www.lightrfp.com/marketplace/bid/CIVCAST-6ad0f5129c5c4aa7bb81932c/rfb-7672-arena-roof-replacement-25021 ; https://www.noticeregistry.com/texas/notice/bid-notice-corpus-christi-970851
+~933 mi from Omaha</description>
+                <styleUrl>#247</styleUrl>
+                <Point id="245">
+                    <coordinates>-97.3939,27.8072,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="251">
+                <name>Brownsville ISD - Roofing Maintenance District-Wide (RFP 27-079) (Brownsville, TX)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school district roofing maintenance district-wide) | Open public bid | 2026-11-07 (published) | Roofing Maintenance District-Wide RFP 27-079 due Wed 12/10/2026 9:00 AM (opening 9:45 AM); Senior Buyer Connie Alvear
+BISD district-wide solicitations package includes RFP 27-079 Roofing Maintenance District-Wide (submission 12/10/2026 9:00 AM, opening 9:45 AM). Senior Buyer Connie Alvear. Submit via BISD eBid or sealed to Procurement Services.
+Contact: Connie Alvear, CTSBO - Senior Buyer, BISD Procurement
+Phone: 956-548-8361
+Email: mcalvear@bisd.us
+Website: https://www.bisd.us
+Confidence: high (legal notice); high on named buyer phone/email from public BISD solicitations
+Source: https://www.noticeregistry.com/texas/notice/bid-notice-brownsville-977846
+~1065 mi from Omaha</description>
+                <styleUrl>#252</styleUrl>
+                <Point id="250">
+                    <coordinates>-97.4975,25.9018,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="256">
+                <name>Venetian Community Development District - reroofing RFP (Venice, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - reroofing RFP) | Open public bid | 2026-11-02 (published on NoticeRegistry) | proposals due Tue 12/15/2026 2:00 PM ET; questions by 11/13 noon; board decision 1/11/2027
+The Venetian CDD (a Chapter 190 local government unit, Venice FL) solicits proposals for a REROOFING project; RFP package by email from 11/2/2026 9:00 AM. One hard copy + one electronic copy due 12/15/2026 2:00 PM to 9530 Marketplace Rd Suite 206, Ft. Myers FL 33912; public opening 2:01 PM; board decision 1/11/2027 9:30 AM. Building(s) not named in the free summary - CDD owns community amenity buildings (River Club clubhouse); verify scope and size in the RFP.
+Contact: Belinda Blandon, District Manager (Rizzetta &amp; Company)
+Phone: 239-936-0913
+Email: -
+Website: https://www.venetiancdd.org
+Confidence: high (legal notice); medium on contact; map pin approximate (Venetian community, Venice FL)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-fort-myers-11727329
+~1243 mi from Omaha</description>
+                <styleUrl>#257</styleUrl>
+                <Point id="255">
+                    <coordinates>-82.404,27.116,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="261">
+                <name>Lee County - Medical Examiner's Office Expansion (Roofing package, CPPI) (Fort Myers, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid) | Open public bid (prequal) | 2026-10-23 (published) | pre-bid Thu 11/5/2026 1:00 PM; bids due Thu 12/3/2026 2:00 PM via BuildingConnected; prequalification required | STATUS 2026-11-05: pre-bid was Thu 11/5 1:00 PM; bids due 12/3
+CPPI is prequalifying subcontractors for the Lee County Medical Examiner's Office Expansion, 70 South Danley Dr, Fort Myers; trade packages include ROOFING. Bids through BuildingConnected; prequalification link from prequalification@cppi.com.
+Contact: Tiffany Watkins, CPPI
+Phone: 352-333-9292
+Email: tiffany.watkins@cppi.com
+Website: https://www.cppi.com
+Confidence: medium (notice text via search index; source page down)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-fort-myers-11720390
+~1292 mi from Omaha</description>
+                <styleUrl>#262</styleUrl>
+                <Point id="260">
+                    <coordinates>-81.809,26.6098,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="266">
+                <name>School Board of Palm Beach County - Jeaga Middle School roofing (ITB #27-26D) (West Palm Beach, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - school roofing ITB) | Open public bid | 2026-11-02 (published on NoticeRegistry) | mandatory site inspection Tue 12/1/2026; bids due Mon 1/4/2027 2:00 PM ET via BidNet Direct
+ITB #27-26D roofing at Jeaga Middle School, 3777 N. Jog Rd, West Palm Beach FL 33411. Bidders must be State of Florida certified roofing or building contractors and School Board prequalified. Mandatory site inspection 12/1/2026; electronic proposals due 1/4/2027 2:00 PM ET on BidNet Direct.
+Contact: Construction Purchasing (Nathan Benedict, Purchasing Agent)
+Phone: 561-882-1992
+Email: nathan.benedict@palmbeachschools.org
+Website: https://www.palmbeachschools.org
+Confidence: high (legal notice; district purchasing directory - agent for this ITB not named, construction purchasing desk)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-west-palm-beach-11727370
+~1345 mi from Omaha</description>
+                <styleUrl>#267</styleUrl>
+                <Point id="265">
+                    <coordinates>-80.155,26.749,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="271">
+                <name>PBI Airport - Concourse C Roof Replacement (Whiting-Turner CMAR sub bids) (West Palm Beach, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - CM-at-risk subcontract, roof replacement) | Open public bid | 2026-11-01 (published on NoticeRegistry) | sub bids due Wed 12/2/2026 2:00 PM ET via BuildingConnected; Whiting-Turner prequalification required
+Whiting-Turner is soliciting subcontractor bids for the Concourse C Roof Replacement (LSAR0623561) at President Donald J. Trump (Palm Beach) International Airport: roof, structural, mechanical, electrical work. Electronic bids due 12/2/2026 2:00 PM via BuildingConnected; prequalification with Whiting-Turner mandatory. Notice bid contact is Elisha Entingh (phone/email redacted in the free copy). The County airports list names Whiting-Turner as the CMAR for this project with Mike Avni as the CMAR contact.
+Contact: Mike Avni, Whiting-Turner (CMAR contact); bid contact Elisha Entingh
+Phone: -
+Email: Michael.Avni@Whiting-Turner.com
+Website: https://www.pbia.org
+Confidence: high (legal notice + County airports CMAR list)
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-west-palm-beach-11726964
+~1351 mi from Omaha</description>
+                <styleUrl>#272</styleUrl>
+                <Point id="270">
+                    <coordinates>-80.0956,26.6832,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="276">
+                <name>Town of South Palm Beach - Town Hall roof replacement (ITB 11-02-2026) (South Palm Beach, FL)</name>
+                <description>Bid Requests | has contact: Yes
+Prior run, still open
+seeking roofer (public bid - municipal Town Hall roof replacement) | Open public bid | 2026-11-06 (published) | optional pre-proposal conference Thu 11/12/2026 3:00 PM; sealed bids due Mon 11/30/2026 2:00 PM
+ITB No. 11-02-2026 Town Hall Roof Replacement, 3577 South Ocean Blvd, South Palm Beach FL: eight packages plus one USB copy to the Town Clerk by 11/30 2:00 PM; optional pre-proposal conference 11/12 3:00 PM; addenda on the Town website and DemandStar.
+Contact: Town Manager James Titcomb / Town Hall (email redacted in free copy)
+Phone: 561-588-8889
+Email: -
+Website: https://www.southpalmbeach.com
+Confidence: high (legal notice); high on Town Hall main line
+Source: https://www.noticeregistry.com/florida/notice/bid-notice-south-palm-beach-11731750
+~1358 mi from Omaha</description>
+                <styleUrl>#277</styleUrl>
+                <Point id="275">
+                    <coordinates>-80.0388,26.5886,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="280">
+            <Style id="283">
+                <IconStyle id="284">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="285">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="288">
+                <IconStyle id="289">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="290">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="293">
+                <IconStyle id="294">
+                    <color>ff0080ff</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="295">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="298">
+                <IconStyle id="299">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="300">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="303">
+                <IconStyle id="304">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="305">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Social Media — 5 (2 with phone/email)</name>
+            <Placemark id="282">
+                <name>Unnamed industrial building - 1 SW Madison SD (roof damage, wind) (Madison, SD)</name>
+                <description>Social Media | has contact: No
+Prior run, still open
+storm damage (industrial building roof damage - thunderstorm wind) | Storm-damage lead (LSR) | 2026-11-02 20:58Z (2:58 PM CST) NWS Sioux Falls Local Storm Report (pulled 11/6; not in earlier runs)
+LSR TSTM WND DMG 1 SW Madison, Lake County SD (44.00N, 97.13W): "Roof damage to an industrial building." Building/owner not named; no magnitude given.
+Contact: -
+Phone: -
+Email: -
+Website: -
+Confidence: medium (official NWS report; building unidentified)
+Source: https://mesonet.agron.iastate.edu/geojson/lsr.geojson?sts=2026-11-02T12:00Z&amp;ets=2026-11-03T14:00Z&amp;wfo=FSD
+~199 mi from Omaha</description>
+                <styleUrl>#283</styleUrl>
+                <Point id="281">
+                    <coordinates>-97.13,44.0,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="287">
+                <name>Keyes OK EF1 tornado - community center + Polk St commercial buildings (roof damage) (Keyes, OK)</name>
+                <description>Social Media | has contact: No
+Prior run, still open
+storm damage (commercial/public building roofs - EF1 tornado) | Storm-damage news lead | 2026-11-03 (KVII/KSCB report; EF1 tornado 11:03 PM CST Sun 11/1) | STATUS 2026-11-05: EF1 tornado storm-damage news lead - owners not identified
+NWS-confirmed EF1 (100 mph) tornado in Keyes OK: the community center lost a wall and had minor roof damage; an old pool hall on Polk St collapsed and the roof was lifted off a building across the street; a grain silo was tossed. Owners of the damaged commercial buildings not named.
+Contact: -
+Phone: -
+Email: -
+Website: -
+Confidence: medium (news report)
+Source: https://www.kscbnews.net/2026/11/03/106300/
+~457 mi from Omaha</description>
+                <styleUrl>#288</styleUrl>
+                <Point id="286">
+                    <coordinates>-102.2499,36.8106,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="292">
+                <name>Downtown Nocona building at Clay St &amp; Willow St (tin roof blown off) (Nocona, TX)</name>
+                <description>Social Media | has contact: No
+Prior run, still open
+storm damage (downtown commercial building - tin roof blown off) | Storm-damage lead (LSR) | 2026-11-02 9:06 PM CST (delayed report) NWS Fort Worth Local Storm Report
+LSR TSTM WND DMG Nocona, Montague County TX: "Emergency management reported a tin roof blew off of a building in downtown Nocona near the intersection of Clay St and Willow St." Building type/owner not named.
+Contact: -
+Phone: -
+Email: -
+Website: -
+Confidence: medium (official NWS report; occupancy not stated)
+Source: https://mesonet.agron.iastate.edu/geojson/lsr.geojson?sts=2026-11-02T12:00Z&amp;ets=2026-11-03T14:00Z&amp;wfo=FWD
+~525 mi from Omaha</description>
+                <styleUrl>#293</styleUrl>
+                <Point id="291">
+                    <coordinates>-97.73,33.79,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="297">
+                <name>Knights of Columbus hall, Gallup (200 Apache Circle) (Gallup, NM)</name>
+                <description>Social Media | has contact: Yes
+Prior run, still open
+storm damage (commercial/assembly building roof blown off) | Storm damage report | 2026-11-01 1:05 PM MST (20:05Z) NWS Local Storm Report | non-thunderstorm wind damage
+"Knights of Columbus building in Gallup sustained roof damage from straight-line wind gusts. Roofing material was blown off of the building." (NON-TSTM WND DMG, no measured speed; also tree limbs/power lines down in Gallup). Not a qualifying 68+ mph event (no speed), so carried here as a storm-damage lead only. Building size not verified (no SF claim). Outside the preferred states (NM).
+Contact: Knights of Columbus Gallup (hall listing)
+Phone: 505-722-5911
+Email: -
+Website: https://www.visitgallup.com/directory/knights-of-columbus/
+Confidence: high on damage (EM report); medium that 200 Apache Circle is the damaged building
+Source: https://mesonet.agron.iastate.edu/geojson/lsr.php?sts=202611011900&amp;ets=202611012200&amp;wfos=ABQ
+~798 mi from Omaha</description>
+                <styleUrl>#298</styleUrl>
+                <Point id="296">
+                    <coordinates>-108.74,35.52,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="302">
+                <name>Sun Pain Management - north Phoenix clinic (11047 N 19th Ave) (Phoenix, AZ)</name>
+                <description>Social Media | has contact: Yes
+Prior run, still open
+storm damage to commercial roof | Storm damage - news | 2026-10-27 (Hoodline / FOX10 Phoenix) | STATUS 2026-11-05: storm 10/26-27 - news lead (owner not identified)
+Baseball-size hail broke through the roof of a north Phoenix pain clinic; roof estimate near $300K; clinic closed while repairs are sorted out. Building owner not identified (clinic is the tenant/operator).
+Contact: Sun Pain Management (clinic office - tenant/operator; owner not identified)
+Phone: 602-589-0500
+Email: -
+Website: https://sunpainmanagement.com
+Confidence: medium (address/phone from the clinic site; building owner unknown)
+Source: https://hoodline.com/2026/10/hail-punches-through-north-phoenix-pain-clinic-roof-roof-estimate-nears-300k/ ; https://www.fox10phoenix.com/news/phoenix-hailstorm-damages-north-phoenix-pain-clinic
+~1031 mi from Omaha</description>
+                <styleUrl>#303</styleUrl>
+                <Point id="301">
+                    <coordinates>-112.0996,33.5863,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
