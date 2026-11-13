@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads Fri 11/13/2026</name>
+        <Folder id="14">
+            <name>Hail</name>
+            <Folder id="17">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="18">
+                <name>No contact</name>
+            </Folder>
+            <Folder id="23">
+                <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
+            </Folder>
+        </Folder>
+        <Folder id="15">
+            <name>Wind</name>
+            <Folder id="19">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="20">
+                <name>No contact</name>
+            </Folder>
+        </Folder>
+        <Folder id="16">
+            <name>Rain</name>
+            <Folder id="21">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="22">
+                <name>No contact</name>
+            </Folder>
+        </Folder>
+        <Folder id="24">
+            <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
+            <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
+        </Folder>
+        <Folder id="25">
+            <name>Bid Requests — 0 (0 with phone/email)</name>
+        </Folder>
+        <Folder id="26">
+            <name>Social Media — 0 (0 with phone/email)</name>
+        </Folder>
+    </Document>
+</kml>
