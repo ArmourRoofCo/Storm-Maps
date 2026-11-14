@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads Sat 11/14/2026</name>
+        <Folder id="14">
+            <Style id="97">
+                <PolyStyle id="98">
+                    <color>1e0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Hail</name>
+            <Folder id="17">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="18">
+                <name>No contact</name>
+            </Folder>
+            <Placemark id="92">
+                <name>2.00in hail 2 NW Shelter Cove (11/13 2100Z = 3:00 PM CST) - Confirmed: measured</name>
+                <description>Basis: Confirmed: measured
+Single public report of 2" hail (LSR qualifier M); radar (MESH 0.54") and HailTrace do not corroborate - low confidence, no buildings.
+MRMS MESH there only 0.54" (radar did not show 2"); HailTrace public 11/13: 3 est. properties at 1"+, 0 at 1.75"+. Ground report is a single public report with LSR qualifier M (measured; basis rank 1 per rule); kept as a qualifying event, but 0 C/I buildings &gt;=10,000 SF within 5 mi (rural coastal Humboldt Co.), so no building lead.</description>
+                <Point id="91">
+                    <coordinates>-124.08,40.05,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="94">
+                <name>Lead radius 5 mi around 2 NW Shelter Cove report</name>
+                <styleUrl>#97</styleUrl>
+                <Polygon id="93">
+                    <outerBoundaryIs>
+                        <LinearRing id="95">
+                            <coordinates>-123.9853359148331,40.05,0.0 -123.9857917482775,40.057102691328225,0.0 -123.98715485868547,40.06413697985624,0.0 -123.9894121185586,40.07103512154018,0.0 -123.9925417892504,40.07773068350471,0.0 -123.99651373032123,40.08415918382797,0.0 -124.0012896898073,40.09025871253765,0.0 -124.00682367260796,40.09597052783794,0.0 -124.01306238344367,40.10123962182511,0.0 -124.01994574011862,40.10601525024367,0.0 -124.02740745214524,40.11025142118134,0.0 -124.03537565915771,40.11390733799625,0.0 -124.04377362296663,40.11694779221096,0.0 -124.05252046658974,40.11934350258929,0.0 -124.06153195314143,40.12107139713066,0.0 -124.07072129708003,40.122114835266096,0.0 -124.08,40.12246376811594,0.0 -124.08927870291997,40.122114835266096,0.0 -124.09846804685857,40.12107139713066,0.0 -124.10747953341026,40.11934350258929,0.0 -124.11622637703337,40.11694779221096,0.0 -124.12462434084229,40.11390733799625,0.0 -124.13259254785476,40.11025142118134,0.0 -124.14005425988138,40.10601525024367,0.0 -124.14693761655633,40.10123962182511,0.0 -124.15317632739203,40.09597052783794,0.0 -124.1587103101927,40.09025871253765,0.0 -124.16348626967877,40.08415918382797,0.0 -124.1674582107496,40.07773068350471,0.0 -124.17058788144139,40.07103512154018,0.0 -124.17284514131453,40.06413697985624,0.0 -124.17420825172249,40.057102691328225,0.0 -124.1746640851669,40.05,0.0 -124.17420825172249,40.04289730867177,0.0 -124.17284514131453,40.03586302014376,0.0 -124.17058788144139,40.02896487845982,0.0 -124.1674582107496,40.02226931649528,0.0 -124.16348626967877,40.01584081617202,0.0 -124.1587103101927,40.00974128746235,0.0 -124.15317632739203,40.00402947216205,0.0 -124.14693761655633,39.998760378174886,0.0 -124.14005425988138,39.99398474975632,0.0 -124.13259254785476,39.989748578818656,0.0 -124.12462434084229,39.98609266200374,0.0 -124.11622637703337,39.98305220778904,0.0 -124.10747953341026,39.980656497410706,0.0 -124.09846804685857,39.97892860286933,0.0 -124.08927870291997,39.9778851647339,0.0 -124.08,39.97753623188405,0.0 -124.07072129708003,39.9778851647339,0.0 -124.06153195314143,39.97892860286933,0.0 -124.05252046658974,39.980656497410706,0.0 -124.04377362296663,39.98305220778904,0.0 -124.03537565915771,39.98609266200374,0.0 -124.02740745214524,39.989748578818656,0.0 -124.01994574011862,39.99398474975632,0.0 -124.01306238344367,39.998760378174886,0.0 -124.00682367260796,40.00402947216205,0.0 -124.0012896898073,40.00974128746235,0.0 -123.99651373032123,40.01584081617202,0.0 -123.9925417892504,40.02226931649528,0.0 -123.9894121185586,40.02896487845982,0.0 -123.98715485868547,40.03586302014376,0.0 -123.9857917482775,40.04289730867177,0.0 -123.9853359148331,40.05,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Folder id="99">
+                <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
+            </Folder>
+        </Folder>
+        <Folder id="15">
+            <name>Wind</name>
+            <Folder id="19">
+                <Style id="8">
+                    <IconStyle id="9">
+                        <color>ff00ff00</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="10">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>With contact</name>
+                <Placemark id="22">
+                    <name>Mammoth Hospital (85 Sierra Park Rd) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+185 Sierra Park Road, Mammoth Lakes, California
+77,748 SF footprint; built n/a in source
+3.15 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Mammoth Hospital (85 Sierra Park Rd)
+Op contact: -
+Op phone: 760-934-3311
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.643873,-118.962653</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="21">
+                        <coordinates>-118.962653,37.643873,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="24">
+                    <name>Grocery Outlet (37 Old Mammoth Rd) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+37 Old Mammoth Road, Mammoth Lakes, California
+22,729 SF footprint; built n/a in source
+2.99 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Grocery Outlet (37 Old Mammoth Rd)
+Op contact: -
+Op phone: 760-934-1510
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.645627,-118.965783</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="23">
+                        <coordinates>-118.965783,37.645627,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="26">
+                    <name>Eastern Sierra Transit Authority - Mammoth depot (210 Commer (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+123 Commerce Drive, Mammoth Lakes, California
+10,765 SF footprint; built n/a in source
+3.78 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Eastern Sierra Transit Authority - Mammoth depot (210 Commerce Dr)
+Op contact: -
+Op phone: 760-924-3184
+Op email: info@estransit.com
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1249 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.642018,-118.95091</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="25">
+                        <coordinates>-118.95091,37.642018,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="28">
+                    <name>RC Willey Reno (1201 Steamboat Pkwy) (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1201 Steamboat Parkway, Reno, Nevada
+180,051 SF footprint; built n/a in source
+4.66 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: RC Willey Reno (1201 Steamboat Pkwy)
+Op contact: -
+Op phone: 775-337-4600
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.424717,-119.735234</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="27">
+                        <coordinates>-119.735234,39.424717,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="30">
+                    <name>The Home Depot #8560 (1001 Steamboat Pkwy) (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1001 Steamboat Parkway, Reno, Nevada
+144,995 SF footprint; built n/a in source
+4.95 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: The Home Depot #8560 (1001 Steamboat Pkwy)
+Op contact: -
+Op phone: 775-851-6000
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.425046,-119.740577</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="29">
+                        <coordinates>-119.740577,39.425046,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="32">
+                    <name>CVS Pharmacy (1081 Steamboat Pkwy) (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1081 Steamboat Parkway, Reno, Nevada
+15,064 SF footprint; built n/a in source
+4.94 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: CVS Pharmacy (1081 Steamboat Pkwy)
+Op contact: -
+Op phone: 775-852-2111
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.422952,-119.740976</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="31">
+                        <coordinates>-119.740976,39.422952,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Folder id="20">
+                <Style id="2">
+                    <IconStyle id="3">
+                        <color>ff0080ff</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="4">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>No contact</name>
+                <Placemark id="34">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+452 Old Mammoth Road, Mammoth Lakes, California
+61,479 SF footprint; built n/a in source
+2.88 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.639511,-118.96742</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="33">
+                        <coordinates>-118.96742,37.639511,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="36">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+26 Old Mammoth Road, Mammoth Lakes, California
+52,179 SF footprint; built n/a in source
+2.92 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.645801,-118.967125</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="35">
+                        <coordinates>-118.967125,37.645801,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="38">
+                    <name>80|50 (OSM name, unverified occupant) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+50 Canyon Boulevard, Unit 114, Mammoth Lakes, California
+50,430 SF footprint; built n/a in source
+2.06 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: 80|50 (OSM name, unverified occupant)
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1251 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.649514,-118.984324</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="37">
+                        <coordinates>-118.984324,37.649514,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="40">
+                    <name>Coach (OSM name, unverified occupant) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+3343 Main Street, Mammoth Lakes, California
+35,785 SF footprint; built n/a in source
+2.69 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Coach (OSM name, unverified occupant)
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.647509,-118.971737</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="39">
+                        <coordinates>-118.971737,37.647509,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="42">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+120 Sierra Park Road, Mammoth Lakes, California
+22,717 SF footprint; built n/a in source
+3.05 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.644187,-118.964473</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="41">
+                        <coordinates>-118.964473,37.644187,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="44">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+3029 Chateau Road, Mammoth Lakes, California
+20,628 SF footprint; built n/a in source
+3.02 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.63663,-118.964919</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="43">
+                        <coordinates>-118.964919,37.63663,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="46">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+3399 Main Street, Mammoth Lakes, California
+18,157 SF footprint; built n/a in source
+2.63 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.647605,-118.972861</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="45">
+                        <coordinates>-118.972861,37.647605,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="48">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+451 Commerce Circle, Unit 25, Mammoth Lakes, California
+16,868 SF footprint; built n/a in source
+3.61 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1249 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.642639,-118.954047</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="47">
+                        <coordinates>-118.954047,37.642639,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="50">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+141 Commerce Drive, Mammoth Lakes, California
+16,711 SF footprint; built n/a in source
+3.82 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1249 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.64126,-118.950278</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="49">
+                        <coordinates>-118.950278,37.64126,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="52">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+58 Commerce Drive, Mammoth Lakes, California
+15,694 SF footprint; built n/a in source
+3.89 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1249 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.642228,-118.94901</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="51">
+                        <coordinates>-118.94901,37.642228,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="54">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1422 Tavern Road, Mammoth Lakes, California
+14,767 SF footprint; built n/a in source
+3.03 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.645194,-118.965084</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="53">
+                        <coordinates>-118.965084,37.645194,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="56">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+3043 Main Street, Mammoth Lakes, California
+14,107 SF footprint; built n/a in source
+2.94 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.646661,-118.96694</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="55">
+                        <coordinates>-118.96694,37.646661,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="58">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+220 Sierra Manor Road, Mammoth Lakes, California
+13,896 SF footprint; built n/a in source
+2.99 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.641547,-118.965376</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="57">
+                        <coordinates>-118.965376,37.641547,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="60">
+                    <name>Devils Creek Distillery (OSM name, unverified occupant) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+Commerce Drive, Mammoth Lakes, California
+13,787 SF footprint; built n/a in source
+3.86 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Devils Creek Distillery (OSM name, unverified occupant)
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1249 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.642263,-118.949576</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="59">
+                        <coordinates>-118.949576,37.642263,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="62">
+                    <name>Sherwin Professional Plaza (OSM name, unverified occupant) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+549 Old Mammoth Road, Mammoth Lakes, California
+13,287 SF footprint; built n/a in source
+2.95 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Sherwin Professional Plaza (OSM name, unverified occupant)
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.638061,-118.966069</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="61">
+                        <coordinates>-118.966069,37.638061,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="64">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+217 Sierra Manor Road, Mammoth Lakes, California
+12,094 SF footprint; built n/a in source
+3.04 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.641472,-118.964408</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="63">
+                        <coordinates>-118.964408,37.641472,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="66">
+                    <name>Good Life Cafe (OSM name, unverified occupant) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+126 Old Mammoth Road, Mammoth Lakes, California
+11,443 SF footprint; built n/a in source
+2.92 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Good Life Cafe (OSM name, unverified occupant)
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.643961,-118.966788</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="65">
+                        <coordinates>-118.966788,37.643961,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="68">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+264 Commerce Drive, Mammoth Lakes, California
+11,395 SF footprint; built n/a in source
+3.73 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1249 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.643734,-118.952074</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="67">
+                        <coordinates>-118.952074,37.643734,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="70">
+                    <name>Good Life Cafe (OSM name, unverified occupant) (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+126 Old Mammoth Road, Mammoth Lakes, California
+11,171 SF footprint; built n/a in source
+2.9 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Good Life Cafe (OSM name, unverified occupant)
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1250 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.644275,-118.967216</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="69">
+                        <coordinates>-118.967216,37.644275,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="72">
+                    <name>not identified (wind)</name>
+                    <description>Wind 94 mph Non-thunderstorm (measured gust) 1 NE Mammoth Mountain S CA (2111Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+123 Commerce Drive, Mammoth Lakes, California
+11,116 SF footprint; built n/a in source
+3.81 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1249 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.641786,-118.950327</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="71">
+                        <coordinates>-118.950327,37.641786,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="74">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+684 Geiger Grade Road, Reno, Nevada
+17,666 SF footprint; built n/a in source
+4.8 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.398948,-119.738729</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="73">
+                        <coordinates>-119.738729,39.398948,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="76">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+6500 Desert Way, Reno, Nevada
+14,899 SF footprint; built n/a in source
+4.58 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1254 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.453544,-119.714678</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="75">
+                        <coordinates>-119.714678,39.453544,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="78">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1041 Steamboat Parkway, Reno, Nevada
+14,725 SF footprint; built n/a in source
+4.78 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.425198,-119.737274</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="77">
+                        <coordinates>-119.737274,39.425198,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="80">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+14830 Kivett Lane, Reno, Nevada
+14,431 SF footprint; built n/a in source
+3.95 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.39087,-119.719763</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="79">
+                        <coordinates>-119.719763,39.39087,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="82">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+7300 Desert Way, Reno, Nevada
+14,271 SF footprint; built n/a in source
+3.76 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1254 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.443112,-119.705873</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="81">
+                        <coordinates>-119.705873,39.443112,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="84">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1595 Geiger Grade Road, Reno, Nevada
+11,982 SF footprint; built n/a in source
+4.0 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.391236,-119.720867</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="83">
+                        <coordinates>-119.720867,39.391236,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="86">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1141 Steamboat Parkway, Reno, Nevada
+10,985 SF footprint; built n/a in source
+4.81 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.423807,-119.738353</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="85">
+                        <coordinates>-119.738353,39.423807,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="88">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 7 N Virginia City NV (2106Z 11/13) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+10105 Veterans Parkway, Reno, Nevada
+10,562 SF footprint; built n/a in source
+4.55 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: No (State license/registration required)
+State license; threshold: Any amount (narrow exemptions in NRS 624.031) (general info, not legal advice)
+SOS: Not checked - owner not identified from open sources (no parcel owner name), so no SOS reconciliation possible
+1256 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=39.422344,-119.733709</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="87">
+                        <coordinates>-119.733709,39.422344,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Placemark id="101">
+                <name>94 mph 1 NE Mammoth Mountain S CA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 94 mph measured non-thunderstorm gust; 23 C/I buildings &gt;=10k SF within 5 mi (Mammoth Lakes town / Reno-Steamboat); CA/NV = state license required</description>
+                <Point id="100">
+                    <coordinates>-119.02,37.64,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="103">
+                <name>89 mph 4 S Conway Summit CA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 89 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (Mammoth Lakes town / Reno-Steamboat); CA/NV = state license required</description>
+                <Point id="102">
+                    <coordinates>-119.16,38.03,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="105">
+                <name>73 mph 7 N Virginia City NV - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 73 mph measured non-thunderstorm gust; 11 C/I buildings &gt;=10k SF within 5 mi (Mammoth Lakes town / Reno-Steamboat); CA/NV = state license required</description>
+                <Point id="104">
+                    <coordinates>-119.65,39.41,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="107">
+                <name>69 mph Mammoth Mountain Ski Su CA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 69 mph measured non-thunderstorm gust; 23 C/I buildings &gt;=10k SF within 5 mi (Mammoth Lakes town / Reno-Steamboat); CA/NV = state license required</description>
+                <Point id="106">
+                    <coordinates>-119.03,37.63,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="109">
+                <name>68 mph 2 NW Conway Summit CA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 68 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (Mammoth Lakes town / Reno-Steamboat); CA/NV = state license required</description>
+                <Point id="108">
+                    <coordinates>-119.21,38.11,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="111">
+                <name>68 mph 1 S Mammoth Mountain Sk CA - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 68 mph measured non-thunderstorm gust; 23 C/I buildings &gt;=10k SF within 5 mi (Mammoth Lakes town / Reno-Steamboat); CA/NV = state license required</description>
+                <Point id="110">
+                    <coordinates>-119.04,37.64,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="16">
+            <name>Rain</name>
+            <Folder id="89">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="90">
+                <name>No contact</name>
+            </Folder>
+        </Folder>
+        <Folder id="112">
+            <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
+            <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
+        </Folder>
+        <Folder id="113">
+            <name>Bid Requests — 0 (0 with phone/email)</name>
+        </Folder>
+        <Folder id="114">
+            <name>Social Media — 0 (0 with phone/email)</name>
+        </Folder>
+    </Document>
+</kml>
