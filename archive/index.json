@@ -1,6 +1,21 @@
 {
  "dates": [
   {
+   "key": "2026-11-16",
+   "date": "2026-11-16",
+   "label": "Mon 11/16/2026",
+   "summary": "quiet day",
+   "file": "archive/2026-11-16.html",
+   "kml": "archive/2026-11-16.kml",
+   "geojson": "archive/2026-11-16.geojson",
+   "counts": {
+    "storm_report": 6,
+    "callable_lead_pins": 0,
+    "kml_points": 6
+   },
+   "archived_at": "2026-11-16T07:10:40-06:00"
+  },
+  {
    "key": "2026-11-15",
    "date": "2026-11-15",
    "label": "Sun 11/15/2026",
@@ -674,6 +689,6 @@
    "archived_at": "2026-10-19T18:06:09-05:00"
   }
  ],
- "latest": "2026-11-15",
+ "latest": "2026-11-16",
  "note": "Storm-Maps daily report archive. Root index.html is the latest report; each archive page has its own pins."
 }
