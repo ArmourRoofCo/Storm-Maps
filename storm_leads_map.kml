@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="1">
-        <name>Storm leads Mon 11/16/2026</name>
+        <name>Storm leads Tue 11/17/2026</name>
         <Folder id="14">
             <name>Hail</name>
             <Folder id="17">
@@ -22,14 +22,6 @@
             <Folder id="20">
                 <name>No contact</name>
             </Folder>
-            <Placemark id="25">
-                <name>68 mph 2 SE Browning MT - Non-thunderstorm (measured gust)</name>
-                <description>Basis: Confirmed: measured
-QUALIFIES - 68 mph measured non-thunderstorm gust (meets the 68 mph minimum exactly); 5 C/I buildings &gt;=10k SF within 5 mi (Browning area); MT = state license required</description>
-                <Point id="24">
-                    <coordinates>-112.98,48.54,0.0</coordinates>
-                </Point>
-            </Placemark>
         </Folder>
         <Folder id="16">
             <name>Rain</name>
@@ -40,137 +32,17 @@ QUALIFIES - 68 mph measured non-thunderstorm gust (meets the 68 mph minimum exac
                 <name>No contact</name>
             </Folder>
         </Folder>
-        <Folder id="26">
+        <Folder id="24">
             <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
             <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
         </Folder>
-        <Folder id="27">
-            <Style id="30">
-                <IconStyle id="31">
-                    <color>ff9e9e9e</color>
-                    <colorMode>normal</colorMode>
-                    <scale>1</scale>
-                    <heading>0</heading>
-                    <Icon id="32">
-                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                    </Icon>
-                </IconStyle>
-            </Style>
-            <Style id="35">
-                <IconStyle id="36">
-                    <color>ff9e9e9e</color>
-                    <colorMode>normal</colorMode>
-                    <scale>1</scale>
-                    <heading>0</heading>
-                    <Icon id="37">
-                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                    </Icon>
-                </IconStyle>
-            </Style>
-            <Style id="40">
-                <IconStyle id="41">
-                    <color>ff9e9e9e</color>
-                    <colorMode>normal</colorMode>
-                    <scale>1</scale>
-                    <heading>0</heading>
-                    <Icon id="42">
-                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                    </Icon>
-                </IconStyle>
-            </Style>
-            <Style id="45">
-                <IconStyle id="46">
-                    <color>ff9e9e9e</color>
-                    <colorMode>normal</colorMode>
-                    <scale>1</scale>
-                    <heading>0</heading>
-                    <Icon id="47">
-                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                    </Icon>
-                </IconStyle>
-            </Style>
-            <Style id="50">
-                <IconStyle id="51">
-                    <color>ff9e9e9e</color>
-                    <colorMode>normal</colorMode>
-                    <scale>1</scale>
-                    <heading>0</heading>
-                    <Icon id="52">
-                        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                    </Icon>
-                </IconStyle>
-            </Style>
-            <name>No-license states (not researched) — 5</name>
-            <Placemark id="29">
-                <name>No-license MT: no street address in source, Browning area, Montan</name>
-                <description>No-license state (not researched)
-no street address in source, Browning area, Montana
-MT · 11,595 SF
-68 mph wind
-Can solicit: No (State license/registration required)
-State license; threshold: Any amount. Independent contractors with no employees are exempt. (general info, not legal advice)</description>
-                <styleUrl>#30</styleUrl>
-                <Point id="28">
-                    <coordinates>-113.009013,48.553656,0.0</coordinates>
-                </Point>
-            </Placemark>
-            <Placemark id="34">
-                <name>No-license MT: no street address in source, Browning area, Montan</name>
-                <description>No-license state (not researched)
-no street address in source, Browning area, Montana
-MT · 120,579 SF
-68 mph wind
-Can solicit: No (State license/registration required)
-State license; threshold: Any amount. Independent contractors with no employees are exempt. (general info, not legal advice)</description>
-                <styleUrl>#35</styleUrl>
-                <Point id="33">
-                    <coordinates>-113.01966,48.565558,0.0</coordinates>
-                </Point>
-            </Placemark>
-            <Placemark id="39">
-                <name>No-license MT: no street address in source, Browning area, Montan</name>
-                <description>No-license state (not researched)
-no street address in source, Browning area, Montana
-MT · 32,326 SF
-68 mph wind
-Can solicit: No (State license/registration required)
-State license; threshold: Any amount. Independent contractors with no employees are exempt. (general info, not legal advice)</description>
-                <styleUrl>#40</styleUrl>
-                <Point id="38">
-                    <coordinates>-113.011873,48.549244,0.0</coordinates>
-                </Point>
-            </Placemark>
-            <Placemark id="44">
-                <name>No-license MT: no street address in source, Browning area, Montan</name>
-                <description>No-license state (not researched)
-no street address in source, Browning area, Montana
-MT · 24,461 SF
-68 mph wind
-Can solicit: No (State license/registration required)
-State license; threshold: Any amount. Independent contractors with no employees are exempt. (general info, not legal advice)</description>
-                <styleUrl>#45</styleUrl>
-                <Point id="43">
-                    <coordinates>-113.009982,48.535501,0.0</coordinates>
-                </Point>
-            </Placemark>
-            <Placemark id="49">
-                <name>No-license MT: no street address in source, Browning area, Montan</name>
-                <description>No-license state (not researched)
-no street address in source, Browning area, Montana
-MT · 40,957 SF
-68 mph wind
-Can solicit: No (State license/registration required)
-State license; threshold: Any amount. Independent contractors with no employees are exempt. (general info, not legal advice)</description>
-                <styleUrl>#50</styleUrl>
-                <Point id="48">
-                    <coordinates>-113.011277,48.550344,0.0</coordinates>
-                </Point>
-            </Placemark>
+        <Folder id="25">
+            <name>No-license states (not researched) — 0</name>
         </Folder>
-        <Folder id="53">
+        <Folder id="26">
             <name>Bid Requests — 0 (0 with phone/email)</name>
         </Folder>
-        <Folder id="54">
+        <Folder id="27">
             <name>Social Media — 0 (0 with phone/email)</name>
         </Folder>
     </Document>
