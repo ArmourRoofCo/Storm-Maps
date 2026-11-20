@@ -1,6 +1,22 @@
 {
  "dates": [
   {
+   "key": "2026-11-20",
+   "date": "2026-11-20",
+   "label": "Fri 11/20/2026",
+   "summary": "3 storm bldgs (3 w/ contact)",
+   "file": "archive/2026-11-20.html",
+   "kml": "archive/2026-11-20.kml",
+   "geojson": "archive/2026-11-20.geojson",
+   "counts": {
+    "storm_building_with_contact": 3,
+    "storm_report": 398,
+    "callable_lead_pins": 3,
+    "kml_points": 401
+   },
+   "archived_at": "2026-11-20T07:14:52-06:00"
+  },
+  {
    "key": "2026-11-19",
    "date": "2026-11-19",
    "label": "Thu 11/19/2026",
@@ -739,6 +755,6 @@
    "archived_at": "2026-10-19T18:06:09-05:00"
   }
  ],
- "latest": "2026-11-19",
+ "latest": "2026-11-20",
  "note": "Storm-Maps daily report archive. Root index.html is the latest report; each archive page has its own pins."
 }
