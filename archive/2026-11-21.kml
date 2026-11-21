@@ -1,0 +1,2414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads Sat 11/21/2026</name>
+        <Folder id="14">
+            <name>Hail</name>
+            <Folder id="17">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="18">
+                <name>No contact</name>
+            </Folder>
+            <Folder id="193">
+                <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
+            </Folder>
+        </Folder>
+        <Folder id="15">
+            <name>Wind</name>
+            <Folder id="19">
+                <Style id="8">
+                    <IconStyle id="9">
+                        <color>ff00ff00</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="10">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>With contact</name>
+                <Placemark id="22">
+                    <name>BROADMOOR HOTEL INC / ATTN FINANCE (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: BROADMOOR HOTEL INC / ATTN FINANCE
+no situs address in source (El Paso County parcel 7436207015, Colorado Springs area)
+131,923 SF footprint; built n/a in source
+3.69 mi from report
+Has contact (phone/email): Yes
+Owner contact: The Broadmoor (main line / general info; ask for facilities or property management)
+Owner phone: (719) 634-7711
+Owner email: info@broadmoor.com
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+501 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.792781,-104.849184</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="21">
+                        <coordinates>-104.849184,38.792781,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="24">
+                    <name>BROADMOOR HOTEL INC / ATTN DIRECTOR OF FINANCE (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: BROADMOOR HOTEL INC / ATTN DIRECTOR OF FINANCE
+no situs address in source (El Paso County parcel 7436207016, Colorado Springs area)
+67,745 SF footprint; built n/a in source
+3.66 mi from report
+Has contact (phone/email): Yes
+Owner contact: The Broadmoor (main line / general info; ask for facilities or property management)
+Owner phone: (719) 634-7711
+Owner email: info@broadmoor.com
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+501 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.792204,-104.848141</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="23">
+                        <coordinates>-104.848141,38.792204,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="26">
+                    <name>Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broad (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CHEYENNE RESORT ACQUISITION / GROUP LLC
+no situs address in source (El Paso County parcel 6506200015, Colorado Springs area)
+34,220 SF footprint; built n/a in source
+3.55 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broadmoor Valley Rd)
+Op contact: -
+Op phone: (719) 538-4000
+Op email: cmrsales@cheyennemountain.com
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.782202,-104.822314</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="25">
+                        <coordinates>-104.822314,38.782202,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="28">
+                    <name>Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broad (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CHEYENNE RESORT ACQUISITION / GROUP LLC
+no situs address in source (El Paso County parcel 6506200015, Colorado Springs area)
+21,038 SF footprint; built n/a in source
+3.54 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broadmoor Valley Rd)
+Op contact: -
+Op phone: (719) 538-4000
+Op email: cmrsales@cheyennemountain.com
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.781661,-104.821614</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="27">
+                        <coordinates>-104.821614,38.781661,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="30">
+                    <name>Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broad (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CHEYENNE RESORT ACQUISITION / GROUP LLC
+no situs address in source (El Paso County parcel 6506200015, Colorado Springs area)
+20,062 SF footprint; built n/a in source
+3.55 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broadmoor Valley Rd)
+Op contact: -
+Op phone: (719) 538-4000
+Op email: cmrsales@cheyennemountain.com
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.782914,-104.823702</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="29">
+                        <coordinates>-104.823702,38.782914,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="32">
+                    <name>BROADMOOR HOTEL INC / ATTN DIRECTOR OF FINANCE (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: BROADMOOR HOTEL INC / ATTN DIRECTOR OF FINANCE
+no situs address in source (El Paso County parcel 7500000274, Colorado Springs area)
+19,893 SF footprint; built n/a in source
+2.24 mi from report
+Has contact (phone/email): Yes
+Owner contact: The Broadmoor (main line / general info; ask for facilities or property management)
+Owner phone: (719) 634-7711
+Owner email: info@broadmoor.com
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+501 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.769281,-104.842214</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="31">
+                        <coordinates>-104.842214,38.769281,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="34">
+                    <name>PSI CEDAR SPRINGS HOSPITAL INC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: PSI CEDAR SPRINGS HOSPITAL INC
+no situs address in source (El Paso County parcel 6430400004, Colorado Springs area)
+19,162 SF footprint; built n/a in source
+4.91 mi from report
+Has contact (phone/email): Yes
+Owner contact: Cedar Springs Hospital (main line)
+Owner phone: (719) 633-4114
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.80237,-104.816221</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="33">
+                        <coordinates>-104.816221,38.80237,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="36">
+                    <name>Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broad (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CHEYENNE RESORT ACQUISITION / GROUP LLC
+no situs address in source (El Paso County parcel 6506200015, Colorado Springs area)
+14,633 SF footprint; built n/a in source
+3.48 mi from report
+Has contact (phone/email): Yes
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: Cheyenne Mountain Resort, a Destination by Hyatt (3225 Broadmoor Valley Rd)
+Op contact: -
+Op phone: (719) 538-4000
+Op email: cmrsales@cheyennemountain.com
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.781068,-104.822576</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="35">
+                        <coordinates>-104.822576,38.781068,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="38">
+                    <name>PSI CEDAR SPRINGS HOSPITAL INC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: PSI CEDAR SPRINGS HOSPITAL INC
+no situs address in source (El Paso County parcel 6430400004, Colorado Springs area)
+12,429 SF footprint; built n/a in source
+4.83 mi from report
+Has contact (phone/email): Yes
+Owner contact: Cedar Springs Hospital (main line)
+Owner phone: (719) 633-4114
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.801296,-104.816864</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="37">
+                        <coordinates>-104.816864,38.801296,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="40">
+                    <name>BROADMOOR HOTEL INC / ATTN DIRECTOR OF FINANCE (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: BROADMOOR HOTEL INC / ATTN DIRECTOR OF FINANCE
+no situs address in source (El Paso County parcel 7501204005, Colorado Springs area)
+12,428 SF footprint; built n/a in source
+2.74 mi from report
+Has contact (phone/email): Yes
+Owner contact: The Broadmoor (main line / general info; ask for facilities or property management)
+Owner phone: (719) 634-7711
+Owner email: info@broadmoor.com
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+502 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.778609,-104.848007</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="39">
+                        <coordinates>-104.848007,38.778609,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="42">
+                    <name>FOCUS MANUFACTURING, INC (wind)</name>
+                    <description>Wind 70 mph Non-thunderstorm (measured gust) 1 SE Rye CO (1405Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: FOCUS MANUFACTURING, INC
+no situs address on parcel (Pueblo County, CO parcel 4725238001)
+21,624 SF footprint; built n/a in source
+4.67 mi from report
+Has contact (phone/email): Yes
+Owner contact: Focus Manufacturing Inc (Rye / Colorado City)
+Owner phone: (719) 676-2713
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+526 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.931153,-104.838696</description>
+                    <styleUrl>#8</styleUrl>
+                    <Point id="41">
+                        <coordinates>-104.838696,37.931153,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Folder id="20">
+                <Style id="2">
+                    <IconStyle id="3">
+                        <color>ff0080ff</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="4">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>No contact</name>
+                <Placemark id="44">
+                    <name>not identified (wind)</name>
+                    <description>Wind 78 mph Non-thunderstorm (measured gust) Monarch Pass CO (1815Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+no street address in source, near Monarch Pass
+18,966 SF footprint; built n/a in source
+3.86 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+580 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.552254,-106.294564</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="43">
+                        <coordinates>-106.294564,38.552254,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="46">
+                    <name>ATMEL CORP / C/O JEANNE PALING (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: ATMEL CORP / C/O JEANNE PALING
+no situs address in source (El Paso County parcel 6432203010, Colorado Springs area)
+294,834 SF footprint; built n/a in source
+4.47 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.789194,-104.806051</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="45">
+                        <coordinates>-104.806051,38.789194,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="48">
+                    <name>not identified (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+no street address in source, near 6 S Colorado Springs
+277,772 SF footprint; built n/a in source
+3.7 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+501 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.719132,-104.796868</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="47">
+                        <coordinates>-104.796868,38.719132,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="50">
+                    <name>DAYTON HUDSON CORP / C/O TARGET CORP T-739 (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: DAYTON HUDSON CORP / C/O TARGET CORP T-739
+no situs address in source (El Paso County parcel 6432104005, Colorado Springs area)
+188,989 SF footprint; built n/a in source
+4.8 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.792799,-104.802002</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="49">
+                        <coordinates>-104.802002,38.792799,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="52">
+                    <name>WAL-MART REAL ESTATE / BUSINESS TRUST (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: WAL-MART REAL ESTATE / BUSINESS TRUST
+no situs address in source (El Paso County parcel 6504412002, Colorado Springs area)
+160,919 SF footprint; built n/a in source
+4.69 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+Previously contacted 2026-11-19 (re-pitch OK)
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.768653,-104.781128</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="51">
+                        <coordinates>-104.781128,38.768653,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="54">
+                    <name>BROADMOOR STORAGE LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: BROADMOOR STORAGE LLC
+no situs address in source (El Paso County parcel 6430406021, Colorado Springs area)
+147,530 SF footprint; built n/a in source
+4.82 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.802582,-104.820267</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="53">
+                        <coordinates>-104.820267,38.802582,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="56">
+                    <name>SAMS REAL EST BUSINESS TRUST / ATTN; PROPERTY TAX DEPT. (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: SAMS REAL EST BUSINESS TRUST / ATTN; PROPERTY TAX DEPT.
+no situs address in source (El Paso County parcel 6504412001, Colorado Springs area)
+139,084 SF footprint; built n/a in source
+4.68 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.770511,-104.7825</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="55">
+                        <coordinates>-104.7825,38.770511,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="58">
+                    <name>HD DEVELOPMENT OF MARYLAND INC / ATTN PROPERTY TAX DEPT 1518 (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: HD DEVELOPMENT OF MARYLAND INC / ATTN PROPERTY TAX DEPT 1518
+no situs address in source (El Paso County parcel 6430406012, Colorado Springs area)
+131,807 SF footprint; built n/a in source
+4.59 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.798809,-104.82038</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="57">
+                        <coordinates>-104.82038,38.798809,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="60">
+                    <name>D I S COLORADO LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: D I S COLORADO LLC
+no situs address in source (El Paso County parcel 6432307002, Colorado Springs area)
+103,036 SF footprint; built n/a in source
+4.18 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.782293,-104.804535</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="59">
+                        <coordinates>-104.804535,38.782293,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="62">
+                    <name>GRE BROADMOOR LLC / C/O RYAN LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: GRE BROADMOOR LLC / C/O RYAN LLC
+no situs address in source (El Paso County parcel 6430406010, Colorado Springs area)
+93,029 SF footprint; built n/a in source
+4.77 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.801526,-104.819859</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="61">
+                        <coordinates>-104.819859,38.801526,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="64">
+                    <name>EPT 909 INC / ATTN: LEASE ADMIN (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: EPT 909 INC / ATTN: LEASE ADMIN
+no situs address in source (El Paso County parcel 6432103019, Colorado Springs area)
+91,998 SF footprint; built n/a in source
+4.76 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.790183,-104.799486</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="63">
+                        <coordinates>-104.799486,38.790183,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="66">
+                    <name>EGAP COLORADO SPRINGS I LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: EGAP COLORADO SPRINGS I LLC
+no situs address in source (El Paso County parcel 6505211002, Colorado Springs area)
+75,563 SF footprint; built n/a in source
+3.59 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.775954,-104.812013</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="65">
+                        <coordinates>-104.812013,38.775954,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="68">
+                    <name>CP-764 TWAIN OWNER LLC / BROADMOOR TC ASSOCIATES LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CP-764 TWAIN OWNER LLC / BROADMOOR TC ASSOCIATES LLC
+no situs address in source (El Paso County parcel 6430122005, Colorado Springs area)
+69,900 SF footprint; built n/a in source
+4.95 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.805007,-104.821387</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="67">
+                        <coordinates>-104.821387,38.805007,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="70">
+                    <name>CP-764 TWAIN OWNER LLC / BROADMOOR TC ASSOCIATES LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CP-764 TWAIN OWNER LLC / BROADMOOR TC ASSOCIATES LLC
+no situs address in source (El Paso County parcel 6430122005, Colorado Springs area)
+69,716 SF footprint; built n/a in source
+4.88 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.803835,-104.821179</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="69">
+                        <coordinates>-104.821179,38.803835,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="72">
+                    <name>KERIWEST USA LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: KERIWEST USA LLC
+no situs address in source (El Paso County parcel 7425203006, Colorado Springs area)
+42,015 SF footprint; built n/a in source
+4.91 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.809717,-104.84225</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="71">
+                        <coordinates>-104.84225,38.809717,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="74">
+                    <name>GRE BROADMOOR LLC / C/O RYAN LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: GRE BROADMOOR LLC / C/O RYAN LLC
+no situs address in source (El Paso County parcel 6430406010, Colorado Springs area)
+39,633 SF footprint; built n/a in source
+4.68 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.800127,-104.820154</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="73">
+                        <coordinates>-104.820154,38.800127,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="76">
+                    <name>STAR RANCH PLAZA LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: STAR RANCH PLAZA LLC
+no situs address in source (El Paso County parcel 6506110003, Colorado Springs area)
+36,227 SF footprint; built n/a in source
+3.39 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.775051,-104.816084</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="75">
+                        <coordinates>-104.816084,38.775051,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="78">
+                    <name>MOUNTAIN STATES TELEPHONE &amp; / TELEGRAPH COMPANY (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: MOUNTAIN STATES TELEPHONE &amp; / TELEGRAPH COMPANY
+no situs address in source (El Paso County parcel 6505413005, Colorado Springs area)
+35,280 SF footprint; built n/a in source
+3.93 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.768571,-104.796833</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="77">
+                        <coordinates>-104.796833,38.768571,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="80">
+                    <name>C &amp; N PARTNERSHIP LLP (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: C &amp; N PARTNERSHIP LLP
+no situs address in source (El Paso County parcel 6433303001, Colorado Springs area)
+30,716 SF footprint; built n/a in source
+4.99 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.788064,-104.790831</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="79">
+                        <coordinates>-104.790831,38.788064,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="82">
+                    <name>ERA INVESTMENTS II LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: ERA INVESTMENTS II LLC
+no situs address in source (El Paso County parcel 6433202026, Colorado Springs area)
+26,656 SF footprint; built n/a in source
+5.0 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.789851,-104.792632</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="81">
+                        <coordinates>-104.792632,38.789851,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="84">
+                    <name>GRE BROADMOOR LLC / C/O RYAN LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: GRE BROADMOOR LLC / C/O RYAN LLC
+no situs address in source (El Paso County parcel 6430406011, Colorado Springs area)
+24,906 SF footprint; built n/a in source
+4.82 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.801664,-104.81821</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="83">
+                        <coordinates>-104.81821,38.801664,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="86">
+                    <name>SPRINGS 115 PLAZA LLC / C/O MC COMMERCIAL REAL ESTATE (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: SPRINGS 115 PLAZA LLC / C/O MC COMMERCIAL REAL ESTATE
+no situs address in source (El Paso County parcel 6506101210, Colorado Springs area)
+24,164 SF footprint; built n/a in source
+3.55 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.777245,-104.814599</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="85">
+                        <coordinates>-104.814599,38.777245,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="88">
+                    <name>RAMSIP LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: RAMSIP LLC
+no situs address in source (El Paso County parcel 6433303002, Colorado Springs area)
+22,855 SF footprint; built n/a in source
+4.98 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.787506,-104.790401</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="87">
+                        <coordinates>-104.790401,38.787506,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="90">
+                    <name>ATMEL CORP / C/O JEANNE PALING (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: ATMEL CORP / C/O JEANNE PALING
+no situs address in source (El Paso County parcel 6432203010, Colorado Springs area)
+21,734 SF footprint; built n/a in source
+4.48 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.788866,-104.805469</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="89">
+                        <coordinates>-104.805469,38.788866,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="92">
+                    <name>MIKIOLA INVESTMENTS LLC / C/O GRIFFIS BLESSING (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: MIKIOLA INVESTMENTS LLC / C/O GRIFFIS BLESSING
+no situs address in source (El Paso County parcel 6432202012, Colorado Springs area)
+21,534 SF footprint; built n/a in source
+4.73 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.793727,-104.805466</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="91">
+                        <coordinates>-104.805466,38.793727,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="94">
+                    <name>WISHLEE QUAIL LAKE LOOP LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: WISHLEE QUAIL LAKE LOOP LLC
+no situs address in source (El Paso County parcel 6432407002, Colorado Springs area)
+21,479 SF footprint; built n/a in source
+4.61 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.787916,-104.800335</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="93">
+                        <coordinates>-104.800335,38.787916,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="96">
+                    <name>Y S INVESTMENTS LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: Y S INVESTMENTS LLC
+no situs address in source (El Paso County parcel 6504300040, Colorado Springs area)
+20,158 SF footprint; built n/a in source
+4.29 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.773475,-104.792918</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="95">
+                        <coordinates>-104.792918,38.773475,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="98">
+                    <name>EGAP COLORADO SPRINGS I LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: EGAP COLORADO SPRINGS I LLC
+no situs address in source (El Paso County parcel 6505211002, Colorado Springs area)
+19,906 SF footprint; built n/a in source
+3.65 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.776718,-104.811296</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="97">
+                        <coordinates>-104.811296,38.776718,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="100">
+                    <name>CS 5 VENTURES LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CS 5 VENTURES LLC
+no situs address in source (El Paso County parcel 6504200038, Colorado Springs area)
+18,919 SF footprint; built n/a in source
+4.54 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.775297,-104.788931</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="99">
+                        <coordinates>-104.788931,38.775297,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="102">
+                    <name>SAES COLORADO INC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: SAES COLORADO INC
+no situs address in source (El Paso County parcel 6432306002, Colorado Springs area)
+18,153 SF footprint; built n/a in source
+4.31 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.787512,-104.808168</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="101">
+                        <coordinates>-104.808168,38.787512,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="104">
+                    <name>DLC CCC LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: DLC CCC LLC
+no situs address in source (El Paso County parcel 6431204006, Colorado Springs area)
+18,152 SF footprint; built n/a in source
+4.0 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.790478,-104.823619</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="103">
+                        <coordinates>-104.823619,38.790478,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="106">
+                    <name>SCHAEFER CLAIRE SURVIVOR'S TRUST / SCHAEFER TAX EXCLUSION TR (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: SCHAEFER CLAIRE SURVIVOR'S TRUST / SCHAEFER TAX EXCLUSION TRUST
+no situs address in source (El Paso County parcel 7425109022, Colorado Springs area)
+18,024 SF footprint; built n/a in source
+4.81 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.807942,-104.840268</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="105">
+                        <coordinates>-104.840268,38.807942,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="108">
+                    <name>EXTRA SPACE PROP EIGHTY SIX LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: EXTRA SPACE PROP EIGHTY SIX LLC
+no situs address in source (El Paso County parcel 7425216131, Colorado Springs area)
+17,249 SF footprint; built n/a in source
+4.83 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.808411,-104.841888</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="107">
+                        <coordinates>-104.841888,38.808411,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="110">
+                    <name>COLORADO SPRINGS 2610 APL RKC LLC / C/O REMEDY MEDICAL PROPE (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: COLORADO SPRINGS 2610 APL RKC LLC / C/O REMEDY MEDICAL PROPERTIES INC
+no situs address in source (El Paso County parcel 6431104014, Colorado Springs area)
+17,133 SF footprint; built n/a in source
+4.56 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.795604,-104.814517</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="109">
+                        <coordinates>-104.814517,38.795604,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="112">
+                    <name>CHEYENNE MTN COUNTRY CLUB (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CHEYENNE MTN COUNTRY CLUB
+no situs address in source (El Paso County parcel 7436216001, Colorado Springs area)
+16,899 SF footprint; built n/a in source
+3.67 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+501 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.791686,-104.84405</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="111">
+                        <coordinates>-104.84405,38.791686,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="114">
+                    <name>CUMULUS INV LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CUMULUS INV LLC
+no situs address in source (El Paso County parcel 6433202011, Colorado Springs area)
+16,585 SF footprint; built n/a in source
+4.99 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.789018,-104.791869</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="113">
+                        <coordinates>-104.791869,38.789018,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="116">
+                    <name>EXTRA SPACE PROP EIGHTY SIX LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: EXTRA SPACE PROP EIGHTY SIX LLC
+no situs address in source (El Paso County parcel 7425216131, Colorado Springs area)
+15,773 SF footprint; built n/a in source
+4.82 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.808438,-104.842462</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="115">
+                        <coordinates>-104.842462,38.808438,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="118">
+                    <name>CP-764 TWAIN OWNER LLC / BROADMOOR TC ASSOCIATES LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CP-764 TWAIN OWNER LLC / BROADMOOR TC ASSOCIATES LLC
+no situs address in source (El Paso County parcel 6430122005, Colorado Springs area)
+14,852 SF footprint; built n/a in source
+4.97 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.804713,-104.819819</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="117">
+                        <coordinates>-104.819819,38.804713,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="120">
+                    <name>LICCIARDI FAMILY PARTNERS LP (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: LICCIARDI FAMILY PARTNERS LP
+no situs address in source (El Paso County parcel 6432101008, Colorado Springs area)
+14,832 SF footprint; built n/a in source
+4.58 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.789316,-104.803168</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="119">
+                        <coordinates>-104.803168,38.789316,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="122">
+                    <name>ASPENPOINTE PROPERTIES / C/O WASSON PROPERTIES INC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: ASPENPOINTE PROPERTIES / C/O WASSON PROPERTIES INC
+no situs address in source (El Paso County parcel 6430409008, Colorado Springs area)
+14,824 SF footprint; built n/a in source
+4.58 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.796349,-104.815225</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="121">
+                        <coordinates>-104.815225,38.796349,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="124">
+                    <name>EXTRA SPACE PROP EIGHTY SIX LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: EXTRA SPACE PROP EIGHTY SIX LLC
+no situs address in source (El Paso County parcel 7425216133, Colorado Springs area)
+14,638 SF footprint; built n/a in source
+4.75 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.807414,-104.842253</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="123">
+                        <coordinates>-104.842253,38.807414,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="126">
+                    <name>COLORADO SPRINGS SELF / STORAGE LLLP (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: COLORADO SPRINGS SELF / STORAGE LLLP
+no situs address in source (El Paso County parcel 6505414005, Colorado Springs area)
+14,145 SF footprint; built n/a in source
+3.95 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.766993,-104.79545</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="125">
+                        <coordinates>-104.79545,38.766993,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="128">
+                    <name>LEGACY BANK (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: LEGACY BANK
+no situs address in source (El Paso County parcel 6432104001, Colorado Springs area)
+14,132 SF footprint; built n/a in source
+4.83 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.792048,-104.800112</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="127">
+                        <coordinates>-104.800112,38.792048,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="130">
+                    <name>B STREET PROPERTY LLC / C/O SPERRY PROPERTIES (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: B STREET PROPERTY LLC / C/O SPERRY PROPERTIES
+no situs address in source (El Paso County parcel 6505414014, Colorado Springs area)
+13,985 SF footprint; built n/a in source
+3.89 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.766824,-104.796559</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="129">
+                        <coordinates>-104.796559,38.766824,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="132">
+                    <name>UTW ACADEMY SHOPS LLC / C/O DENTONS (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: UTW ACADEMY SHOPS LLC / C/O DENTONS
+no situs address in source (El Paso County parcel 6504412017, Colorado Springs area)
+13,805 SF footprint; built n/a in source
+4.51 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.767679,-104.784179</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="131">
+                        <coordinates>-104.784179,38.767679,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="134">
+                    <name>MORGAN AGENCY BUILDING LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: MORGAN AGENCY BUILDING LLC
+no situs address in source (El Paso County parcel 6432406007, Colorado Springs area)
+13,564 SF footprint; built n/a in source
+4.58 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.788279,-104.801782</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="133">
+                        <coordinates>-104.801782,38.788279,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="136">
+                    <name>DLC CCC LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: DLC CCC LLC
+no situs address in source (El Paso County parcel 6431204003, Colorado Springs area)
+13,501 SF footprint; built n/a in source
+3.99 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.790653,-104.82434</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="135">
+                        <coordinates>-104.82434,38.790653,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="138">
+                    <name>HAI INVESTMENTS LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: HAI INVESTMENTS LLC
+no situs address in source (El Paso County parcel 6432406005, Colorado Springs area)
+13,428 SF footprint; built n/a in source
+4.61 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.788436,-104.801125</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="137">
+                        <coordinates>-104.801125,38.788436,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="140">
+                    <name>KK-BTC LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: KK-BTC LLC
+no situs address in source (El Paso County parcel 6430122003, Colorado Springs area)
+13,374 SF footprint; built n/a in source
+4.94 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.803916,-104.819082</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="139">
+                        <coordinates>-104.819082,38.803916,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="142">
+                    <name>HEYMAN SOUTHPOINTE LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: HEYMAN SOUTHPOINTE LLC
+no situs address in source (El Paso County parcel 6430409019, Colorado Springs area)
+13,176 SF footprint; built n/a in source
+4.6 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.797209,-104.816329</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="141">
+                        <coordinates>-104.816329,38.797209,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="144">
+                    <name>V R PARTNERS I LP / C/O CTMI (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: V R PARTNERS I LP / C/O CTMI
+no situs address in source (El Paso County parcel 6432103017, Colorado Springs area)
+12,990 SF footprint; built n/a in source
+4.93 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.790522,-104.795444</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="143">
+                        <coordinates>-104.795444,38.790522,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="146">
+                    <name>WAGNER FAMILY LIVING TRUST (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: WAGNER FAMILY LIVING TRUST
+no situs address in source (El Paso County parcel 6432209004, Colorado Springs area)
+12,422 SF footprint; built n/a in source
+4.6 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.79537,-104.812513</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="145">
+                        <coordinates>-104.812513,38.79537,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="148">
+                    <name>CS 5 VENTURES LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CS 5 VENTURES LLC
+no situs address in source (El Paso County parcel 6504200038, Colorado Springs area)
+12,286 SF footprint; built n/a in source
+4.49 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.774893,-104.789721</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="147">
+                        <coordinates>-104.789721,38.774893,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="150">
+                    <name>620 SOUTHPOINTE L L C / ATTN: ALAN AGEE (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: 620 SOUTHPOINTE L L C / ATTN: ALAN AGEE
+no situs address in source (El Paso County parcel 6430409010, Colorado Springs area)
+12,090 SF footprint; built n/a in source
+4.56 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.796853,-104.817003</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="149">
+                        <coordinates>-104.817003,38.796853,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="152">
+                    <name>CECD WESTMONT PROPERTIES LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CECD WESTMONT PROPERTIES LLC
+no situs address in source (El Paso County parcel 6430409006, Colorado Springs area)
+11,942 SF footprint; built n/a in source
+4.62 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.796841,-104.814957</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="151">
+                        <coordinates>-104.814957,38.796841,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="154">
+                    <name>NORVIC PROPERTIES LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: NORVIC PROPERTIES LLC
+no situs address in source (El Paso County parcel 6504104024, Colorado Springs area)
+11,911 SF footprint; built n/a in source
+4.9 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.777567,-104.782786</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="153">
+                        <coordinates>-104.782786,38.777567,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="156">
+                    <name>RAGAN PROPERTIES INC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: RAGAN PROPERTIES INC
+no situs address in source (El Paso County parcel 6504104025, Colorado Springs area)
+11,759 SF footprint; built n/a in source
+4.9 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.777014,-104.78249</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="155">
+                        <coordinates>-104.78249,38.777014,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="158">
+                    <name>BLUE MOUNTAIN RENTALS LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: BLUE MOUNTAIN RENTALS LLC
+no situs address in source (El Paso County parcel 6504104023, Colorado Springs area)
+11,645 SF footprint; built n/a in source
+4.91 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.778261,-104.783147</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="157">
+                        <coordinates>-104.783147,38.778261,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="160">
+                    <name>CABIN CREEK LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CABIN CREEK LLC
+no situs address in source (El Paso County parcel 6504104022, Colorado Springs area)
+11,608 SF footprint; built n/a in source
+4.92 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+498 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.778798,-104.78343</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="159">
+                        <coordinates>-104.78343,38.778798,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="162">
+                    <name>830 TENDERFOOT ROAD LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: 830 TENDERFOOT ROAD LLC
+no situs address in source (El Paso County parcel 6432204150, Colorado Springs area)
+11,587 SF footprint; built n/a in source
+4.55 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.794296,-104.812273</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="161">
+                        <coordinates>-104.812273,38.794296,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="164">
+                    <name>UTW ACADEMY SHOPS LLC / C/O DENTONS (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: UTW ACADEMY SHOPS LLC / C/O DENTONS
+no situs address in source (El Paso County parcel 6504412017, Colorado Springs area)
+11,492 SF footprint; built n/a in source
+4.49 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.767088,-104.784303</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="163">
+                        <coordinates>-104.784303,38.767088,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="166">
+                    <name>SPINNAKER INVESTMENTS II LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: SPINNAKER INVESTMENTS II LLC
+no situs address in source (El Paso County parcel 6432103020, Colorado Springs area)
+11,020 SF footprint; built n/a in source
+4.88 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.79217,-104.798853</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="165">
+                        <coordinates>-104.798853,38.79217,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="168">
+                    <name>COG LAND &amp; DEVELOPMENT CO (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: COG LAND &amp; DEVELOPMENT CO
+no situs address in source (El Paso County parcel 7511301002, Colorado Springs area)
+10,882 SF footprint; built n/a in source
+1.34 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+503 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.75886,-104.865813</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="167">
+                        <coordinates>-104.865813,38.75886,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="170">
+                    <name>COLORADO SPRINGS SELF / STORAGE LLLP (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: COLORADO SPRINGS SELF / STORAGE LLLP
+no situs address in source (El Paso County parcel 6505414005, Colorado Springs area)
+10,854 SF footprint; built n/a in source
+3.95 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.767168,-104.795413</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="169">
+                        <coordinates>-104.795413,38.767168,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="172">
+                    <name>CORNWALL LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: CORNWALL LLC
+no situs address in source (El Paso County parcel 6432101003, Colorado Springs area)
+10,812 SF footprint; built n/a in source
+4.67 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.789839,-104.801321</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="171">
+                        <coordinates>-104.801321,38.789839,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="174">
+                    <name>ASPENPOINTE PROPERTIES / C/O WASSON PROPERTIES INC. (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: ASPENPOINTE PROPERTIES / C/O WASSON PROPERTIES INC.
+no situs address in source (El Paso County parcel 6431104003, Colorado Springs area)
+10,742 SF footprint; built n/a in source
+4.54 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.795865,-104.815466</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="173">
+                        <coordinates>-104.815466,38.795865,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="176">
+                    <name>EXTRA SPACE PROP EIGHTY SIX LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: EXTRA SPACE PROP EIGHTY SIX LLC
+no situs address in source (El Paso County parcel 7425216131, Colorado Springs area)
+10,737 SF footprint; built n/a in source
+4.81 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.808173,-104.842073</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="175">
+                        <coordinates>-104.842073,38.808173,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="178">
+                    <name>ROCKY MOUNTAIN HEALTHCARE SERVICES (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: ROCKY MOUNTAIN HEALTHCARE SERVICES
+no situs address in source (El Paso County parcel 6432101002, Colorado Springs area)
+10,495 SF footprint; built n/a in source
+4.67 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.789553,-104.800964</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="177">
+                        <coordinates>-104.800964,38.789553,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="180">
+                    <name>UNIVERSITY OF COLORADO HEALTH (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: UNIVERSITY OF COLORADO HEALTH
+no situs address in source (El Paso County parcel 6432209001, Colorado Springs area)
+10,117 SF footprint; built n/a in source
+4.65 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+499 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.795988,-104.812183</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="179">
+                        <coordinates>-104.812183,38.795988,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="182">
+                    <name>45 OLD BROADMOOR ROAD LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: 45 OLD BROADMOOR ROAD LLC
+no situs address in source (El Paso County parcel 6430307053, Colorado Springs area)
+10,067 SF footprint; built n/a in source
+4.68 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.801809,-104.824282</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="181">
+                        <coordinates>-104.824282,38.801809,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="184">
+                    <name>TSI MEDICAL MANAGEMENT LLC (wind)</name>
+                    <description>Wind 73 mph Non-thunderstorm (measured gust) 6 S Colorado Springs CO (1447Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: TSI MEDICAL MANAGEMENT LLC
+no situs address in source (El Paso County parcel 7425109036, Colorado Springs area)
+10,036 SF footprint; built n/a in source
+4.75 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+500 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=38.806826,-104.838975</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="183">
+                        <coordinates>-104.838975,38.806826,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="186">
+                    <name>MAIN ST PROPERTIES LLC (wind)</name>
+                    <description>Wind 70 mph Non-thunderstorm (measured gust) 1 SE Rye CO (1405Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: MAIN ST PROPERTIES LLC
+no situs address on parcel (Pueblo County, CO parcel 4731202011)
+15,561 SF footprint; built n/a in source
+1.08 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+531 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.922877,-104.931212</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="185">
+                        <coordinates>-104.931212,37.922877,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="188">
+                    <name>PLASMACAM INC (wind)</name>
+                    <description>Wind 70 mph Non-thunderstorm (measured gust) 1 SE Rye CO (1405Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: PLASMACAM INC
+no situs address on parcel (Pueblo County, CO parcel 4725219008)
+12,954 SF footprint; built n/a in source
+4.62 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+526 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.93038,-104.839342</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="187">
+                        <coordinates>-104.839342,37.93038,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="190">
+                    <name>DANYLCHUK KENNETH D/DANYLCHUK CATHY L (wind)</name>
+                    <description>Wind 70 mph Non-thunderstorm (measured gust) 1 SE Rye CO (1405Z 11/20) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: DANYLCHUK KENNETH D/DANYLCHUK CATHY L
+no situs address on parcel (Pueblo County, CO parcel 4730000013)
+12,451 SF footprint; built n/a in source
+1.67 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (No state license)
+No state license for commercial roofing; check city/county rules (general info, not legal advice)
+
+SOS: Not checked (assessor owner used; no CO SOS reconciliation this run)
+531 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=37.933256,-104.928117</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="189">
+                        <coordinates>-104.928117,37.933256,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Placemark id="195">
+                <name>78 mph Monarch Pass CO - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 78 mph measured non-thunderstorm (measured gust) gust; 1 C/I buildings &gt;=10,000 SF within 5 mi; CO: no state commercial roofing license (can solicit)</description>
+                <Point id="194">
+                    <coordinates>-106.32,38.5,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="197">
+                <name>73 mph 11 S Rosita CO - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 73 mph measured non-thunderstorm (measured gust) gust; 0 C/I buildings &gt;=10,000 SF within 5 mi; CO: no state commercial roofing license (can solicit)</description>
+                <Point id="196">
+                    <coordinates>-105.32,37.94,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="199">
+                <name>73 mph 6 S Colorado Springs CO - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 73 mph measured non-thunderstorm (measured gust) gust; 80 C/I buildings &gt;=10,000 SF within 5 mi; CO: no state commercial roofing license (can solicit)</description>
+                <Point id="198">
+                    <coordinates>-104.86,38.74,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="201">
+                <name>70 mph 5 NE La Veta Pass CO - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 70 mph measured non-thunderstorm (measured gust) gust; 0 C/I buildings &gt;=10,000 SF within 5 mi; CO: no state commercial roofing license (can solicit)</description>
+                <Point id="200">
+                    <coordinates>-105.13,37.64,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="203">
+                <name>70 mph 1 SE Rye CO - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 70 mph measured non-thunderstorm (measured gust) gust; 4 C/I buildings &gt;=10,000 SF within 5 mi; CO: no state commercial roofing license (can solicit)</description>
+                <Point id="202">
+                    <coordinates>-104.92,37.91,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="205">
+                <name>68 mph 8 S Sibley Peak WY - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 68 mph measured non-thunderstorm (measured gust) gust; 0 C/I buildings &gt;=10,000 SF within 5 mi; WY: Armour licensed/registered (can solicit)</description>
+                <Point id="204">
+                    <coordinates>-105.05,42.32,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="16">
+            <name>Rain</name>
+            <Folder id="191">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="192">
+                <name>No contact</name>
+            </Folder>
+        </Folder>
+        <Folder id="206">
+            <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
+            <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
+        </Folder>
+        <Folder id="207">
+            <name>No-license states (not researched) — 0</name>
+        </Folder>
+        <Folder id="208">
+            <name>Bid Requests — 0 (0 with phone/email)</name>
+        </Folder>
+        <Folder id="209">
+            <name>Social Media — 0 (0 with phone/email)</name>
+        </Folder>
+    </Document>
+</kml>
