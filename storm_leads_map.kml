@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="1">
-        <name>Storm leads Mon 11/23/2026</name>
+        <name>Storm leads Tue 11/24/2026</name>
         <Folder id="14">
             <name>Hail</name>
             <Folder id="17">
@@ -11,7 +11,31 @@
                 <name>No contact</name>
             </Folder>
             <Folder id="23">
+                <Style id="28">
+                    <LineStyle id="30">
+                        <color>6e800080</color>
+                        <colorMode>normal</colorMode>
+                    </LineStyle>
+                    <PolyStyle id="29">
+                        <color>23800080</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
                 <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
+                <Placemark id="25">
+                    <name>Radar estimate (unconfirmed): MESH 2.96in</name>
+                    <description>Radar estimate (unconfirmed) - Radar estimate (MESH). Held – radar only, 0 bldgs inside. Penobscot Co. ME (Kingman/Mattawamkeag area, unorganized woodland): HELD - radar-only, 2 cells (MESH 24h ending 12:00Z 11/24); no hail LSR or SPC hail report in ME; HailTrace public 11/23 page lists 0 states; Bangor, Millinocket, Houlton and Presque Isle METARs show rain/fog with a cold front and no thunder (TS/LTG) all window; likely non-hail radar artifact in a cool-season rain band; 0 C/I buildings &gt;=10k SF inside or within ~1.4 mi - no leads</description>
+                    <styleUrl>#28</styleUrl>
+                    <Polygon id="24">
+                        <outerBoundaryIs>
+                            <LinearRing id="26">
+                                <coordinates>-68.1500017671458,45.55010000000188,0.0 -68.14999196543177,45.550099518474546,0.0 -68.1499822581136,45.55009807852992,0.0 -68.14997273867807,45.550095694035456,0.0 -68.14996349880256,45.55009238795513,0.0 -68.14995462747211,45.550088192128314,0.0 -68.1499462101225,45.55008314696311,0.0 -68.14993832781738,45.55007730104722,0.0 -68.14993105646768,45.55007071068,0.0 -68.14992446610046,45.550063439330295,0.0 -68.14991862018456,45.55005555702518,0.0 -68.14991357501935,45.55004713967556,0.0 -68.14990937919255,45.55003826834512,0.0 -68.14990607311222,45.5500290284696,0.0 -68.14990368861775,45.55001950903408,0.0 -68.14990224867313,45.550009801715916,0.0 -68.14990176714579,45.55000000000188,0.0 -68.14990176714579,45.540000000001875,0.0 -68.14990224867313,45.53999019828784,0.0 -68.14990368861775,45.539980490969675,0.0 -68.14990607311222,45.53997097153415,0.0 -68.14990937919255,45.539961731658636,0.0 -68.14991357501935,45.53995286032819,0.0 -68.14991862018456,45.53994444297857,0.0 -68.14992446610046,45.53993656067346,0.0 -68.14993105646768,45.53992928932376,0.0 -68.14993832781738,45.53992269895654,0.0 -68.1499462101225,45.539916853040644,0.0 -68.14995462747211,45.53991180787544,0.0 -68.14996349880256,45.53990761204862,0.0 -68.14997273867807,45.5399043059683,0.0 -68.1499822581136,45.539901921473835,0.0 -68.14999196543177,45.53990048152921,0.0 -68.1500017671458,45.53990000000187,0.0 -68.17000176686003,45.53990000000187,0.0 -68.17001156857405,45.53990048152921,0.0 -68.17002127589222,45.539901921473835,0.0 -68.17003079532775,45.5399043059683,0.0 -68.17004003520326,45.53990761204862,0.0 -68.17004890653371,45.53991180787544,0.0 -68.17005732388333,45.539916853040644,0.0 -68.17006520618844,45.53992269895654,0.0 -68.17007247753814,45.53992928932376,0.0 -68.17007906790536,45.53993656067346,0.0 -68.17008491382126,45.53994444297857,0.0 -68.17008995898647,45.53995286032819,0.0 -68.17009415481327,45.539961731658636,0.0 -68.1700974608936,45.53997097153415,0.0 -68.17009984538807,45.539980490969675,0.0 -68.17010128533269,45.53999019828784,0.0 -68.17010176686003,45.540000000001875,0.0 -68.17010176686003,45.55000000000188,0.0 -68.17010128533269,45.550009801715916,0.0 -68.17009984538807,45.55001950903408,0.0 -68.1700974608936,45.5500290284696,0.0 -68.17009415481327,45.55003826834512,0.0 -68.17008995898647,45.55004713967556,0.0 -68.17008491382126,45.55005555702518,0.0 -68.17007906790536,45.550063439330295,0.0 -68.17007247753814,45.55007071068,0.0 -68.17006520618844,45.55007730104722,0.0 -68.17005732388333,45.55008314696311,0.0 -68.17004890653371,45.550088192128314,0.0 -68.17004003520326,45.55009238795513,0.0 -68.17003079532775,45.550095694035456,0.0 -68.17002127589222,45.55009807852992,0.0 -68.17001156857405,45.550099518474546,0.0 -68.17000176686003,45.55010000000188,0.0 -68.1500017671458,45.55010000000188,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
             </Folder>
         </Folder>
         <Folder id="15">
@@ -22,6 +46,14 @@
             <Folder id="20">
                 <name>No contact</name>
             </Folder>
+            <Placemark id="32">
+                <name>75 mph Mount Washington (summit ASOS KMWN) NH - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 75 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10k SF within 5 mi (summit / White Mountain National Forest; FEMA/ORNL USA Structures query) - no building leads</description>
+                <Point id="31">
+                    <coordinates>-71.3033,44.2706,0.0</coordinates>
+                </Point>
+            </Placemark>
         </Folder>
         <Folder id="16">
             <name>Rain</name>
@@ -32,17 +64,17 @@
                 <name>No contact</name>
             </Folder>
         </Folder>
-        <Folder id="24">
+        <Folder id="33">
             <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
             <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
         </Folder>
-        <Folder id="25">
+        <Folder id="34">
             <name>No-license states (not researched) — 0</name>
         </Folder>
-        <Folder id="26">
+        <Folder id="35">
             <name>Bid Requests — 0 (0 with phone/email)</name>
         </Folder>
-        <Folder id="27">
+        <Folder id="36">
             <name>Social Media — 0 (0 with phone/email)</name>
         </Folder>
     </Document>
