@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="../"><!-- SM-ARCHIVE-BASE: lets callstatus.js and called.json resolve from the site root -->
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_72a79917a76ccfe7160f09fc0027a639 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid #888;font-size:13px;max-width:330px"><b>Storm leads Wed 11/25/2026 (68 mph)</b><br><span style="color:#00b300">&#9679;</span> Building – has contact (phone and/or email)<br><span style="color:#ff8c00">&#9679;</span> Building – no phone or email found<br><span style="color:red">&#9679;</span> 2in+ hail ground report · <span style="color:red">&#9711;</span> 5-mile lead radius (report-based)<br><span style="color:#6a1b9a">&#9679;</span> 68+ mph wind gust report<br><span style="color:#1565c0">&#9679;</span> rain report/gauge over 2in · <span style="color:#1565c0">&#9711;</span> 2-mile lead radius · dashed blue = MRMS QPE 2in+ radar estimate (unconfirmed)<br><span style="display:inline-block;width:14px;height:9px;background:rgba(128,0,128,.15);border:1.5px dashed purple"></span> 2in+ radar hail swath (MRMS MESH) – Radar estimate (unconfirmed)<br><b>Report basis</b> <small>(confirmed always rank first)</small><br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#555;border:2px solid #555"></span> Solid = confirmed ground report (measured, or spotter/public)<br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:rgba(85,85,85,.3);border:2px dashed #555"></span> <span style="display:inline-block;width:14px;height:9px;background:rgba(128,0,128,.15);border:1.5px dashed purple"></span> Light / dashed = Radar estimate (unconfirmed)<br><b>Can solicit?</b> <small>(state license — general info, not legal advice)</small><br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#00b300;border:3px solid #c62828"></span> <span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#ff8c00;border:3px solid #c62828"></span> Red ring = do not solicit (state license required / pending)<br><small>Fill color still means contact: <span style="color:#00b300">green</span> = has phone/email · <span style="color:#ff8c00">orange</span> = none. Use the “Can solicit only” layer to hide No pins.</small><br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#bdbdbd;border:2px solid #9e9e9e"></span> No-license states (not researched) — counts only, layer off by default<br><span style="color:#d4a017;font-size:15px;text-shadow:0 0 1px #000">&#9733;</span> Our Assets (HailTrace prior lead/customer/bid) <small>– dashed ring = low-precision location</small><br><span style="display:inline-block;width:11px;height:11px;background:#1a3d8f;border:2px solid #00b300;border-radius:2px"></span> <span style="display:inline-block;width:11px;height:11px;background:#1a3d8f;border:2px solid #ff8c00;border-radius:2px"></span> Bid Requests (square “B”)<br><span style="display:inline-block;width:11px;height:11px;background:#7b2cbf;border:2px solid #00b300;border-radius:50%"></span> <span style="display:inline-block;width:11px;height:11px;background:#7b2cbf;border:2px solid #ff8c00;border-radius:50%"></span> Social Media (round “S”)<br><small>Ring/pin color: <span style="color:#00b300">green</span> = has phone and/or email · <span style="color:#ff8c00">orange</span> = no phone or email</small><br><b>Assets hit:</b> 0 (HailTrace)<br><b>This report:</b> 0 solicitable storm buildings; 4 no-license (layer off by default); hail 0 reports 2in+; wind 1 gust sites (thunderstorm 0 / non-thunderstorm 1); rain 0 over 2in within 180 miles<br>Rain check: within 180 miles of Omaha<br><i>Contacts only: untick the 'no contact' layers. Solicit only: enable 'Can solicit only'. Grey layer: no-license states not researched.</i></div>
+    <script src="callstatus.js"></script>
+    
+            <div class="folium-map" id="map_72a79917a76ccfe7160f09fc0027a639" ></div>
+        
+<!-- SM-DATEPICKER:BEGIN -->
+<div id="sm-datepick" style="position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:10000;background:#fff;border:1px solid #888;border-radius:4px;padding:4px 8px;font:13px sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.3);max-width:92vw">
+ <label for="sm-date-sel"><b>Report date:</b></label>
+ <select id="sm-date-sel" style="font:13px sans-serif;max-width:60vw"></select>
+ <span id="sm-date-note" style="color:#b3261e;margin-left:4px"></span>
+</div>
+<script>
+(function(){
+  var C={"date": "2026-11-25", "key": "2026-11-25", "label": "Wed 11/25/2026", "live": "https://armourroofco.github.io/Storm-Maps/"};
+  var sel=document.getElementById('sm-date-sel'), note=document.getElementById('sm-date-note');
+  function opt(v,t,s){var o=document.createElement('option');o.value=v;o.textContent=t;if(s)o.selected=true;sel.appendChild(o);}
+  function only(){sel.innerHTML='';opt('',C.label,true);sel.disabled=true;note.innerHTML=' <a href="'+C.live+'" target="_blank">open live map for other dates</a>';}
+  function build(j,base){
+    var L=j.dates||[];if(!L.length){only();return;}
+    sel.innerHTML='';sel.disabled=false;note.innerHTML='';var have=false;
+    L.forEach(function(e){var t=e.label+(e.key===j.latest?' \u2014 latest':'')+(e.summary?' \u00b7 '+e.summary:'');
+      var s=e.key===C.key;have=have||s;opt(e.key,t,s);});
+    if(!have)opt(C.key,C.label+' (this file)',true);
+    sel.onchange=function(){var k=sel.value;var e=L.filter(function(x){return x.key===k;})[0];if(!e)return;
+      window.location.href=(k===j.latest)?(base||'./'):(base+e.file);};
+    if(C.key!==j.latest){note.innerHTML=' archived report \u00b7 <a href="'+(base||'./')+'">back to latest</a>';}
+    // ?date=YYYY-MM-DD on the live root jumps to that archived day
+    var q=(location.search.match(/[?&]date=([0-9A-Za-z-]+)/)||[])[1];
+    if(q&&q!==C.key){var e=L.filter(function(x){return x.key===q;})[0];if(e&&q!==j.latest)location.replace(base+e.file);}
+  }
+  function get(u){return fetch(u+(u.indexOf('?')<0?'?':'&')+'t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw r.status;return r.json();});}
+  var onLive=/^https?:$/.test(location.protocol);
+  only();
+  (onLive?get('archive/index.json').then(function(j){build(j,'');}):Promise.reject())
+   .catch(function(){return get(C.live+'archive/index.json').then(function(j){build(j,C.live);});})
+   .catch(function(){only();});
+})();
+</script>
+<!-- SM-DATEPICKER:END -->
+<!-- SM-COLLAPSE:BEGIN -->
+<style id="sm-collapse-css">
+.sm-fold-btn{display:block;width:100%;box-sizing:border-box;margin:0;font:bold 13px/1.2 sans-serif;color:#fff;background:#1a3d8f;border:0;border-radius:3px;padding:7px 10px;min-height:32px;cursor:pointer;text-align:left;white-space:nowrap;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.sm-fold-btn:focus-visible{outline:2px solid #ff8c00;outline-offset:1px}
+.leaflet-control-layers.sm-fold-host{padding:4px}
+.leaflet-control-layers.sm-fold-host .sm-fold-btn{margin-bottom:4px}
+.leaflet-control-layers.sm-folded>:not(.sm-fold-btn){display:none!important}
+.leaflet-control-layers.sm-folded .sm-fold-btn{margin-bottom:0}
+.sm-legend-host .sm-fold-btn{margin:-4px -4px 6px -4px;width:calc(100% + 8px)}
+.sm-legend-host.sm-folded{padding:4px!important;max-width:none!important;width:auto!important}
+.sm-legend-host.sm-folded .sm-fold-btn{margin:0;width:auto}
+.sm-legend-host.sm-folded>.sm-fold-body{display:none!important}
+@media (max-width:767px){
+ .leaflet-control-layers.sm-fold-host .leaflet-control-layers-list{max-height:55vh;overflow-y:auto}
+ .sm-legend-host{left:10px!important;bottom:20px!important;max-width:calc(100vw - 20px)!important;box-sizing:border-box}
+ .sm-legend-host>.sm-fold-body{max-height:45vh;overflow-y:auto}
+}
+</style>
+<script>
+(function(){
+  var NARROW=768, K_F='sm.filters.open', K_L='sm.legend.open';
+  function get(k){try{var v=localStorage.getItem(k);return v===null?null:v==='1';}catch(e){return null;}}
+  function put(k,v){try{localStorage.setItem(k,v?'1':'0');}catch(e){}}
+  function dflt(k){var v=get(k);return v===null?window.innerWidth>=NARROW:v;}
+  function makeBtn(name,key,hosts){
+    var b=document.createElement('button');b.type='button';b.className='sm-fold-btn';
+    function set(open,save){
+      hosts.forEach(function(h){h.classList.toggle('sm-folded',!open);});
+      b.textContent=name+(open?' \u25BE':' \u25B8');b.setAttribute('aria-expanded',open?'true':'false');
+      b.title=(open?'Hide ':'Show ')+name.toLowerCase();
+      if(save)put(key,open);
+      clearPicker();
+    }
+    b.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
+      set(hosts[0].classList.contains('sm-folded'),true);});
+    b._smSet=set;return b;
+  }
+  function stopMap(el){if(window.L&&L.DomEvent){L.DomEvent.disableClickPropagation(el);L.DomEvent.disableScrollPropagation(el);}}
+  function setupFilters(){
+    var cs=[].slice.call(document.querySelectorAll('.leaflet-control-layers')).filter(function(c){return !c.classList.contains('sm-fold-host');});
+    if(!cs.length)return false;
+    cs.forEach(function(c,i){
+      c.classList.add('sm-fold-host');
+      var b=makeBtn(cs.length>1?'Filters '+(i+1):'Filters',K_F,[c]);
+      b.id=i?'sm-filters-btn-'+(i+1):'sm-filters-btn';
+      c.insertBefore(b,c.firstChild);b._smSet(dflt(K_F),false);
+    });
+    return true;
+  }
+  function setupLegends(){
+    var ds=[].slice.call(document.querySelectorAll('div[style]')).filter(function(d){
+      var s=(d.getAttribute('style')||'').replace(/\s+/g,'').toLowerCase();
+      return s.indexOf('position:fixed')>=0 && !d.closest('#sm-datepick') && d.id!=='sm-datepick' &&
+             !d.classList.contains('sm-legend-host') && !d.closest('.leaflet-container') && d.title!=='Gray markers have been called';
+    });
+    ds.forEach(function(d,i){
+      d.classList.add('sm-legend-host');
+      var body=document.createElement('div');body.className='sm-fold-body';
+      while(d.firstChild)body.appendChild(d.firstChild);
+      var b=makeBtn(ds.length>1?'Legend '+(i+1):'Legend',K_L,[d]);
+      b.id=i?'sm-legend-btn-'+(i+1):'sm-legend-btn';
+      d.appendChild(b);d.appendChild(body);stopMap(d);b._smSet(dflt(K_L),false);
+    });
+    return ds.length>0;
+  }
+  // keep the top map controls (Filters, zoom, search) clear of the centred date picker when they would overlap
+  function clearPicker(){
+    var p=document.getElementById('sm-datepick'),tops=document.querySelectorAll('.leaflet-top');
+    for(var i=0;i<tops.length;i++)tops[i].style.top='';
+    if(!p)return;var r=p.getBoundingClientRect();if(!r.height)return;
+    var narrow=window.innerWidth<NARROW,hits=[];
+    for(i=0;i<tops.length;i++){var hit=false;
+      [].slice.call(tops[i].children).forEach(function(c){var q=c.getBoundingClientRect();
+        if(q.width&&q.left<r.right&&q.right>r.left&&q.top<r.bottom)hit=true;});
+      hits.push(hit);}
+    var any=hits.some(function(h){return h;});
+    // on phones shift both top corners together so the right column never lands on the left search box
+    for(i=0;i<tops.length;i++)if(hits[i]||(narrow&&any))tops[i].style.top=Math.ceil(r.bottom+4-tops[i].getBoundingClientRect().top)+'px';
+  }
+  var tries=0,fOK=false,lDone=false;
+  function run(){
+    if(!lDone){lDone=true;setupLegends();}  // static legend HTML only (one pass; never the called-counter)
+    if(!fOK)fOK=setupFilters();
+    clearPicker();
+    if(!fOK&&++tries<40)setTimeout(run,250);
+  }
+  window.addEventListener('resize',clearPicker);
+  if(window.MutationObserver){var p=document.getElementById('sm-datepick');if(p)new MutationObserver(clearPicker).observe(p,{childList:true,subtree:true,characterData:true});}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();
+})();
+</script>
+<!-- SM-COLLAPSE:END -->
+</body>
+<script>
+    
+    
+            var map_72a79917a76ccfe7160f09fc0027a639 = L.map(
+                "map_72a79917a76ccfe7160f09fc0027a639",
+                {
+                    center: [41.2565, -95.9345],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_95bd8d6ec7d40ba10aa98be39888180a = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri World Imagery",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_95bd8d6ec7d40ba10aa98be39888180a.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var tile_layer_7cec447b9b38b579913935f24800e51b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7cec447b9b38b579913935f24800e51b.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var feature_group_a202ae224369e92481ac2341fa8ba68d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_a202ae224369e92481ac2341fa8ba68d.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var feature_group_1ca72599d9d3d4b53a22a38111e93152 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_f97e3fddad25b7b7c016bd5e0d2a3334 = L.circleMarker(
+                [41.7737, -122.4682],
+                {"bubblingMouseEvents": true, "color": "#6a1b9a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6a1b9a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_1ca72599d9d3d4b53a22a38111e93152);
+        
+    
+        var popup_7e8356b402074a4fafe0adad5995773b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_37f20cc299195c5f5044f61d35711779 = $(`<div id="html_37f20cc299195c5f5044f61d35711779" style="width: 100.0%; height: 100.0%;"><b>69 mph – Montague (Siskiyou County Airport ASOS KSIY) CA</b><br>Non-thunderstorm (measured gust) · NON-THUNDERSTORM - ASOS/METAR measured gust (PK WND remark)<br>11/24 1830Z<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><b>Can solicit: No</b> – State license/registration required<br>Measured 60 kt (69 mph) peak south wind at the Siskiyou County Airport ASOS (Montague, Shasta Valley) at 10:30 AM PST / 12:30 PM CST 11/24 (1830Z) under clear skies (no thunder) during an NWS High Wind Warning for the Shasta Valley; 59 kt (68 mph) again at 1908Z; hourly gusts 45-53 kt 1653Z-2153Z.<br><small>SPC 261124 filtered and today feeds: 0 reports (non-thunderstorm wind is not in SPC). No NWS LSR for the site (IEM LSR 11/24 13Z-11/25 13Z has 2 NON-TSTM WND DMG reports in Humboldt Co. CA, no speed). NWS Medford High Wind Warning for Weed/Shasta Valley (gusts to 60-65 mph forecast) supports the reading; consecutive METAR peak-wind remarks of 57, 60 and 59 kt confirm a sustained event, not a spike.</small><br>QUALIFIES - 69 mph measured non-thunderstorm gust; 4 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); CA: state license required, not held (no solicit; counted in Missed Opportunity)</div>`)[0];
+                popup_7e8356b402074a4fafe0adad5995773b.setContent(html_37f20cc299195c5f5044f61d35711779);
+            
+        
+
+        circle_marker_f97e3fddad25b7b7c016bd5e0d2a3334.bindPopup(popup_7e8356b402074a4fafe0adad5995773b)
+        ;
+
+        
+    
+    
+            circle_marker_f97e3fddad25b7b7c016bd5e0d2a3334.bindTooltip(
+                `<div>
+                     69 mph Montague (Siskiyou County Airport ASOS KSIY) CA (Non-thunderstorm (measured gust))
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+        function geo_json_572c031004c6b8b8313d645f1c66fb84_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#6a1b9a", "dashArray": "5", "fillOpacity": 0.03, "weight": 2};
+            }
+        }
+
+        function geo_json_572c031004c6b8b8313d645f1c66fb84_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_572c031004c6b8b8313d645f1c66fb84 = L.geoJson(null, {
+                onEachFeature: geo_json_572c031004c6b8b8313d645f1c66fb84_onEachFeature,
+            
+                style: geo_json_572c031004c6b8b8313d645f1c66fb84_styler,
+            ...{
+}
+        });
+
+        function geo_json_572c031004c6b8b8313d645f1c66fb84_add (data) {
+            geo_json_572c031004c6b8b8313d645f1c66fb84
+                .addData(data);
+        }
+            geo_json_572c031004c6b8b8313d645f1c66fb84_add({"features": [{"geometry": {"coordinates": [[[-122.37103517118236, 41.7737], [-122.37150304639096, 41.780802691328226], [-122.37290216612276, 41.78783697985624], [-122.37521905608988, 41.79473512154018], [-122.37843140337542, 41.80143068350471], [-122.38250827131894, 41.80785918382797], [-122.38741039745355, 41.81395871253765], [-122.39309057162475, 41.81967052783794], [-122.39949409065021, 41.82493962182511], [-122.40655928514117, 41.82971525024367], [-122.41421811341247, 41.83395142118134], [-122.42239681676111, 41.83760733799625], [-122.4310166298029, 41.84064779221096], [-122.43999453902619, 41.84304350258929], [-122.44924408225732, 41.844771397130664], [-122.45867618133867, 41.8458148352661], [-122.4682, 41.84616376811594], [-122.47772381866132, 41.8458148352661], [-122.48715591774267, 41.844771397130664], [-122.4964054609738, 41.84304350258929], [-122.5053833701971, 41.84064779221096], [-122.51400318323888, 41.83760733799625], [-122.52218188658752, 41.83395142118134], [-122.52984071485882, 41.82971525024367], [-122.53690590934978, 41.82493962182511], [-122.54330942837524, 41.81967052783794], [-122.54898960254644, 41.81395871253765], [-122.55389172868105, 41.80785918382797], [-122.55796859662458, 41.80143068350471], [-122.56118094391012, 41.79473512154018], [-122.56349783387724, 41.78783697985624], [-122.56489695360904, 41.780802691328226], [-122.56536482881764, 41.7737], [-122.56489695360904, 41.76659730867177], [-122.56349783387724, 41.75956302014376], [-122.56118094391012, 41.75266487845982], [-122.55796859662458, 41.745969316495284], [-122.55389172868105, 41.739540816172024], [-122.54898960254644, 41.73344128746235], [-122.54330942837524, 41.72772947216205], [-122.53690590934978, 41.72246037817489], [-122.52984071485882, 41.71768474975632], [-122.52218188658752, 41.71344857881866], [-122.51400318323888, 41.70979266200374], [-122.5053833701971, 41.70675220778904], [-122.4964054609738, 41.70435649741071], [-122.48715591774267, 41.70262860286933], [-122.47772381866132, 41.7015851647339], [-122.4682, 41.70123623188405], [-122.45867618133867, 41.7015851647339], [-122.44924408225732, 41.70262860286933], [-122.43999453902619, 41.70435649741071], [-122.4310166298029, 41.70675220778904], [-122.42239681676111, 41.70979266200374], [-122.41421811341247, 41.71344857881866], [-122.40655928514117, 41.71768474975632], [-122.39949409065021, 41.72246037817489], [-122.39309057162475, 41.72772947216205], [-122.38741039745355, 41.73344128746235], [-122.38250827131894, 41.739540816172024], [-122.37843140337542, 41.745969316495284], [-122.37521905608988, 41.75266487845982], [-122.37290216612276, 41.75956302014376], [-122.37150304639096, 41.76659730867177], [-122.37103517118236, 41.7737]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_572c031004c6b8b8313d645f1c66fb84.bindTooltip(
+                `<div>
+                     Wind lead radius 5 mi – Montague (Siskiyou County Airport ASOS KSIY) (based on SPC/NWS + ASOS reports; 4 C/I buildings inside)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_572c031004c6b8b8313d645f1c66fb84.addTo(feature_group_1ca72599d9d3d4b53a22a38111e93152);
+        
+    
+            feature_group_1ca72599d9d3d4b53a22a38111e93152.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var feature_group_f9e5fe9e1d87805893a41c44cf0fc12d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_f9e5fe9e1d87805893a41c44cf0fc12d.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var feature_group_15b64ca25b7d4b85600381601e9cacc9 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_330e33a64b1dc263adacef12f240c422 = L.circle(
+                [41.2565, -95.9345],
+                {"bubblingMouseEvents": true, "color": "#2e7d32", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#2e7d32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 289681.2, "stroke": true, "weight": 1}
+            ).addTo(feature_group_15b64ca25b7d4b85600381601e9cacc9);
+        
+    
+            circle_330e33a64b1dc263adacef12f240c422.bindTooltip(
+                `<div>
+                     Rain search radius: 180 miles from Omaha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cluster_e72e5b19af9699a0bc70464f1c7f08cd = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_e72e5b19af9699a0bc70464f1c7f08cd.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var marker_cluster_9442e423729878b19827bf5f43d64fed = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_9442e423729878b19827bf5f43d64fed.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var marker_cluster_bddb6374e6fa2c874f3aa3b6905f1ef7 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_bddb6374e6fa2c874f3aa3b6905f1ef7.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var marker_cluster_6eef23e63ca11b8641d2749cde3575bd = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_6eef23e63ca11b8641d2749cde3575bd.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var marker_cluster_a57003d6d83a507e4c0b857596568fc8 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_a57003d6d83a507e4c0b857596568fc8.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var marker_cluster_2912fd59b99f32d892826cee0b9d28a2 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_2912fd59b99f32d892826cee0b9d28a2.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var feature_group_c8a5067edaa344474ee6240178dd3ddc = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_c8a5067edaa344474ee6240178dd3ddc.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var feature_group_71939ed583b968fe6acdab8b3c4a25e8 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var feature_group_299f9843d678d67a9504e6ececda9efc = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_03e018a3d0d6cf461996d940c238d35f = L.circleMarker(
+                [41.722842, -122.534072],
+                {"bubblingMouseEvents": true, "color": "#9e9e9e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bdbdbd", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(feature_group_299f9843d678d67a9504e6ececda9efc);
+        
+    
+        var popup_53c9ebfbf0a7a729cf19433992b4674d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_633570c93873047d99f0499928fbac5e = $(`<div id="html_633570c93873047d99f0499928fbac5e" style="width: 100.0%; height: 100.0%;"><b>No-license state (not researched)</b><br>no street address in source, near Montague/Yreka CA<br>CA · 15,815 SF footprint<br>69 mph wind · Montague (Siskiyou County Airport ASOS KSIY)<br><span style='color:#9C0006'><b>Can solicit: No</b> (State license/registration required)</span><br><small>State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)</small><br><small>Owner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.</small></div>`)[0];
+                popup_53c9ebfbf0a7a729cf19433992b4674d.setContent(html_633570c93873047d99f0499928fbac5e);
+            
+        
+
+        circle_marker_03e018a3d0d6cf461996d940c238d35f.bindPopup(popup_53c9ebfbf0a7a729cf19433992b4674d)
+        ;
+
+        
+    
+    
+            circle_marker_03e018a3d0d6cf461996d940c238d35f.bindTooltip(
+                `<div>
+                     No-license (CA): no street address in source, near Montag
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aaaa7b11098907edcee69b0471054dca = L.circleMarker(
+                [41.727562, -122.528394],
+                {"bubblingMouseEvents": true, "color": "#9e9e9e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bdbdbd", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(feature_group_299f9843d678d67a9504e6ececda9efc);
+        
+    
+        var popup_94ec74853d3bec6c65d9b931877c7473 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_10b3ac4af1db6d661b160d82d1247fd5 = $(`<div id="html_10b3ac4af1db6d661b160d82d1247fd5" style="width: 100.0%; height: 100.0%;"><b>No-license state (not researched)</b><br>no street address in source, near Montague/Yreka CA<br>CA · 12,800 SF footprint<br>69 mph wind · Montague (Siskiyou County Airport ASOS KSIY)<br><span style='color:#9C0006'><b>Can solicit: No</b> (State license/registration required)</span><br><small>State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)</small><br><small>Owner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.</small></div>`)[0];
+                popup_94ec74853d3bec6c65d9b931877c7473.setContent(html_10b3ac4af1db6d661b160d82d1247fd5);
+            
+        
+
+        circle_marker_aaaa7b11098907edcee69b0471054dca.bindPopup(popup_94ec74853d3bec6c65d9b931877c7473)
+        ;
+
+        
+    
+    
+            circle_marker_aaaa7b11098907edcee69b0471054dca.bindTooltip(
+                `<div>
+                     No-license (CA): no street address in source, near Montag
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cbe06b657e80bb466fbd3aae8b78d99e = L.circleMarker(
+                [41.727885, -122.535368],
+                {"bubblingMouseEvents": true, "color": "#9e9e9e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bdbdbd", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(feature_group_299f9843d678d67a9504e6ececda9efc);
+        
+    
+        var popup_ed8fc907778d79abe1246aabd2d60b07 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_966170ae1b59ceea296da12e09152386 = $(`<div id="html_966170ae1b59ceea296da12e09152386" style="width: 100.0%; height: 100.0%;"><b>No-license state (not researched)</b><br>no street address in source, near Montague/Yreka CA<br>CA · 12,582 SF footprint<br>69 mph wind · Montague (Siskiyou County Airport ASOS KSIY)<br><span style='color:#9C0006'><b>Can solicit: No</b> (State license/registration required)</span><br><small>State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)</small><br><small>Owner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.</small></div>`)[0];
+                popup_ed8fc907778d79abe1246aabd2d60b07.setContent(html_966170ae1b59ceea296da12e09152386);
+            
+        
+
+        circle_marker_cbe06b657e80bb466fbd3aae8b78d99e.bindPopup(popup_ed8fc907778d79abe1246aabd2d60b07)
+        ;
+
+        
+    
+    
+            circle_marker_cbe06b657e80bb466fbd3aae8b78d99e.bindTooltip(
+                `<div>
+                     No-license (CA): no street address in source, near Montag
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_42b86327569fb0dcbbf06a8b9f4cb478 = L.circleMarker(
+                [41.725497, -122.504205],
+                {"bubblingMouseEvents": true, "color": "#9e9e9e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bdbdbd", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(feature_group_299f9843d678d67a9504e6ececda9efc);
+        
+    
+        var popup_6892053ed7d6fc77f561af389ca45486 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_c70b11c06823e0138bd58d3122b08dcf = $(`<div id="html_c70b11c06823e0138bd58d3122b08dcf" style="width: 100.0%; height: 100.0%;"><b>No-license state (not researched)</b><br>no street address in source, near Montague/Yreka CA<br>CA · 10,747 SF footprint<br>69 mph wind · Montague (Siskiyou County Airport ASOS KSIY)<br><span style='color:#9C0006'><b>Can solicit: No</b> (State license/registration required)</span><br><small>State license; threshold: $1,000+, or any job needing a permit (B&amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)</small><br><small>Owner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.</small></div>`)[0];
+                popup_6892053ed7d6fc77f561af389ca45486.setContent(html_c70b11c06823e0138bd58d3122b08dcf);
+            
+        
+
+        circle_marker_42b86327569fb0dcbbf06a8b9f4cb478.bindPopup(popup_6892053ed7d6fc77f561af389ca45486)
+        ;
+
+        
+    
+    
+            circle_marker_42b86327569fb0dcbbf06a8b9f4cb478.bindTooltip(
+                `<div>
+                     No-license (CA): no street address in source, near Montag
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var feature_group_206b18337e459c1286f148fcb8f4b9b1 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_206b18337e459c1286f148fcb8f4b9b1.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var feature_group_c946f61edcbb50b1cd275e314ae86ce4 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_c946f61edcbb50b1cd275e314ae86ce4.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+        function geo_json_3e910f3eb018f042957acecf7288ceec_pointToLayer(feature, latlng) {
+            var opts = {
+  "stroke": true,
+  "color": "#3388ff",
+  "weight": 3,
+  "opacity": 0,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "radius": 1,
+};
+            
+            return new L.CircleMarker(latlng, opts)
+        }
+
+        function geo_json_3e910f3eb018f042957acecf7288ceec_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_3e910f3eb018f042957acecf7288ceec = L.geoJson(null, {
+                onEachFeature: geo_json_3e910f3eb018f042957acecf7288ceec_onEachFeature,
+            
+                pointToLayer: geo_json_3e910f3eb018f042957acecf7288ceec_pointToLayer,
+            ...{
+}
+        });
+
+        function geo_json_3e910f3eb018f042957acecf7288ceec_add (data) {
+            geo_json_3e910f3eb018f042957acecf7288ceec
+                .addData(data);
+        }
+            geo_json_3e910f3eb018f042957acecf7288ceec_add({"features": [{"geometry": {"coordinates": [-122.534072, 41.722842], "type": "Point"}, "properties": {"info": "\u003cb\u003eNo-license state (not researched)\u003c/b\u003e\u003cbr\u003eno street address in source, near Montague/Yreka CA\u003cbr\u003eCA \u00b7 15,815 SF footprint\u003cbr\u003e69 mph wind \u00b7 Montague (Siskiyou County Airport ASOS KSIY)\u003cbr\u003e\u003cspan style=\u0027color:#9C0006\u0027\u003e\u003cb\u003eCan solicit: No\u003c/b\u003e (State license/registration required)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eState license; threshold: $1,000+, or any job needing a permit (B\u0026amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)\u003c/small\u003e\u003cbr\u003e\u003csmall\u003eOwner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.\u003c/small\u003e", "name": "No-license CA: no street address in source, near Montague/Yreka CA"}, "type": "Feature"}, {"geometry": {"coordinates": [-122.528394, 41.727562], "type": "Point"}, "properties": {"info": "\u003cb\u003eNo-license state (not researched)\u003c/b\u003e\u003cbr\u003eno street address in source, near Montague/Yreka CA\u003cbr\u003eCA \u00b7 12,800 SF footprint\u003cbr\u003e69 mph wind \u00b7 Montague (Siskiyou County Airport ASOS KSIY)\u003cbr\u003e\u003cspan style=\u0027color:#9C0006\u0027\u003e\u003cb\u003eCan solicit: No\u003c/b\u003e (State license/registration required)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eState license; threshold: $1,000+, or any job needing a permit (B\u0026amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)\u003c/small\u003e\u003cbr\u003e\u003csmall\u003eOwner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.\u003c/small\u003e", "name": "No-license CA: no street address in source, near Montague/Yreka CA"}, "type": "Feature"}, {"geometry": {"coordinates": [-122.535368, 41.727885], "type": "Point"}, "properties": {"info": "\u003cb\u003eNo-license state (not researched)\u003c/b\u003e\u003cbr\u003eno street address in source, near Montague/Yreka CA\u003cbr\u003eCA \u00b7 12,582 SF footprint\u003cbr\u003e69 mph wind \u00b7 Montague (Siskiyou County Airport ASOS KSIY)\u003cbr\u003e\u003cspan style=\u0027color:#9C0006\u0027\u003e\u003cb\u003eCan solicit: No\u003c/b\u003e (State license/registration required)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eState license; threshold: $1,000+, or any job needing a permit (B\u0026amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)\u003c/small\u003e\u003cbr\u003e\u003csmall\u003eOwner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.\u003c/small\u003e", "name": "No-license CA: no street address in source, near Montague/Yreka CA"}, "type": "Feature"}, {"geometry": {"coordinates": [-122.504205, 41.725497], "type": "Point"}, "properties": {"info": "\u003cb\u003eNo-license state (not researched)\u003c/b\u003e\u003cbr\u003eno street address in source, near Montague/Yreka CA\u003cbr\u003eCA \u00b7 10,747 SF footprint\u003cbr\u003e69 mph wind \u00b7 Montague (Siskiyou County Airport ASOS KSIY)\u003cbr\u003e\u003cspan style=\u0027color:#9C0006\u0027\u003e\u003cb\u003eCan solicit: No\u003c/b\u003e (State license/registration required)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eState license; threshold: $1,000+, or any job needing a permit (B\u0026amp;P 7048, eff. Jan 1, 2026) (general info, not legal advice)\u003c/small\u003e\u003cbr\u003e\u003csmall\u003eOwner/operator contact research is skipped in states Armour cannot solicit. Counted on the Missed Opportunity tab only.\u003c/small\u003e", "name": "No-license CA: no street address in source, near Montague/Yreka CA"}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_3e910f3eb018f042957acecf7288ceec.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+    geo_json_3e910f3eb018f042957acecf7288ceec.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["info"];
+    let aliases = ["info"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "className": "foliumpopup",
+});
+                     
+    
+            geo_json_3e910f3eb018f042957acecf7288ceec.addTo(map_72a79917a76ccfe7160f09fc0027a639);
+        
+    
+            var geo_json_3e910f3eb018f042957acecf7288ceecsearchControl = new L.Control.Search({
+                layer: geo_json_3e910f3eb018f042957acecf7288ceec,
+                
+                propertyName: 'name',
+                
+                collapsed: false,
+                textPlaceholder: 'Search owner, address, operator, bid request or social media lead',
+                position:'topleft',
+            
+                initial: false,
+                
+                zoom: 15,
+                
+                hideMarkerOnCollapse: true
+            
+                });
+                geo_json_3e910f3eb018f042957acecf7288ceecsearchControl.on('search:locationfound', function(e) {
+                    geo_json_3e910f3eb018f042957acecf7288ceec.setStyle(function(feature){
+                        return feature.properties.style
+                    })
+                    
+                    if(e.layer._popup)
+                        e.layer.openPopup();
+                })
+                geo_json_3e910f3eb018f042957acecf7288ceecsearchControl.on('search:collapsed', function(e) {
+                        geo_json_3e910f3eb018f042957acecf7288ceec.setStyle(function(feature){
+                            return feature.properties.style
+                    });
+                });
+            map_72a79917a76ccfe7160f09fc0027a639.addControl( geo_json_3e910f3eb018f042957acecf7288ceecsearchControl );
+
+        
+    
+            var layer_control_a422e0ac417c83be4473175122a85692_layers = {
+                base_layers : {
+                    "Satellite" : tile_layer_95bd8d6ec7d40ba10aa98be39888180a,
+                    "Street map" : tile_layer_7cec447b9b38b579913935f24800e51b,
+                },
+                overlays :  {
+                    "Hail \u2013 0 ground reports 2in+; 0 MESH 2in+ cells (CONUS)" : feature_group_a202ae224369e92481ac2341fa8ba68d,
+                    "Wind \u2013 1 gust site 68 mph+ (Montague CA, 69 mph non-thunderstorm; 4 bldgs in no-license CA - see No-license layer)" : feature_group_1ca72599d9d3d4b53a22a38111e93152,
+                    "Rain \u2013 0 gauges over 2in within 180 miles of Omaha (max 0.07in) \u2013 0 bldgs; MRMS QPE 0 cells 2in+" : feature_group_f9e5fe9e1d87805893a41c44cf0fc12d,
+                    "Rain search radius (180 miles of Omaha)" : feature_group_15b64ca25b7d4b85600381601e9cacc9,
+                    "Hail \u2013 no contact (orange) \u2014 0" : marker_cluster_e72e5b19af9699a0bc70464f1c7f08cd,
+                    "Wind \u2013 no contact (orange) \u2014 0" : marker_cluster_9442e423729878b19827bf5f43d64fed,
+                    "Rain \u2013 no contact (orange) \u2014 0" : marker_cluster_bddb6374e6fa2c874f3aa3b6905f1ef7,
+                    "Hail \u2013 with contact (green) \u2014 0" : marker_cluster_6eef23e63ca11b8641d2749cde3575bd,
+                    "Wind \u2013 with contact (green) \u2014 0" : marker_cluster_a57003d6d83a507e4c0b857596568fc8,
+                    "Rain \u2013 with contact (green) \u2014 0" : marker_cluster_2912fd59b99f32d892826cee0b9d28a2,
+                    "\u0026#9733; Our Assets (HailTrace) \u2014 0 hit" : feature_group_c8a5067edaa344474ee6240178dd3ddc,
+                    "Can solicit only (Yes/Check) \u2014 0" : feature_group_71939ed583b968fe6acdab8b3c4a25e8,
+                    "No-license states (not researched) \u2014 4" : feature_group_299f9843d678d67a9504e6ececda9efc,
+                    "Bid Requests (square B pins) \u2014 0" : feature_group_206b18337e459c1286f148fcb8f4b9b1,
+                    "Social Media (round S pins) \u2014 0" : feature_group_c946f61edcbb50b1cd275e314ae86ce4,
+                },
+            };
+            let layer_control_a422e0ac417c83be4473175122a85692 = L.control.layers(
+                layer_control_a422e0ac417c83be4473175122a85692_layers.base_layers,
+                layer_control_a422e0ac417c83be4473175122a85692_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_72a79917a76ccfe7160f09fc0027a639);
+
+        
+</script>
+</html>
