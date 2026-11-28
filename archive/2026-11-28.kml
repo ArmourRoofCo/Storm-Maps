@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <name>Storm leads Sat 11/28/2026</name>
+        <Folder id="14">
+            <name>Hail</name>
+            <Folder id="17">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="18">
+                <name>No contact</name>
+            </Folder>
+            <Folder id="29">
+                <name>Radar estimate (unconfirmed) - MESH 2in+ swaths</name>
+            </Folder>
+        </Folder>
+        <Folder id="15">
+            <name>Wind</name>
+            <Folder id="19">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="20">
+                <Style id="2">
+                    <IconStyle id="3">
+                        <color>ff0080ff</color>
+                        <colorMode>normal</colorMode>
+                        <scale>1</scale>
+                        <heading>0</heading>
+                        <Icon id="4">
+                            <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <name>No contact</name>
+                <Placemark id="22">
+                    <name>not identified (wind)</name>
+                    <description>Wind 82 mph Non-thunderstorm (measured gust) 8 S Federal WY (2207Z 11/27) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+no street address in source, near 8 S Federal, Laramie Co., WY
+35,305 SF footprint; built n/a in source
+4.15 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (Licensed/registered)
+Armour is licensed or registered here (Cheyenne) (general info, not legal advice)
+Repeat hit: 2x since Nov 27, 2026 (prior: 2026-11-27)
+SOS: N/A - parcel is residential/individual owner
+478 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.172285,-105.129789</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="21">
+                        <coordinates>-105.129789,41.172285,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="24">
+                    <name>not identified (wind)</name>
+                    <description>Wind 82 mph Non-thunderstorm (measured gust) 8 S Federal WY (2207Z 11/27) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+1027 St James Road, WY
+22,793 SF footprint; built n/a in source
+2.63 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (Licensed/registered)
+Armour is licensed or registered here (Cheyenne) (general info, not legal advice)
+Repeat hit: 2x since Nov 27, 2026 (prior: 2026-11-27)
+SOS: N/A - parcel is residential/individual owner
+476 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.149224,-105.092386</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="23">
+                        <coordinates>-105.092386,41.149224,0.0</coordinates>
+                    </Point>
+                </Placemark>
+                <Placemark id="26">
+                    <name>not identified (wind)</name>
+                    <description>Wind 82 mph Non-thunderstorm (measured gust) 8 S Federal WY (2207Z 11/27) - NEW building (possibly in the event area)
+Basis: Confirmed: measured
+Owner: not identified
+no street address in source, near 8 S Federal, Laramie Co., WY
+10,529 SF footprint; built n/a in source
+4.19 mi from report
+Has contact (phone/email): No
+Owner contact: -
+Owner phone: -
+Owner email: -
+Operator / Tenant: -
+Op contact: -
+Op phone: -
+Op email: -
+Can solicit: Yes (Licensed/registered)
+Armour is licensed or registered here (Cheyenne) (general info, not legal advice)
+Repeat hit: 2x since Nov 27, 2026 (prior: 2026-11-27)
+SOS: N/A - parcel is residential/individual owner
+478 mi from Omaha
+Street View: https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;viewpoint=41.172839,-105.130408</description>
+                    <styleUrl>#2</styleUrl>
+                    <Point id="25">
+                        <coordinates>-105.130408,41.172839,0.0</coordinates>
+                    </Point>
+                </Placemark>
+            </Folder>
+            <Placemark id="31">
+                <name>82 mph 8 S Federal WY - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 82 mph measured non-thunderstorm gust; 3 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); WY: Armour licensed/registered (can solicit)</description>
+                <Point id="30">
+                    <coordinates>-105.05,41.17,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="33">
+                <name>69 mph 11 SE Arlington WY - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 69 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); WY: Armour licensed/registered (can solicit)</description>
+                <Point id="32">
+                    <coordinates>-106.05,41.5,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="35">
+                <name>69 mph Mount Washington (KMWN) NH - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 69 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); NH: no state commercial roofing license (can solicit)</description>
+                <Point id="34">
+                    <coordinates>-71.3035,44.2708,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="37">
+                <name>68 mph 7 NW Elk Mountain WY - Non-thunderstorm (measured gust)</name>
+                <description>Basis: Confirmed: measured
+QUALIFIES - 68 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); WY: Armour licensed/registered (can solicit)</description>
+                <Point id="36">
+                    <coordinates>-106.51,41.75,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="16">
+            <name>Rain</name>
+            <Folder id="27">
+                <name>With contact</name>
+            </Folder>
+            <Folder id="28">
+                <name>No contact</name>
+            </Folder>
+        </Folder>
+        <Folder id="38">
+            <name>Our Assets (HailTrace prior lead/customer/bid) - 0 hit</name>
+            <description>0 HailTrace assets (prior leads/customers/bids) were hit by a qualifying event this period.</description>
+        </Folder>
+        <Folder id="39">
+            <name>No-license states (not researched) — 0</name>
+        </Folder>
+        <Folder id="40">
+            <name>Bid Requests — 0 (0 with phone/email)</name>
+        </Folder>
+        <Folder id="41">
+            <Style id="44">
+                <IconStyle id="45">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="46">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="49">
+                <IconStyle id="50">
+                    <color>ff00ff00</color>
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="51">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Social Media — 2 (2 with phone/email)</name>
+            <Placemark id="43">
+                <name>Wentzville Ice Arena (City of Wentzville Parks &amp; Recreation) - snow-load roof/wall collapse (Wentzville, MO)</name>
+                <description>Social Media | has contact: Yes
+NEW this report
+storm damage to commercial/industrial roof (heavy wet snow - roof and two walls collapsed) | Open - storm-damaged roof | 2026-11-27 (Hard Hat Report published 11/27; follow-ups from KMOV/Gray News and Spectrum News 11/27; first reported 11/26 by STLPR/FOX 2 - not listed in any prior run)
+Heavy, wet Thanksgiving snow (6-8") collapsed part of the roof and two walls of the east rink at the city-owned Wentzville Ice Arena (67,800 SF, two NHL rinks, opened 1998) between 3-4 AM 11/26; building declared uninhabitable, facility closed, mayor calls it a "total loss" and says the city will rebuild (Board of Aldermen approval needed). NWS St. Louis LSR also logged the collapse.
+Contact: Mike Lueck, Parks and Recreation Director (also Roy Hays, Asst. Director (636) 639-2087; Ryan Motts, Ice Arena Operations (636) 639-7602)
+Phone: (636) 639-2080
+Email: Mike.Lueck@wentzvillemo.gov
+Can solicit: Yes (Licensed/registered)
+Armour is licensed or registered here (general info, not legal advice)
+Website: https://www.wentzvillemo.gov
+Confidence: High (official City of Wentzville staff directory). Public owner - rebuild likely goes through city procurement
+Source: https://hardhatreport.com/story/wentzville-ice-arena-roof-collapse/ ; https://www.stlpr.org/news-briefs/2026-11-26/thanksgiving-snowstorm-collapses-wentzville-ice-arena-mayor-calls-total-loss
+~317 mi from Omaha</description>
+                <styleUrl>#44</styleUrl>
+                <Point id="42">
+                    <coordinates>-90.8525,38.8199,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="48">
+                <name>SpringHill Suites by Marriott St. Louis Chesterfield - partial collapse under snow load (Chesterfield, MO)</name>
+                <description>Social Media | has contact: Yes
+NEW this report
+storm damage to commercial/industrial roof (snow load - partial building collapse) | Open - storm-damaged building | 2026-11-27 (Hoodline published 11/27; FOX 2 first reported 11/26 5:10 PM CST - not listed in any prior run)
+Part of the SpringHill Suites by Marriott in Chesterfield came down under the weight of the snow around 3:40 AM 11/26; debris blocked the main entrance and several windows; no injuries reported. Extent of the structural damage and cause not yet confirmed officially.
+Contact: Hotel front desk / general manager (ownership/management company not identified)
+Phone: (636) 519-7500
+Email: -
+Can solicit: Yes (Licensed/registered)
+Armour is licensed or registered here (general info, not legal advice)
+Website: https://www.marriott.com/en-us/hotels/stlsu-springhill-suites-st-louis-chesterfield/overview/
+Confidence: Medium (official Marriott property page; hotel main line - ask for GM/ownership group; address 1065 Chesterfield Pkwy E, Census geocoder match)
+Source: https://hoodline.com/2026/11/snow-load-caves-in-part-of-chesterfield-marriott-before-thanksgiving-dawn/ ; https://fox2now.com/news/missouri/part-of-chesterfield-hotel-collapses-under-weight-of-snow/
+~337 mi from Omaha</description>
+                <styleUrl>#49</styleUrl>
+                <Point id="47">
+                    <coordinates>-90.550936,38.653174,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

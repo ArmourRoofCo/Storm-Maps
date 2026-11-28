@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="../"><!-- SM-ARCHIVE-BASE: lets callstatus.js and called.json resolve from the site root -->
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bd83bbe5fb3b8e49a2ea2d6bd14edc03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid #888;font-size:13px;max-width:330px"><b>Storm leads Sat 11/28/2026 (68 mph)</b><br><span style="color:#00b300">&#9679;</span> Building – has contact (phone and/or email)<br><span style="color:#ff8c00">&#9679;</span> Building – no phone or email found<br><span style="color:red">&#9679;</span> 2in+ hail ground report · <span style="color:red">&#9711;</span> 5-mile lead radius (report-based)<br><span style="color:#6a1b9a">&#9679;</span> 68+ mph wind gust report<br><span style="color:#1565c0">&#9679;</span> rain report/gauge over 2in · <span style="color:#1565c0">&#9711;</span> 2-mile lead radius · dashed blue = MRMS QPE 2in+ radar estimate (unconfirmed)<br><span style="display:inline-block;width:14px;height:9px;background:rgba(128,0,128,.15);border:1.5px dashed purple"></span> 2in+ radar hail swath (MRMS MESH) – Radar estimate (unconfirmed)<br><b>Report basis</b> <small>(confirmed always rank first)</small><br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#555;border:2px solid #555"></span> Solid = confirmed ground report (measured, or spotter/public)<br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:rgba(85,85,85,.3);border:2px dashed #555"></span> <span style="display:inline-block;width:14px;height:9px;background:rgba(128,0,128,.15);border:1.5px dashed purple"></span> Light / dashed = Radar estimate (unconfirmed)<br><b>Can solicit?</b> <small>(state license — general info, not legal advice)</small><br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#00b300;border:3px solid #c62828"></span> <span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#ff8c00;border:3px solid #c62828"></span> Red ring = do not solicit (state license required / pending)<br><small>Fill color still means contact: <span style="color:#00b300">green</span> = has phone/email · <span style="color:#ff8c00">orange</span> = none. Use the “Can solicit only” layer to hide No pins.</small><br><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#bdbdbd;border:2px solid #9e9e9e"></span> No-license states (not researched) — counts only, layer off by default<br><span style="color:#d4a017;font-size:15px;text-shadow:0 0 1px #000">&#9733;</span> Our Assets (HailTrace prior lead/customer/bid) <small>– dashed ring = low-precision location</small><br><span style="display:inline-block;width:11px;height:11px;background:#1a3d8f;border:2px solid #00b300;border-radius:2px"></span> <span style="display:inline-block;width:11px;height:11px;background:#1a3d8f;border:2px solid #ff8c00;border-radius:2px"></span> Bid Requests (square “B”)<br><span style="display:inline-block;width:11px;height:11px;background:#7b2cbf;border:2px solid #00b300;border-radius:50%"></span> <span style="display:inline-block;width:11px;height:11px;background:#7b2cbf;border:2px solid #ff8c00;border-radius:50%"></span> Social Media (round “S”)<br><small>Ring/pin color: <span style="color:#00b300">green</span> = has phone and/or email · <span style="color:#ff8c00">orange</span> = no phone or email</small><br><b>Assets hit:</b> 0 (HailTrace)<br><b>This report:</b> 3 solicitable storm buildings; 0 no-license (layer off by default); hail 0 reports 2in+; wind 4 gust sites (thunderstorm 0 / non-thunderstorm 4); rain 0 over 2in within 180 miles<br>Rain check: within 180 miles of Omaha<br><i>Contacts only: untick the 'no contact' layers. Solicit only: enable 'Can solicit only'. Grey layer: no-license states not researched.</i></div>
+    <script src="callstatus.js"></script>
+    
+            <div class="folium-map" id="map_bd83bbe5fb3b8e49a2ea2d6bd14edc03" ></div>
+        
+<!-- SM-DATEPICKER:BEGIN -->
+<div id="sm-datepick" style="position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:10000;background:#fff;border:1px solid #888;border-radius:4px;padding:4px 8px;font:13px sans-serif;box-shadow:0 1px 4px rgba(0,0,0,.3);max-width:92vw">
+ <label for="sm-date-sel"><b>Report date:</b></label>
+ <select id="sm-date-sel" style="font:13px sans-serif;max-width:60vw"></select>
+ <span id="sm-date-note" style="color:#b3261e;margin-left:4px"></span>
+</div>
+<script>
+(function(){
+  var C={"date": "2026-11-28", "key": "2026-11-28", "label": "Sat 11/28/2026", "live": "https://armourroofco.github.io/Storm-Maps/"};
+  var sel=document.getElementById('sm-date-sel'), note=document.getElementById('sm-date-note');
+  function opt(v,t,s){var o=document.createElement('option');o.value=v;o.textContent=t;if(s)o.selected=true;sel.appendChild(o);}
+  function only(){sel.innerHTML='';opt('',C.label,true);sel.disabled=true;note.innerHTML=' <a href="'+C.live+'" target="_blank">open live map for other dates</a>';}
+  function build(j,base){
+    var L=j.dates||[];if(!L.length){only();return;}
+    sel.innerHTML='';sel.disabled=false;note.innerHTML='';var have=false;
+    L.forEach(function(e){var t=e.label+(e.key===j.latest?' \u2014 latest':'')+(e.summary?' \u00b7 '+e.summary:'');
+      var s=e.key===C.key;have=have||s;opt(e.key,t,s);});
+    if(!have)opt(C.key,C.label+' (this file)',true);
+    sel.onchange=function(){var k=sel.value;var e=L.filter(function(x){return x.key===k;})[0];if(!e)return;
+      window.location.href=(k===j.latest)?(base||'./'):(base+e.file);};
+    if(C.key!==j.latest){note.innerHTML=' archived report \u00b7 <a href="'+(base||'./')+'">back to latest</a>';}
+    // ?date=YYYY-MM-DD on the live root jumps to that archived day
+    var q=(location.search.match(/[?&]date=([0-9A-Za-z-]+)/)||[])[1];
+    if(q&&q!==C.key){var e=L.filter(function(x){return x.key===q;})[0];if(e&&q!==j.latest)location.replace(base+e.file);}
+  }
+  function get(u){return fetch(u+(u.indexOf('?')<0?'?':'&')+'t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw r.status;return r.json();});}
+  var onLive=/^https?:$/.test(location.protocol);
+  only();
+  (onLive?get('archive/index.json').then(function(j){build(j,'');}):Promise.reject())
+   .catch(function(){return get(C.live+'archive/index.json').then(function(j){build(j,C.live);});})
+   .catch(function(){only();});
+})();
+</script>
+<!-- SM-DATEPICKER:END -->
+<!-- SM-COLLAPSE:BEGIN -->
+<style id="sm-collapse-css">
+.sm-fold-btn{display:block;width:100%;box-sizing:border-box;margin:0;font:bold 13px/1.2 sans-serif;color:#fff;background:#1a3d8f;border:0;border-radius:3px;padding:7px 10px;min-height:32px;cursor:pointer;text-align:left;white-space:nowrap;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.sm-fold-btn:focus-visible{outline:2px solid #ff8c00;outline-offset:1px}
+.leaflet-control-layers.sm-fold-host{padding:4px}
+.leaflet-control-layers.sm-fold-host .sm-fold-btn{margin-bottom:4px}
+.leaflet-control-layers.sm-folded>:not(.sm-fold-btn){display:none!important}
+.leaflet-control-layers.sm-folded .sm-fold-btn{margin-bottom:0}
+.sm-legend-host .sm-fold-btn{margin:-4px -4px 6px -4px;width:calc(100% + 8px)}
+.sm-legend-host.sm-folded{padding:4px!important;max-width:none!important;width:auto!important}
+.sm-legend-host.sm-folded .sm-fold-btn{margin:0;width:auto}
+.sm-legend-host.sm-folded>.sm-fold-body{display:none!important}
+@media (max-width:767px){
+ .leaflet-control-layers.sm-fold-host .leaflet-control-layers-list{max-height:55vh;overflow-y:auto}
+ .sm-legend-host{left:10px!important;bottom:20px!important;max-width:calc(100vw - 20px)!important;box-sizing:border-box}
+ .sm-legend-host>.sm-fold-body{max-height:45vh;overflow-y:auto}
+}
+</style>
+<script>
+(function(){
+  var NARROW=768, K_F='sm.filters.open', K_L='sm.legend.open';
+  function get(k){try{var v=localStorage.getItem(k);return v===null?null:v==='1';}catch(e){return null;}}
+  function put(k,v){try{localStorage.setItem(k,v?'1':'0');}catch(e){}}
+  function dflt(k){var v=get(k);return v===null?window.innerWidth>=NARROW:v;}
+  function makeBtn(name,key,hosts){
+    var b=document.createElement('button');b.type='button';b.className='sm-fold-btn';
+    function set(open,save){
+      hosts.forEach(function(h){h.classList.toggle('sm-folded',!open);});
+      b.textContent=name+(open?' \u25BE':' \u25B8');b.setAttribute('aria-expanded',open?'true':'false');
+      b.title=(open?'Hide ':'Show ')+name.toLowerCase();
+      if(save)put(key,open);
+      clearPicker();
+    }
+    b.addEventListener('click',function(ev){ev.preventDefault();ev.stopPropagation();
+      set(hosts[0].classList.contains('sm-folded'),true);});
+    b._smSet=set;return b;
+  }
+  function stopMap(el){if(window.L&&L.DomEvent){L.DomEvent.disableClickPropagation(el);L.DomEvent.disableScrollPropagation(el);}}
+  function setupFilters(){
+    var cs=[].slice.call(document.querySelectorAll('.leaflet-control-layers')).filter(function(c){return !c.classList.contains('sm-fold-host');});
+    if(!cs.length)return false;
+    cs.forEach(function(c,i){
+      c.classList.add('sm-fold-host');
+      var b=makeBtn(cs.length>1?'Filters '+(i+1):'Filters',K_F,[c]);
+      b.id=i?'sm-filters-btn-'+(i+1):'sm-filters-btn';
+      c.insertBefore(b,c.firstChild);b._smSet(dflt(K_F),false);
+    });
+    return true;
+  }
+  function setupLegends(){
+    var ds=[].slice.call(document.querySelectorAll('div[style]')).filter(function(d){
+      var s=(d.getAttribute('style')||'').replace(/\s+/g,'').toLowerCase();
+      return s.indexOf('position:fixed')>=0 && !d.closest('#sm-datepick') && d.id!=='sm-datepick' &&
+             !d.classList.contains('sm-legend-host') && !d.closest('.leaflet-container') && d.title!=='Gray markers have been called';
+    });
+    ds.forEach(function(d,i){
+      d.classList.add('sm-legend-host');
+      var body=document.createElement('div');body.className='sm-fold-body';
+      while(d.firstChild)body.appendChild(d.firstChild);
+      var b=makeBtn(ds.length>1?'Legend '+(i+1):'Legend',K_L,[d]);
+      b.id=i?'sm-legend-btn-'+(i+1):'sm-legend-btn';
+      d.appendChild(b);d.appendChild(body);stopMap(d);b._smSet(dflt(K_L),false);
+    });
+    return ds.length>0;
+  }
+  // keep the top map controls (Filters, zoom, search) clear of the centred date picker when they would overlap
+  function clearPicker(){
+    var p=document.getElementById('sm-datepick'),tops=document.querySelectorAll('.leaflet-top');
+    for(var i=0;i<tops.length;i++)tops[i].style.top='';
+    if(!p)return;var r=p.getBoundingClientRect();if(!r.height)return;
+    var narrow=window.innerWidth<NARROW,hits=[];
+    for(i=0;i<tops.length;i++){var hit=false;
+      [].slice.call(tops[i].children).forEach(function(c){var q=c.getBoundingClientRect();
+        if(q.width&&q.left<r.right&&q.right>r.left&&q.top<r.bottom)hit=true;});
+      hits.push(hit);}
+    var any=hits.some(function(h){return h;});
+    // on phones shift both top corners together so the right column never lands on the left search box
+    for(i=0;i<tops.length;i++)if(hits[i]||(narrow&&any))tops[i].style.top=Math.ceil(r.bottom+4-tops[i].getBoundingClientRect().top)+'px';
+  }
+  var tries=0,fOK=false,lDone=false;
+  function run(){
+    if(!lDone){lDone=true;setupLegends();}  // static legend HTML only (one pass; never the called-counter)
+    if(!fOK)fOK=setupFilters();
+    clearPicker();
+    if(!fOK&&++tries<40)setTimeout(run,250);
+  }
+  window.addEventListener('resize',clearPicker);
+  if(window.MutationObserver){var p=document.getElementById('sm-datepick');if(p)new MutationObserver(clearPicker).observe(p,{childList:true,subtree:true,characterData:true});}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();
+})();
+</script>
+<!-- SM-COLLAPSE:END -->
+</body>
+<script>
+    
+    
+            var map_bd83bbe5fb3b8e49a2ea2d6bd14edc03 = L.map(
+                "map_bd83bbe5fb3b8e49a2ea2d6bd14edc03",
+                {
+                    center: [41.2565, -95.9345],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_928281101cf12e4f5a76759d0c0b99d1 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri World Imagery",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_928281101cf12e4f5a76759d0c0b99d1.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var tile_layer_ea29a83f9065ffe15df9408f35a914e9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ea29a83f9065ffe15df9408f35a914e9.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var feature_group_890bbc338ae3867a9a8fe9ac444a1afa = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_890bbc338ae3867a9a8fe9ac444a1afa.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var feature_group_3e91d7d05dab5d3e0bb71712870dcf5d = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_9fed68297da21043de4ba584799c127b = L.circleMarker(
+                [41.17, -105.05],
+                {"bubblingMouseEvents": true, "color": "#6a1b9a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6a1b9a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+        var popup_11838e6129a7f69f85a915bf0970b57c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_7872695afa1367578842b84452fe681d = $(`<div id="html_7872695afa1367578842b84452fe681d" style="width: 100.0%; height: 100.0%;"><b>82 mph – 8 S Federal WY</b><br>Non-thunderstorm (measured gust) · NON-THUNDERSTORM - NON-TSTM WND GST (M, Mesonet)<br>11/27 2207Z<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><b>Can solicit: Yes</b> – Licensed/registered<br>82 mph measured non-thunderstorm gust, NWS CYS LSR 2026-11-27T22:07:00Z. Personal weather station (Tempest via Synoptic, site WFT130853) 8 mi S of Federal, ~12 mi W of Cheyenne (Laramie Range foothills), 3:07 PM MST 11/27; same sensor also logged 76 mph (00:11Z) and 68 mph (23:01Z).<br><small>SPC 261127 and today feeds: 0 reports (non-thunderstorm wind is not in SPC). Single sensor (personal-weather-station grade) - same station as the 79 mph report in the 11/27 run; Cheyenne ASOS (CYS) max 48 mph, Laramie ASOS (LAR) 58 mph - lower.</small><br>QUALIFIES - 82 mph measured non-thunderstorm gust; 3 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); WY: Armour licensed/registered (can solicit)</div>`)[0];
+                popup_11838e6129a7f69f85a915bf0970b57c.setContent(html_7872695afa1367578842b84452fe681d);
+            
+        
+
+        circle_marker_9fed68297da21043de4ba584799c127b.bindPopup(popup_11838e6129a7f69f85a915bf0970b57c)
+        ;
+
+        
+    
+    
+            circle_marker_9fed68297da21043de4ba584799c127b.bindTooltip(
+                `<div>
+                     82 mph 8 S Federal WY (Non-thunderstorm (measured gust))
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+        function geo_json_c3348eca8555f9717247356e13e89e37_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#6a1b9a", "dashArray": "5", "fillOpacity": 0.03, "weight": 2};
+            }
+        }
+
+        function geo_json_c3348eca8555f9717247356e13e89e37_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_c3348eca8555f9717247356e13e89e37 = L.geoJson(null, {
+                onEachFeature: geo_json_c3348eca8555f9717247356e13e89e37_onEachFeature,
+            
+                style: geo_json_c3348eca8555f9717247356e13e89e37_styler,
+            ...{
+}
+        });
+
+        function geo_json_c3348eca8555f9717247356e13e89e37_add (data) {
+            geo_json_c3348eca8555f9717247356e13e89e37
+                .addData(data);
+        }
+            geo_json_c3348eca8555f9717247356e13e89e37_add({"features": [{"geometry": {"coordinates": [[[-104.95373585538289, 41.17], [-104.95419939355088, 41.17710269132823], [-104.95558554392892, 41.18413697985624], [-104.95788095713112, 41.19103512154018], [-104.96106352707353, 41.197730683504716], [-104.96510260386786, 41.204159183827976], [-104.96995928899656, 41.21025871253765], [-104.97558680992694, 41.215970527837946], [-104.9819309705561, 41.22123962182511], [-104.98893067314914, 41.22601525024368], [-104.99651850674363, 41.23025142118134], [-105.00462139635414, 41.23390733799626], [-105.01316130672423, 41.23694779221096], [-105.02205599384864, 41.23934350258929], [-105.03121979702804, 41.24107139713067], [-105.04056446382836, 41.2421148352661], [-105.05, 41.24246376811595], [-105.05943553617163, 41.2421148352661], [-105.06878020297195, 41.24107139713067], [-105.07794400615136, 41.23934350258929], [-105.08683869327577, 41.23694779221096], [-105.09537860364586, 41.23390733799626], [-105.10348149325637, 41.23025142118134], [-105.11106932685085, 41.22601525024368], [-105.11806902944389, 41.22123962182511], [-105.12441319007306, 41.215970527837946], [-105.13004071100343, 41.21025871253765], [-105.13489739613213, 41.204159183827976], [-105.13893647292646, 41.197730683504716], [-105.14211904286887, 41.19103512154018], [-105.14441445607108, 41.18413697985624], [-105.14580060644911, 41.17710269132823], [-105.1462641446171, 41.17], [-105.14580060644911, 41.16289730867177], [-105.14441445607108, 41.15586302014376], [-105.14211904286887, 41.14896487845982], [-105.13893647292646, 41.14226931649529], [-105.13489739613213, 41.13584081617203], [-105.13004071100343, 41.12974128746235], [-105.12441319007306, 41.12402947216206], [-105.11806902944389, 41.11876037817489], [-105.11106932685085, 41.11398474975633], [-105.10348149325637, 41.10974857881866], [-105.09537860364586, 41.106092662003746], [-105.08683869327577, 41.10305220778904], [-105.07794400615136, 41.10065649741071], [-105.06878020297195, 41.098928602869336], [-105.05943553617163, 41.0978851647339], [-105.05, 41.09753623188406], [-105.04056446382836, 41.0978851647339], [-105.03121979702804, 41.098928602869336], [-105.02205599384864, 41.10065649741071], [-105.01316130672423, 41.10305220778904], [-105.00462139635414, 41.106092662003746], [-104.99651850674363, 41.10974857881866], [-104.98893067314914, 41.11398474975633], [-104.9819309705561, 41.11876037817489], [-104.97558680992694, 41.12402947216206], [-104.96995928899656, 41.12974128746235], [-104.96510260386786, 41.13584081617203], [-104.96106352707353, 41.14226931649529], [-104.95788095713112, 41.14896487845982], [-104.95558554392892, 41.15586302014376], [-104.95419939355088, 41.16289730867177], [-104.95373585538289, 41.17]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_c3348eca8555f9717247356e13e89e37.bindTooltip(
+                `<div>
+                     Wind lead radius 5 mi – 8 S Federal (based on SPC/NWS + ASOS reports; 3 C/I buildings inside)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_c3348eca8555f9717247356e13e89e37.addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+            var circle_marker_13a6304e1bd348a226e12356760f5469 = L.circleMarker(
+                [41.5, -106.05],
+                {"bubblingMouseEvents": true, "color": "#6a1b9a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6a1b9a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+        var popup_cebf29070a7716da307aec6921c65119 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_2bb8cd1a34c8a946435ba8016b3387ec = $(`<div id="html_2bb8cd1a34c8a946435ba8016b3387ec" style="width: 100.0%; height: 100.0%;"><b>69 mph – 11 SE Arlington WY</b><br>Non-thunderstorm (measured gust) · NON-THUNDERSTORM - NON-TSTM WND GST (M, Mesonet)<br>11/27 1846Z<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><b>Can solicit: Yes</b> – Licensed/registered<br>69 mph measured non-thunderstorm gust, NWS CYS LSR 2026-11-27T18:46:00Z. WY DOT road-weather sensor WY25 on I-80 (Arlington / Wagonhound wind corridor), 11:46 AM MST 11/27.<br><small>SPC 261127 and today feeds: 0 reports (non-thunderstorm wind is not in SPC). WY DOT corridor sensor; nearby WY DOT sensors 58-65 mph.</small><br>QUALIFIES - 69 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); WY: Armour licensed/registered (can solicit)</div>`)[0];
+                popup_cebf29070a7716da307aec6921c65119.setContent(html_2bb8cd1a34c8a946435ba8016b3387ec);
+            
+        
+
+        circle_marker_13a6304e1bd348a226e12356760f5469.bindPopup(popup_cebf29070a7716da307aec6921c65119)
+        ;
+
+        
+    
+    
+            circle_marker_13a6304e1bd348a226e12356760f5469.bindTooltip(
+                `<div>
+                     69 mph 11 SE Arlington WY (Non-thunderstorm (measured gust))
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+        function geo_json_72c605079072f49bf01f66e668212cde_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#6a1b9a", "dashArray": "5", "fillOpacity": 0.03, "weight": 2};
+            }
+        }
+
+        function geo_json_72c605079072f49bf01f66e668212cde_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_72c605079072f49bf01f66e668212cde = L.geoJson(null, {
+                onEachFeature: geo_json_72c605079072f49bf01f66e668212cde_onEachFeature,
+            
+                style: geo_json_72c605079072f49bf01f66e668212cde_styler,
+            ...{
+}
+        });
+
+        function geo_json_72c605079072f49bf01f66e668212cde_add (data) {
+            geo_json_72c605079072f49bf01f66e668212cde
+                .addData(data);
+        }
+            geo_json_72c605079072f49bf01f66e668212cde_add({"features": [{"geometry": {"coordinates": [[[-105.953246926214, 41.5], [-105.95371281870959, 41.50710269132823], [-105.95510600939693, 41.51413697985624], [-105.9574130810881, 41.52103512154018], [-105.96061181542156, 41.527730683504714], [-105.96467140683706, 41.534159183827974], [-105.96955275925008, 41.54025871253765], [-105.97520886256845, 41.545970527837945], [-105.98158524542528, 41.55123962182511], [-105.98862049976798, 41.556015250243675], [-105.99624687225135, 41.56025142118134], [-106.0043909167394, 41.563907337996255], [-106.01297420163169, 41.56694779221096], [-106.02191406520265, 41.56934350258929], [-106.03112441167903, 41.571071397130666], [-106.0405165403894, 41.5721148352661], [-106.05, 41.572463768115945], [-106.05948345961059, 41.5721148352661], [-106.06887558832096, 41.571071397130666], [-106.07808593479734, 41.56934350258929], [-106.0870257983683, 41.56694779221096], [-106.0956090832606, 41.563907337996255], [-106.10375312774865, 41.56025142118134], [-106.11137950023202, 41.556015250243675], [-106.11841475457472, 41.55123962182511], [-106.12479113743154, 41.545970527837945], [-106.13044724074992, 41.54025871253765], [-106.13532859316294, 41.534159183827974], [-106.13938818457844, 41.527730683504714], [-106.14258691891189, 41.52103512154018], [-106.14489399060307, 41.51413697985624], [-106.1462871812904, 41.50710269132823], [-106.14675307378599, 41.5], [-106.1462871812904, 41.49289730867177], [-106.14489399060307, 41.48586302014376], [-106.14258691891189, 41.47896487845982], [-106.13938818457844, 41.472269316495286], [-106.13532859316294, 41.465840816172026], [-106.13044724074992, 41.45974128746235], [-106.12479113743154, 41.454029472162055], [-106.11841475457472, 41.44876037817489], [-106.11137950023202, 41.443984749756325], [-106.10375312774865, 41.43974857881866], [-106.0956090832606, 41.436092662003745], [-106.0870257983683, 41.43305220778904], [-106.07808593479734, 41.43065649741071], [-106.06887558832096, 41.428928602869334], [-106.05948345961059, 41.4278851647339], [-106.05, 41.427536231884055], [-106.0405165403894, 41.4278851647339], [-106.03112441167903, 41.428928602869334], [-106.02191406520265, 41.43065649741071], [-106.01297420163169, 41.43305220778904], [-106.0043909167394, 41.436092662003745], [-105.99624687225135, 41.43974857881866], [-105.98862049976798, 41.443984749756325], [-105.98158524542528, 41.44876037817489], [-105.97520886256845, 41.454029472162055], [-105.96955275925008, 41.45974128746235], [-105.96467140683706, 41.465840816172026], [-105.96061181542156, 41.472269316495286], [-105.9574130810881, 41.47896487845982], [-105.95510600939693, 41.48586302014376], [-105.95371281870959, 41.49289730867177], [-105.953246926214, 41.5]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_72c605079072f49bf01f66e668212cde.bindTooltip(
+                `<div>
+                     Wind lead radius 5 mi – 11 SE Arlington (based on SPC/NWS + ASOS reports; 0 C/I buildings inside)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_72c605079072f49bf01f66e668212cde.addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+            var circle_marker_92274af52b7b613b9b71806f5f8d7104 = L.circleMarker(
+                [44.2708, -71.3035],
+                {"bubblingMouseEvents": true, "color": "#6a1b9a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6a1b9a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+        var popup_de895f31cef4474f8863e0ee768b60b7 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3b2d3901a824c49311b9868da72328f3 = $(`<div id="html_3b2d3901a824c49311b9868da72328f3" style="width: 100.0%; height: 100.0%;"><b>69 mph – Mount Washington (KMWN) NH</b><br>Non-thunderstorm (measured gust) · NON-THUNDERSTORM - ASOS/AWOS measured gust (METAR)<br>11/28 1059Z<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><b>Can solicit: Yes</b> – No state license<br>69 mph measured non-thunderstorm gust. Mount Washington Observatory ASOS (KMWN, summit 6,288 ft).<br><small>IEM ASOS/METAR record; no NWS LSR in window; SPC 0 reports.</small><br>QUALIFIES - 69 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); NH: no state commercial roofing license (can solicit)</div>`)[0];
+                popup_de895f31cef4474f8863e0ee768b60b7.setContent(html_3b2d3901a824c49311b9868da72328f3);
+            
+        
+
+        circle_marker_92274af52b7b613b9b71806f5f8d7104.bindPopup(popup_de895f31cef4474f8863e0ee768b60b7)
+        ;
+
+        
+    
+    
+            circle_marker_92274af52b7b613b9b71806f5f8d7104.bindTooltip(
+                `<div>
+                     69 mph Mount Washington (KMWN) NH (Non-thunderstorm (measured gust))
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+        function geo_json_574cff25644c603013f0db0e9b64228a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#6a1b9a", "dashArray": "5", "fillOpacity": 0.03, "weight": 2};
+            }
+        }
+
+        function geo_json_574cff25644c603013f0db0e9b64228a_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_574cff25644c603013f0db0e9b64228a = L.geoJson(null, {
+                onEachFeature: geo_json_574cff25644c603013f0db0e9b64228a_onEachFeature,
+            
+                style: geo_json_574cff25644c603013f0db0e9b64228a_styler,
+            ...{
+}
+        });
+
+        function geo_json_574cff25644c603013f0db0e9b64228a_add (data) {
+            geo_json_574cff25644c603013f0db0e9b64228a
+                .addData(data);
+        }
+            geo_json_574cff25644c603013f0db0e9b64228a_add({"features": [{"geometry": {"coordinates": [[[-71.20230048602821, 44.2708], [-71.20278778934863, 44.27790269132823], [-71.2042450063125, 44.28493697985624], [-71.2066581031239, 44.29183512154018], [-71.21000384034137, 44.298530683504715], [-71.21424999668656, 44.304959183827975], [-71.21935567935267, 44.31105871253765], [-71.22527171782458, 44.316770527837946], [-71.23194113741776, 44.32203962182511], [-71.23929970797568, 44.326815250243676], [-71.24727656244123, 44.33105142118134], [-71.25579487934532, 44.33470733799626], [-71.2647726226396, 44.33774779221096], [-71.27412333174838, 44.34014350258929], [-71.28375695423136, 44.34187139713067], [-71.29358071303774, 44.3429148352661], [-71.3035, 44.343263768115946], [-71.31341928696226, 44.3429148352661], [-71.32324304576863, 44.34187139713067], [-71.33287666825161, 44.34014350258929], [-71.3422273773604, 44.33774779221096], [-71.35120512065468, 44.33470733799626], [-71.35972343755877, 44.33105142118134], [-71.36770029202432, 44.326815250243676], [-71.37505886258224, 44.32203962182511], [-71.38172828217542, 44.316770527837946], [-71.38764432064733, 44.31105871253765], [-71.39275000331344, 44.304959183827975], [-71.39699615965863, 44.298530683504715], [-71.4003418968761, 44.29183512154018], [-71.4027549936875, 44.28493697985624], [-71.40421221065137, 44.27790269132823], [-71.40469951397179, 44.2708], [-71.40421221065137, 44.26369730867177], [-71.4027549936875, 44.25666302014376], [-71.4003418968761, 44.24976487845982], [-71.39699615965863, 44.24306931649529], [-71.39275000331344, 44.23664081617203], [-71.38764432064733, 44.23054128746235], [-71.38172828217542, 44.22482947216206], [-71.37505886258224, 44.21956037817489], [-71.36770029202432, 44.214784749756326], [-71.35972343755877, 44.21054857881866], [-71.35120512065468, 44.206892662003746], [-71.3422273773604, 44.20385220778904], [-71.33287666825161, 44.20145649741071], [-71.32324304576863, 44.199728602869335], [-71.31341928696226, 44.1986851647339], [-71.3035, 44.198336231884056], [-71.29358071303774, 44.1986851647339], [-71.28375695423136, 44.199728602869335], [-71.27412333174838, 44.20145649741071], [-71.2647726226396, 44.20385220778904], [-71.25579487934532, 44.206892662003746], [-71.24727656244123, 44.21054857881866], [-71.23929970797568, 44.214784749756326], [-71.23194113741776, 44.21956037817489], [-71.22527171782458, 44.22482947216206], [-71.21935567935267, 44.23054128746235], [-71.21424999668656, 44.23664081617203], [-71.21000384034137, 44.24306931649529], [-71.2066581031239, 44.24976487845982], [-71.2042450063125, 44.25666302014376], [-71.20278778934863, 44.26369730867177], [-71.20230048602821, 44.2708]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_574cff25644c603013f0db0e9b64228a.bindTooltip(
+                `<div>
+                     Wind lead radius 5 mi – Mount Washington (KMWN) (based on SPC/NWS + ASOS reports; 0 C/I buildings inside)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_574cff25644c603013f0db0e9b64228a.addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+            var circle_marker_d5882a8778de71c30fef2abadcd54a3d = L.circleMarker(
+                [41.75, -106.51],
+                {"bubblingMouseEvents": true, "color": "#6a1b9a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6a1b9a", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+        var popup_bed5c6050be8df05e9a4e2a55a58d062 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_50407f900964d373aee9eb9ce6c67865 = $(`<div id="html_50407f900964d373aee9eb9ce6c67865" style="width: 100.0%; height: 100.0%;"><b>68 mph – 7 NW Elk Mountain WY</b><br>Non-thunderstorm (measured gust) · NON-THUNDERSTORM - NON-TSTM WND GST (M, Mesonet)<br>11/27 1948Z<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><b>Can solicit: Yes</b> – Licensed/registered<br>68 mph measured non-thunderstorm gust, NWS CYS LSR 2026-11-27T19:48:00Z. WY DOT road-weather sensor WY18 on I-80 NW of Elk Mountain, 12:48 PM MST 11/27.<br><small>SPC 261127 and today feeds: 0 reports (non-thunderstorm wind is not in SPC). WY DOT corridor sensor; same sensor 60-66 mph at other times.</small><br>QUALIFIES - 68 mph measured non-thunderstorm gust; 0 C/I buildings &gt;=10,000 SF within 5 mi (FEMA/ORNL USA Structures); WY: Armour licensed/registered (can solicit)</div>`)[0];
+                popup_bed5c6050be8df05e9a4e2a55a58d062.setContent(html_50407f900964d373aee9eb9ce6c67865);
+            
+        
+
+        circle_marker_d5882a8778de71c30fef2abadcd54a3d.bindPopup(popup_bed5c6050be8df05e9a4e2a55a58d062)
+        ;
+
+        
+    
+    
+            circle_marker_d5882a8778de71c30fef2abadcd54a3d.bindTooltip(
+                `<div>
+                     68 mph 7 NW Elk Mountain WY (Non-thunderstorm (measured gust))
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+        function geo_json_67e1f3195a510f28362cbf83db8225fe_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#6a1b9a", "dashArray": "5", "fillOpacity": 0.03, "weight": 2};
+            }
+        }
+
+        function geo_json_67e1f3195a510f28362cbf83db8225fe_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_67e1f3195a510f28362cbf83db8225fe = L.geoJson(null, {
+                onEachFeature: geo_json_67e1f3195a510f28362cbf83db8225fe_onEachFeature,
+            
+                style: geo_json_67e1f3195a510f28362cbf83db8225fe_styler,
+            ...{
+}
+        });
+
+        function geo_json_67e1f3195a510f28362cbf83db8225fe_add (data) {
+            geo_json_67e1f3195a510f28362cbf83db8225fe
+                .addData(data);
+        }
+            geo_json_67e1f3195a510f28362cbf83db8225fe_add({"features": [{"geometry": {"coordinates": [[[-106.4128710518277, 41.75], [-106.41333875426118, 41.75710269132823], [-106.41473735733155, 41.76413697985624], [-106.41705339172667, 41.77103512154018], [-106.42026455276925, 41.777730683504714], [-106.42433991522304, 41.784159183827974], [-106.42924023111982, 41.79025871253765], [-106.43491830773868, 41.795970527837945], [-106.44131946209784, 41.80123962182511], [-106.4483820475816, 41.806015250243675], [-106.45603804763097, 41.81025142118134], [-106.46421373078023, 41.813907337996255], [-106.47283036073141, 41.81694779221096], [-106.48180495462773, 41.81934350258929], [-106.49105108222398, 41.821071397130666], [-106.50047969825694, 41.8221148352661], [-106.51, 41.822463768115945], [-106.51952030174307, 41.8221148352661], [-106.52894891777603, 41.821071397130666], [-106.53819504537228, 41.81934350258929], [-106.5471696392686, 41.81694779221096], [-106.55578626921978, 41.813907337996255], [-106.56396195236904, 41.81025142118134], [-106.5716179524184, 41.806015250243675], [-106.57868053790217, 41.80123962182511], [-106.58508169226133, 41.795970527837945], [-106.59075976888019, 41.79025871253765], [-106.59566008477697, 41.784159183827974], [-106.59973544723076, 41.777730683504714], [-106.60294660827334, 41.77103512154018], [-106.60526264266846, 41.76413697985624], [-106.60666124573883, 41.75710269132823], [-106.60712894817232, 41.75], [-106.60666124573883, 41.74289730867177], [-106.60526264266846, 41.73586302014376], [-106.60294660827334, 41.72896487845982], [-106.59973544723076, 41.722269316495286], [-106.59566008477697, 41.715840816172026], [-106.59075976888019, 41.70974128746235], [-106.58508169226133, 41.704029472162055], [-106.57868053790217, 41.69876037817489], [-106.5716179524184, 41.693984749756325], [-106.56396195236904, 41.68974857881866], [-106.55578626921978, 41.686092662003745], [-106.5471696392686, 41.68305220778904], [-106.53819504537228, 41.68065649741071], [-106.52894891777603, 41.678928602869334], [-106.51952030174307, 41.6778851647339], [-106.51, 41.677536231884055], [-106.50047969825694, 41.6778851647339], [-106.49105108222398, 41.678928602869334], [-106.48180495462773, 41.68065649741071], [-106.47283036073141, 41.68305220778904], [-106.46421373078023, 41.686092662003745], [-106.45603804763097, 41.68974857881866], [-106.4483820475816, 41.693984749756325], [-106.44131946209784, 41.69876037817489], [-106.43491830773868, 41.704029472162055], [-106.42924023111982, 41.70974128746235], [-106.42433991522304, 41.715840816172026], [-106.42026455276925, 41.722269316495286], [-106.41705339172667, 41.72896487845982], [-106.41473735733155, 41.73586302014376], [-106.41333875426118, 41.74289730867177], [-106.4128710518277, 41.75]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_67e1f3195a510f28362cbf83db8225fe.bindTooltip(
+                `<div>
+                     Wind lead radius 5 mi – 7 NW Elk Mountain (based on SPC/NWS + ASOS reports; 0 C/I buildings inside)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            geo_json_67e1f3195a510f28362cbf83db8225fe.addTo(feature_group_3e91d7d05dab5d3e0bb71712870dcf5d);
+        
+    
+            feature_group_3e91d7d05dab5d3e0bb71712870dcf5d.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var feature_group_4efd8bc7912259090416b534ec7793bb = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_4efd8bc7912259090416b534ec7793bb.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var feature_group_23fefa643e2daab3e530742ae6302688 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_95e23a5fa70091b919683f6f275da66b = L.circle(
+                [41.2565, -95.9345],
+                {"bubblingMouseEvents": true, "color": "#2e7d32", "dashArray": "6", "dashOffset": null, "fill": false, "fillColor": "#2e7d32", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 289681.2, "stroke": true, "weight": 1}
+            ).addTo(feature_group_23fefa643e2daab3e530742ae6302688);
+        
+    
+            circle_95e23a5fa70091b919683f6f275da66b.bindTooltip(
+                `<div>
+                     Rain search radius: 180 miles from Omaha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cluster_5821e3b3b5f3a0569517fcc20b51fec6 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_5821e3b3b5f3a0569517fcc20b51fec6.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var marker_cluster_22cd4b01bcfefdbbfe7b577834eb0eda = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            var circle_marker_665e753a305556db6388626843fbb56c = L.circleMarker(
+                [41.172285, -105.129789],
+                {"bubblingMouseEvents": true, "color": "#ff8c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8c00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_22cd4b01bcfefdbbfe7b577834eb0eda);
+        
+    
+        var popup_9cda7afb0e000160ff8a708bd25a3aef = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_d277034220ff2775c1f2030ab0f3c655 = $(`<div id="html_d277034220ff2775c1f2030ab0f3c655" style="width: 100.0%; height: 100.0%;"><b>Wind 82 mph Non-thunderstorm (measured gust) – 8 S Federal WY, 11/27 2207Z</b><br><b style='color:#0b6e2e'>NEW building</b> – possibly in the event area<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (Cheyenne) (general info, not legal advice)</small><br><span style='color:#7f6000'><b>Repeat hit: 2x since Nov 27, 2026</b></span> <small>(prior: 2026-11-27)</small><br><b>Owner:</b> not identified<br>not identified<br><b>Operator/tenant:</b> not found<br>no street address in source, near 8 S Federal, Laramie Co., WY<br>35,305 SF footprint (aerial) · Retail Trade · built n/a in source<br>4.15 mi from the report · MESH at building &quot;<br><span style='color:#c25e00'><b>Contact: No phone or email found</b></span><br>Owner phone: - · Owner email: -<br>Op phone: - · Op email: -<br>SOS: N/A - parcel is residential/individual owner<br>~478 mi from Omaha<br><i>No addressed parcel within 150 m in Laramie County address layer; nearest addressed parcels (823/849 Happy Jack Rd) are RESIDENTIAL-SINGLE (Richardson Family Homestead LLC) - likely misclassified rural building</i><br><a href='https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=41.172285,-105.129789' target='_blank'>Street View</a><div class='lead' data-lead-id='L76b016eaff' data-label='not identified | no street address in source, near 8 S Federal, Laramie Co., WY'><small>Lead ID L76b016eaff</small><br><button class='callbtn'>Mark as called</button> <span class='callstat'></span></div></div>`)[0];
+                popup_9cda7afb0e000160ff8a708bd25a3aef.setContent(html_d277034220ff2775c1f2030ab0f3c655);
+            
+        
+
+        circle_marker_665e753a305556db6388626843fbb56c.bindPopup(popup_9cda7afb0e000160ff8a708bd25a3aef)
+        ;
+
+        
+    
+    
+            circle_marker_665e753a305556db6388626843fbb56c.bindTooltip(
+                `<div>
+                     not identified (wind – 8 S Federal)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4b040ad25a326b19ac103bee9bab774 = L.circleMarker(
+                [41.149224, -105.092386],
+                {"bubblingMouseEvents": true, "color": "#ff8c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8c00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_22cd4b01bcfefdbbfe7b577834eb0eda);
+        
+    
+        var popup_c1a740d0bc261bfa80f3ddfdf844c2eb = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_f16bccde16d64c31830d89bab2281b85 = $(`<div id="html_f16bccde16d64c31830d89bab2281b85" style="width: 100.0%; height: 100.0%;"><b>Wind 82 mph Non-thunderstorm (measured gust) – 8 S Federal WY, 11/27 2207Z</b><br><b style='color:#0b6e2e'>NEW building</b> – possibly in the event area<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (Cheyenne) (general info, not legal advice)</small><br><span style='color:#7f6000'><b>Repeat hit: 2x since Nov 27, 2026</b></span> <small>(prior: 2026-11-27)</small><br><b>Owner:</b> not identified<br>not identified<br><b>Operator/tenant:</b> not found<br>1027 St James Road, WY<br>22,793 SF footprint (aerial) · Retail Trade · built n/a in source<br>2.63 mi from the report · MESH at building &quot;<br><span style='color:#c25e00'><b>Contact: No phone or email found</b></span><br>Owner phone: - · Owner email: -<br>Op phone: - · Op email: -<br>SOS: N/A - parcel is residential/individual owner<br>~476 mi from Omaha<br><i>Laramie County assessor address layer: 1027 St James Rd is RESIDENTIAL-SINGLE, owner Ross, Jack Rev Tr et al - likely a large private/ag building misclassified as retail in USA Structures; recommend excluding</i><br><a href='https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=41.149224,-105.092386' target='_blank'>Street View</a><div class='lead' data-lead-id='Lb5ab603cae' data-label='not identified | 1027 St James Road, WY'><small>Lead ID Lb5ab603cae</small><br><button class='callbtn'>Mark as called</button> <span class='callstat'></span></div></div>`)[0];
+                popup_c1a740d0bc261bfa80f3ddfdf844c2eb.setContent(html_f16bccde16d64c31830d89bab2281b85);
+            
+        
+
+        circle_marker_c4b040ad25a326b19ac103bee9bab774.bindPopup(popup_c1a740d0bc261bfa80f3ddfdf844c2eb)
+        ;
+
+        
+    
+    
+            circle_marker_c4b040ad25a326b19ac103bee9bab774.bindTooltip(
+                `<div>
+                     not identified (wind – 8 S Federal)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3c914884592258be5aa19f10ae345341 = L.circleMarker(
+                [41.172839, -105.130408],
+                {"bubblingMouseEvents": true, "color": "#ff8c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8c00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_22cd4b01bcfefdbbfe7b577834eb0eda);
+        
+    
+        var popup_26e3458562b84ed35b9e439288b56d75 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_b7271638fe8dbb76d9caa291211f2c25 = $(`<div id="html_b7271638fe8dbb76d9caa291211f2c25" style="width: 100.0%; height: 100.0%;"><b>Wind 82 mph Non-thunderstorm (measured gust) – 8 S Federal WY, 11/27 2207Z</b><br><b style='color:#0b6e2e'>NEW building</b> – possibly in the event area<br><span style='color:#0b6e2e'><b>Basis: Confirmed: measured</b></span><br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (Cheyenne) (general info, not legal advice)</small><br><span style='color:#7f6000'><b>Repeat hit: 2x since Nov 27, 2026</b></span> <small>(prior: 2026-11-27)</small><br><b>Owner:</b> not identified<br>not identified<br><b>Operator/tenant:</b> not found<br>no street address in source, near 8 S Federal, Laramie Co., WY<br>10,529 SF footprint (aerial) · Retail Trade · built n/a in source<br>4.19 mi from the report · MESH at building &quot;<br><span style='color:#c25e00'><b>Contact: No phone or email found</b></span><br>Owner phone: - · Owner email: -<br>Op phone: - · Op email: -<br>SOS: N/A - parcel is residential/individual owner<br>~478 mi from Omaha<br><i>No addressed parcel within 150 m in Laramie County address layer; nearest addressed parcels (823/849 Happy Jack Rd) are RESIDENTIAL-SINGLE (Richardson Family Homestead LLC) - likely misclassified rural building</i><br><a href='https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=41.172839,-105.130408' target='_blank'>Street View</a><div class='lead' data-lead-id='L39bb161ddb' data-label='not identified | no street address in source, near 8 S Federal, Laramie Co., WY'><small>Lead ID L39bb161ddb</small><br><button class='callbtn'>Mark as called</button> <span class='callstat'></span></div></div>`)[0];
+                popup_26e3458562b84ed35b9e439288b56d75.setContent(html_b7271638fe8dbb76d9caa291211f2c25);
+            
+        
+
+        circle_marker_3c914884592258be5aa19f10ae345341.bindPopup(popup_26e3458562b84ed35b9e439288b56d75)
+        ;
+
+        
+    
+    
+            circle_marker_3c914884592258be5aa19f10ae345341.bindTooltip(
+                `<div>
+                     not identified (wind – 8 S Federal)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_22cd4b01bcfefdbbfe7b577834eb0eda.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var marker_cluster_d6e30497f6009a1b36c2f4bffbc06a48 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_d6e30497f6009a1b36c2f4bffbc06a48.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var marker_cluster_03cc1b6201448fc705e140573fcca090 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_03cc1b6201448fc705e140573fcca090.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var marker_cluster_d3ef239ef75d4ed91356cb3ccf7d6747 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_d3ef239ef75d4ed91356cb3ccf7d6747.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var marker_cluster_c55303a4c722099d99a79c351b537063 = L.markerClusterGroup(
+                {
+  "disableClusteringAtZoom": 14,
+}
+            );
+        
+    
+            marker_cluster_c55303a4c722099d99a79c351b537063.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var feature_group_0540ee8f8caba11d08b24812cdf210f1 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_0540ee8f8caba11d08b24812cdf210f1.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var feature_group_c74f90949a9bacc2a104ab908deef6f3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_8394dbd117b828bf45632cf69d025539 = L.circleMarker(
+                [41.172285, -105.129789],
+                {"bubblingMouseEvents": true, "color": "#ff8c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8c00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c74f90949a9bacc2a104ab908deef6f3);
+        
+    
+        var popup_ad5ae8f61631cf3009b3c2563748e544 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_020f98d290cff8230f084ce847f45b10 = $(`<div id="html_020f98d290cff8230f084ce847f45b10" style="width: 100.0%; height: 100.0%;"><b>not identified</b><br>no street address in source, near 8 S Federal, Laramie Co., WY<br><span style='color:#c25e00'><b>Contact: No phone or email found</b></span><br>Owner phone: - · Owner email: -<br>Op phone: - · Op email: -<br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (Cheyenne) (general info, not legal advice)</small><br><span style='color:#7f6000'><b>Repeat hit: 2x since Nov 27, 2026</b></span> <small>(prior: 2026-11-27)</small><br></div>`)[0];
+                popup_ad5ae8f61631cf3009b3c2563748e544.setContent(html_020f98d290cff8230f084ce847f45b10);
+            
+        
+
+        circle_marker_8394dbd117b828bf45632cf69d025539.bindPopup(popup_ad5ae8f61631cf3009b3c2563748e544)
+        ;
+
+        
+    
+    
+            circle_marker_8394dbd117b828bf45632cf69d025539.bindTooltip(
+                `<div>
+                     not identified (can solicit: Yes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_57b519cc83db76033af5ca778c421ae7 = L.circleMarker(
+                [41.149224, -105.092386],
+                {"bubblingMouseEvents": true, "color": "#ff8c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8c00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c74f90949a9bacc2a104ab908deef6f3);
+        
+    
+        var popup_94de3a77c728e31e6b965babe25c4b99 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_4db635f6817a3caa9f7775f40873bc5d = $(`<div id="html_4db635f6817a3caa9f7775f40873bc5d" style="width: 100.0%; height: 100.0%;"><b>not identified</b><br>1027 St James Road, WY<br><span style='color:#c25e00'><b>Contact: No phone or email found</b></span><br>Owner phone: - · Owner email: -<br>Op phone: - · Op email: -<br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (Cheyenne) (general info, not legal advice)</small><br><span style='color:#7f6000'><b>Repeat hit: 2x since Nov 27, 2026</b></span> <small>(prior: 2026-11-27)</small><br></div>`)[0];
+                popup_94de3a77c728e31e6b965babe25c4b99.setContent(html_4db635f6817a3caa9f7775f40873bc5d);
+            
+        
+
+        circle_marker_57b519cc83db76033af5ca778c421ae7.bindPopup(popup_94de3a77c728e31e6b965babe25c4b99)
+        ;
+
+        
+    
+    
+            circle_marker_57b519cc83db76033af5ca778c421ae7.bindTooltip(
+                `<div>
+                     not identified (can solicit: Yes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b8bce4de296710d2773c027f4eae40fd = L.circleMarker(
+                [41.172839, -105.130408],
+                {"bubblingMouseEvents": true, "color": "#ff8c00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8c00", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c74f90949a9bacc2a104ab908deef6f3);
+        
+    
+        var popup_e85c016de928dc12f7d2c962f8737499 = L.popup({
+  "maxWidth": 340,
+});
+
+        
+            
+                var html_5267bcb355b401f524ba4a3341719eb3 = $(`<div id="html_5267bcb355b401f524ba4a3341719eb3" style="width: 100.0%; height: 100.0%;"><b>not identified</b><br>no street address in source, near 8 S Federal, Laramie Co., WY<br><span style='color:#c25e00'><b>Contact: No phone or email found</b></span><br>Owner phone: - · Owner email: -<br>Op phone: - · Op email: -<br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (Cheyenne) (general info, not legal advice)</small><br><span style='color:#7f6000'><b>Repeat hit: 2x since Nov 27, 2026</b></span> <small>(prior: 2026-11-27)</small><br></div>`)[0];
+                popup_e85c016de928dc12f7d2c962f8737499.setContent(html_5267bcb355b401f524ba4a3341719eb3);
+            
+        
+
+        circle_marker_b8bce4de296710d2773c027f4eae40fd.bindPopup(popup_e85c016de928dc12f7d2c962f8737499)
+        ;
+
+        
+    
+    
+            circle_marker_b8bce4de296710d2773c027f4eae40fd.bindTooltip(
+                `<div>
+                     not identified (can solicit: Yes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var feature_group_5f9ec39f5a29b0f0db99b9ae55b8ff46 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var feature_group_1d6bcbbc604966b6b305d570231a93b0 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            feature_group_1d6bcbbc604966b6b305d570231a93b0.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var feature_group_7a2c40ad19a75dafd667439ea81d0ac2 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_769495e9fd06ea1b5e0e7a8617fbfaab = L.marker(
+                [38.8199, -90.8525],
+                {
+}
+            ).addTo(feature_group_7a2c40ad19a75dafd667439ea81d0ac2);
+        
+    
+            var div_icon_d42fc1f9dea54a5f5a247f20ead2775f = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#7b2cbf;border:3px solid #00b300;border-radius:50%;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eS\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
+        
+    
+        var popup_870ac78e4d1828d73f4972cf8ccebd82 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_ef21e1ca2c7ce3e8a186ff5fd8ef6e71 = $(`<div id="html_ef21e1ca2c7ce3e8a186ff5fd8ef6e71" style="width: 100.0%; height: 100.0%;"><b>Social Media — storm damage to commercial/industrial roof (heavy wet snow - roof and two walls collapsed)</b> – NEW this report<br><b>Wentzville Ice Arena (City of Wentzville Parks &amp; Recreation) - snow-load roof/wall collapse</b><br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (general info, not legal advice)</small><br>Open - storm-damaged roof<br>Wentzville, MO · ~317 mi from Omaha · preferred state: Yes<br><div style='max-height:90px;overflow:auto'><small>2026-11-27 (Hard Hat Report published 11/27; follow-ups from KMOV/Gray News and Spectrum News 11/27; first reported 11/26 by STLPR/FOX 2 - not listed in any prior run)</small></div><div style='max-height:120px;overflow:auto'>Heavy, wet Thanksgiving snow (6-8&quot;) collapsed part of the roof and two walls of the east rink at the city-owned Wentzville Ice Arena (67,800 SF, two NHL rinks, opened 1998) between 3-4 AM 11/26; building declared uninhabitable, facility closed, mayor calls it a &quot;total loss&quot; and says the city will rebuild (Board of Aldermen approval needed). NWS St. Louis LSR also logged the collapse.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Mike Lueck, Parks and Recreation Director (also Roy Hays, Asst. Director (636) 639-2087; Ryan Motts, Ice Arena Operations (636) 639-7602)<br>Phone: <a href='tel:6366392080'>(636) 639-2080</a><br>Email: <a href='mailto:Mike.Lueck@wentzvillemo.gov'>Mike.Lueck@wentzvillemo.gov</a><br>Website: https://www.wentzvillemo.gov<br>Confidence: High (official City of Wentzville staff directory). Public owner - rebuild likely goes through city procurement<br><a href='https://hardhatreport.com/story/wentzville-ice-arena-roof-collapse/' target='_blank'>source</a> | <a href='https://www.stlpr.org/news-briefs/2026-11-26/thanksgiving-snowstorm-collapses-wentzville-ice-arena-mayor-calls-total-loss' target='_blank'>source</a></div>`)[0];
+                popup_870ac78e4d1828d73f4972cf8ccebd82.setContent(html_ef21e1ca2c7ce3e8a186ff5fd8ef6e71);
+            
+        
+
+        marker_769495e9fd06ea1b5e0e7a8617fbfaab.bindPopup(popup_870ac78e4d1828d73f4972cf8ccebd82)
+        ;
+
+        
+    
+    
+            marker_769495e9fd06ea1b5e0e7a8617fbfaab.bindTooltip(
+                `<div>
+                     Social Media: Wentzville Ice Arena (City of Wentzville Parks & Recreation) - snow-load roof/wall collapse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_769495e9fd06ea1b5e0e7a8617fbfaab.setIcon(div_icon_d42fc1f9dea54a5f5a247f20ead2775f);
+            
+    
+            var marker_732f4d33d5e8a1e373a76e3d04028887 = L.marker(
+                [38.653174, -90.550936],
+                {
+}
+            ).addTo(feature_group_7a2c40ad19a75dafd667439ea81d0ac2);
+        
+    
+            var div_icon_17330ac26cc98fd380a9af5b5dd64311 = L.divIcon({
+  "html": "\u003cdiv style=\u0027width:18px;height:18px;background:#7b2cbf;border:3px solid #00b300;border-radius:50%;color:#fff;font:bold 11px/18px sans-serif;text-align:center;box-shadow:0 0 2px #000\u0027\u003eS\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
+        
+    
+        var popup_306e8947eeb63b6e0ba2a8fe852f2b69 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_691800cd3c10c10db7c6f5637288e81f = $(`<div id="html_691800cd3c10c10db7c6f5637288e81f" style="width: 100.0%; height: 100.0%;"><b>Social Media — storm damage to commercial/industrial roof (snow load - partial building collapse)</b> – NEW this report<br><b>SpringHill Suites by Marriott St. Louis Chesterfield - partial collapse under snow load</b><br><span style='color:#006100'><b>Can solicit: Yes</b> (Licensed/registered)</span><br><small>Armour is licensed or registered here (general info, not legal advice)</small><br>Open - storm-damaged building<br>Chesterfield, MO · ~337 mi from Omaha · preferred state: Yes<br><div style='max-height:90px;overflow:auto'><small>2026-11-27 (Hoodline published 11/27; FOX 2 first reported 11/26 5:10 PM CST - not listed in any prior run)</small></div><div style='max-height:120px;overflow:auto'>Part of the SpringHill Suites by Marriott in Chesterfield came down under the weight of the snow around 3:40 AM 11/26; debris blocked the main entrance and several windows; no injuries reported. Extent of the structural damage and cause not yet confirmed officially.</div><span style='color:#00873c'><b>Has phone/email</b></span><br>Contact: Hotel front desk / general manager (ownership/management company not identified)<br>Phone: <a href='tel:6365197500'>(636) 519-7500</a><br>Email: -<br>Website: https://www.marriott.com/en-us/hotels/stlsu-springhill-suites-st-louis-chesterfield/overview/<br>Confidence: Medium (official Marriott property page; hotel main line - ask for GM/ownership group; address 1065 Chesterfield Pkwy E, Census geocoder match)<br><a href='https://hoodline.com/2026/11/snow-load-caves-in-part-of-chesterfield-marriott-before-thanksgiving-dawn/' target='_blank'>source</a> | <a href='https://fox2now.com/news/missouri/part-of-chesterfield-hotel-collapses-under-weight-of-snow/' target='_blank'>source</a></div>`)[0];
+                popup_306e8947eeb63b6e0ba2a8fe852f2b69.setContent(html_691800cd3c10c10db7c6f5637288e81f);
+            
+        
+
+        marker_732f4d33d5e8a1e373a76e3d04028887.bindPopup(popup_306e8947eeb63b6e0ba2a8fe852f2b69)
+        ;
+
+        
+    
+    
+            marker_732f4d33d5e8a1e373a76e3d04028887.bindTooltip(
+                `<div>
+                     Social Media: SpringHill Suites by Marriott St. Louis Chesterfield - partial collapse under snow load
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_732f4d33d5e8a1e373a76e3d04028887.setIcon(div_icon_17330ac26cc98fd380a9af5b5dd64311);
+            
+    
+            feature_group_7a2c40ad19a75dafd667439ea81d0ac2.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+        function geo_json_00c654f37ea59e009817905f3215cd29_pointToLayer(feature, latlng) {
+            var opts = {
+  "stroke": true,
+  "color": "#3388ff",
+  "weight": 3,
+  "opacity": 0,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "radius": 1,
+};
+            
+            return new L.CircleMarker(latlng, opts)
+        }
+
+        function geo_json_00c654f37ea59e009817905f3215cd29_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_00c654f37ea59e009817905f3215cd29 = L.geoJson(null, {
+                onEachFeature: geo_json_00c654f37ea59e009817905f3215cd29_onEachFeature,
+            
+                pointToLayer: geo_json_00c654f37ea59e009817905f3215cd29_pointToLayer,
+            ...{
+}
+        });
+
+        function geo_json_00c654f37ea59e009817905f3215cd29_add (data) {
+            geo_json_00c654f37ea59e009817905f3215cd29
+                .addData(data);
+        }
+            geo_json_00c654f37ea59e009817905f3215cd29_add({"features": [{"geometry": {"coordinates": [-105.129789, 41.172285], "type": "Point"}, "properties": {"info": "\u003cb\u003eWind 82 mph Non-thunderstorm (measured gust) \u2013 8 S Federal WY, 11/27 2207Z\u003c/b\u003e\u003cbr\u003e\u003cb style=\u0027color:#0b6e2e\u0027\u003eNEW building\u003c/b\u003e \u2013 possibly in the event area\u003cbr\u003e\u003cspan style=\u0027color:#0b6e2e\u0027\u003e\u003cb\u003eBasis: Confirmed: measured\u003c/b\u003e\u003c/span\u003e\u003cbr\u003e\u003cspan style=\u0027color:#006100\u0027\u003e\u003cb\u003eCan solicit: Yes\u003c/b\u003e (Licensed/registered)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eArmour is licensed or registered here (Cheyenne) (general info, not legal advice)\u003c/small\u003e\u003cbr\u003e\u003cspan style=\u0027color:#7f6000\u0027\u003e\u003cb\u003eRepeat hit: 2x since Nov 27, 2026\u003c/b\u003e\u003c/span\u003e \u003csmall\u003e(prior: 2026-11-27)\u003c/small\u003e\u003cbr\u003e\u003cb\u003eOwner:\u003c/b\u003e not identified\u003cbr\u003enot identified\u003cbr\u003e\u003cb\u003eOperator/tenant:\u003c/b\u003e not found\u003cbr\u003eno street address in source, near 8 S Federal, Laramie Co., WY\u003cbr\u003e35,305 SF footprint (aerial) \u00b7 Retail Trade \u00b7 built n/a in source\u003cbr\u003e4.15 mi from the report \u00b7 MESH at building \u0026quot;\u003cbr\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eContact: No phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eOwner phone: - \u00b7 Owner email: -\u003cbr\u003eOp phone: - \u00b7 Op email: -\u003cbr\u003eSOS: N/A - parcel is residential/individual owner\u003cbr\u003e~478 mi from Omaha\u003cbr\u003e\u003ci\u003eNo addressed parcel within 150 m in Laramie County address layer; nearest addressed parcels (823/849 Happy Jack Rd) are RESIDENTIAL-SINGLE (Richardson Family Homestead LLC) - likely misclassified rural building\u003c/i\u003e\u003cbr\u003e\u003ca href=\u0027https://www.google.com/maps/@?api=1\u0026map_action=pano\u0026viewpoint=41.172285,-105.129789\u0027 target=\u0027_blank\u0027\u003eStreet View\u003c/a\u003e", "name": "not identified | no street address in source, near 8 S Federal, Laramie Co., WY | "}, "type": "Feature"}, {"geometry": {"coordinates": [-105.092386, 41.149224], "type": "Point"}, "properties": {"info": "\u003cb\u003eWind 82 mph Non-thunderstorm (measured gust) \u2013 8 S Federal WY, 11/27 2207Z\u003c/b\u003e\u003cbr\u003e\u003cb style=\u0027color:#0b6e2e\u0027\u003eNEW building\u003c/b\u003e \u2013 possibly in the event area\u003cbr\u003e\u003cspan style=\u0027color:#0b6e2e\u0027\u003e\u003cb\u003eBasis: Confirmed: measured\u003c/b\u003e\u003c/span\u003e\u003cbr\u003e\u003cspan style=\u0027color:#006100\u0027\u003e\u003cb\u003eCan solicit: Yes\u003c/b\u003e (Licensed/registered)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eArmour is licensed or registered here (Cheyenne) (general info, not legal advice)\u003c/small\u003e\u003cbr\u003e\u003cspan style=\u0027color:#7f6000\u0027\u003e\u003cb\u003eRepeat hit: 2x since Nov 27, 2026\u003c/b\u003e\u003c/span\u003e \u003csmall\u003e(prior: 2026-11-27)\u003c/small\u003e\u003cbr\u003e\u003cb\u003eOwner:\u003c/b\u003e not identified\u003cbr\u003enot identified\u003cbr\u003e\u003cb\u003eOperator/tenant:\u003c/b\u003e not found\u003cbr\u003e1027 St James Road, WY\u003cbr\u003e22,793 SF footprint (aerial) \u00b7 Retail Trade \u00b7 built n/a in source\u003cbr\u003e2.63 mi from the report \u00b7 MESH at building \u0026quot;\u003cbr\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eContact: No phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eOwner phone: - \u00b7 Owner email: -\u003cbr\u003eOp phone: - \u00b7 Op email: -\u003cbr\u003eSOS: N/A - parcel is residential/individual owner\u003cbr\u003e~476 mi from Omaha\u003cbr\u003e\u003ci\u003eLaramie County assessor address layer: 1027 St James Rd is RESIDENTIAL-SINGLE, owner Ross, Jack Rev Tr et al - likely a large private/ag building misclassified as retail in USA Structures; recommend excluding\u003c/i\u003e\u003cbr\u003e\u003ca href=\u0027https://www.google.com/maps/@?api=1\u0026map_action=pano\u0026viewpoint=41.149224,-105.092386\u0027 target=\u0027_blank\u0027\u003eStreet View\u003c/a\u003e", "name": "not identified | 1027 St James Road, WY | "}, "type": "Feature"}, {"geometry": {"coordinates": [-105.130408, 41.172839], "type": "Point"}, "properties": {"info": "\u003cb\u003eWind 82 mph Non-thunderstorm (measured gust) \u2013 8 S Federal WY, 11/27 2207Z\u003c/b\u003e\u003cbr\u003e\u003cb style=\u0027color:#0b6e2e\u0027\u003eNEW building\u003c/b\u003e \u2013 possibly in the event area\u003cbr\u003e\u003cspan style=\u0027color:#0b6e2e\u0027\u003e\u003cb\u003eBasis: Confirmed: measured\u003c/b\u003e\u003c/span\u003e\u003cbr\u003e\u003cspan style=\u0027color:#006100\u0027\u003e\u003cb\u003eCan solicit: Yes\u003c/b\u003e (Licensed/registered)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eArmour is licensed or registered here (Cheyenne) (general info, not legal advice)\u003c/small\u003e\u003cbr\u003e\u003cspan style=\u0027color:#7f6000\u0027\u003e\u003cb\u003eRepeat hit: 2x since Nov 27, 2026\u003c/b\u003e\u003c/span\u003e \u003csmall\u003e(prior: 2026-11-27)\u003c/small\u003e\u003cbr\u003e\u003cb\u003eOwner:\u003c/b\u003e not identified\u003cbr\u003enot identified\u003cbr\u003e\u003cb\u003eOperator/tenant:\u003c/b\u003e not found\u003cbr\u003eno street address in source, near 8 S Federal, Laramie Co., WY\u003cbr\u003e10,529 SF footprint (aerial) \u00b7 Retail Trade \u00b7 built n/a in source\u003cbr\u003e4.19 mi from the report \u00b7 MESH at building \u0026quot;\u003cbr\u003e\u003cspan style=\u0027color:#c25e00\u0027\u003e\u003cb\u003eContact: No phone or email found\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eOwner phone: - \u00b7 Owner email: -\u003cbr\u003eOp phone: - \u00b7 Op email: -\u003cbr\u003eSOS: N/A - parcel is residential/individual owner\u003cbr\u003e~478 mi from Omaha\u003cbr\u003e\u003ci\u003eNo addressed parcel within 150 m in Laramie County address layer; nearest addressed parcels (823/849 Happy Jack Rd) are RESIDENTIAL-SINGLE (Richardson Family Homestead LLC) - likely misclassified rural building\u003c/i\u003e\u003cbr\u003e\u003ca href=\u0027https://www.google.com/maps/@?api=1\u0026map_action=pano\u0026viewpoint=41.172839,-105.130408\u0027 target=\u0027_blank\u0027\u003eStreet View\u003c/a\u003e", "name": "not identified | no street address in source, near 8 S Federal, Laramie Co., WY | "}, "type": "Feature"}, {"geometry": {"coordinates": [-90.8525, 38.8199], "type": "Point"}, "properties": {"info": "\u003cb\u003eSocial Media \u2014 storm damage to commercial/industrial roof (heavy wet snow - roof and two walls collapsed)\u003c/b\u003e \u2013 NEW this report\u003cbr\u003e\u003cb\u003eWentzville Ice Arena (City of Wentzville Parks \u0026amp; Recreation) - snow-load roof/wall collapse\u003c/b\u003e\u003cbr\u003e\u003cspan style=\u0027color:#006100\u0027\u003e\u003cb\u003eCan solicit: Yes\u003c/b\u003e (Licensed/registered)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eArmour is licensed or registered here (general info, not legal advice)\u003c/small\u003e\u003cbr\u003eOpen - storm-damaged roof\u003cbr\u003eWentzville, MO \u00b7 ~317 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e\u003cdiv style=\u0027max-height:90px;overflow:auto\u0027\u003e\u003csmall\u003e2026-11-27 (Hard Hat Report published 11/27; follow-ups from KMOV/Gray News and Spectrum News 11/27; first reported 11/26 by STLPR/FOX 2 - not listed in any prior run)\u003c/small\u003e\u003c/div\u003e\u003cdiv style=\u0027max-height:120px;overflow:auto\u0027\u003eHeavy, wet Thanksgiving snow (6-8\u0026quot;) collapsed part of the roof and two walls of the east rink at the city-owned Wentzville Ice Arena (67,800 SF, two NHL rinks, opened 1998) between 3-4 AM 11/26; building declared uninhabitable, facility closed, mayor calls it a \u0026quot;total loss\u0026quot; and says the city will rebuild (Board of Aldermen approval needed). NWS St. Louis LSR also logged the collapse.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Mike Lueck, Parks and Recreation Director (also Roy Hays, Asst. Director (636) 639-2087; Ryan Motts, Ice Arena Operations (636) 639-7602)\u003cbr\u003ePhone: \u003ca href=\u0027tel:6366392080\u0027\u003e(636) 639-2080\u003c/a\u003e\u003cbr\u003eEmail: \u003ca href=\u0027mailto:Mike.Lueck@wentzvillemo.gov\u0027\u003eMike.Lueck@wentzvillemo.gov\u003c/a\u003e\u003cbr\u003eWebsite: https://www.wentzvillemo.gov\u003cbr\u003eConfidence: High (official City of Wentzville staff directory). Public owner - rebuild likely goes through city procurement\u003cbr\u003e\u003ca href=\u0027https://hardhatreport.com/story/wentzville-ice-arena-roof-collapse/\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://www.stlpr.org/news-briefs/2026-11-26/thanksgiving-snowstorm-collapses-wentzville-ice-arena-mayor-calls-total-loss\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Social Media: Wentzville Ice Arena (City of Wentzville Parks \u0026 Recreation) - snow-load roof/wall collapse (Wentzville, MO)"}, "type": "Feature"}, {"geometry": {"coordinates": [-90.550936, 38.653174], "type": "Point"}, "properties": {"info": "\u003cb\u003eSocial Media \u2014 storm damage to commercial/industrial roof (snow load - partial building collapse)\u003c/b\u003e \u2013 NEW this report\u003cbr\u003e\u003cb\u003eSpringHill Suites by Marriott St. Louis Chesterfield - partial collapse under snow load\u003c/b\u003e\u003cbr\u003e\u003cspan style=\u0027color:#006100\u0027\u003e\u003cb\u003eCan solicit: Yes\u003c/b\u003e (Licensed/registered)\u003c/span\u003e\u003cbr\u003e\u003csmall\u003eArmour is licensed or registered here (general info, not legal advice)\u003c/small\u003e\u003cbr\u003eOpen - storm-damaged building\u003cbr\u003eChesterfield, MO \u00b7 ~337 mi from Omaha \u00b7 preferred state: Yes\u003cbr\u003e\u003cdiv style=\u0027max-height:90px;overflow:auto\u0027\u003e\u003csmall\u003e2026-11-27 (Hoodline published 11/27; FOX 2 first reported 11/26 5:10 PM CST - not listed in any prior run)\u003c/small\u003e\u003c/div\u003e\u003cdiv style=\u0027max-height:120px;overflow:auto\u0027\u003ePart of the SpringHill Suites by Marriott in Chesterfield came down under the weight of the snow around 3:40 AM 11/26; debris blocked the main entrance and several windows; no injuries reported. Extent of the structural damage and cause not yet confirmed officially.\u003c/div\u003e\u003cspan style=\u0027color:#00873c\u0027\u003e\u003cb\u003eHas phone/email\u003c/b\u003e\u003c/span\u003e\u003cbr\u003eContact: Hotel front desk / general manager (ownership/management company not identified)\u003cbr\u003ePhone: \u003ca href=\u0027tel:6365197500\u0027\u003e(636) 519-7500\u003c/a\u003e\u003cbr\u003eEmail: -\u003cbr\u003eWebsite: https://www.marriott.com/en-us/hotels/stlsu-springhill-suites-st-louis-chesterfield/overview/\u003cbr\u003eConfidence: Medium (official Marriott property page; hotel main line - ask for GM/ownership group; address 1065 Chesterfield Pkwy E, Census geocoder match)\u003cbr\u003e\u003ca href=\u0027https://hoodline.com/2026/11/snow-load-caves-in-part-of-chesterfield-marriott-before-thanksgiving-dawn/\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e | \u003ca href=\u0027https://fox2now.com/news/missouri/part-of-chesterfield-hotel-collapses-under-weight-of-snow/\u0027 target=\u0027_blank\u0027\u003esource\u003c/a\u003e", "name": "Social Media: SpringHill Suites by Marriott St. Louis Chesterfield - partial collapse under snow load (Chesterfield, MO)"}, "type": "Feature"}], "type": "FeatureCollection"});
+        geo_json_00c654f37ea59e009817905f3215cd29.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+    geo_json_00c654f37ea59e009817905f3215cd29.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["info"];
+    let aliases = ["info"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "className": "foliumpopup",
+});
+                     
+    
+            geo_json_00c654f37ea59e009817905f3215cd29.addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+        
+    
+            var geo_json_00c654f37ea59e009817905f3215cd29searchControl = new L.Control.Search({
+                layer: geo_json_00c654f37ea59e009817905f3215cd29,
+                
+                propertyName: 'name',
+                
+                collapsed: false,
+                textPlaceholder: 'Search owner, address, operator, bid request or social media lead',
+                position:'topleft',
+            
+                initial: false,
+                
+                zoom: 15,
+                
+                hideMarkerOnCollapse: true
+            
+                });
+                geo_json_00c654f37ea59e009817905f3215cd29searchControl.on('search:locationfound', function(e) {
+                    geo_json_00c654f37ea59e009817905f3215cd29.setStyle(function(feature){
+                        return feature.properties.style
+                    })
+                    
+                    if(e.layer._popup)
+                        e.layer.openPopup();
+                })
+                geo_json_00c654f37ea59e009817905f3215cd29searchControl.on('search:collapsed', function(e) {
+                        geo_json_00c654f37ea59e009817905f3215cd29.setStyle(function(feature){
+                            return feature.properties.style
+                    });
+                });
+            map_bd83bbe5fb3b8e49a2ea2d6bd14edc03.addControl( geo_json_00c654f37ea59e009817905f3215cd29searchControl );
+
+        
+    
+            var layer_control_b74aed251589e6736419334f68dc3cc0_layers = {
+                base_layers : {
+                    "Satellite" : tile_layer_928281101cf12e4f5a76759d0c0b99d1,
+                    "Street map" : tile_layer_ea29a83f9065ffe15df9408f35a914e9,
+                },
+                overlays :  {
+                    "Hail \u2013 0 ground reports 2in+; MESH 2in+ only a N. Maine freezing-rain artifact (excluded, 0 bldgs)" : feature_group_890bbc338ae3867a9a8fe9ac444a1afa,
+                    "Wind \u2013 4 gust sites 68 mph+ (all non-thunderstorm; NJ/PA/NY nor\u0027easter, WY, CO, NH; MT/WA in No-license layer)" : feature_group_3e91d7d05dab5d3e0bb71712870dcf5d,
+                    "Rain \u2013 0 gauges over 2in within 180 miles of Omaha (max 0.13in) \u2013 0 bldgs; MRMS QPE 0 cells 2in+" : feature_group_4efd8bc7912259090416b534ec7793bb,
+                    "Rain search radius (180 miles of Omaha)" : feature_group_23fefa643e2daab3e530742ae6302688,
+                    "Hail \u2013 no contact (orange) \u2014 0" : marker_cluster_5821e3b3b5f3a0569517fcc20b51fec6,
+                    "Wind \u2013 no contact (orange) \u2014 3" : marker_cluster_22cd4b01bcfefdbbfe7b577834eb0eda,
+                    "Rain \u2013 no contact (orange) \u2014 0" : marker_cluster_d6e30497f6009a1b36c2f4bffbc06a48,
+                    "Hail \u2013 with contact (green) \u2014 0" : marker_cluster_03cc1b6201448fc705e140573fcca090,
+                    "Wind \u2013 with contact (green) \u2014 0" : marker_cluster_d3ef239ef75d4ed91356cb3ccf7d6747,
+                    "Rain \u2013 with contact (green) \u2014 0" : marker_cluster_c55303a4c722099d99a79c351b537063,
+                    "\u0026#9733; Our Assets (HailTrace) \u2014 0 hit" : feature_group_0540ee8f8caba11d08b24812cdf210f1,
+                    "Can solicit only (Yes/Check) \u2014 3" : feature_group_c74f90949a9bacc2a104ab908deef6f3,
+                    "No-license states (not researched) \u2014 0" : feature_group_5f9ec39f5a29b0f0db99b9ae55b8ff46,
+                    "Bid Requests (square B pins) \u2014 0" : feature_group_1d6bcbbc604966b6b305d570231a93b0,
+                    "Social Media (round S pins) \u2014 2" : feature_group_7a2c40ad19a75dafd667439ea81d0ac2,
+                },
+            };
+            let layer_control_b74aed251589e6736419334f68dc3cc0 = L.control.layers(
+                layer_control_b74aed251589e6736419334f68dc3cc0_layers.base_layers,
+                layer_control_b74aed251589e6736419334f68dc3cc0_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_bd83bbe5fb3b8e49a2ea2d6bd14edc03);
+
+        
+</script>
+</html>
